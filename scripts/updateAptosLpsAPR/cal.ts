@@ -704,3 +704,8 @@ const fetchAndUpdateAptosLPsAPR = async () => {
   const addressesInGroups = chunk(lowerCaseAddresses, 30)
 
   let allAprs: AprMap = {}
+  for await (const groupOfAddresses of addressesInGroups) {
+    const aprs = await getAprsForFarmGroup(groupOfAddresses)
+    allAprs = { ...allAprs, ...aprs }
+  }
+
