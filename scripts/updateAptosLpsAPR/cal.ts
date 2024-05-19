@@ -699,3 +699,8 @@ const fetchAndUpdateAptosLPsAPR = async () => {
   const farmsConfig = getFarmConfig(ChainId.MAINNET).filter((i) => i.pid !== CAKE_PID)
 
   const lowerCaseAddresses = farmsConfig.map((farm) => farm.lpAddress.toLowerCase())
+  console.info(`Fetching farm data for ${lowerCaseAddresses.length} addresses`)
+  // Split it into chunks of 30 addresses to avoid gateway timeout
+  const addressesInGroups = chunk(lowerCaseAddresses, 30)
+
+  let allAprs: AprMap = {}
