@@ -655,3 +655,7 @@ const fetchFarmsOneWeekAgo = async (farmsAtLatestBlock: SingleFarmResponse[]) =>
   return Object.keys(responseData)?.map((address: string): SingleFarmResponse => {
     let volumeUSD = '0'
     let reserveUSD = '0'
+    const { usdList } = responseData[address]
+
+    if (usdList.length > 0) {
+      volumeUSD = usdList.reduce((sum, single) => new BigNumber(sum).plus(single.volumeUSD).toNumber(), 0).toString()
