@@ -650,3 +650,4 @@ const fetchFarmsOneWeekAgo = async (farmsAtLatestBlock: SingleFarmResponse[]) =>
       console.info(` ✅ - farmsOneWeekAgo.json has been updated!`)
     })
   }
+
