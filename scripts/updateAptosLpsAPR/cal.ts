@@ -643,3 +643,5 @@ const fetchFarmsOneWeekAgo = async (farmsAtLatestBlock: SingleFarmResponse[]) =>
   })
 
   // Save to farmsOneWeekAgo.json
+  const hasNewData = Object.keys(newDate).length > 0
+  if (hasNewData) {
