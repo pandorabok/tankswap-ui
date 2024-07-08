@@ -615,3 +615,6 @@ const fetchFarmsOneWeekAgo = async (farmsAtLatestBlock: SingleFarmResponse[]) =>
 
   let newDate = {}
   farmsAtLatestBlock.forEach((farm) => {
+    if (response[farm.id]) {
+      if (response[farm.id].updateDate !== currentDate) {
+        const isMoreThanAWeek = response[farm.id].usdList.length >= 7
