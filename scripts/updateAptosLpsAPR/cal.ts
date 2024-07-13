@@ -608,3 +608,6 @@ const fetchFarmLpsInfo = async (addresses: string[]): Promise<SingleFarmResponse
     }
   })
 }
+
+const fetchFarmsOneWeekAgo = async (farmsAtLatestBlock: SingleFarmResponse[]) => {
+  const currentDate: string = new Date().toISOString().split('T')[0]
