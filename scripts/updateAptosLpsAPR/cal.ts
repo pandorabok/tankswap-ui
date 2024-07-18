@@ -601,3 +601,6 @@ const fetchFarmLpsInfo = async (addresses: string[]): Promise<SingleFarmResponse
       }
     })
 
+    return {
+      id: address,
+      volumeUSD: farmPriceInfo?.volumeUsd24h || '0',
