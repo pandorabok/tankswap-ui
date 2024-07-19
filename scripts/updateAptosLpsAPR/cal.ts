@@ -597,3 +597,7 @@ const fetchFarmLpsInfo = async (addresses: string[]): Promise<SingleFarmResponse
       const quoteToken = pair.baseTokenAddress.toLowerCase()
       const [address0, address1] = Pair.parseType(address)
       if ((address0 === quoteToken && address1 === token) || (address0 === token && address1 === quoteToken)) {
+        return pair
+      }
+    })
+
