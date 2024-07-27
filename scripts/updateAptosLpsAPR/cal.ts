@@ -587,3 +587,7 @@ const fetchFarmLpsInfo = async (addresses: string[]): Promise<SingleFarmResponse
 
     if (!result.data.hasNextPage) {
       break
+    }
+  }
+
+  return addresses.map((address): SingleFarmResponse => {
