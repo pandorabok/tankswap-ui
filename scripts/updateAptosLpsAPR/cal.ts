@@ -564,3 +564,7 @@ interface FarmsOneWeekData {
   [key: string]: {
     updateDate: string
     usdList: UsdListType[]
+  }
+}
+
+const CAKE_PID = 0
