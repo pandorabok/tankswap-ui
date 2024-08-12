@@ -560,3 +560,5 @@ interface UsdListType {
   reserveUSD: string
 }
 
+interface FarmsOneWeekData {
+  [key: string]: {
