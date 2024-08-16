@@ -554,3 +554,4 @@ interface SingleFarmResponse {
   reserveUSD: string
   volumeUSD: string
 }
+
