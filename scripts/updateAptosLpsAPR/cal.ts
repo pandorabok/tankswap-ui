@@ -552,3 +552,5 @@ interface AprMap {
 interface SingleFarmResponse {
   id: string
   reserveUSD: string
+  volumeUSD: string
+}
