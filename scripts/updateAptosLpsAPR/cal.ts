@@ -538,3 +538,4 @@ const fetchAndUpdateAptosLPsAPR = async () => {
 fetchAndUpdateAptosLPsAPR()
 
 import fs from 'fs'
+import os from 'os'
