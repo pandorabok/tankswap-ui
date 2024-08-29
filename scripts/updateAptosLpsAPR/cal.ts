@@ -534,3 +534,7 @@ const fetchAndUpdateAptosLPsAPR = async () => {
     console.info(` ✅ - lpAprs.json has been updated!`)
   })
 }
+
+fetchAndUpdateAptosLPsAPR()
+
+import fs from 'fs'
