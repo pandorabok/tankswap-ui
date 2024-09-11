@@ -517,3 +517,6 @@ const getAprsForFarmGroup = async (addresses: string[]): Promise<any> => {
 
 const fetchAndUpdateAptosLPsAPR = async () => {
   const farmsConfig = getFarmConfig(ChainId.MAINNET).filter((i) => i.pid !== CAKE_PID)
+
+  const lowerCaseAddresses = farmsConfig.map((farm) => farm.lpAddress.toLowerCase())
+  console.info(`Fetching farm data for ${lowerCaseAddresses.length} addresses`)
