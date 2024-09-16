@@ -511,3 +511,5 @@ const getAprsForFarmGroup = async (addresses: string[]): Promise<any> => {
     }, {})
     return aprs
   } catch (error) {
+    throw new Error(`Failed to fetch LP APR data: ${error}`)
+  }
