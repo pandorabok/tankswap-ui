@@ -503,3 +503,8 @@ const getAprsForFarmGroup = async (addresses: string[]): Promise<any> => {
           const liquidity = new BigNumber(farm.reserveUSD)
           lpApr = lpFeesInAYear.times(100).dividedBy(liquidity)
         }
+      }
+      return {
+        ...aprMap,
+        [farm.id]: lpApr.decimalPlaces(2).toNumber(),
+      }
