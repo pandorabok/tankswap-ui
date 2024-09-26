@@ -500,3 +500,4 @@ const getAprsForFarmGroup = async (addresses: string[]): Promise<any> => {
         const lpFeesInAYear = lpFees7d.times(WEEKS_IN_A_YEAR)
         // Some untracked pairs like KUN-QSD will report 0 volume
         if (lpFeesInAYear.gt(0)) {
+          const liquidity = new BigNumber(farm.reserveUSD)
