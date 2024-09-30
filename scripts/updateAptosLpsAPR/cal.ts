@@ -497,3 +497,6 @@ const getAprsForFarmGroup = async (addresses: string[]): Promise<any> => {
       if (farmWeekAgo) {
         const volume7d = new BigNumber(farmWeekAgo.volumeUSD)
         const lpFees7d = volume7d.times(LP_HOLDERS_FEE)
+        const lpFeesInAYear = lpFees7d.times(WEEKS_IN_A_YEAR)
+        // Some untracked pairs like KUN-QSD will report 0 volume
+        if (lpFeesInAYear.gt(0)) {
