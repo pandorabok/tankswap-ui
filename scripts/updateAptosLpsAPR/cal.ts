@@ -496,3 +496,4 @@ const getAprsForFarmGroup = async (addresses: string[]): Promise<any> => {
       let lpApr = new BigNumber(0)
       if (farmWeekAgo) {
         const volume7d = new BigNumber(farmWeekAgo.volumeUSD)
+        const lpFees7d = volume7d.times(LP_HOLDERS_FEE)
