@@ -485,3 +485,4 @@ const fetchFarmsOneWeekAgo = async (farmsAtLatestBlock: SingleFarmResponse[]) =>
   })
 }
 
+const getAprsForFarmGroup = async (addresses: string[]): Promise<any> => {
