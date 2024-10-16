@@ -466,3 +466,8 @@ const fetchFarmsOneWeekAgo = async (farmsAtLatestBlock: SingleFarmResponse[]) =>
   const hasNewData = Object.keys(newDate).length > 0
   if (hasNewData) {
     fs.writeFile(`scripts/updateAptosLpsAPR/farmsOneWeekAgo.json`, JSON.stringify(newDate, null, 2) + os.EOL, (err) => {
+      if (err) throw err
+      console.info(` ✅ - farmsOneWeekAgo.json has been updated!`)
+    })
+  }
+
