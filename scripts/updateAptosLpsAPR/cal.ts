@@ -452,3 +452,5 @@ const fetchFarmsOneWeekAgo = async (farmsAtLatestBlock: SingleFarmResponse[]) =>
         }
       }
     } else {
+      newDate = {
+        ...newDate,
