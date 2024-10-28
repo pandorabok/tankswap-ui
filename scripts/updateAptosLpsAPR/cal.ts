@@ -442,3 +442,8 @@ const fetchFarmsOneWeekAgo = async (farmsAtLatestBlock: SingleFarmResponse[]) =>
 
         if (isMoreThanAWeek) {
           usdList.shift()
+        }
+
+        usdList.push({ volumeUSD: farm.volumeUSD, reserveUSD: farm.reserveUSD })
+
+        newDate = {
