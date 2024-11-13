@@ -411,3 +411,6 @@ const fetchFarmLpsInfo = async (addresses: string[]): Promise<SingleFarmResponse
   }
 
   return addresses.map((address): SingleFarmResponse => {
+    // eslint-disable-next-line array-callback-return, consistent-return
+    const farmPriceInfo = allPairs.find((pair) => {
+      const token = pair.quotoTokenAddress.toLowerCase()
