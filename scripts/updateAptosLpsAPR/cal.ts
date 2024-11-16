@@ -409,3 +409,5 @@ const fetchFarmLpsInfo = async (addresses: string[]): Promise<SingleFarmResponse
       break
     }
   }
+
+  return addresses.map((address): SingleFarmResponse => {
