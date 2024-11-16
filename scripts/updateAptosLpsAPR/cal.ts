@@ -406,3 +406,6 @@ const fetchFarmLpsInfo = async (addresses: string[]): Promise<SingleFarmResponse
     }
 
     if (!result.data.hasNextPage) {
+      break
+    }
+  }
