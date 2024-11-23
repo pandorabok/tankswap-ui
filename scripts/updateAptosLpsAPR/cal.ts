@@ -402,3 +402,4 @@ const fetchFarmLpsInfo = async (addresses: string[]): Promise<SingleFarmResponse
     const result = await (await fetch(`${FETCH_URL}${params}`)).json()
 
     if (result.data.pageList.length > 0) {
+      allPairs.push(...(result?.data?.pageList || []))
