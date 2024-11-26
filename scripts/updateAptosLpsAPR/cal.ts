@@ -394,3 +394,6 @@ const FETCH_URL = 'https://api.coinmarketcap.com/dexer/v3/platformpage/pair-page
 
 const fetchFarmLpsInfo = async (addresses: string[]): Promise<SingleFarmResponse[]> => {
   const allPairs: any = []
+  const maxLoop = 20 // 50 * 20 = max get 1000 pair
+  for (let i = 0; i < maxLoop; i++) {
+    const offset = i === 0 ? 1 : 50 * i + 1
