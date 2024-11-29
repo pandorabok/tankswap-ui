@@ -390,3 +390,7 @@ interface FarmsOneWeekData {
 const CAKE_PID = 0
 const LP_HOLDERS_FEE = 0.0017
 const WEEKS_IN_A_YEAR = 52.1429
+const FETCH_URL = 'https://api.coinmarketcap.com/dexer/v3/platformpage/pair-pages'
+
+const fetchFarmLpsInfo = async (addresses: string[]): Promise<SingleFarmResponse[]> => {
+  const allPairs: any = []
