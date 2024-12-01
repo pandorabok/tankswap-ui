@@ -382,3 +382,6 @@ interface UsdListType {
 
 interface FarmsOneWeekData {
   [key: string]: {
+    updateDate: string
+    usdList: UsdListType[]
+  }
