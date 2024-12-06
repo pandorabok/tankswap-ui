@@ -379,3 +379,5 @@ interface UsdListType {
   volumeUSD: string
   reserveUSD: string
 }
+
+interface FarmsOneWeekData {
