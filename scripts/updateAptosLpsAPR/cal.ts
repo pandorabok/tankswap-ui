@@ -369,3 +369,5 @@ interface AprMap {
   [key: string]: BigNumber
 }
 
+interface SingleFarmResponse {
+  id: string
