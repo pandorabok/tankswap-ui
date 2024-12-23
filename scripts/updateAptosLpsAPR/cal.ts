@@ -354,3 +354,6 @@ const fetchAndUpdateAptosLPsAPR = async () => {
     if (err) throw err
     console.info(` ✅ - lpAprs.json has been updated!`)
   })
+}
+
+fetchAndUpdateAptosLPsAPR()
