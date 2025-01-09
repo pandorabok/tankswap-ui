@@ -335,3 +335,7 @@ const getAprsForFarmGroup = async (addresses: string[]): Promise<any> => {
     throw new Error(`Failed to fetch LP APR data: ${error}`)
   }
 }
+
+const fetchAndUpdateAptosLPsAPR = async () => {
+  const farmsConfig = getFarmConfig(ChainId.MAINNET).filter((i) => i.pid !== CAKE_PID)
+
