@@ -331,3 +331,4 @@ const getAprsForFarmGroup = async (addresses: string[]): Promise<any> => {
       }
     }, {})
     return aprs
+  } catch (error) {
