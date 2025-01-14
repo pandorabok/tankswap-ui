@@ -327,3 +327,5 @@ const getAprsForFarmGroup = async (addresses: string[]): Promise<any> => {
       }
       return {
         ...aprMap,
+        [farm.id]: lpApr.decimalPlaces(2).toNumber(),
+      }
