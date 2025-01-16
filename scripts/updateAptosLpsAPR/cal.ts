@@ -325,3 +325,5 @@ const getAprsForFarmGroup = async (addresses: string[]): Promise<any> => {
           lpApr = lpFeesInAYear.times(100).dividedBy(liquidity)
         }
       }
+      return {
+        ...aprMap,
