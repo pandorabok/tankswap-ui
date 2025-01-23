@@ -315,3 +315,4 @@ const getAprsForFarmGroup = async (addresses: string[]): Promise<any> => {
       const farmWeekAgo = farmsOneWeekAgo.find((oldFarm) => oldFarm.id === farm.id)
       // In case farm is too new to estimate LP APR (i.e. not returned in farmsOneWeekAgo query) - return 0
       let lpApr = new BigNumber(0)
+      if (farmWeekAgo) {
