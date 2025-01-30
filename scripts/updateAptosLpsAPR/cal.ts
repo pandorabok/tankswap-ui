@@ -304,3 +304,7 @@ const fetchFarmsOneWeekAgo = async (farmsAtLatestBlock: SingleFarmResponse[]) =>
     }
     return { id: address, volumeUSD, reserveUSD }
   })
+}
+
+const getAprsForFarmGroup = async (addresses: string[]): Promise<any> => {
+  try {
