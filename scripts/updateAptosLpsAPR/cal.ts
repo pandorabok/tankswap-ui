@@ -291,3 +291,7 @@ const fetchFarmsOneWeekAgo = async (farmsAtLatestBlock: SingleFarmResponse[]) =>
       console.info(` ✅ - farmsOneWeekAgo.json has been updated!`)
     })
   }
+
+  const responseData = hasNewData ? newDate : response
+  return Object.keys(responseData)?.map((address: string): SingleFarmResponse => {
+    let volumeUSD = '0'
