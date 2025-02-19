@@ -263,3 +263,4 @@ const fetchFarmsOneWeekAgo = async (farmsAtLatestBlock: SingleFarmResponse[]) =>
 
         if (isMoreThanAWeek) {
           usdList.shift()
+        }
