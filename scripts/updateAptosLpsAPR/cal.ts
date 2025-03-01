@@ -248,3 +248,5 @@ const fetchFarmLpsInfo = async (addresses: string[]): Promise<SingleFarmResponse
       reserveUSD: farmPriceInfo?.liquidity || '0',
     }
   })
+}
+
