@@ -220,3 +220,8 @@ const fetchFarmLpsInfo = async (addresses: string[]): Promise<SingleFarmResponse
     const offset = i === 0 ? 1 : 50 * i + 1
     const params = `?platform-id=141&dexer-id=4788&sort-field=volumeUsd24h&category=spot&desc=true&page=${offset}`
     // eslint-disable-next-line no-await-in-loop
+    const result = await (await fetch(`${FETCH_URL}${params}`)).json()
+
+    if (result.data.pageList.length > 0) {
+      allPairs.push(...(result?.data?.pageList || []))
+    }
