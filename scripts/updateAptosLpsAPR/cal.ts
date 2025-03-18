@@ -218,3 +218,5 @@ const fetchFarmLpsInfo = async (addresses: string[]): Promise<SingleFarmResponse
   const maxLoop = 20 // 50 * 20 = max get 1000 pair
   for (let i = 0; i < maxLoop; i++) {
     const offset = i === 0 ? 1 : 50 * i + 1
+    const params = `?platform-id=141&dexer-id=4788&sort-field=volumeUsd24h&category=spot&desc=true&page=${offset}`
+    // eslint-disable-next-line no-await-in-loop
