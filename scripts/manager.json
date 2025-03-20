@@ -10,3 +10,4 @@
     "bignumber.js": "^9.1.1",
     "dayjs": "^1.11.10",
     "ethers": "^5.0.0",
+    "graphql-request": "5.0.0",
