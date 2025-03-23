@@ -206,3 +206,8 @@ interface FarmsOneWeekData {
     updateDate: string
     usdList: UsdListType[]
   }
+}
+
+const CAKE_PID = 0
+const LP_HOLDERS_FEE = 0.0017
+const WEEKS_IN_A_YEAR = 52.1429
