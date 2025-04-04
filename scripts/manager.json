@@ -4,3 +4,7 @@
   "version": "0.0.5",
   "devDependencies": {
     "@tankswap/aptos-swap-sdk": "workspace:*",
+    "@tankswap/chains": "workspace:*",
+    "@tankswap/farms": "workspace:*",
+    "@types/lodash": "^4.14.168",
+    "bignumber.js": "^9.1.1",
