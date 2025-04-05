@@ -189,3 +189,7 @@ import { getFarmConfig } from '../../apps/aptos/config/constants/farms'
 interface AprMap {
   [key: string]: BigNumber
 }
+
+interface SingleFarmResponse {
+  id: string
+  reserveUSD: string
