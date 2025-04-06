@@ -1,1 +1,6 @@
 {
+  "name": "scripts",
+  "private": true,
+  "version": "0.0.5",
+  "devDependencies": {
+    "@tankswap/aptos-swap-sdk": "workspace:*",
