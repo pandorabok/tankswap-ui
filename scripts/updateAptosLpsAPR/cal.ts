@@ -166,3 +166,4 @@ const fetchAndUpdateAptosLPsAPR = async () => {
 
   let allAprs: AprMap = {}
   for await (const groupOfAddresses of addressesInGroups) {
+    const aprs = await getAprsForFarmGroup(groupOfAddresses)
