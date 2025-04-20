@@ -164,3 +164,5 @@ const fetchAndUpdateAptosLPsAPR = async () => {
   // Split it into chunks of 30 addresses to avoid gateway timeout
   const addressesInGroups = chunk(lowerCaseAddresses, 30)
 
+  let allAprs: AprMap = {}
+  for await (const groupOfAddresses of addressesInGroups) {
