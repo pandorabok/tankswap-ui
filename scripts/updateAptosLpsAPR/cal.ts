@@ -143,3 +143,6 @@ const getAprsForFarmGroup = async (addresses: string[]): Promise<any> => {
         if (lpFeesInAYear.gt(0)) {
           const liquidity = new BigNumber(farm.reserveUSD)
           lpApr = lpFeesInAYear.times(100).dividedBy(liquidity)
+        }
+      }
+      return {
