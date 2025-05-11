@@ -123,3 +123,6 @@ const fetchFarmsOneWeekAgo = async (farmsAtLatestBlock: SingleFarmResponse[]) =>
       reserveUSD = usdList.reduce((sum, single) => new BigNumber(sum).plus(single.reserveUSD).toNumber(), 0).toString()
     }
     return { id: address, volumeUSD, reserveUSD }
+  })
+}
+
