@@ -100,3 +100,8 @@ const fetchFarmsOneWeekAgo = async (farmsAtLatestBlock: SingleFarmResponse[]) =>
           usdList: [{ volumeUSD: farm.volumeUSD, reserveUSD: farm.reserveUSD }],
         },
       }
+    }
+  })
+
+  // Save to farmsOneWeekAgo.json
+  const hasNewData = Object.keys(newDate).length > 0
