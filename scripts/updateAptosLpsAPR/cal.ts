@@ -92,3 +92,6 @@ const fetchFarmsOneWeekAgo = async (farmsAtLatestBlock: SingleFarmResponse[]) =>
           [farm.id]: { updateDate: currentDate, usdList },
         }
       }
+    } else {
+      newDate = {
+        ...newDate,
