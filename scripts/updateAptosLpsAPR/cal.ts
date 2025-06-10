@@ -88,3 +88,4 @@ const fetchFarmsOneWeekAgo = async (farmsAtLatestBlock: SingleFarmResponse[]) =>
         usdList.push({ volumeUSD: farm.volumeUSD, reserveUSD: farm.reserveUSD })
 
         newDate = {
+          ...newDate,
