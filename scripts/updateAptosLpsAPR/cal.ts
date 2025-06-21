@@ -77,3 +77,4 @@ const fetchFarmsOneWeekAgo = async (farmsAtLatestBlock: SingleFarmResponse[]) =>
   let newDate = {}
   farmsAtLatestBlock.forEach((farm) => {
     if (response[farm.id]) {
+      if (response[farm.id].updateDate !== currentDate) {
