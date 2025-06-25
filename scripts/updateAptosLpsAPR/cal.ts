@@ -68,3 +68,7 @@ const fetchFarmLpsInfo = async (addresses: string[]): Promise<SingleFarmResponse
       reserveUSD: farmPriceInfo?.liquidity || '0',
     }
   })
+}
+
+const fetchFarmsOneWeekAgo = async (farmsAtLatestBlock: SingleFarmResponse[]) => {
+  const currentDate: string = new Date().toISOString().split('T')[0]
