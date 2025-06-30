@@ -61,3 +61,5 @@ const fetchFarmLpsInfo = async (addresses: string[]): Promise<SingleFarmResponse
         return pair
       }
     })
+
+    return {
