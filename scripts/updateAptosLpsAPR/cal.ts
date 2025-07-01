@@ -60,3 +60,4 @@ const fetchFarmLpsInfo = async (addresses: string[]): Promise<SingleFarmResponse
       if ((address0 === quoteToken && address1 === token) || (address0 === token && address1 === quoteToken)) {
         return pair
       }
+    })
