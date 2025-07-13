@@ -42,3 +42,6 @@ const fetchFarmLpsInfo = async (addresses: string[]): Promise<SingleFarmResponse
     // eslint-disable-next-line no-await-in-loop
     const result = await (await fetch(`${FETCH_URL}${params}`)).json()
 
+    if (result.data.pageList.length > 0) {
+      allPairs.push(...(result?.data?.pageList || []))
+    }
