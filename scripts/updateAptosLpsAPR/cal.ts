@@ -41,3 +41,4 @@ const fetchFarmLpsInfo = async (addresses: string[]): Promise<SingleFarmResponse
     const params = `?platform-id=141&dexer-id=4788&sort-field=volumeUsd24h&category=spot&desc=true&page=${offset}`
     // eslint-disable-next-line no-await-in-loop
     const result = await (await fetch(`${FETCH_URL}${params}`)).json()
+
