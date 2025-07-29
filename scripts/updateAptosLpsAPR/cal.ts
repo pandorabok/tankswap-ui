@@ -19,3 +19,7 @@ interface SingleFarmResponse {
 interface UsdListType {
   volumeUSD: string
   reserveUSD: string
+}
+
+interface FarmsOneWeekData {
+  [key: string]: {
