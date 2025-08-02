@@ -15,3 +15,7 @@ interface SingleFarmResponse {
   reserveUSD: string
   volumeUSD: string
 }
+
+interface UsdListType {
+  volumeUSD: string
+  reserveUSD: string
