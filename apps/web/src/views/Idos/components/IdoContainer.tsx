@@ -1,4 +1,4 @@
-import { Container } from '@pancakeswap/uikit'
+import { Container } from '@tankswap/uikit'
 import { ReactNode } from 'react'
 import { Address } from 'viem'
 

@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { LinkExternal, Text, useModal } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { LinkExternal, Text, useModal } from '@tankswap/uikit'
 import { Trans } from 'components/CustomTrans'
 import { useCallback, useEffect } from 'react'
 

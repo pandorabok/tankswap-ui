@@ -1,5 +1,5 @@
 import { ReactElement } from 'react'
-import { Flex, Text } from '@pancakeswap/uikit'
+import { Flex, Text } from '@tankswap/uikit'
 import { styled, DefaultTheme } from 'styled-components'
 import memoize from 'lodash/memoize'
 

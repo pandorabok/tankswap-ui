@@ -6,7 +6,7 @@ import {
   TelegramIcon,
   TwitterIcon,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
+} from '@tankswap/uikit'
 import useTheme from 'hooks/useTheme'
 import useIfo from '../hooks/useIfo'
 

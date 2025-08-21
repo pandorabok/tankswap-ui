@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Text } from '@tankswap/uikit'
 import { BodyText } from '../BodyText'
 import { AdButton } from '../Button'
 import { AdCard } from '../Card'
@@ -7,7 +7,7 @@ import { AdCard } from '../Card'
 import { AdPlayerProps } from '../types'
 import { getImageUrl } from '../utils'
 
-const actionLink = 'https://springboard.pancakeswap.finance/'
+const actionLink = 'https://springboard.tankswap.finance/'
 
 export const AdSpringboard = (props: AdPlayerProps) => {
   const { t } = useTranslation()

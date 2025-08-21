@@ -1,4 +1,4 @@
-import { formatBigInt } from '@pancakeswap/utils/formatBalance'
+import { formatBigInt } from '@tankswap/utils/formatBalance'
 import { useInfiniteQuery } from '@tanstack/react-query'
 import { NOT_ON_SALE_SELLER } from 'config/constants'
 import { useEffect, useRef, useState } from 'react'
@@ -11,7 +11,7 @@ import {
 } from 'state/nftMarket/helpers'
 import { ApiResponseCollectionTokens, NftToken } from 'state/nftMarket/types'
 import { safeGetAddress } from 'utils'
-import { pancakeBunniesAddress } from '../constants'
+import { tankBunniesAddress } from '../constants'
 
 const fetchMarketDataNfts = async (
   bunnyId: string,
@@ -21,7 +21,7 @@ const fetchMarketDataNfts = async (
   itemsPerPage: number,
 ): Promise<{ newNfts: NftToken[]; isPageLast: boolean }> => {
   const whereClause = {
-    collection: pancakeBunniesAddress.toLowerCase(),
+    collection: tankBunniesAddress.toLowerCase(),
     otherId: bunnyId,
     isTradable: true,
   }
@@ -61,7 +61,7 @@ export const usePancakeBunnyOnSaleNfts = (
     isRefetching,
   } = useInfiniteQuery({
     initialPageParam: 0,
-    queryKey: [bunnyId, direction, 'pancakeBunnyOnSaleNfts'],
+    queryKey: [bunnyId, direction, 'tankBunnyOnSaleNfts'],
     queryFn: async ({ pageParam }) => {
       const { newNfts, isPageLast } = await fetchMarketDataNfts(
         bunnyId,
@@ -72,7 +72,7 @@ export const usePancakeBunnyOnSaleNfts = (
       )
       isLastPage.current = isPageLast
       const nftsMarketTokenIds = newNfts.map((marketData) => marketData.tokenId)
-      const updatedMarketData = await getNftsUpdatedMarketData(pancakeBunniesAddress, nftsMarketTokenIds)
+      const updatedMarketData = await getNftsUpdatedMarketData(tankBunniesAddress, nftsMarketTokenIds)
       if (!updatedMarketData) return { data: newNfts, pageParam }
 
       const nftsWithMarketData = updatedMarketData

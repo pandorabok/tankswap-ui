@@ -1,8 +1,8 @@
 import { CSSProperties } from 'react'
-import { Currency, Token } from '@pancakeswap/aptos-swap-sdk'
+import { Currency, Token } from '@tankswap/aptos-swap-sdk'
 import { useCombinedInactiveList } from 'state/lists/hooks'
 import { useIsUserAddedToken, useIsTokenActive } from 'hooks/Tokens'
-import { APTOS_COIN } from '@pancakeswap/awgmi'
+import { APTOS_COIN } from '@tankswap/awgmi'
 import { useActiveChainId } from 'hooks/useNetwork'
 import ImportTokenRow from './ImportTokenRow'
 

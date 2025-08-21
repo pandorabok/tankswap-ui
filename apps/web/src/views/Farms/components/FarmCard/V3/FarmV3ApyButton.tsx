@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-pascal-case */
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import {
   AutoRow,
   CalculateIcon,
@@ -12,17 +12,17 @@ import {
   TooltipText,
   useModalV2,
   useTooltip,
-} from '@pancakeswap/uikit'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
-import { Position, TICK_SPACINGS, TickMath, encodeSqrtRatioX96 } from '@pancakeswap/v3-sdk'
-import { FarmWidget } from '@pancakeswap/widgets-internal'
-import { RoiCalculatorModalV2, useRoi } from '@pancakeswap/widgets-internal/roi'
+} from '@tankswap/uikit'
+import { BIG_ZERO } from '@tankswap/utils/bigNumber'
+import { Position, TICK_SPACINGS, TickMath, encodeSqrtRatioX96 } from '@tankswap/v3-sdk'
+import { FarmWidget } from '@tankswap/widgets-internal'
+import { RoiCalculatorModalV2, useRoi } from '@tankswap/widgets-internal/roi'
 import BigNumber from 'bignumber.js'
 import { useCakePrice } from 'hooks/useCakePrice'
 import { useContext, useMemo, useState } from 'react'
 import { styled } from 'styled-components'
 
-import isUndefinedOrNull from '@pancakeswap/utils/isUndefinedOrNull'
+import isUndefinedOrNull from '@tankswap/utils/isUndefinedOrNull'
 import { Bound } from 'config/constants/types'
 import { usePoolAvgInfo } from 'hooks/usePoolAvgInfo'
 import { usePairTokensPrice } from 'hooks/v3/usePairTokensPrice'

@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import {
   Box,
   Button,
@@ -13,7 +13,7 @@ import {
   ModalTitle,
   Text,
   WarningIcon,
-} from '@pancakeswap/uikit'
+} from '@tankswap/uikit'
 import { ReactNode, useCallback, useState } from 'react'
 import { styled } from 'styled-components'
 
@@ -139,7 +139,7 @@ const DisclaimerModal: React.FC<React.PropsWithChildren<RiskDisclaimerProps>> = 
           </Heading>
         )}
         {hasExternalLink && (
-          <StyledLink href="https://docs.pancakeswap.finance/products/bridging/wormhole-bridge-guide" external>
+          <StyledLink href="https://docs.tankswap.finance/products/bridging/wormhole-bridge-guide" external>
             <Button width="100%" my="16px">
               {t('Go to FAQ guide')}
             </Button>

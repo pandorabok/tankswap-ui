@@ -1,5 +1,5 @@
-import { Token } from '@pancakeswap/sdk'
-import { useModal } from '@pancakeswap/uikit'
+import { Token } from '@tankswap/sdk'
+import { useModal } from '@tankswap/uikit'
 import AddressInputSelect from 'components/AddressInputSelect'
 import useLocalDispatch from 'contexts/LocalRedux/useLocalDispatch'
 import { useCallback } from 'react'

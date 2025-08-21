@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Box, Text } from '@tankswap/uikit'
 import { styled } from 'styled-components'
 import { Campaign } from 'views/Campaigns/components/Campaign'
 

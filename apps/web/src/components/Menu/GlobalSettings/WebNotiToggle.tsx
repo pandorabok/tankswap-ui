@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Toggle, useToast } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Toggle, useToast } from '@tankswap/uikit'
 import { useSubscribe, useUnsubscribe } from '@web3inbox/react'
 import { useCallback } from 'react'
 import { useAllowNotifications } from 'state/notifications/hooks'

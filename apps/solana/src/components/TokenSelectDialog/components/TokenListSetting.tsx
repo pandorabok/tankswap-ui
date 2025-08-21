@@ -1,9 +1,9 @@
 import { Box, Divider } from '@chakra-ui/react'
-import { useHttpLocations } from '@pancakeswap/hooks'
-import { AutoColumn, Row, RowBetween, RowFixed, Text, Toggle, TokenLogo } from '@pancakeswap/uikit'
-import { JupTokenType } from '@pancakeswap/solana-core-sdk'
+import { useHttpLocations } from '@tankswap/hooks'
+import { AutoColumn, Row, RowBetween, RowFixed, Text, Toggle, TokenLogo } from '@tankswap/uikit'
+import { JupTokenType } from '@tankswap/solana-core-sdk'
 import { ReactNode } from 'react'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import styled from 'styled-components'
 import { useEvent } from '@/hooks/useEvent'
 import { useAppStore, USER_ADDED_KEY, useTokenStore } from '@/store'
@@ -41,7 +41,7 @@ export default function TokenListSetting({ onClick }: { onClick: () => void }) {
     <Box height="50vh">
       <TokenListRowItem
         name={`Official ${t('Token List')}`}
-        logoUrl="https://pancakeswap.finance/logo.png"
+        logoUrl="https://tankswap.finance/logo.png"
         tokenCount={officialTokenListTokenCount}
         isOpen={isOfficialTokenListSwitchOn}
         onOpen={() => handleSwitchChange('official', true)}

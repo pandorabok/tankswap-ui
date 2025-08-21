@@ -1,9 +1,9 @@
-import { Button } from '@pancakeswap/uikit'
+import { Button } from '@tankswap/uikit'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Box, HStack, Text, VStack } from '@chakra-ui/react'
-import { ApiV3PoolInfoConcentratedItem } from '@pancakeswap/solana-core-sdk'
+import { ApiV3PoolInfoConcentratedItem } from '@tankswap/solana-core-sdk'
 
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import BN from 'bn.js'
 import Decimal from 'decimal.js'
 import TokenAvatar from '@/components/TokenAvatar'

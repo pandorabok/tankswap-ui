@@ -1,5 +1,5 @@
-import { Text } from '@pancakeswap/uikit'
-import { formatBigIntToFixed } from '@pancakeswap/utils/formatBalance'
+import { Text } from '@tankswap/uikit'
+import { formatBigIntToFixed } from '@tankswap/utils/formatBalance'
 import { memo, useMemo } from 'react'
 import CountUp from 'react-countup'
 import { styled } from 'styled-components'

@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import {
   ArrowBackIcon,
   Button,
@@ -12,11 +12,11 @@ import {
   SocialLoginTelegramIcon,
   SocialLoginXIcon,
   Text,
-} from '@pancakeswap/uikit'
+} from '@tankswap/uikit'
 import { MouseEvent } from 'react'
 import styled from 'styled-components'
 
-const ASSET_CDN = 'https://assets.pancakeswap.finance'
+const ASSET_CDN = 'https://assets.tankswap.finance'
 
 interface SocialLoginModalProps {
   isOpen: boolean

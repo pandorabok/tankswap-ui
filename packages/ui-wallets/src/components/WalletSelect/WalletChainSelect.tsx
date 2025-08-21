@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react'
-import { Trans, useTranslation } from '@pancakeswap/localization'
+import { Trans, useTranslation } from '@tankswap/localization'
 import {
   InfoIcon,
   ShieldCheckIcon,
@@ -20,10 +20,10 @@ import {
   useMatchBreakpoints,
   Message,
   Checkbox,
-} from '@pancakeswap/uikit'
+} from '@tankswap/uikit'
 import styled from 'styled-components'
-import { ChainId } from '@pancakeswap/chains'
-import { useTheme } from '@pancakeswap/hooks'
+import { ChainId } from '@tankswap/chains'
+import { useTheme } from '@tankswap/hooks'
 import { WalletConfigV3, WalletAdaptedNetwork } from '../../types'
 import { ASSET_CDN } from '../../config/url'
 
@@ -70,7 +70,7 @@ export const WalletChainSelect: React.FC<WalletChainSelectProps> = ({
           <Link
             style={{ display: 'inline' }}
             external
-            href="https://docs.pancakeswap.finance/trading-tools/pancakeswap-mev-guard"
+            href="https://docs.tankswap.finance/trading-tools/tankswap-mev-guard"
           />,
         ]}
       />
@@ -207,7 +207,7 @@ const EvmMevSupportMessage = () => {
               fontWeight="normal !important"
               fontSize="12px"
               external
-              href="https://docs.pancakeswap.finance/trading-tools/pancakeswap-mev-guard"
+              href="https://docs.tankswap.finance/trading-tools/tankswap-mev-guard"
             />,
           ]}
         />

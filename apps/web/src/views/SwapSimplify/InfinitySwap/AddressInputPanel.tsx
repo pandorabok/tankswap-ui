@@ -1,7 +1,7 @@
-import { ChainId } from '@pancakeswap/chains'
-import { useDebounce } from '@pancakeswap/hooks'
-import { useTranslation } from '@pancakeswap/localization'
-import { AutoColumn, BscScanIcon, FlexGap, Link, SwapCSS, Text } from '@pancakeswap/uikit'
+import { ChainId } from '@tankswap/chains'
+import { useDebounce } from '@tankswap/hooks'
+import { useTranslation } from '@tankswap/localization'
+import { AutoColumn, BscScanIcon, FlexGap, Link, SwapCSS, Text } from '@tankswap/uikit'
 
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useGetENSAddressByName } from 'hooks/useGetENSAddressByName'

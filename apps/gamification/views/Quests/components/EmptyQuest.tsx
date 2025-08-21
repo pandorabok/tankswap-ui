@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Flex, Image, Link, OpenNewIcon, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Box, Flex, Image, Link, OpenNewIcon, Text } from '@tankswap/uikit'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import { styled } from 'styled-components'
 import { GradientBox } from 'views/Campaigns/components/GradientBox'

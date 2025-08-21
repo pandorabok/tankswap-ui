@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Token } from '@pancakeswap/sdk'
+import { useTranslation } from '@tankswap/localization'
+import { Token } from '@tankswap/sdk'
 import {
   Box,
   BunnyPlaceholderIcon,
@@ -15,8 +15,8 @@ import {
   SubMenuItem,
   Text,
   useModal,
-} from '@pancakeswap/uikit'
-import truncateHash from '@pancakeswap/utils/truncateHash'
+} from '@tankswap/uikit'
+import truncateHash from '@tankswap/utils/truncateHash'
 import { useDomainNameForAddress } from 'hooks/useDomain'
 import { useStatModalProps } from 'state/predictions/hooks'
 import { useProfileForAddress } from 'state/profile/hooks'

@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import {
   Box,
   Button,
@@ -9,12 +9,12 @@ import {
   QuestionHelper,
   Text,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
-import { useUserSlippage } from '@pancakeswap/utils/user'
+} from '@tankswap/uikit'
+import { useUserSlippage } from '@tankswap/utils/user'
 import { useEffect, useState } from 'react'
 import { escapeRegExp } from 'utils'
 
-import { VerticalDivider } from '@pancakeswap/widgets-internal'
+import { VerticalDivider } from '@tankswap/widgets-internal'
 import { useAutoSlippageEnabled } from 'hooks/useAutoSlippageWithFallback'
 import { useUserTransactionTTL } from 'hooks/useTransactionDeadline'
 import styled from 'styled-components'

@@ -1,5 +1,5 @@
 // Type definitions for PancakeSwap Charting Library
-// Project: https://github.com/pancakeswap/charting-library
+// Project: https://github.com/tankswap/charting-library
 
 declare global {
   interface Window {

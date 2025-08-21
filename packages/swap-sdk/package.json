@@ -1,5 +1,5 @@
 {
-  "name": "@pancakeswap/sdk",
+  "name": "@tankswap/sdk",
   "license": "MIT",
   "version": "5.8.16",
   "description": "🛠 An SDK for building applications on top of Pancakeswap.",
@@ -11,11 +11,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/pancakeswap/pancake-frontend.git",
+    "url": "https://github.com/tankswap/tank-frontend.git",
     "directory": "packages/swap-sdk"
   },
   "keywords": [
-    "pancakeswap",
+    "tankswap",
     "bsc"
   ],
   "exports": {
@@ -34,11 +34,11 @@
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
   "dependencies": {
-    "@pancakeswap/chains": "workspace:^",
-    "@pancakeswap/swap-sdk-core": "workspace:*",
-    "@pancakeswap/swap-sdk-evm": "workspace:*",
-    "@pancakeswap/swap-sdk-solana": "workspace:*",
-    "@pancakeswap/v2-sdk": "workspace:*",
+    "@tankswap/chains": "workspace:^",
+    "@tankswap/swap-sdk-core": "workspace:*",
+    "@tankswap/swap-sdk-evm": "workspace:*",
+    "@tankswap/swap-sdk-solana": "workspace:*",
+    "@tankswap/v2-sdk": "workspace:*",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
     "tiny-invariant": "^1.3.0",

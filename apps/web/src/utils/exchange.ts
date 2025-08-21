@@ -1,9 +1,9 @@
-import { Currency, CurrencyAmount, Percent, Trade, TradeType } from '@pancakeswap/sdk'
-import { pancakeRouter02ABI } from 'config/abi/IPancakeRouter02'
+import { Currency, CurrencyAmount, Percent, Trade, TradeType } from '@tankswap/sdk'
+import { tankRouter02ABI } from 'config/abi/IPancakeRouter02'
 import { BIPS_BASE, V2_ROUTER_ADDRESS } from 'config/constants/exchange'
 import { StableTrade } from 'config/constants/types'
 
-import memoize from '@pancakeswap/utils/memoize'
+import memoize from '@tankswap/utils/memoize'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useContract } from 'hooks/useContract'
 import { Field } from '../state/swap/actions'
@@ -25,7 +25,7 @@ export function calculateSlippageAmount(value: CurrencyAmount<Currency>, slippag
 
 export function useRouterContract() {
   const { chainId } = useActiveChainId()
-  return useContract(chainId && V2_ROUTER_ADDRESS[chainId], pancakeRouter02ABI)
+  return useContract(chainId && V2_ROUTER_ADDRESS[chainId], tankRouter02ABI)
 }
 
 // computes price breakdown for the trade

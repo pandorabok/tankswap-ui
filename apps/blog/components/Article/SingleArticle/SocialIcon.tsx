@@ -1,5 +1,5 @@
 import { styled } from 'styled-components'
-import { Flex, TwitterIcon, TelegramIcon, RedditIcon, Link, DiscordIcon } from '@pancakeswap/uikit'
+import { Flex, TwitterIcon, TelegramIcon, RedditIcon, Link, DiscordIcon } from '@tankswap/uikit'
 import { useRouter } from 'next/router'
 
 const StyledLink = styled(Link)`
@@ -33,7 +33,7 @@ const StyledSocialIcon = styled(Flex)`
   }
 `
 
-const BLOG_URL = 'https://blog.pancakeswap.finance'
+const BLOG_URL = 'https://blog.tankswap.finance'
 
 const SocialIcon = () => {
   const router = useRouter()
@@ -48,7 +48,7 @@ const SocialIcon = () => {
       <StyledLink external href={`https://reddit.com/submit?url=${BLOG_URL}${router.asPath}`}>
         <RedditIcon width={40} />
       </StyledLink>
-      <StyledLink external href="https://discord.com/invite/pancakeswap">
+      <StyledLink external href="https://discord.com/invite/tankswap">
         <DiscordIcon width={40} />
       </StyledLink>
     </StyledSocialIcon>

@@ -1,8 +1,8 @@
 import React from 'react'
 import { styled } from 'styled-components'
-import { useTranslation } from '@pancakeswap/localization'
-import { Flex, Text, HelpIcon, useTooltip, Link } from '@pancakeswap/uikit'
-import { Pool } from '@pancakeswap/widgets-internal'
+import { useTranslation } from '@tankswap/localization'
+import { Flex, Text, HelpIcon, useTooltip, Link } from '@tankswap/uikit'
+import { Pool } from '@tankswap/widgets-internal'
 
 const StyledCell = styled(Pool.BaseCell)`
   display: none;
@@ -53,7 +53,7 @@ const Multiplier: React.FC<React.PropsWithChildren<MultiplierProps>> = ({ multip
       <Link
         mt="8px"
         display="inline"
-        href="https://medium.com/pancakeswap/farm-mutlipliers-visual-update-1f5f5f615afd"
+        href="https://medium.com/tankswap/farm-mutlipliers-visual-update-1f5f5f615afd"
         external
       >
         {t('Read more')}

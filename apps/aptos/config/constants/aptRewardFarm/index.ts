@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/aptos-swap-sdk'
+import { ChainId } from '@tankswap/aptos-swap-sdk'
 import { farms as MainnetFarm } from './1'
 import { farms as TestnetFarm } from './2'
 

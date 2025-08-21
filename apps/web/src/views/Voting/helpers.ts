@@ -1,4 +1,4 @@
-import { bscTokens } from '@pancakeswap/tokens'
+import { bscTokens } from '@tankswap/tokens'
 import groupBy from 'lodash/groupBy'
 import { Proposal, ProposalState, ProposalType, Vote } from 'state/types'
 import { Address, createPublicClient, http } from 'viem'

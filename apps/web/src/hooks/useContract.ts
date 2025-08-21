@@ -1,4 +1,4 @@
-import { getPoolContractBySousId } from '@pancakeswap/pools'
+import { getPoolContractBySousId } from '@tankswap/pools'
 
 import { Abi, Address, erc20Abi } from 'viem'
 import { usePublicClient, useWalletClient } from 'wagmi'
@@ -56,11 +56,11 @@ import {
   getZksyncAirDropContract,
 } from 'utils/contractHelpers'
 
-import { ChainId } from '@pancakeswap/chains'
-import { ifoV7ABI, ifoV8ABI } from '@pancakeswap/ifos'
-import { WNATIVE, pancakePairV2ABI } from '@pancakeswap/sdk'
-import { CAKE } from '@pancakeswap/tokens'
-import { nonfungiblePositionManagerABI } from '@pancakeswap/v3-sdk'
+import { ChainId } from '@tankswap/chains'
+import { ifoV7ABI, ifoV8ABI } from '@tankswap/ifos'
+import { WNATIVE, tankPairV2ABI } from '@tankswap/sdk'
+import { CAKE } from '@tankswap/tokens'
+import { nonfungiblePositionManagerABI } from '@tankswap/v3-sdk'
 import { multicallABI } from 'config/abi/Multicall'
 import { erc20Bytes32ABI } from 'config/abi/erc20_bytes32'
 import { ifoV1ABI } from 'config/abi/ifoV1'
@@ -314,7 +314,7 @@ export function useBytes32TokenContract(tokenAddress?: Address) {
 }
 
 export function usePairContract(pairAddress?: Address, options?: UseContractOptions) {
-  return useContract(pairAddress, pancakePairV2ABI, options)
+  return useContract(pairAddress, tankPairV2ABI, options)
 }
 
 export function useMulticallContract(overrideChainId?: number) {

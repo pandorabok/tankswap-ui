@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Flex, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Flex, Text } from '@tankswap/uikit'
 import { PoolInfo } from 'state/farmsV4/state/type'
 import { styled } from 'styled-components'
 import { LiquidityChartData } from './type'

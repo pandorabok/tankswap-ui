@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import {
   BalanceInput,
   Box,
@@ -10,8 +10,8 @@ import {
   ModalBody,
   Text,
   IfoHasVestingNotice,
-} from '@pancakeswap/uikit'
-import { formatNumber, getBalanceAmount, getDecimalAmount } from '@pancakeswap/utils/formatBalance'
+} from '@tankswap/uikit'
+import { formatNumber, getBalanceAmount, getDecimalAmount } from '@tankswap/utils/formatBalance'
 import BigNumber from 'bignumber.js'
 import { ConfirmButton } from 'components/ConfirmButton'
 import splitTypeTag from 'utils/splitTypeTag'
@@ -185,7 +185,7 @@ const ContributeModal: React.FC<React.PropsWithChildren<Props>> = ({
             <Link
               fontSize="12px"
               display="inline"
-              href="https://docs.pancakeswap.finance/products/ifo-initial-farm-offering"
+              href="https://docs.tankswap.finance/products/ifo-initial-farm-offering"
               external
             >
               {t('Read more')}

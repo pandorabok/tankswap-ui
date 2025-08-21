@@ -1,5 +1,5 @@
-import { BridgeTransactionData, PriceOrder, SVMOrder } from '@pancakeswap/price-api-sdk'
-import { Currency, CurrencyAmount } from '@pancakeswap/swap-sdk-core'
+import { BridgeTransactionData, PriceOrder, SVMOrder } from '@tankswap/price-api-sdk'
+import { Currency, CurrencyAmount } from '@tankswap/swap-sdk-core'
 import { Address } from 'viem/accounts'
 import { CrossChainAPIErrorCode } from '../CrossChainConfirmSwapModal/hooks/useBridgeErrorMessages'
 

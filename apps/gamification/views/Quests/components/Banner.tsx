@@ -1,4 +1,4 @@
-import { Box, Flex, Image, Text } from '@pancakeswap/uikit'
+import { Box, Flex, Image, Text } from '@tankswap/uikit'
 import { styled } from 'styled-components'
 
 const Container = styled(Box)`

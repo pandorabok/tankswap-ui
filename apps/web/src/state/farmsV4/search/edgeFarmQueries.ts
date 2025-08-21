@@ -1,17 +1,17 @@
-import { ChainId, chainNamesInKebabCase } from '@pancakeswap/chains'
+import { ChainId, chainNamesInKebabCase } from '@tankswap/chains'
 import {
   FarmV4SupportedChainId,
   fetchAllUniversalFarms,
   Protocol,
   supportedChainIdV4,
   UniversalFarmConfig,
-} from '@pancakeswap/farms'
-import { getCurrencyAddress, Pair } from '@pancakeswap/sdk'
-import { InfinityRouter, SmartRouter } from '@pancakeswap/smart-router'
+} from '@tankswap/farms'
+import { getCurrencyAddress, Pair } from '@tankswap/sdk'
+import { InfinityRouter, SmartRouter } from '@tankswap/smart-router'
 
-import { SORT_ORDER } from '@pancakeswap/uikit'
-import uniqBy from '@pancakeswap/utils/uniqBy'
-import { computePoolAddress, DEPLOYER_ADDRESSES } from '@pancakeswap/v3-sdk'
+import { SORT_ORDER } from '@tankswap/uikit'
+import uniqBy from '@tankswap/utils/uniqBy'
+import { computePoolAddress, DEPLOYER_ADDRESSES } from '@tankswap/v3-sdk'
 import { edgeQueries } from 'quoter/utils/edgePoolQueries'
 import { APIChain, getEdgeChainName } from 'quoter/utils/edgeQueries.util'
 import { PoolInfo } from 'state/farmsV4/state/type'

@@ -1,51 +1,51 @@
-# @pancakeswap/stable-swap-sdk
+# @tankswap/stable-swap-sdk
 
 ## 2.0.9
 
 ### Patch Changes
 
 - Updated dependencies [5b6d71a]
-  - @pancakeswap/tokens@0.7.8
+  - @tankswap/tokens@0.7.8
 
 ## 2.0.8
 
 ### Patch Changes
 
 - Updated dependencies [cd589e1]
-  - @pancakeswap/swap-sdk-core@1.5.0
-  - @pancakeswap/chains@0.6.0
-  - @pancakeswap/tokens@0.7.7
+  - @tankswap/swap-sdk-core@1.5.0
+  - @tankswap/chains@0.6.0
+  - @tankswap/tokens@0.7.7
 
 ## 2.0.7
 
 ### Patch Changes
 
 - Updated dependencies [979f5e0]
-  - @pancakeswap/chains@0.5.3
-  - @pancakeswap/tokens@0.7.6
+  - @tankswap/chains@0.5.3
+  - @tankswap/tokens@0.7.6
 
 ## 2.0.6
 
 ### Patch Changes
 
 - Updated dependencies [2f165c8]
-  - @pancakeswap/tokens@0.7.5
+  - @tankswap/tokens@0.7.5
 
 ## 2.0.5
 
 ### Patch Changes
 
 - Updated dependencies [3de0443]
-  - @pancakeswap/chains@0.5.2
-  - @pancakeswap/tokens@0.7.4
+  - @tankswap/chains@0.5.2
+  - @tankswap/tokens@0.7.4
 
 ## 2.0.4
 
 ### Patch Changes
 
 - Updated dependencies [cb44715]
-  - @pancakeswap/swap-sdk-core@1.4.0
-  - @pancakeswap/tokens@0.7.3
+  - @tankswap/swap-sdk-core@1.4.0
+  - @tankswap/tokens@0.7.3
 
 ## 2.0.3
 
@@ -53,15 +53,15 @@
 
 - Updated dependencies [5f264c5]
 - Updated dependencies [0436fec]
-  - @pancakeswap/chains@0.5.1
-  - @pancakeswap/tokens@0.7.2
+  - @tankswap/chains@0.5.1
+  - @tankswap/tokens@0.7.2
 
 ## 2.0.2
 
 ### Patch Changes
 
 - Updated dependencies [9fa225f]
-  - @pancakeswap/tokens@0.7.1
+  - @tankswap/tokens@0.7.1
 
 ## 2.0.1
 
@@ -69,8 +69,8 @@
 
 - Updated dependencies [6a6acdb]
 - Updated dependencies [77db844]
-  - @pancakeswap/chains@0.5.0
-  - @pancakeswap/tokens@0.7.0
+  - @tankswap/chains@0.5.0
+  - @tankswap/tokens@0.7.0
 
 ## 2.0.0
 
@@ -80,7 +80,7 @@
 
 ### Patch Changes
 
-- @pancakeswap/tokens@0.6.29
+- @tankswap/tokens@0.6.29
 
 ## 1.1.4
 
@@ -88,22 +88,22 @@
 
 - Updated dependencies [176eb10]
 - Updated dependencies [176eb10]
-  - @pancakeswap/swap-sdk-core@1.3.0
-  - @pancakeswap/tokens@0.6.28
+  - @tankswap/swap-sdk-core@1.3.0
+  - @tankswap/tokens@0.6.28
 
 ## 1.1.3
 
 ### Patch Changes
 
 - Updated dependencies [8218dbf]
-  - @pancakeswap/tokens@0.6.27
+  - @tankswap/tokens@0.6.27
 
 ## 1.1.2
 
 ### Patch Changes
 
 - Updated dependencies [72fb1db]
-  - @pancakeswap/tokens@0.6.26
+  - @tankswap/tokens@0.6.26
 
 ## 1.1.1
 
@@ -120,7 +120,7 @@
 ### Patch Changes
 
 - Updated dependencies [6d4ecf0]
-  - @pancakeswap/tokens@0.6.25
+  - @tankswap/tokens@0.6.25
 
 ## 1.0.16
 
@@ -129,15 +129,15 @@
 - 103dd63: List USDT-BITU stable pool
 - Updated dependencies [103dd63]
 - Updated dependencies [c6e9e02]
-  - @pancakeswap/tokens@0.6.24
+  - @tankswap/tokens@0.6.24
 
 ## 1.0.15
 
 ### Patch Changes
 
 - Updated dependencies [f551e5e]
-  - @pancakeswap/swap-sdk-core@1.2.0
-  - @pancakeswap/tokens@0.6.23
+  - @tankswap/swap-sdk-core@1.2.0
+  - @tankswap/tokens@0.6.23
 
 ## 1.0.14
 
@@ -145,15 +145,15 @@
 
 - Updated dependencies [4628ab7]
 - Updated dependencies [8f573cf]
-  - @pancakeswap/tokens@0.6.22
+  - @tankswap/tokens@0.6.22
 
 ## 1.0.13
 
 ### Patch Changes
 
 - Updated dependencies [9a16780]
-  - @pancakeswap/chains@0.4.6
-  - @pancakeswap/tokens@0.6.21
+  - @tankswap/chains@0.4.6
+  - @tankswap/tokens@0.6.21
 
 ## 1.0.12
 
@@ -162,22 +162,22 @@
 - Updated dependencies [b9c91d1]
 - Updated dependencies [5fa28e0]
 - Updated dependencies [95cfa0c]
-  - @pancakeswap/chains@0.4.5
-  - @pancakeswap/tokens@0.6.20
+  - @tankswap/chains@0.4.5
+  - @tankswap/tokens@0.6.20
 
 ## 1.0.11
 
 ### Patch Changes
 
-- @pancakeswap/tokens@0.6.19
+- @tankswap/tokens@0.6.19
 
 ## 1.0.10
 
 ### Patch Changes
 
 - Updated dependencies [edf4640]
-  - @pancakeswap/chains@0.4.4
-  - @pancakeswap/tokens@0.6.18
+  - @tankswap/chains@0.4.4
+  - @tankswap/tokens@0.6.18
 
 ## 1.0.9
 
@@ -186,7 +186,7 @@
 - Updated dependencies [b57fd91]
 - Updated dependencies [755bb18]
 - Updated dependencies [502d961]
-  - @pancakeswap/tokens@0.6.17
+  - @tankswap/tokens@0.6.17
 
 ## 1.0.8
 
@@ -194,7 +194,7 @@
 
 - Updated dependencies [b20f210]
 - Updated dependencies [9bef4cd]
-  - @pancakeswap/tokens@0.6.16
+  - @tankswap/tokens@0.6.16
 
 ## 1.0.7
 
@@ -202,15 +202,15 @@
 
 - Updated dependencies [0f4281c]
 - Updated dependencies [63a63d8]
-  - @pancakeswap/chains@0.4.3
-  - @pancakeswap/tokens@0.6.15
+  - @tankswap/chains@0.4.3
+  - @tankswap/tokens@0.6.15
 
 ## 1.0.6
 
 ### Patch Changes
 
 - Updated dependencies [e8c58b7]
-  - @pancakeswap/tokens@0.6.14
+  - @tankswap/tokens@0.6.14
 
 ## 1.0.5
 
@@ -218,7 +218,7 @@
 
 - b4a1d82: Add wBETH mwBETH stable pair
 - Updated dependencies [b4a1d82]
-  - @pancakeswap/tokens@0.6.13
+  - @tankswap/tokens@0.6.13
 
 ## 1.0.4
 
@@ -226,29 +226,29 @@
 
 - Updated dependencies [72c834c]
 - Updated dependencies [d4283e5]
-  - @pancakeswap/chains@0.4.2
-  - @pancakeswap/tokens@0.6.12
+  - @tankswap/chains@0.4.2
+  - @tankswap/tokens@0.6.12
 
 ## 1.0.3
 
 ### Patch Changes
 
 - Updated dependencies [30ef48c]
-  - @pancakeswap/tokens@0.6.11
+  - @tankswap/tokens@0.6.11
 
 ## 1.0.2
 
 ### Patch Changes
 
 - Updated dependencies [d7586b8]
-  - @pancakeswap/tokens@0.6.10
+  - @tankswap/tokens@0.6.10
 
 ## 1.0.1
 
 ### Patch Changes
 
 - Updated dependencies [e26505f]
-  - @pancakeswap/tokens@0.6.9
+  - @tankswap/tokens@0.6.9
 
 ## 1.0.0
 

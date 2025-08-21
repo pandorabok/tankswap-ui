@@ -1,4 +1,4 @@
-import { PoolKey } from '@pancakeswap/infinity-sdk'
+import { PoolKey } from '@tankswap/infinity-sdk'
 import { Address, Hex, Prettify } from 'viem'
 
 export const CREATE_LIQUIDITY_FEE_TIERS = ['static', 'dynamic'] as const

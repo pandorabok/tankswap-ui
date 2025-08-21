@@ -1,5 +1,5 @@
 {
-  "name": "@pancakeswap/swap-sdk-core",
+  "name": "@tankswap/swap-sdk-core",
   "license": "MIT",
   "version": "1.5.0",
   "description": "🛠 An SDK for building applications on top of Pancakeswap.",
@@ -19,11 +19,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pancakeswap/pancake-frontend.git",
+    "url": "https://github.com/tankswap/tank-frontend.git",
     "directory": "packages/swap-sdk"
   },
   "keywords": [
-    "pancakeswap"
+    "tankswap"
   ],
   "scripts": {
     "lint": "eslint src test",

@@ -1,4 +1,4 @@
-import { Box, Card, CardBody, CardHeader, FlexGap, Spinner } from '@pancakeswap/uikit'
+import { Box, Card, CardBody, CardHeader, FlexGap, Spinner } from '@tankswap/uikit'
 import { styled } from 'styled-components'
 
 import { useMemo } from 'react'

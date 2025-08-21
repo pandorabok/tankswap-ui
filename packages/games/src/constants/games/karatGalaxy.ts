@@ -17,18 +17,18 @@ export const karatGalaxy: GameType = {
     TrendingTagType.Multiplayer,
     TrendingTagType.CakeToken,
   ],
-  headerImage: 'https://statics.karatgalaxy.io/pancakeswap-game-landing/header.jpg',
+  headerImage: 'https://statics.karatgalaxy.io/tankswap-game-landing/header.jpg',
   headerIconImage: {
-    desktop: 'https://statics.karatgalaxy.io/pancakeswap-game-landing/header-icon.png',
-    mobile: 'https://statics.karatgalaxy.io/pancakeswap-game-landing/header-icon.png',
+    desktop: 'https://statics.karatgalaxy.io/tankswap-game-landing/header-icon.png',
+    mobile: 'https://statics.karatgalaxy.io/tankswap-game-landing/header-icon.png',
   },
   projectLogo: {
-    lightTheme: 'https://statics.karatgalaxy.io/pancakeswap-game-landing/logo.svg',
-    darkTheme: 'https://statics.karatgalaxy.io/pancakeswap-game-landing/logo.svg',
+    lightTheme: 'https://statics.karatgalaxy.io/tankswap-game-landing/logo.svg',
+    darkTheme: 'https://statics.karatgalaxy.io/tankswap-game-landing/logo.svg',
   },
   projectCircleLogo: {
-    lightTheme: 'https://statics.karatgalaxy.io/pancakeswap-game-landing/circle-logo.png',
-    darkTheme: 'https://statics.karatgalaxy.io/pancakeswap-game-landing/circle-logo.png',
+    lightTheme: 'https://statics.karatgalaxy.io/tankswap-game-landing/circle-logo.png',
+    darkTheme: 'https://statics.karatgalaxy.io/tankswap-game-landing/circle-logo.png',
   },
   gameLink: {
     playNowLink: 'https://statics.karatgalaxy.io/',
@@ -38,32 +38,32 @@ export const karatGalaxy: GameType = {
     items: [
       {
         type: PostersItemDataType.Video,
-        image: 'https://statics.karatgalaxy.io/pancakeswap-game-landing/movie_v1.png',
-        video: 'https://statics.karatgalaxy.io/pancakeswap-game-landing/movie.mp4',
+        image: 'https://statics.karatgalaxy.io/tankswap-game-landing/movie_v1.png',
+        video: 'https://statics.karatgalaxy.io/tankswap-game-landing/movie.mp4',
       },
       {
         type: PostersItemDataType.Image,
-        image: 'https://statics.karatgalaxy.io/pancakeswap-game-landing/1.png',
+        image: 'https://statics.karatgalaxy.io/tankswap-game-landing/1.png',
       },
       {
         type: PostersItemDataType.Image,
-        image: 'https://statics.karatgalaxy.io/pancakeswap-game-landing/2.png',
+        image: 'https://statics.karatgalaxy.io/tankswap-game-landing/2.png',
       },
       {
         type: PostersItemDataType.Image,
-        image: 'https://statics.karatgalaxy.io/pancakeswap-game-landing/3.png',
+        image: 'https://statics.karatgalaxy.io/tankswap-game-landing/3.png',
       },
       {
         type: PostersItemDataType.Image,
-        image: 'https://statics.karatgalaxy.io/pancakeswap-game-landing/4.png',
+        image: 'https://statics.karatgalaxy.io/tankswap-game-landing/4.png',
       },
       {
         type: PostersItemDataType.Image,
-        image: 'https://statics.karatgalaxy.io/pancakeswap-game-landing/5.png',
+        image: 'https://statics.karatgalaxy.io/tankswap-game-landing/5.png',
       },
       {
         type: PostersItemDataType.Image,
-        image: 'https://statics.karatgalaxy.io/pancakeswap-game-landing/6.png',
+        image: 'https://statics.karatgalaxy.io/tankswap-game-landing/6.png',
       },
     ],
   },

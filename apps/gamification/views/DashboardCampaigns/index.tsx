@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { useTranslation } from '@pancakeswap/localization'
+import { ChainId } from '@tankswap/chains'
+import { useTranslation } from '@tankswap/localization'
 import { defaultValueChains } from 'components/NetworkMultiSelector'
 import { useState } from 'react'
 import { Records } from 'views/DashboardCampaigns/components/Records'

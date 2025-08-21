@@ -1,5 +1,5 @@
-import { ChainId, NonEVMChainId, UnifiedChainId } from '@pancakeswap/chains'
-import { Native, NativeCurrency, SOL, UnifiedNativeCurrency } from '@pancakeswap/sdk'
+import { ChainId, NonEVMChainId, UnifiedChainId } from '@tankswap/chains'
+import { Native, NativeCurrency, SOL, UnifiedNativeCurrency } from '@tankswap/sdk'
 import { atom } from 'jotai'
 import { atomFamily } from 'jotai/utils'
 import { useMemo } from 'react'

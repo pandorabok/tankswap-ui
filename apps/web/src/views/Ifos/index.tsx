@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
-import { useModal } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { useModal } from '@tankswap/uikit'
+import { useTranslation } from '@tankswap/localization'
 import { useUserNotUsCitizenAcknowledgement, IdType } from 'hooks/useUserIsUsCitizenAcknowledgement'
 import USCitizenConfirmModal from 'components/Modal/USCitizenConfirmModal'
 import Hero from './components/Hero'

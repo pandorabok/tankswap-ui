@@ -1,9 +1,9 @@
-import { ChainId } from '@pancakeswap/chains'
-import { RowType } from '@pancakeswap/uikit'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
-import { formatBigInt, getBalanceNumber } from '@pancakeswap/utils/formatBalance'
-import latinise from '@pancakeswap/utils/latinise'
-import { FarmWidget } from '@pancakeswap/widgets-internal'
+import { ChainId } from '@tankswap/chains'
+import { RowType } from '@tankswap/uikit'
+import { BIG_ZERO } from '@tankswap/utils/bigNumber'
+import { formatBigInt, getBalanceNumber } from '@tankswap/utils/formatBalance'
+import latinise from '@tankswap/utils/latinise'
+import { FarmWidget } from '@tankswap/widgets-internal'
 import BigNumber from 'bignumber.js'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useRouter } from 'next/router'
@@ -160,7 +160,7 @@ const FarmTable: React.FC<React.PropsWithChildren<ITableProps>> = ({ farms, cake
       const { token, quoteToken } = farm
       const tokenAddress = token.address
       const quoteTokenAddress = quoteToken.address
-      const lpLabel = farm.lpSymbol && farm.lpSymbol.replace(/pancake/gi, '')
+      const lpLabel = farm.lpSymbol && farm.lpSymbol.replace(/tank/gi, '')
       const lowercaseQuery = latinise(typeof query?.search === 'string' ? query.search.toLowerCase() : '')
       const initialActivity = latinise(lpLabel?.toLowerCase()) === lowercaseQuery
 

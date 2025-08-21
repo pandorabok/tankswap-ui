@@ -1,5 +1,5 @@
-import { Trans } from '@pancakeswap/localization'
-import { Card, CardBody, CardHeader, Heading, Container, Link, Text, Box } from '@pancakeswap/uikit'
+import { Trans } from '@tankswap/localization'
+import { Card, CardBody, CardHeader, Heading, Container, Link, Text, Box } from '@tankswap/uikit'
 import { styled } from 'styled-components'
 import FoldableText from 'components/FoldableSection/FoldableText'
 import useIfo from '../../hooks/useIfo'
@@ -54,12 +54,12 @@ const DefaultQuestions: React.FC = () => {
               <StyledLink
                 key="user"
                 external
-                href="https://docs.pancakeswap.finance/~/revisions/ptnCgCMnEEgu5A8YulQ0/earn/ifo-initial-farm-offering/faq-users"
+                href="https://docs.tankswap.finance/~/revisions/ptnCgCMnEEgu5A8YulQ0/earn/ifo-initial-farm-offering/faq-users"
               />,
               <StyledLink
                 key="partner"
                 external
-                href="https://docs.pancakeswap.finance/~/revisions/ptnCgCMnEEgu5A8YulQ0/earn/ifo-initial-farm-offering/faq-partners"
+                href="https://docs.tankswap.finance/~/revisions/ptnCgCMnEEgu5A8YulQ0/earn/ifo-initial-farm-offering/faq-partners"
               />,
             ]}
             defaults="<p>More details: <br /><0>User FAQ</0> | <1>Partner FAQ</1></p>"
@@ -85,7 +85,7 @@ const DefaultQuestions: React.FC = () => {
             components={[
               <StyledLink
                 external
-                href="https://pancakeswap.finance/voting/proposal/0x79ef496c9737e48d9677a6e291ff2a549dee6729c9996398e453af8ecbf0ceb3"
+                href="https://tankswap.finance/voting/proposal/0x79ef496c9737e48d9677a6e291ff2a549dee6729c9996398e453af8ecbf0ceb3"
               />,
               <StyledLink
                 external
@@ -115,7 +115,7 @@ const DefaultQuestions: React.FC = () => {
               components={[
                 <Link
                   external
-                  href="https://docs.pancakeswap.finance/~/revisions/ptnCgCMnEEgu5A8YulQ0/earn/ifo-initial-farm-offering/ifo-guide"
+                  href="https://docs.tankswap.finance/~/revisions/ptnCgCMnEEgu5A8YulQ0/earn/ifo-initial-farm-offering/ifo-guide"
                 />,
               ]}
               defaults="<p>More info: <0>User Guide</0></p>"
@@ -142,7 +142,7 @@ const DefaultQuestions: React.FC = () => {
               components={[
                 <Link
                   external
-                  href="https://docs.pancakeswap.finance/~/revisions/ptnCgCMnEEgu5A8YulQ0/earn/ifo-initial-farm-offering/how-ifo-taxes-work-in-overflow-sales-with-example"
+                  href="https://docs.tankswap.finance/~/revisions/ptnCgCMnEEgu5A8YulQ0/earn/ifo-initial-farm-offering/how-ifo-taxes-work-in-overflow-sales-with-example"
                 />,
               ]}
               defaults="<p>More info: <0>Fee Table</0></p>"
@@ -194,7 +194,7 @@ const DefaultQuestions: React.FC = () => {
               components={[
                 <Link
                   external
-                  href="https://docs.pancakeswap.finance/~/revisions/ptnCgCMnEEgu5A8YulQ0/earn/ifo-initial-farm-offering/how-ifo-taxes-work-in-overflow-sales-with-example"
+                  href="https://docs.tankswap.finance/~/revisions/ptnCgCMnEEgu5A8YulQ0/earn/ifo-initial-farm-offering/how-ifo-taxes-work-in-overflow-sales-with-example"
                 />,
               ]}
               defaults="<p>More info: <0>Overflow & Allocation Example</0></p>"
@@ -248,10 +248,10 @@ const DefaultQuestions: React.FC = () => {
           <Box mt="1rem">
             <Trans
               components={[
-                <StyledLink external href="https://pancakeswap.notion.site/ifo-terms" />,
+                <StyledLink external href="https://tankswap.notion.site/ifo-terms" />,
                 <StyledLink
                   external
-                  href="https://docs.pancakeswap.finance/~/revisions/ptnCgCMnEEgu5A8YulQ0/earn/ifo-initial-farm-offering/faq-partners"
+                  href="https://docs.tankswap.finance/~/revisions/ptnCgCMnEEgu5A8YulQ0/earn/ifo-initial-farm-offering/faq-partners"
                 />,
               ]}
               defaults="<p>For more info: <br /><0>IFO Partner Terms</0> | <1>Partner FAQ</1></p>"

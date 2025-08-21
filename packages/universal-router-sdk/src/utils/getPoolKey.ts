@@ -5,8 +5,8 @@ import {
   DYNAMIC_FEE_FLAG,
   isDynamicFeeHook,
   PoolKey,
-} from '@pancakeswap/infinity-sdk'
-import { InfinityBinPool, InfinityClPool, SmartRouter } from '@pancakeswap/smart-router'
+} from '@tankswap/infinity-sdk'
+import { InfinityBinPool, InfinityClPool, SmartRouter } from '@tankswap/smart-router'
 import { zeroAddress } from 'viem'
 import { currencyAddressInfinity } from './currencyAddressInfinity'
 

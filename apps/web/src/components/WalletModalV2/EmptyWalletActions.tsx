@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { ArrowForwardIcon, Box, FlexGap, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { ArrowForwardIcon, Box, FlexGap, Text } from '@tankswap/uikit'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import { useRouter } from 'next/router'
 import React from 'react'

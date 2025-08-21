@@ -1,5 +1,5 @@
-import { Trans, useTranslation } from '@pancakeswap/localization'
-import { FlexGap, InfoIcon, Text, useTooltip } from '@pancakeswap/uikit'
+import { Trans, useTranslation } from '@tankswap/localization'
+import { FlexGap, InfoIcon, Text, useTooltip } from '@tankswap/uikit'
 import { ReactNode } from 'react'
 import { styled } from 'styled-components'
 import type { IFOStatus } from '../../hooks/ifo/useIFOStatus'

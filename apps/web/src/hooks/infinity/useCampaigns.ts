@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@tankswap/chains'
 import { useQueries, useQuery } from '@tanstack/react-query'
 import { QUERY_SETTINGS_IMMUTABLE } from 'config/constants'
 import groupBy from 'lodash/groupBy'
@@ -29,7 +29,7 @@ export const fetchCampaignsByPoolIds = async ({
   }
   const { data } = await rewardApiClient.GET('/farms/campaigns/{chainId}/{includeInactive}', {
     // @todo @ChefJerry remove this after the backend is ready
-    baseUrl: chainId === ChainId.BSC_TESTNET ? 'https://test.v4.pancakeswap.com/' : 'https://infinity.pancakeswap.com/',
+    baseUrl: chainId === ChainId.BSC_TESTNET ? 'https://test.v4.tankswap.com/' : 'https://infinity.tankswap.com/',
     params: {
       path: {
         chainId,
@@ -73,7 +73,7 @@ const fetchCampaignsByPageNo = async ({
 }) => {
   const { data } = await rewardApiClient.GET('/farms/campaigns/{chainId}/{includeInactive}', {
     // @todo @ChefJerry remove this after the backend is ready
-    baseUrl: chainId === ChainId.BSC_TESTNET ? 'https://test.v4.pancakeswap.com/' : 'https://infinity.pancakeswap.com/',
+    baseUrl: chainId === ChainId.BSC_TESTNET ? 'https://test.v4.tankswap.com/' : 'https://infinity.tankswap.com/',
     params: {
       path: {
         chainId,

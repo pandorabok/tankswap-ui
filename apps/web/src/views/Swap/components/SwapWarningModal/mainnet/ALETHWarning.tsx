@@ -1,5 +1,5 @@
-import { Link, Text, Box } from '@pancakeswap/uikit'
-import { useTranslation, Trans } from '@pancakeswap/localization'
+import { Link, Text, Box } from '@tankswap/uikit'
+import { useTranslation, Trans } from '@tankswap/localization'
 
 const ALETHWarning = () => {
   const { t } = useTranslation()

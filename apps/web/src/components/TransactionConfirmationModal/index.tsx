@@ -1,7 +1,7 @@
-import { ChainId } from '@pancakeswap/chains'
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency, Token } from '@pancakeswap/sdk'
-import { WrappedTokenInfo } from '@pancakeswap/token-lists'
+import { ChainId } from '@tankswap/chains'
+import { useTranslation } from '@tankswap/localization'
+import { Currency, Token } from '@tankswap/sdk'
+import { WrappedTokenInfo } from '@tankswap/token-lists'
 import {
   ArrowUpIcon,
   AutoColumn,
@@ -13,8 +13,8 @@ import {
   Modal,
   ModalProps,
   Text,
-} from '@pancakeswap/uikit'
-import { ConfirmationPendingContent, TransactionErrorContent } from '@pancakeswap/widgets-internal'
+} from '@tankswap/uikit'
+import { ConfirmationPendingContent, TransactionErrorContent } from '@tankswap/widgets-internal'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useCallback, useMemo } from 'react'
 import { styled } from 'styled-components'

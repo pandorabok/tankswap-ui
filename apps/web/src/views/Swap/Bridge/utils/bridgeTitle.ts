@@ -1,4 +1,4 @@
-import { TranslateFunction } from '@pancakeswap/localization'
+import { TranslateFunction } from '@tankswap/localization'
 import { BridgeStatus } from '../types'
 
 export const getBridgeTitle = (t: TranslateFunction, status?: BridgeStatus) => {

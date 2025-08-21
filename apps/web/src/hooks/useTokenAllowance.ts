@@ -1,4 +1,4 @@
-import { CurrencyAmount, Token } from '@pancakeswap/sdk'
+import { CurrencyAmount, Token } from '@tankswap/sdk'
 import { useMemo } from 'react'
 import { erc20Abi } from 'viem'
 

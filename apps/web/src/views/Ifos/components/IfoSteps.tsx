@@ -1,4 +1,4 @@
-import { ChainId, Currency, CurrencyAmount } from '@pancakeswap/sdk'
+import { ChainId, Currency, CurrencyAmount } from '@tankswap/sdk'
 import {
   Balance,
   Box,
@@ -17,14 +17,14 @@ import {
   StepStatus,
   Stepper,
   Text,
-} from '@pancakeswap/uikit'
-import { Ifo, NextLinkFromReactRouter as RouterLink } from '@pancakeswap/widgets-internal'
+} from '@tankswap/uikit'
+import { Ifo, NextLinkFromReactRouter as RouterLink } from '@tankswap/widgets-internal'
 import every from 'lodash/every'
 import { ReactNode, useMemo } from 'react'
 import { styled } from 'styled-components'
 import { useAccount } from 'wagmi'
 
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import { useCakePrice } from 'hooks/useCakePrice'
 import { useProfile } from 'state/profile/hooks'
@@ -132,7 +132,7 @@ const Step1 = ({
           fontWeight={700}
           color="textSubtle"
           small
-          href="https://docs.pancakeswap.finance/products/ifo-initial-farm-offering/icake#how-is-icake-calculated"
+          href="https://docs.tankswap.finance/products/ifo-initial-farm-offering/icake#how-is-icake-calculated"
         >
           {t('How is the number of iCAKE calculated?')}
         </Link>

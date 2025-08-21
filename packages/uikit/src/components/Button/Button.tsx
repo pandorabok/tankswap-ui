@@ -13,8 +13,8 @@ const Button = <E extends ElementType = "button">(props: ButtonProps<E>): JSX.El
     <StyledButton
       $isLoading={isLoading}
       className={clsx(className, {
-        "pancake-button--loading": isLoading,
-        "pancake-button--disabled": isDisabled && !isLoading,
+        "tank-button--loading": isLoading,
+        "tank-button--disabled": isDisabled && !isLoading,
       })}
       disabled={isDisabled}
       {...internalProps}

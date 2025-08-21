@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Flex, InfoIcon, Text, useTooltip } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Flex, InfoIcon, Text, useTooltip } from '@tankswap/uikit'
 import { styled } from 'styled-components'
 
 const Container = styled(Flex)`

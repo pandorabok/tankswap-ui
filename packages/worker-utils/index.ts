@@ -1,14 +1,14 @@
 export const CORS_ALLOW = [
-  /\.pancake\.run$/,
-  /\.pancakeswap\.finance$/,
-  /\.pancakeswap\.games$/,
-  /\.pancakeswap\.com$/,
-  'https://pancakeswap.finance',
-  'https://pancakeswap.games',
-  'https://pancakeswap.com',
+  /\.tank\.run$/,
+  /\.tankswap\.finance$/,
+  /\.tankswap\.games$/,
+  /\.tankswap\.com$/,
+  'https://tankswap.finance',
+  'https://tankswap.games',
+  'https://tankswap.com',
   'https://tgqa.noahlabs.tech',
   'https://tgqa2.noahlabs.tech',
-  'https://tg-bot.pancakeswap.ai',
+  'https://tg-bot.tankswap.ai',
   /^http:\/\/localhost(:\d+)?$/,
 ]
 

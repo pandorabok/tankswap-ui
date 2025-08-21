@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { AddIcon, Button, IconButton, MinusIcon } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { AddIcon, Button, IconButton, MinusIcon } from '@tankswap/uikit'
 
 type StakeActionsProps = {
   increaseDisabled?: boolean

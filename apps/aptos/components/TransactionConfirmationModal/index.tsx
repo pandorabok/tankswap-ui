@@ -1,6 +1,6 @@
 // TODO: aptos merge
-import { ChainId, Currency } from '@pancakeswap/aptos-swap-sdk'
-import { useTranslation } from '@pancakeswap/localization'
+import { ChainId, Currency } from '@tankswap/aptos-swap-sdk'
+import { useTranslation } from '@tankswap/localization'
 import {
   AptosIcon,
   ArrowUpIcon,
@@ -12,8 +12,8 @@ import {
   ModalProps,
   ScanLink,
   Text,
-} from '@pancakeswap/uikit'
-import { ConfirmationPendingContent } from '@pancakeswap/widgets-internal'
+} from '@tankswap/uikit'
+import { ConfirmationPendingContent } from '@tankswap/widgets-internal'
 import { useCallback } from 'react'
 import { styled } from 'styled-components'
 import { getBlockExploreLink } from 'utils'

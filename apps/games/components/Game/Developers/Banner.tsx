@@ -1,6 +1,6 @@
-import { useTheme } from '@pancakeswap/hooks'
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Button, Flex, Link, PageSection, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useTheme } from '@tankswap/hooks'
+import { useTranslation } from '@tankswap/localization'
+import { Box, Button, Flex, Link, PageSection, Text, useMatchBreakpoints } from '@tankswap/uikit'
 import { floatingStarsLeft } from 'components/Game/DecorationsAnimation'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import Image from 'next/image'
@@ -123,7 +123,7 @@ export const Banner = () => {
             <Link external href="https://forms.gle/WXDhmbfRhQtz4eSt7">
               <Button>{t('Start Building')}</Button>
             </Link>
-            <Link external href="https://docs.pancakeswap.finance/products/gaming-platform">
+            <Link external href="https://docs.tankswap.finance/products/gaming-platform">
               <Button ml="12px" variant="secondary">
                 {`${t('Learn More')}`}
               </Button>

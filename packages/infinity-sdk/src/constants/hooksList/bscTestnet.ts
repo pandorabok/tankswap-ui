@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@tankswap/chains'
 
 import { HOOK_CATEGORY, POOL_TYPE, type HookData, type PoolType } from '../../types'
 import { BIN_DYNAMIC_FEE_HOOKS_BY_CHAIN, CL_DYNAMIC_FEE_HOOKS_BY_CHAIN } from './dynamicFeeHook'
@@ -45,8 +45,8 @@ export const bscTestnetHooksList: HookData[] = [
       'This multi-feature contract allows for liquidity locks, TWAMM (Time weighted average market maker), and impermanent loss hedging on pools. Check the Github readme for more details.',
     github: 'https://testnet.bscscan.com/address/0x0A6440c9cfb5f28BE699a9e4e83BF8A89de72498',
     category: [HOOK_CATEGORY.Oracle, HOOK_CATEGORY.JIT, HOOK_CATEGORY.Others],
-    creator: 'https://github.com/pancakeswap',
-    audit: 'https://github.com/pancakeswap',
+    creator: 'https://github.com/tankswap',
+    audit: 'https://github.com/tankswap',
     isVerified: true,
     isUpgradable: false,
     hooksRegistration: {

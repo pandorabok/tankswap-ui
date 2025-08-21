@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { IconButton, useTooltip, BridgeIcon } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { IconButton, useTooltip, BridgeIcon } from '@tankswap/uikit'
 
 interface BridgeInfo {
   platform: string
@@ -11,7 +11,7 @@ export const bridgeInfo: BridgeInfo[] = [
   {
     platform: 'Pancake Bridge',
     symbol: 'CAKE',
-    url: 'https://bridge.pancakeswap.finance/aptos',
+    url: 'https://bridge.tankswap.finance/aptos',
   },
   {
     platform: 'LayerZero Bridge',

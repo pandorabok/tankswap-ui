@@ -1,6 +1,6 @@
-import { useTranslation } from "@pancakeswap/localization";
-import { formatAmount } from "@pancakeswap/utils/formatInfoNumbers";
-import { useTooltip, RowBetween, TooltipText, Text } from "@pancakeswap/uikit";
+import { useTranslation } from "@tankswap/localization";
+import { formatAmount } from "@tankswap/utils/formatInfoNumbers";
+import { useTooltip, RowBetween, TooltipText, Text } from "@tankswap/uikit";
 
 export default function AprRow({ lpApr7d }: { lpApr7d: number }) {
   const { t } = useTranslation();

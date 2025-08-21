@@ -1,8 +1,8 @@
 /* eslint-disable camelcase, @typescript-eslint/no-non-null-assertion */
-import { ChainId } from '@pancakeswap/chains'
-import { multicallByGasLimit } from '@pancakeswap/multicall'
-import { BigintIsh } from '@pancakeswap/sdk'
-import { AbortControl } from '@pancakeswap/utils/abortControl'
+import { ChainId } from '@tankswap/chains'
+import { multicallByGasLimit } from '@tankswap/multicall'
+import { BigintIsh } from '@tankswap/sdk'
+import { AbortControl } from '@tankswap/utils/abortControl'
 import stats from 'stats-lite'
 import { PublicClient, decodeFunctionResult, encodeFunctionData } from 'viem'
 

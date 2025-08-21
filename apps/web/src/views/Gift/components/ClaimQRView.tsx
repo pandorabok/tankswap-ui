@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { CurrencyAmount, NativeCurrency, Token } from '@pancakeswap/sdk'
-import { Box, Card, Flex, FlexGap, Image, LogoIcon, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { CurrencyAmount, NativeCurrency, Token } from '@tankswap/sdk'
+import { Box, Card, Flex, FlexGap, Image, LogoIcon, Text, useMatchBreakpoints } from '@tankswap/uikit'
 import { SecondaryCard } from 'components/SecondaryCard'
 import { QRCodeSVG } from 'qrcode.react'
 import styled from 'styled-components'
@@ -106,7 +106,7 @@ export function QRView({
         level="H"
         includeMargin
         imageSettings={{
-          src: '/images/tokens/pancakeswap-token.png',
+          src: '/images/tokens/tankswap-token.png',
           x: undefined,
           y: undefined,
           height: 48,

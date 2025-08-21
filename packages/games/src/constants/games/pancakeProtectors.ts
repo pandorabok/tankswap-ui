@@ -1,7 +1,7 @@
 import { GameType, GenreType, PostersItemDataType, PostersLayout, TrendingTagType } from '../../types'
 
-export const pancakeProtectors: GameType = {
-  id: 'pancake-protectors',
+export const tankProtectors: GameType = {
+  id: 'tank-protectors',
   projectName: 'Mobox',
   title: 'Pancake Protector',
   subTitle: 'Unlock the Power of CAKE and Perks for Pancake Squad and Bunnies Holders',
@@ -17,21 +17,21 @@ export const pancakeProtectors: GameType = {
     TrendingTagType.Multiplayer,
     TrendingTagType.CakeToken,
   ],
-  headerImage: 'https://pancakeprotectors.io/assets/pancakeswap-game-landing/header.jpeg',
+  headerImage: 'https://tankprotectors.io/assets/tankswap-game-landing/header.jpeg',
   headerIconImage: {
-    desktop: 'https://pancakeprotectors.io/assets/pancakeswap-game-landing/desktop-header-icon.png',
-    mobile: 'https://pancakeprotectors.io/assets/pancakeswap-game-landing/mobile-header-icon.png',
+    desktop: 'https://tankprotectors.io/assets/tankswap-game-landing/desktop-header-icon.png',
+    mobile: 'https://tankprotectors.io/assets/tankswap-game-landing/mobile-header-icon.png',
   },
   projectLogo: {
-    lightTheme: 'https://pancakeprotectors.io/assets/pancakeswap-game-landing/project-logo-light-theme.png',
-    darkTheme: 'https://pancakeprotectors.io/assets/pancakeswap-game-landing/project-logo-dark-theme.png',
+    lightTheme: 'https://tankprotectors.io/assets/tankswap-game-landing/project-logo-light-theme.png',
+    darkTheme: 'https://tankprotectors.io/assets/tankswap-game-landing/project-logo-dark-theme.png',
   },
   projectCircleLogo: {
-    lightTheme: 'https://pancakeprotectors.io/assets/pancakeswap-game-landing/mobox-circle-logo.png',
-    darkTheme: 'https://pancakeprotectors.io/assets/pancakeswap-game-landing/mobox-circle-logo.png',
+    lightTheme: 'https://tankprotectors.io/assets/tankswap-game-landing/mobox-circle-logo.png',
+    darkTheme: 'https://tankprotectors.io/assets/tankswap-game-landing/mobox-circle-logo.png',
   },
   gameLink: {
-    playNowLink: 'https://pancakeprotectors.io/',
+    playNowLink: 'https://tankprotectors.io/',
   },
   posters: {
     layout: PostersLayout.Vertical,
@@ -39,23 +39,23 @@ export const pancakeProtectors: GameType = {
       {
         type: PostersItemDataType.Video,
         video: 'https://www.mobox.io/download/Pancake_Protectors_Video.mp4',
-        image: 'https://pancakeprotectors.io/assets/pancakeswap-game-landing/5.png',
+        image: 'https://tankprotectors.io/assets/tankswap-game-landing/5.png',
       },
       {
         type: PostersItemDataType.Image,
-        image: 'https://pancakeprotectors.io/assets/pancakeswap-game-landing/1.png',
+        image: 'https://tankprotectors.io/assets/tankswap-game-landing/1.png',
       },
       {
         type: PostersItemDataType.Image,
-        image: 'https://pancakeprotectors.io/assets/pancakeswap-game-landing/2.jpg',
+        image: 'https://tankprotectors.io/assets/tankswap-game-landing/2.jpg',
       },
       {
         type: PostersItemDataType.Image,
-        image: 'https://pancakeprotectors.io/assets/pancakeswap-game-landing/3.png',
+        image: 'https://tankprotectors.io/assets/tankswap-game-landing/3.png',
       },
       {
         type: PostersItemDataType.Image,
-        image: 'https://pancakeprotectors.io/assets/pancakeswap-game-landing/4.png',
+        image: 'https://tankprotectors.io/assets/tankswap-game-landing/4.png',
       },
     ],
   },
@@ -87,6 +87,6 @@ export const pancakeProtectors: GameType = {
   ],
   socialMedia: {
     telegram: 'https://t.me/PancakeSwap/2991960',
-    discord: 'https://discord.gg/pancakeswap',
+    discord: 'https://discord.gg/tankswap',
   },
 }

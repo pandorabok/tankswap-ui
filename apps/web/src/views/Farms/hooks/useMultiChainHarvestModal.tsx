@@ -1,5 +1,5 @@
-import { Token } from '@pancakeswap/swap-sdk-core'
-import { useModal } from '@pancakeswap/uikit'
+import { Token } from '@tankswap/swap-sdk-core'
+import { useModal } from '@tankswap/uikit'
 import BigNumber from 'bignumber.js'
 import Cookie from 'js-cookie'
 import { useEffect, useState } from 'react'

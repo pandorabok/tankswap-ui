@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { Token } from '@pancakeswap/sdk'
+import { ChainId } from '@tankswap/chains'
+import { Token } from '@tankswap/sdk'
 import { Address } from 'viem'
 import { SupportedChainId } from './constants/supportedChains'
 

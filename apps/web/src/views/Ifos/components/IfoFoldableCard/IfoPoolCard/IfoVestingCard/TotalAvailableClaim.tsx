@@ -1,10 +1,10 @@
 import { useMemo } from 'react'
-import { Flex, Box, Text } from '@pancakeswap/uikit'
-import { NumberDisplay } from '@pancakeswap/widgets-internal'
+import { Flex, Box, Text } from '@tankswap/uikit'
+import { NumberDisplay } from '@tankswap/widgets-internal'
 import { TokenImage } from 'components/TokenImage'
 import { LightGreyCard } from 'components/Card'
-import { useTranslation } from '@pancakeswap/localization'
-import { Ifo } from '@pancakeswap/ifos'
+import { useTranslation } from '@tankswap/localization'
+import { Ifo } from '@tankswap/ifos'
 import BigNumber from 'bignumber.js'
 
 interface TotalAvailableClaimProps {

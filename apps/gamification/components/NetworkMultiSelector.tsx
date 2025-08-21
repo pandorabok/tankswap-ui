@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { Box, BoxProps, MultiSelect } from '@pancakeswap/uikit'
+import { ChainId } from '@tankswap/chains'
+import { Box, BoxProps, MultiSelect } from '@tankswap/uikit'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import { targetChains } from 'config/supportedChain'
 import { useCallback, useMemo } from 'react'

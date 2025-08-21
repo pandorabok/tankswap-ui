@@ -1,5 +1,5 @@
-import { Token } from '@pancakeswap/sdk'
-import { useReadContracts } from '@pancakeswap/wagmi'
+import { Token } from '@tankswap/sdk'
+import { useReadContracts } from '@tankswap/wagmi'
 import { useQueryClient } from '@tanstack/react-query'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useAtom } from 'jotai'

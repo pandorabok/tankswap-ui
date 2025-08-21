@@ -934,7 +934,7 @@ function j(h, e = {}) {
         // 顯示名稱，實際數據來自 window.TradingView 中的代幣地址
         interval: '15',
         fullscreen: !1,
-        library_path: 'https://assets.pancakeswap.finance/web/charts/charting_library/',
+        library_path: 'https://assets.tankswap.finance/web/charts/charting_library/',
         locale: 'en',
         datafeed: H({}, i),
         // 使用我們自己的 datafeed
@@ -952,8 +952,8 @@ function j(h, e = {}) {
   return new window.TradingView.widget(l)
 }
 function K(
-  h = 'https://assets.pancakeswap.finance/web/charts/charting_library/',
-  e = 'https://assets.pancakeswap.finance/web/charts/datafeeds/',
+  h = 'https://assets.tankswap.finance/web/charts/charting_library/',
+  e = 'https://assets.tankswap.finance/web/charts/datafeeds/',
 ) {
   return new Promise((t, o) => {
     const n = document.createElement('script')
@@ -994,4 +994,4 @@ export {
   G as getTradingView,
   K as loadTradingViewLibrary,
 }
-//# sourceMappingURL=pancakeswap-charting-library.es.js.map
+//# sourceMappingURL=tankswap-charting-library.es.js.map

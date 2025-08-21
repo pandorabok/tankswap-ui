@@ -1,4 +1,4 @@
-import { Flex } from '@pancakeswap/uikit'
+import { Flex } from '@tankswap/uikit'
 import Page from 'components/Layout/Page'
 import PageLoader from 'components/Loader/PageLoader'
 import { useEffect, useState } from 'react'
@@ -6,7 +6,7 @@ import { getNftsFromCollectionApi } from 'state/nftMarket/helpers'
 import { useGetCollection } from 'state/nftMarket/hooks'
 import { ApiResponseCollectionTokens, NftToken } from 'state/nftMarket/types'
 import { useGetCollectionDistributionPB } from 'views/Nft/market/hooks/useGetCollectionDistribution'
-import { pancakeBunniesAddress } from '../../../constants'
+import { tankBunniesAddress } from '../../../constants'
 import { usePancakeBunnyCheapestNft } from '../../../hooks/usePancakeBunnyCheapestNfts'
 import DetailsCard from '../shared/DetailsCard'
 import ManageNftsCard from '../shared/ManageNFTsCard'
@@ -21,7 +21,7 @@ interface IndividualPancakeBunnyPageProps {
 }
 
 const IndividualPancakeBunnyPage = (props: IndividualPancakeBunnyPageProps) => {
-  const collection = useGetCollection(pancakeBunniesAddress)
+  const collection = useGetCollection(tankBunniesAddress)
 
   if (!collection) {
     return <PageLoader />
@@ -33,7 +33,7 @@ const IndividualPancakeBunnyPage = (props: IndividualPancakeBunnyPageProps) => {
 const IndividualPancakeBunnyPageBase: React.FC<React.PropsWithChildren<IndividualPancakeBunnyPageProps>> = ({
   bunnyId,
 }) => {
-  const collection = useGetCollection(pancakeBunniesAddress)
+  const collection = useGetCollection(tankBunniesAddress)
   const totalBunnyCount = Number(collection?.totalSupply)
   const [nothingForSaleBunny, setNothingForSaleBunny] = useState<NftToken | null>(null)
   const [nftMetadata, setNftMetadata] = useState<ApiResponseCollectionTokens | null>(null)
@@ -47,7 +47,7 @@ const IndividualPancakeBunnyPageBase: React.FC<React.PropsWithChildren<Individua
 
   useEffect(() => {
     if (!nftMetadata) {
-      getNftsFromCollectionApi(pancakeBunniesAddress).then(
+      getNftsFromCollectionApi(tankBunniesAddress).then(
         (metadata) => {
           setNftMetadata(metadata)
         },
@@ -67,7 +67,7 @@ const IndividualPancakeBunnyPageBase: React.FC<React.PropsWithChildren<Individua
         name: nftMetadata.data[bunnyId].name,
         description: nftMetadata.data[bunnyId].description,
         collectionName: nftMetadata.data[bunnyId].collection.name,
-        collectionAddress: pancakeBunniesAddress,
+        collectionAddress: tankBunniesAddress,
         image: nftMetadata.data[bunnyId].image,
         attributes: [
           {
@@ -129,7 +129,7 @@ const IndividualPancakeBunnyPageBase: React.FC<React.PropsWithChildren<Individua
           ) : null}
           <PropertiesCard properties={properties ?? []} rarity={propertyRarity} />
           <DetailsCard
-            contractAddress={pancakeBunniesAddress}
+            contractAddress={tankBunniesAddress}
             ipfsJson={cheapestBunny?.marketData?.metadataUrl}
             rarity={propertyRarity?.bunnyId ?? 0}
             count={getBunnyIdCount() ?? 0}
@@ -138,7 +138,7 @@ const IndividualPancakeBunnyPageBase: React.FC<React.PropsWithChildren<Individua
         <ForSaleTableCard bunnyId={bunnyId} nftMetadata={nftMetadata} onSuccessSale={refreshCheapestNft} />
       </TwoColumnsContainer>
       <MoreFromThisCollection
-        collectionAddress={pancakeBunniesAddress}
+        collectionAddress={tankBunniesAddress}
         currentTokenName={cheapestBunny?.name || nothingForSaleBunny?.name}
       />
     </Page>

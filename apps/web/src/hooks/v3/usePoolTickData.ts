@@ -1,6 +1,6 @@
-import { Protocol } from '@pancakeswap/farms'
-import { Currency } from '@pancakeswap/sdk'
-import { FeeAmount, Pool, TICK_SPACINGS, tickToPrice } from '@pancakeswap/v3-sdk'
+import { Protocol } from '@tankswap/farms'
+import { Currency } from '@tankswap/sdk'
+import { FeeAmount, Pool, TICK_SPACINGS, tickToPrice } from '@tankswap/v3-sdk'
 import useAllTicksQuery, { TickData } from 'hooks/useAllTicksQuery'
 import { useMemo } from 'react'
 

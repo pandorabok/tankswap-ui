@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import chunk from '@pancakeswap/utils/chunk'
+import { ChainId } from '@tankswap/chains'
+import chunk from '@tankswap/utils/chunk'
 import { PublicClient, parseUnits } from 'viem'
 import { SerializedStableFarmConfig } from '../types'
 

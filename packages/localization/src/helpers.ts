@@ -1,8 +1,8 @@
 import { EN, languages } from './config/languages'
 
-const publicUrl = 'https://locales.pancakeswap.finance'
+const publicUrl = 'https://locales.tankswap.finance'
 
-export const LS_KEY = 'pancakeswap_language'
+export const LS_KEY = 'tankswap_language'
 
 export const fetchLocale = async (locale: string) => {
   const response = await fetch(`${publicUrl}/${locale}.json`)

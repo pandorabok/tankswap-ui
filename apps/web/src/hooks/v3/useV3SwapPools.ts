@@ -1,5 +1,5 @@
-import { Currency, Token } from '@pancakeswap/sdk'
-import { FeeAmount, Pool } from '@pancakeswap/v3-sdk'
+import { Currency, Token } from '@tankswap/sdk'
+import { FeeAmount, Pool } from '@tankswap/v3-sdk'
 import { useAllCurrencyCombinations } from 'hooks/Trades'
 import { useMemo } from 'react'
 import { PoolState } from './types'

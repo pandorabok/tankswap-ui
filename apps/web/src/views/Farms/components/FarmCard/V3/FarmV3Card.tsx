@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Card, ExpandableSectionButton, Flex, Text, TooltipText, useModalV2, useTooltip } from '@pancakeswap/uikit'
-import { FarmWidget } from '@pancakeswap/widgets-internal'
+import { useTranslation } from '@tankswap/localization'
+import { Card, ExpandableSectionButton, Flex, Text, TooltipText, useModalV2, useTooltip } from '@tankswap/uikit'
+import { FarmWidget } from '@tankswap/widgets-internal'
 import BigNumber from 'bignumber.js'
 import { CHAIN_QUERY_NAME } from 'config/chains'
 import { useActiveChainId } from 'hooks/useActiveChainId'
@@ -58,7 +58,7 @@ export const FarmV3Card: React.FC<React.PropsWithChildren<FarmCardProps>> = ({ f
 
   const farmCakePerSecond = getFarmCakePerSecond(farm.poolWeight)
 
-  const lpLabel = farm.lpSymbol && farm.lpSymbol.replace(/pancake/gi, '')
+  const lpLabel = farm.lpSymbol && farm.lpSymbol.replace(/tank/gi, '')
   const earnLabel = t('CAKE + Fees')
   const { lpAddress } = farm
   const isPromotedFarm = farm.token.symbol === 'CAKE'

@@ -1,7 +1,7 @@
 import { useProfile } from 'state/profile/hooks'
-import { Pool } from '@pancakeswap/widgets-internal'
+import { Pool } from '@tankswap/widgets-internal'
 import { useMemo } from 'react'
-import { Token } from '@pancakeswap/sdk'
+import { Token } from '@tankswap/sdk'
 
 export function useProfileRequirement(profileRequirement: Pool.DeserializedPool<Token>['profileRequirement']) {
   const { profile, hasActiveProfile } = useProfile()

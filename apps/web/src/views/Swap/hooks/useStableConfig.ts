@@ -1,5 +1,5 @@
-import { Currency, CurrencyAmount, ERC20Token } from '@pancakeswap/sdk'
-import { LegacyStableSwapPair } from '@pancakeswap/smart-router/legacy-router'
+import { Currency, CurrencyAmount, ERC20Token } from '@tankswap/sdk'
+import { LegacyStableSwapPair } from '@tankswap/smart-router/legacy-router'
 import { createContext, useContext, useMemo } from 'react'
 
 import { infoStableSwapABI } from 'config/abi/infoStableSwap'

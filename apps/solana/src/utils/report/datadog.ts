@@ -9,7 +9,7 @@ try {
     site: process.env.NEXT_PUBLIC_DD_RUM_SITE || '',
     forwardErrorsToLogs: true,
     sessionSampleRate: 100,
-    service: 'pancakeswap-web'
+    service: 'tankswap-web'
   })
 } catch (e) {
   console.error(e)
@@ -23,7 +23,7 @@ export function getLogger(name: string, config?: Partial<LogsInitConfiguration>)
   return datadogLogs.createLogger(name, {
     handler: process.env.NEXT_PUBLIC_VERCEL_ENV === 'production' ? 'http' : ['console', 'http'],
     context: {
-      service: `pancakeswap-web-${name}`,
+      service: `tankswap-web-${name}`,
       ...config
     }
   })

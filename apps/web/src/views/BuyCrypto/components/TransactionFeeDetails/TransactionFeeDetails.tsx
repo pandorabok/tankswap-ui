@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import type { Currency } from '@pancakeswap/swap-sdk-core'
+import { useTranslation } from '@tankswap/localization'
+import type { Currency } from '@tankswap/swap-sdk-core'
 import {
   ArrowDropDownIcon,
   ArrowDropUpIcon,
@@ -9,7 +9,7 @@ import {
   RowBetween,
   SkeletonText,
   Text,
-} from '@pancakeswap/uikit'
+} from '@tankswap/uikit'
 import { ChainLogo } from 'components/Logo/ChainLogo'
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { Field } from 'state/buyCrypto/actions'
@@ -27,7 +27,7 @@ import { FeeTypes, getNetworkFullName, providerFeeTypes } from '../../constants'
 import { BtcLogo } from '../OnRampProviderLogo/OnRampProviderLogo'
 import BuyCryptoTooltip from '../Tooltip/Tooltip'
 
-type FeeComponents = { providerFee: number; networkFee: number; pancakeFee: number }
+type FeeComponents = { providerFee: number; networkFee: number; tankFee: number }
 interface TransactionFeeDetailsProps {
   selectedQuote?: OnRampProviderQuote
   currency: Currency
@@ -93,7 +93,7 @@ export const TransactionFeeDetails = ({
                   {t('%fees%', {
                     fees: formatLocaleNumber({
                       number: selectedQuote
-                        ? selectedQuote?.providerFee + selectedQuote?.networkFee + selectedQuote?.pancakeFee
+                        ? selectedQuote?.providerFee + selectedQuote?.networkFee + selectedQuote?.tankFee
                         : 0,
                       locale,
                       options: { currency: selectedQuote?.fiatCurrency ?? 'USD', style: 'currency' },
@@ -159,7 +159,7 @@ const FeeItem = ({ feeTitle, quote }: { feeTitle: FeeTypes; quote: OnRampProvide
   } = {
     [FeeTypes.NetworkingFees]: (q) => q.networkFee,
     [FeeTypes.ProviderFees]: (q) => q.providerFee,
-    [FeeTypes.PancakeFees]: (q) => q.pancakeFee,
+    [FeeTypes.PancakeFees]: (q) => q.tankFee,
   }
 
   return (

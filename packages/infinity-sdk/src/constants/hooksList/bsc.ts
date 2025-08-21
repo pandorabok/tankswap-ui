@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@tankswap/chains'
 
 import { HOOK_CATEGORY, HookType, POOL_TYPE, type HookData, type PoolType } from '../../types'
 import { CL_DYNAMIC_FEE_HOOKS_BY_CHAIN } from './dynamicFeeHook'
@@ -9,12 +9,12 @@ export const CL_DYNAMIC_HOOK: HookData = {
   poolType: POOL_TYPE.CLAMM,
   description:
     'PancakeSwap’s Dynamic Fee Hook adjusts swap fees based on market volatility—penalizing arbitrageurs and rewarding LPs during turbulence, while keeping fees low in stable conditions for smoother trading.',
-  github: 'https://github.com/pancakeswap/infinity-dynamic-fee-hook',
-  learnMoreLink: 'https://docs.pancakeswap.finance/trade/pancakeswap-infinity/hooks/dynamic-fee-hook',
+  github: 'https://github.com/tankswap/infinity-dynamic-fee-hook',
+  learnMoreLink: 'https://docs.tankswap.finance/trade/tankswap-infinity/hooks/dynamic-fee-hook',
   category: [HOOK_CATEGORY.DynamicFees],
   isVerified: false,
   isUpgradable: false,
-  creator: 'https://github.com/pancakeswap/',
+  creator: 'https://github.com/tankswap/',
   defaultFee: 500,
   hooksRegistration: {
     afterInitialize: true,
@@ -52,7 +52,7 @@ export const bscHooksList: HookData[] = [
   //   address: '0x9c5554cCEa7F38c3337f017E8357C3eD62BF9885',
   //   name: 'CEX Whale Discount Hook (Primus)',
   //   description: `Prove your CEX 30-day spot trading volume exceeded $1M with zkTLS by Primus and get 50% off the pool fee. Create your proof here: https://hook.primuslabs.xyz/cexwhale . The proof is valid for 14 days.`,
-  //   github: 'https://github.com/primus-labs/pancakeswapv4-cex-trading-hooks',
+  //   github: 'https://github.com/primus-labs/tankswapv4-cex-trading-hooks',
   //   category: [HOOK_CATEGORY.PrimusDiscount, HOOK_CATEGORY.DynamicFees],
   //   creator: 'https://github.com/primus-labs/',
   //   audit: '',
@@ -77,10 +77,10 @@ export const bscHooksList: HookData[] = [
 (VIP 4) 35% discount if 20,000 CAKE < TWA <= 30,000 CAKE, 
 (VIP 5) 45% discount if TWA > 30,000 CAKE.
     `,
-    github: 'https://github.com/brevis-network/pancake-tokenholding-hook/tree/main',
+    github: 'https://github.com/brevis-network/tank-tokenholding-hook/tree/main',
     category: [HOOK_CATEGORY.BrevisDiscount, HOOK_CATEGORY.DynamicFees],
     creator: 'https://github.com/brevis-network',
-    audit: 'https://github.com/brevis-network/pancake-tokenholding-hook/tree/main/audits',
+    audit: 'https://github.com/brevis-network/tank-tokenholding-hook/tree/main/audits',
     isVerified: true,
     isUpgradable: true,
     hooksRegistration: {
@@ -149,10 +149,10 @@ export const bscHooksList: HookData[] = [
 (VIP 4) 35% discount if 20,000 CAKE < TWA <= 30,000 CAKE, 
 (VIP 5) 45% discount if TWA > 30,000 CAKE.
     `,
-    github: 'https://github.com/brevis-network/pancake-tokenholding-hook/tree/main',
+    github: 'https://github.com/brevis-network/tank-tokenholding-hook/tree/main',
     category: [HOOK_CATEGORY.BrevisDiscount, HOOK_CATEGORY.DynamicFees],
     creator: 'https://github.com/brevis-network',
-    audit: 'https://github.com/brevis-network/pancake-tokenholding-hook/tree/main/audits',
+    audit: 'https://github.com/brevis-network/tank-tokenholding-hook/tree/main/audits',
     isVerified: true,
     isUpgradable: true,
     hooksRegistration: {
@@ -173,10 +173,10 @@ export const bscHooksList: HookData[] = [
 (VIP 4) 35% discount if 20,000 CAKE < TWA <= 30,000 CAKE, 
 (VIP 5) 45% discount if TWA > 30,000 CAKE.
     `,
-    github: 'https://github.com/brevis-network/pancake-tokenholding-hook/tree/main',
+    github: 'https://github.com/brevis-network/tank-tokenholding-hook/tree/main',
     category: [HOOK_CATEGORY.BrevisDiscount, HOOK_CATEGORY.DynamicFees],
     creator: 'https://github.com/brevis-network',
-    audit: 'https://github.com/brevis-network/pancake-tokenholding-hook/tree/main/audits',
+    audit: 'https://github.com/brevis-network/tank-tokenholding-hook/tree/main/audits',
     isVerified: true,
     isUpgradable: true,
     hooksRegistration: {
@@ -197,10 +197,10 @@ export const bscHooksList: HookData[] = [
 (VIP 4) 35% discount if 20,000 CAKE < TWA <= 30,000 CAKE, 
 (VIP 5) 45% discount if TWA > 30,000 CAKE.
     `,
-    github: 'https://github.com/brevis-network/pancake-tokenholding-hook/tree/main',
+    github: 'https://github.com/brevis-network/tank-tokenholding-hook/tree/main',
     category: [HOOK_CATEGORY.BrevisDiscount, HOOK_CATEGORY.DynamicFees],
     creator: 'https://github.com/brevis-network',
-    audit: 'https://github.com/brevis-network/pancake-tokenholding-hook/tree/main/audits',
+    audit: 'https://github.com/brevis-network/tank-tokenholding-hook/tree/main/audits',
     isVerified: true,
     isUpgradable: true,
     hooksRegistration: {

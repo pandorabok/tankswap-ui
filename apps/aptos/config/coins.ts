@@ -1,4 +1,4 @@
-import { AptosCoin, ChainId, Coin } from '@pancakeswap/aptos-swap-sdk'
+import { AptosCoin, ChainId, Coin } from '@tankswap/aptos-swap-sdk'
 
 export const APT = {
   [ChainId.TESTNET]: AptosCoin.onChain(ChainId.TESTNET),
@@ -52,7 +52,7 @@ export const CAKE = {
   ),
   [ChainId.TESTNET]: new Coin(
     ChainId.TESTNET,
-    '0xe0e5ad285cbcdb873b2ee15bb6bcac73d9d763bcb58395e894255eeecf3992cf::pancake::Cake',
+    '0xe0e5ad285cbcdb873b2ee15bb6bcac73d9d763bcb58395e894255eeecf3992cf::tank::Cake',
     8,
     'CAKE',
     'PancakeSwap Token',

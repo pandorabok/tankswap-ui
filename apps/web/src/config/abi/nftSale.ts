@@ -3,7 +3,7 @@ export const nftSaleABI = [
     inputs: [
       {
         internalType: 'address',
-        name: '_pancakeSquad',
+        name: '_tankSquad',
         type: 'address',
       },
       {
@@ -23,7 +23,7 @@ export const nftSaleABI = [
       },
       {
         internalType: 'address',
-        name: '_pancakeProfile',
+        name: '_tankProfile',
         type: 'address',
       },
       {
@@ -556,7 +556,7 @@ export const nftSaleABI = [
   },
   {
     inputs: [],
-    name: 'pancakeProfile',
+    name: 'tankProfile',
     outputs: [
       {
         internalType: 'contract IPancakeProfile',
@@ -569,7 +569,7 @@ export const nftSaleABI = [
   },
   {
     inputs: [],
-    name: 'pancakeSquad',
+    name: 'tankSquad',
     outputs: [
       {
         internalType: 'contract PancakeSquad',

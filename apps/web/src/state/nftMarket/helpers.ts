@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { formatBigInt } from '@pancakeswap/utils/formatBalance'
+import { ChainId } from '@tankswap/chains'
+import { formatBigInt } from '@tankswap/utils/formatBalance'
 import { erc721CollectionABI } from 'config/abi/erc721collection'
 import { nftMarketABI } from 'config/abi/nftMarket'
 import { NOT_ON_SALE_SELLER } from 'config/constants'
@@ -18,7 +18,7 @@ import { getNftMarketAddress } from 'utils/addressHelpers'
 import { getNftMarketContract } from 'utils/contractHelpers'
 import { publicClient } from 'utils/wagmi'
 import { Address } from 'viem'
-import { pancakeBunniesAddress } from 'views/Nft/market/constants'
+import { tankBunniesAddress } from 'views/Nft/market/constants'
 import { baseNftFields, baseTransactionFields, collectionBaseFields } from './queries'
 import {
   ApiCollection,
@@ -171,7 +171,7 @@ export const getNftsFromCollectionApi = async (
   size = 100,
   page = 1,
 ): Promise<ApiResponseCollectionTokens | null> => {
-  const isPBCollection = safeGetAddress(collectionAddress) === safeGetAddress(pancakeBunniesAddress)
+  const isPBCollection = safeGetAddress(collectionAddress) === safeGetAddress(tankBunniesAddress)
   const requestPath = `${API_NFT}/collections/${collectionAddress}/tokens${
     !isPBCollection ? `?page=${page}&size=${size}` : ``
   }`
@@ -311,7 +311,7 @@ export const getNftsFromCollectionSg = async (
   skip = 0,
 ): Promise<TokenMarketData[]> => {
   // Squad to be sorted by tokenId as this matches the order of the paginated API return. For PBs - get the most recent,
-  const isPBCollection = safeGetAddress(collectionAddress) === safeGetAddress(pancakeBunniesAddress)
+  const isPBCollection = safeGetAddress(collectionAddress) === safeGetAddress(tankBunniesAddress)
 
   try {
     const res = await request(
@@ -361,7 +361,7 @@ export const getNftsByBunnyIdSg = async (
         }
       `,
       {
-        collectionAddress: pancakeBunniesAddress.toLowerCase(),
+        collectionAddress: tankBunniesAddress.toLowerCase(),
         where,
         orderDirection,
       },
@@ -945,7 +945,7 @@ export const combineApiAndSgResponseToNftToken = (
     name: apiMetadata.name,
     description: apiMetadata.description,
     collectionName: apiMetadata.collection.name,
-    collectionAddress: pancakeBunniesAddress,
+    collectionAddress: tankBunniesAddress,
     image: apiMetadata.image,
     marketData,
     attributes,

@@ -10,9 +10,9 @@ import { useSelector } from 'react-redux'
 import { AppState, useAppDispatch } from 'state'
 import { useAccount } from 'wagmi'
 import { Hash } from 'viem'
-import { Token } from '@pancakeswap/swap-sdk-core'
-import { FeeAmount } from '@pancakeswap/v3-sdk'
-import { useTranslation } from '@pancakeswap/localization'
+import { Token } from '@tankswap/swap-sdk-core'
+import { FeeAmount } from '@tankswap/v3-sdk'
+import { useTranslation } from '@tankswap/localization'
 
 import { useActiveChainId } from 'hooks/useActiveChainId'
 

@@ -1,8 +1,8 @@
-import { languageList, useTranslation } from '@pancakeswap/localization'
-import { Menu as UIMenu } from '@pancakeswap/uikit'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+import { languageList, useTranslation } from '@tankswap/localization'
+import { Menu as UIMenu } from '@tankswap/uikit'
+import { NextLinkFromReactRouter } from '@tankswap/widgets-internal'
 
-import { usePhishingBanner } from '@pancakeswap/utils/user'
+import { usePhishingBanner } from '@tankswap/utils/user'
 import { NetworkSwitcher } from 'components/NetworkSwitcher'
 import PhishingWarningBanner from 'components/PhishingWarningBanner'
 import { useActiveChainId } from 'hooks/useNetwork'
@@ -100,7 +100,7 @@ export const Menu = (props) => {
           activeSubItem={activeSubMenuItem?.href}
           toggleTheme={toggleTheme}
           buyCakeLabel={t('Buy CAKE')}
-          buyCakeLink="https://aptos.pancakeswap.finance/swap?outputCurrency=0x159df6b7689437016108a019fd5bef736bac692b6d4a1f10c941f6fbb9a74ca6::oft::CakeOFT"
+          buyCakeLink="https://aptos.tankswap.finance/swap?outputCurrency=0x159df6b7689437016108a019fd5bef736bac692b6d4a1f10c941f6fbb9a74ca6::oft::CakeOFT"
           {...props}
         />
       ) : undefined}

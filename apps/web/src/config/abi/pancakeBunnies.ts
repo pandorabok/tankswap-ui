@@ -1,4 +1,4 @@
-export const pancakeBunniesABI = [
+export const tankBunniesABI = [
   {
     inputs: [
       {

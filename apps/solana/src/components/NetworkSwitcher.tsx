@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { useIsMounted } from '@pancakeswap/hooks'
-import { Box, Text, UserMenu, UserMenuDivider, UserMenuItem } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { useIsMounted } from '@tankswap/hooks'
+import { Box, Text, UserMenu, UserMenuDivider, UserMenuItem } from '@tankswap/uikit'
 import Image from 'next/image'
 import { APEX_DOMAIN, ASSET_CDN } from '@/utils/config/endpoint'
 import { APTOS_MENU } from '@/utils/config/chains'
@@ -61,7 +61,7 @@ export const NetworkSwitcher = () => {
     <UserMenu
       mr="8px"
       variant="default"
-      avatarSrc="https://tokens.pancakeswap.finance/images/symbol/sol.png"
+      avatarSrc="https://tokens.tankswap.finance/images/symbol/sol.png"
       placement="bottom"
       text={
         <>

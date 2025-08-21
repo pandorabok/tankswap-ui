@@ -1,7 +1,7 @@
-import { Protocol } from '@pancakeswap/farms'
-import { getPoolId } from '@pancakeswap/infinity-sdk'
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency, CurrencyAmount, Fraction } from '@pancakeswap/swap-sdk-core'
+import { Protocol } from '@tankswap/farms'
+import { getPoolId } from '@tankswap/infinity-sdk'
+import { useTranslation } from '@tankswap/localization'
+import { Currency, CurrencyAmount, Fraction } from '@tankswap/swap-sdk-core'
 import {
   AutoRow,
   Box,
@@ -18,10 +18,10 @@ import {
   Toggle,
   useMatchBreakpoints,
   useModal,
-} from '@pancakeswap/uikit'
-import { formatNumber } from '@pancakeswap/utils/formatNumber'
-import { isPoolTickInRange } from '@pancakeswap/v3-sdk'
-import { ConfirmationModalContent } from '@pancakeswap/widgets-internal'
+} from '@tankswap/uikit'
+import { formatNumber } from '@tankswap/utils/formatNumber'
+import { isPoolTickInRange } from '@tankswap/v3-sdk'
+import { ConfirmationModalContent } from '@tankswap/widgets-internal'
 import { LightGreyCard } from 'components/Card'
 import { CurrencyLogo } from 'components/Logo'
 import { MerklSection } from 'components/Merkl/MerklSection'

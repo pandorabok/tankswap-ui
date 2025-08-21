@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { AtomBox, Box, CloseIcon, Flex, IconButton, Text } from '@pancakeswap/uikit'
-import { usePhishingBanner } from '@pancakeswap/utils/user'
+import { useTranslation } from '@tankswap/localization'
+import { AtomBox, Box, CloseIcon, Flex, IconButton, Text } from '@tankswap/uikit'
+import { usePhishingBanner } from '@tankswap/utils/user'
 import { DOMAIN } from 'config'
 import { useMemo } from 'react'
 import { styled } from 'styled-components'
@@ -43,7 +43,7 @@ const PhishingWarningBanner: React.FC<React.PropsWithChildren> = () => {
   const [, hideBanner] = usePhishingBanner()
   const warningTextAsParts = useMemo(() => {
     const warningText = t("please make sure you're visiting %domain% - check the URL carefully.", { domain: DOMAIN })
-    return warningText.split(/(https:\/\/aptos.pancakeswap.finance)/g)
+    return warningText.split(/(https:\/\/aptos.tankswap.finance)/g)
   }, [t])
   const warningTextComponent = (
     <>

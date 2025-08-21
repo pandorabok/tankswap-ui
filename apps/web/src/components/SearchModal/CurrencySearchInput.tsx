@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Input, InputProps } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Input, InputProps } from '@tankswap/uikit'
 import { RefObject, useRef } from 'react'
 
 interface CurrencySearchInputProps extends InputProps {

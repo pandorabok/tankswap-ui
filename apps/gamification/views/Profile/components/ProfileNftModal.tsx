@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { ChainId } from '@pancakeswap/sdk'
+import { useTranslation } from '@tankswap/localization'
+import { ChainId } from '@tankswap/sdk'
 import {
   Button,
   Flex,
@@ -10,7 +10,7 @@ import {
   ScanLink,
   Text,
   useModal,
-} from '@pancakeswap/uikit'
+} from '@tankswap/uikit'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { NftToken } from 'hooks/useProfile/nft/types'
 import { useSwitchNetwork } from 'hooks/useSwitchNetwork'
@@ -18,7 +18,7 @@ import useTheme from 'hooks/useTheme'
 import { styled } from 'styled-components'
 import { getBscScanLinkForNft, safeGetAddress } from 'utils'
 import { HorizontalDivider, RoundedImage } from 'views/Profile/components/SellModal/shared/styles'
-import { nftsBaseUrl, pancakeBunniesAddress } from 'views/ProfileCreation/Nft/constants'
+import { nftsBaseUrl, tankBunniesAddress } from 'views/ProfileCreation/Nft/constants'
 import EditProfileModal from './EditProfileModal'
 
 export const StyledModal = styled(Modal)`
@@ -44,7 +44,7 @@ const ProfileNftModal: React.FC<React.PropsWithChildren<ProfileNftModalProps>> =
   const { switchNetworkAsync } = useSwitchNetwork()
 
   const itemPageUrlId =
-    safeGetAddress(nft?.collectionAddress) === safeGetAddress(pancakeBunniesAddress)
+    safeGetAddress(nft?.collectionAddress) === safeGetAddress(tankBunniesAddress)
       ? nft?.attributes?.[0].value
       : nft?.tokenId
 

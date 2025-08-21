@@ -1,4 +1,4 @@
-import { Box, DropdownMenu, DropdownMenuItemType, Flex, Logo, ThemeSwitcher } from '@pancakeswap/uikit'
+import { Box, DropdownMenu, DropdownMenuItemType, Flex, Logo, ThemeSwitcher } from '@tankswap/uikit'
 import { useTheme as useNextTheme } from 'next-themes'
 import NextLink from 'next/link'
 import { useRouter } from 'next/router'
@@ -51,7 +51,7 @@ const MenuConfig = [
   },
   {
     title: 'EVMs',
-    href: 'https://pancakeswap.finance/bridge',
+    href: 'https://tankswap.finance/bridge',
   },
 ]
 
@@ -63,7 +63,7 @@ export function Menu() {
   return (
     <Flex height="56px" bg="backgroundAlt" px="16px" alignItems="center" justifyContent="space-between" zIndex={9}>
       <Flex>
-        <Logo href="https://pancakeswap.finance" />
+        <Logo href="https://tankswap.finance" />
 
         <Flex pl={['10px', null, '50px']}>
           {MenuConfig.map((menu) => (
@@ -87,7 +87,7 @@ export function Menu() {
               )}
             </Flex>
           ))}
-          <a href="https://pancakeswap.finance/swap" target="_blank" rel="noreferrer noopener">
+          <a href="https://tankswap.finance/swap" target="_blank" rel="noreferrer noopener">
             <StyledMenuItem>Swap</StyledMenuItem>
           </a>
         </Flex>

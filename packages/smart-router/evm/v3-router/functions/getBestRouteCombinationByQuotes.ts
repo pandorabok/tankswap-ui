@@ -1,10 +1,10 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
-import { ChainId } from '@pancakeswap/chains'
-import { Currency, CurrencyAmount, TradeType } from '@pancakeswap/sdk'
+import { ChainId } from '@tankswap/chains'
+import { Currency, CurrencyAmount, TradeType } from '@tankswap/sdk'
 import FixedReverseHeap from 'mnemonist/fixed-reverse-heap.js'
 import Queue from 'mnemonist/queue.js'
 
-import { RemoteLogger } from '@pancakeswap/utils/RemoteLogger'
+import { RemoteLogger } from '@tankswap/utils/RemoteLogger'
 import { usdGasTokensByChain } from '../../constants'
 import { BestRoutes, L1ToL2GasCosts, PoolType, RouteWithQuote } from '../types'
 import { getPoolAddress, isStablePool, isV2Pool, isV3Pool } from '../utils'

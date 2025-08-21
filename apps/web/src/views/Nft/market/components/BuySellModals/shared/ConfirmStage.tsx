@@ -1,5 +1,5 @@
-import { Flex, Text, Button, Spinner } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Flex, Text, Button, Spinner } from '@tankswap/uikit'
+import { useTranslation } from '@tankswap/localization'
 
 interface ConfirmStageProps {
   isConfirming: boolean

@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import {
   ArrowBackIcon,
   Box,
@@ -8,7 +8,7 @@ import {
   NotFound,
   ReactMarkdown,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
+} from '@tankswap/uikit'
 import { useQuery } from '@tanstack/react-query'
 import Container from 'components/Layout/Container'
 import PageLoader from 'components/Loader/PageLoader'

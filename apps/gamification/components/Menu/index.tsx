@@ -1,7 +1,7 @@
-import { languageList, useTranslation } from '@pancakeswap/localization'
-import { Menu as UikitMenu, footerLinks } from '@pancakeswap/uikit'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+import { languageList, useTranslation } from '@tankswap/localization'
+import { Menu as UikitMenu, footerLinks } from '@tankswap/uikit'
+import { BIG_ZERO } from '@tankswap/utils/bigNumber'
+import { NextLinkFromReactRouter } from '@tankswap/widgets-internal'
 import { NetworkSwitcher } from 'components/NetworkSwitcher'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useCakePrice } from 'hooks/useCakePrice'
@@ -61,7 +61,7 @@ const Menu = (props: any) => {
       activeItem={activeMenuItem?.href}
       activeSubItem={activeSubMenuItem?.href}
       buyCakeLabel={t('Buy CAKE')}
-      buyCakeLink="https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82&chainId=56"
+      buyCakeLink="https://tankswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82&chainId=56"
       {...props}
     />
   )

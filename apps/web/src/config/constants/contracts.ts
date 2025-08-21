@@ -1,15 +1,15 @@
-import { ChainId } from '@pancakeswap/chains'
-import { masterChefV3Addresses } from '@pancakeswap/farms'
-import { ICAKE } from '@pancakeswap/ifos'
+import { ChainId } from '@tankswap/chains'
+import { masterChefV3Addresses } from '@tankswap/farms'
+import { ICAKE } from '@tankswap/ifos'
 import {
   INFI_BIN_POOL_MANAGER_ADDRESSES,
   INFI_BIN_POSITION_MANAGER_ADDRESSES,
   INFI_CL_POOL_MANAGER_ADDRESSES,
   INFI_CL_POSITION_MANAGER_ADDRESSES,
-} from '@pancakeswap/infinity-sdk'
-import { CAKE_VAULT } from '@pancakeswap/pools'
-import { V3_QUOTER_ADDRESSES } from '@pancakeswap/smart-router'
-import { DEPLOYER_ADDRESSES, NFT_POSITION_MANAGER_ADDRESSES } from '@pancakeswap/v3-sdk'
+} from '@tankswap/infinity-sdk'
+import { CAKE_VAULT } from '@tankswap/pools'
+import { V3_QUOTER_ADDRESSES } from '@tankswap/smart-router'
+import { DEPLOYER_ADDRESSES, NFT_POSITION_MANAGER_ADDRESSES } from '@tankswap/v3-sdk'
 
 export default {
   masterChef: {
@@ -47,17 +47,17 @@ export default {
     [ChainId.SCROLL_SEPOLIA]: '0xcA11bde05977b3631167028862bE2a173976CA11',
     [ChainId.MONAD_TESTNET]: '0xcA11bde05977b3631167028862bE2a173976CA11',
   },
-  pancakeProfile: {
+  tankProfile: {
     [ChainId.BSC]: '0xDf4dBf6536201370F95e06A0F8a7a70fE40E388a',
     [ChainId.BSC_TESTNET]: '0x4B683C7E13B6d5D7fd1FeA9530F451954c1A7c8A',
   },
-  pancakeProfileProxy: {
+  tankProfileProxy: {
     [ChainId.ARBITRUM_ONE]: '0x5A3526891D6216DAe42d3e17a545A45f854F2213',
     [ChainId.ETHEREUM]: '0xeA08f9e4267e30721D755A46Bcaddbf993d8C59B',
     [ChainId.ZKSYNC]: '0xb6700cC1ab23BeB00c88496EAAA344fba31Ff895',
     [ChainId.BASE]: '0xF24BDEfa7A77BEdB0D5d5900a962ebB55b96C732',
   },
-  pancakeBunnies: {
+  tankBunnies: {
     [ChainId.BSC]: '0xDf7952B35f24aCF7fC0487D01c8d5690a60DBa07',
     [ChainId.BSC_TESTNET]: '0x60935F36e4631F73f0f407e68642144e07aC7f5E',
   },
@@ -137,7 +137,7 @@ export default {
     [ChainId.BSC]: '0x29fE7148636b7Ae0b1E53777b28dfbaA9327af8E',
     [ChainId.BSC_TESTNET]: '0xe486De509c5381cbdBF3e71F57D7F1f7570f5c46',
   },
-  pancakeSquad: {
+  tankSquad: {
     [ChainId.BSC]: '0x0a8901b0E25DEb55A87524f0cC164E9644020EBA',
     [ChainId.BSC_TESTNET]: '0xfC0c3F11fDA72Cb9A56F28Ec8D44C0ae4B3ABF86',
   },
@@ -250,7 +250,7 @@ export default {
     [ChainId.ZKSYNC]: '0x77AbEA6a2FAa1938723411B28A0863be34f3c89f',
     [ChainId.BASE]: '0xE5de11958969e75C57E5708651A49f0Cf3f34d13',
   },
-  pancakeVeSenderV2: {
+  tankVeSenderV2: {
     [ChainId.BSC]: '0xEF58528Ecb76b69a0F61F65d94797d531B34cf64',
   },
   revenueSharingVeCake: {

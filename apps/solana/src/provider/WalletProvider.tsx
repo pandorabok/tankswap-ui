@@ -45,8 +45,8 @@ const App: FC<PropsWithChildren<any>> = ({ children }) => {
             metadata: {
               name: 'PancakeSwap',
               description: 'Trade, earn, and own crypto on the all-in-one multichain DEX',
-              url: 'https://solana.pancakeswap.finance/swap',
-              icons: ['https://pancakeswap.finance/favicon.ico']
+              url: 'https://solana.tankswap.finance/swap',
+              icons: ['https://tankswap.finance/favicon.ico']
             }
           }
         })

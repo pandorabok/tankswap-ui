@@ -1,10 +1,10 @@
 {
-  "name": "@pancakeswap/stable-swap-sdk",
+  "name": "@tankswap/stable-swap-sdk",
   "version": "2.0.9",
-  "description": "SDK for pancakeswap stable swap",
+  "description": "SDK for tankswap stable swap",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pancakeswap/pancake-frontend.git",
+    "url": "https://github.com/tankswap/tank-frontend.git",
     "directory": "packages/stable-swap-sdk"
   },
   "type": "module",
@@ -23,16 +23,16 @@
     "dist"
   ],
   "dependencies": {
-    "@pancakeswap/chains": "workspace:*",
-    "@pancakeswap/swap-sdk-core": "workspace:*",
-    "@pancakeswap/tokens": "workspace:*",
+    "@tankswap/chains": "workspace:*",
+    "@tankswap/swap-sdk-core": "workspace:*",
+    "@tankswap/tokens": "workspace:*",
     "tiny-invariant": "^1.3.0"
   },
   "devDependencies": {
-    "@pancakeswap/token-lists": "workspace:*",
-    "@pancakeswap/tsconfig": "workspace:*",
-    "@pancakeswap/utils": "workspace:*",
-    "@pancakeswap/sdk": "workspace:*",
+    "@tankswap/token-lists": "workspace:*",
+    "@tankswap/tsconfig": "workspace:*",
+    "@tankswap/utils": "workspace:*",
+    "@tankswap/sdk": "workspace:*",
     "tsup": "^6.7.0",
     "viem": "catalog:"
   },

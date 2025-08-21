@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Card, CardBody, CardHeader, Flex, Heading, Link, PageSection, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Card, CardBody, CardHeader, Flex, Heading, Link, PageSection, Text } from '@tankswap/uikit'
 import FoldableText from 'components/FoldableSection/FoldableText'
 import useTheme from 'hooks/useTheme'
 import { styled } from 'styled-components'
@@ -83,7 +83,7 @@ const Question = () => {
                 <Link
                   external
                   style={{ display: 'inline-block' }}
-                  href="https://tokenlists.org/token-list?url=https://tokens.pancakeswap.finance/pancakeswap-extended.json"
+                  href="https://tokenlists.org/token-list?url=https://tokens.tankswap.finance/tankswap-extended.json"
                 >
                   <Text color="primary" ml="4px" as="span">
                     {t('BNB Chain')},
@@ -92,7 +92,7 @@ const Question = () => {
                 <Link
                   external
                   style={{ display: 'inline-block' }}
-                  href="https://tokenlists.org/token-list?url=https://tokens.pancakeswap.finance/pancakeswap-arbitrum-default.json"
+                  href="https://tokenlists.org/token-list?url=https://tokens.tankswap.finance/tankswap-arbitrum-default.json"
                 >
                   <Text color="primary" ml="4px" as="span">
                     {t('Arbitrum One')},
@@ -101,7 +101,7 @@ const Question = () => {
                 <Link
                   external
                   style={{ display: 'inline-block' }}
-                  href="https://tokenlists.org/token-list?url=https://tokens.pancakeswap.finance/pancakeswap-base-default.json"
+                  href="https://tokenlists.org/token-list?url=https://tokens.tankswap.finance/tankswap-base-default.json"
                 >
                   <Text color="primary" ml="4px" as="span">
                     {t('Base')},
@@ -110,7 +110,7 @@ const Question = () => {
                 <Link
                   external
                   style={{ display: 'inline-block' }}
-                  href="https://tokenlists.org/token-list?url=https://tokens.pancakeswap.finance/pancakeswap-eth-default.json"
+                  href="https://tokenlists.org/token-list?url=https://tokens.tankswap.finance/tankswap-eth-default.json"
                 >
                   <Text color="primary" ml="4px" as="span">
                     {t('Ethereum')},
@@ -119,7 +119,7 @@ const Question = () => {
                 <Link
                   external
                   style={{ display: 'inline-block' }}
-                  href="https://tokenlists.org/token-list?url=https://tokens.pancakeswap.finance/pancakeswap-linea-default.json"
+                  href="https://tokenlists.org/token-list?url=https://tokens.tankswap.finance/tankswap-linea-default.json"
                 >
                   <Text color="primary" ml="4px" as="span">
                     {t('Linea')},
@@ -128,7 +128,7 @@ const Question = () => {
                 <Link
                   external
                   style={{ display: 'inline-block' }}
-                  href="https://tokenlists.org/token-list?url=https://tokens.pancakeswap.finance/pancakeswap-polygon-zkevm-default.json"
+                  href="https://tokenlists.org/token-list?url=https://tokens.tankswap.finance/tankswap-polygon-zkevm-default.json"
                 >
                   <Text color="primary" ml="4px" as="span">
                     {t('Polygon zkEVM')},
@@ -137,7 +137,7 @@ const Question = () => {
                 <Link
                   external
                   style={{ display: 'inline-block' }}
-                  href="https://tokenlists.org/token-list?url=https://tokens.pancakeswap.finance/pancakeswap-zksync-default.json"
+                  href="https://tokenlists.org/token-list?url=https://tokens.tankswap.finance/tankswap-zksync-default.json"
                 >
                   <Text color="primary" ml="4px" as="span">
                     {t('zkSync Era')}

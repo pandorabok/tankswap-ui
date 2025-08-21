@@ -1,5 +1,5 @@
-import { useTranslation } from "@pancakeswap/localization";
-import { AutoColumn, Button, ErrorIcon, Flex, Text } from "@pancakeswap/uikit";
+import { useTranslation } from "@tankswap/localization";
+import { AutoColumn, Button, ErrorIcon, Flex, Text } from "@tankswap/uikit";
 import { ReactElement } from "react";
 import { styled } from "styled-components";
 import { StepTitleAnimationContainer } from "./ApproveModalContent";

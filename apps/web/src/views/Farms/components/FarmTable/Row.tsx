@@ -1,8 +1,8 @@
 /* eslint-disable no-case-declarations */
-import { useDelayedUnmount } from '@pancakeswap/hooks'
-import { useTranslation } from '@pancakeswap/localization'
-import { Flex, useMatchBreakpoints } from '@pancakeswap/uikit'
-import { FarmWidget } from '@pancakeswap/widgets-internal'
+import { useDelayedUnmount } from '@tankswap/hooks'
+import { useTranslation } from '@tankswap/localization'
+import { Flex, useMatchBreakpoints } from '@tankswap/uikit'
+import { FarmWidget } from '@tankswap/widgets-internal'
 import { createElement, useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { styled } from 'styled-components'
 

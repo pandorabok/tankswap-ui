@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { CAKE } from '@pancakeswap/tokens'
+import { ChainId } from '@tankswap/chains'
+import { CAKE } from '@tankswap/tokens'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { Abi, Address, erc20Abi } from 'viem'
 import { useWalletClient } from 'wagmi'

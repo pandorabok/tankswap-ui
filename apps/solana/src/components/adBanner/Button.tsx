@@ -7,7 +7,7 @@ import {
   Link,
   OpenNewIcon,
   useMatchBreakpoints
-} from '@pancakeswap/uikit'
+} from '@tankswap/uikit'
 import { PropsWithChildren } from 'react'
 import styled from 'styled-components'
 

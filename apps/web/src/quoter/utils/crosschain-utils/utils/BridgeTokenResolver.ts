@@ -1,4 +1,4 @@
-import { type Currency } from '@pancakeswap/swap-sdk-core'
+import { type Currency } from '@tankswap/swap-sdk-core'
 import { BridgeTradeError } from 'quoter/quoter.types'
 import { type Route } from 'views/Swap/Bridge/api'
 import { PatternType } from '../types'

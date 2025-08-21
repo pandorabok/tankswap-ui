@@ -1,5 +1,5 @@
-import { usePreloadImages, useTheme } from '@pancakeswap/hooks'
-import { useTranslation } from '@pancakeswap/localization'
+import { usePreloadImages, useTheme } from '@tankswap/hooks'
+import { useTranslation } from '@tankswap/localization'
 import {
   AtomBox,
   Button,
@@ -21,7 +21,7 @@ import {
   Text,
   useMatchBreakpoints,
   WarningIcon,
-} from '@pancakeswap/uikit'
+} from '@tankswap/uikit'
 import { useAtom } from 'jotai'
 import { lazy, MouseEvent, PropsWithChildren, Suspense, useCallback, useMemo, useState } from 'react'
 import { isMobile as isMobileDevice } from 'react-device-detect'
@@ -40,7 +40,7 @@ import { ConnectData, LinkOfDevice, WalletConfigV2 } from '../../types'
 import { WalletModalV2Props } from './types'
 import { WalletConnectorNotFoundError, WalletSwitchChainError } from '../../error'
 
-export const ASSET_CDN = 'https://assets.pancakeswap.finance'
+export const ASSET_CDN = 'https://assets.tankswap.finance'
 
 const StepIntro = lazy(() => import('./components/Intro'))
 
@@ -542,7 +542,7 @@ export function WalletModalV2<T = unknown>(props: WalletModalV2Props<T>) {
       wallets
         .map((w) => w.icon)
         .filter((icon) => typeof icon === 'string')
-        .concat('https://cdn.pancakeswap.com/wallets/wallet_intro.png') as string[],
+        .concat('https://cdn.tankswap.com/wallets/wallet_intro.png') as string[],
     [wallets],
   )
 
@@ -680,7 +680,7 @@ const Intro = ({ docLink, docText }: { docLink: string; docText: string }) => {
       <Heading as="h1" fontSize="20px" color="secondary">
         {t('Haven’t got a wallet yet?')}
       </Heading>
-      <Image src="https://cdn.pancakeswap.com/wallets/wallet_intro.png" width={198} height={178} />
+      <Image src="https://cdn.tankswap.com/wallets/wallet_intro.png" width={198} height={178} />
       <Button as={LinkExternal} color="backgroundAlt" variant="subtle" href={docLink}>
         {docText}
       </Button>

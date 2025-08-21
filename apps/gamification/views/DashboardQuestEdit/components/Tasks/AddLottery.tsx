@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { ErrorFillIcon, Flex, FlexGap, Text, useModal } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { ErrorFillIcon, Flex, FlexGap, Text, useModal } from '@tankswap/uikit'
 import { useMemo, useState } from 'react'
 import { ConfirmDeleteModal } from 'views/DashboardQuestEdit/components/ConfirmDeleteModal'
 import { InputErrorText, StyledInput, StyledInputGroup } from 'views/DashboardQuestEdit/components/InputStyle'

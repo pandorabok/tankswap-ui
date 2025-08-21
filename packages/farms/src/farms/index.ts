@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@tankswap/chains'
 import { fetchUniversalFarms } from '../fetchUniversalFarms'
 import { UniversalFarmConfig } from '../types'
 import { getFarmConfigKey } from '../utils'

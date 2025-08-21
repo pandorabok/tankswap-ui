@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
-import { ChainId, NonEVMChainId } from '@pancakeswap/chains'
-import { Currency, UnifiedCurrency } from '@pancakeswap/sdk'
+import { ChainId, NonEVMChainId } from '@tankswap/chains'
+import { Currency, UnifiedCurrency } from '@tankswap/sdk'
 
 import { useCurrencyUsdPrice } from './useCurrencyUsdPrice'
 import { useSolanaTokenPrice } from './solana/useSolanaTokenPrice'

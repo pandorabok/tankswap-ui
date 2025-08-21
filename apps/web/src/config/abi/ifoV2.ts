@@ -13,7 +13,7 @@ export const ifoV2ABI = [
       },
       {
         internalType: 'address',
-        name: '_pancakeProfileAddress',
+        name: '_tankProfileAddress',
         type: 'address',
       },
       {
@@ -283,7 +283,7 @@ export const ifoV2ABI = [
   },
   {
     inputs: [],
-    name: 'pancakeProfile',
+    name: 'tankProfile',
     outputs: [
       {
         internalType: 'contract PancakeProfile',

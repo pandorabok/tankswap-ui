@@ -1,7 +1,7 @@
-import { Coin } from '@pancakeswap/aptos-swap-sdk'
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Link, Text, TooltipText, useTooltip } from '@pancakeswap/uikit'
-import { Pool } from '@pancakeswap/widgets-internal'
+import { Coin } from '@tankswap/aptos-swap-sdk'
+import { useTranslation } from '@tankswap/localization'
+import { Box, Link, Text, TooltipText, useTooltip } from '@tankswap/uikit'
+import { Pool } from '@tankswap/widgets-internal'
 import { useIsAptosRewardToken } from 'components/Pools/hooks/useIsAptosRewardToken'
 import { useMemo } from 'react'
 

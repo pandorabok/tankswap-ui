@@ -1,5 +1,5 @@
-import { useTranslation, Trans } from '@pancakeswap/localization'
-import { Grid, Link, Modal, ModalV2, Text } from '@pancakeswap/uikit'
+import { useTranslation, Trans } from '@tankswap/localization'
+import { Grid, Link, Modal, ModalV2, Text } from '@tankswap/uikit'
 import { useQuery } from '@tanstack/react-query'
 import { WALLET_API } from 'config/constants/endpoints'
 import { UpdatePositionsReminder } from 'views/Farms/components/UpdatePositionsReminder'
@@ -57,7 +57,7 @@ export function Blocklist() {
                 components={[
                   <Link
                     style={{ display: 'inline-block' }}
-                    href="https://pancakeswap.finance/terms-of-service"
+                    href="https://tankswap.finance/terms-of-service"
                     external
                   />,
                 ]}
@@ -65,8 +65,8 @@ export function Blocklist() {
             </Text>
             <Text>
               <Trans
-                i18nKey="If you believe that your address has been misclassified, please email <0>info@pancakeswap.com</0>"
-                components={[<Link style={{ display: 'inline-block' }} href="mailto:info@pancakeswap.com" />]}
+                i18nKey="If you believe that your address has been misclassified, please email <0>info@tankswap.com</0>"
+                components={[<Link style={{ display: 'inline-block' }} href="mailto:info@tankswap.com" />]}
               />
             </Text>
           </Grid>

@@ -1,5 +1,5 @@
 import { ReactNode, memo } from "react";
-import { Heading, AtomBox, Text } from "@pancakeswap/uikit";
+import { Heading, AtomBox, Text } from "@tankswap/uikit";
 
 interface Props {
   title: ReactNode;

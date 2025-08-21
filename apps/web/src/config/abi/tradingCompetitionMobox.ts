@@ -1,7 +1,7 @@
 export const tradingCompetitionMoboxABI = [
   {
     inputs: [
-      { internalType: 'address', name: '_pancakeProfileAddress', type: 'address' },
+      { internalType: 'address', name: '_tankProfileAddress', type: 'address' },
       { internalType: 'address', name: '_bunnyStationAddress', type: 'address' },
       { internalType: 'address', name: '_cakeTokenAddress', type: 'address' },
       { internalType: 'address', name: '_moboxTokenAddress', type: 'address' },
@@ -214,7 +214,7 @@ export const tradingCompetitionMoboxABI = [
   },
   {
     inputs: [],
-    name: 'pancakeProfile',
+    name: 'tankProfile',
     outputs: [{ internalType: 'contract IPancakeProfile', name: '', type: 'address' }],
     stateMutability: 'view',
     type: 'function',

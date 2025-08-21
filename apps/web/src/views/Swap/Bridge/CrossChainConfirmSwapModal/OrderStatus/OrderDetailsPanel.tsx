@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { CurrencyAmount } from '@pancakeswap/sdk'
+import { useTranslation } from '@tankswap/localization'
+import { CurrencyAmount } from '@tankswap/sdk'
 import {
   AutoColumn,
   Box,
@@ -14,8 +14,8 @@ import {
   RowFixed,
   SkeletonV2,
   Text,
-} from '@pancakeswap/uikit'
-import { formatAmount } from '@pancakeswap/utils/formatFractions'
+} from '@tankswap/uikit'
+import { formatAmount } from '@tankswap/utils/formatFractions'
 import { LightGreyCard } from 'components/Card'
 import { DISPLAY_PRECISION } from 'config/constants/formatting'
 import { useAutoSlippageWithFallback } from 'hooks/useAutoSlippageWithFallback'
@@ -26,8 +26,8 @@ import styled from 'styled-components'
 import { computeSlippageAdjustedAmounts as computeSlippageAdjustedAmountsWithSmartRouter } from 'views/Swap/V3Swap/utils/exchange'
 import { formatDollarAmount } from 'views/V3Info/utils/numbers'
 
-import { formatScientificToDecimal } from '@pancakeswap/utils/formatNumber'
-import { SwapUIV2 } from '@pancakeswap/widgets-internal'
+import { formatScientificToDecimal } from '@tankswap/utils/formatNumber'
+import { SwapUIV2 } from '@tankswap/widgets-internal'
 import { BridgeFeeToolTip, TradingFeeToolTip } from '../../components/FeeToolTip'
 import { useBridgeStatus } from '../../hooks'
 import { ActiveBridgeOrderMetadata, BridgeStatus, BridgeStatusData } from '../../types'
@@ -221,7 +221,7 @@ const BridgeFeesBreakdown = ({
                       style={{ display: 'inline' }}
                       ml="4px"
                       external
-                      href="https://docs.pancakeswap.finance/products/pancakeswap-exchange/faq#what-will-be-the-trading-fee-breakdown-for-v3-exchange"
+                      href="https://docs.tankswap.finance/products/tankswap-exchange/faq#what-will-be-the-trading-fee-breakdown-for-v3-exchange"
                     >
                       {t('Fee Breakdown and Tokenomics')}
                     </Link>

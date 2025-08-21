@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import {
   Box,
   Button,
@@ -10,8 +10,8 @@ import {
   Spinner,
   Text,
   useToast,
-} from '@pancakeswap/uikit'
-import { formatTimestamp, Precision } from '@pancakeswap/utils/formatTimestamp'
+} from '@tankswap/uikit'
+import { formatTimestamp, Precision } from '@tankswap/utils/formatTimestamp'
 import { TokenAmountSection } from 'components/TokenAmountSection'
 import { useEffect } from 'react'
 

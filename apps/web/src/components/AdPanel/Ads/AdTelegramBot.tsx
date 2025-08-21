@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { TelegramIcon } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { TelegramIcon } from '@tankswap/uikit'
 import { BodyText } from '../BodyText'
 import { AdButton } from '../Button'
 import { AdCard } from '../Card'
@@ -7,7 +7,7 @@ import { AdCard } from '../Card'
 import { AdPlayerProps } from '../types'
 import { getImageUrl } from '../utils'
 
-const actionLink = 'https://t.me/pancakefi_bot'
+const actionLink = 'https://t.me/tankfi_bot'
 
 export const AdTelegramBot = (props: AdPlayerProps) => {
   const { t } = useTranslation()

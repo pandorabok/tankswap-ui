@@ -1,11 +1,11 @@
-import { useToast } from '@pancakeswap/uikit'
-import { Pool } from '@pancakeswap/widgets-internal'
+import { useToast } from '@tankswap/uikit'
+import { Pool } from '@tankswap/widgets-internal'
 import { useBoostedPoolApr } from 'views/Pools/hooks/useBoostedPoolApr'
 
-import { useTranslation } from '@pancakeswap/localization'
-import { Token } from '@pancakeswap/sdk'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
-import { getDecimalAmount } from '@pancakeswap/utils/formatBalance'
+import { useTranslation } from '@tankswap/localization'
+import { Token } from '@tankswap/sdk'
+import { BIG_ZERO } from '@tankswap/utils/bigNumber'
+import { getDecimalAmount } from '@tankswap/utils/formatBalance'
 import BigNumber from 'bignumber.js'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import { tokenImageChainNameMapping } from 'components/TokenImage'
@@ -67,7 +67,7 @@ const StakeModalContainer = ({
   )
 
   const tokenImageUrl = useMemo(
-    () => (chainId ? `https://tokens.pancakeswap.finance/images/${tokenImageChainNameMapping[chainId]}` : ''),
+    () => (chainId ? `https://tokens.tankswap.finance/images/${tokenImageChainNameMapping[chainId]}` : ''),
     [chainId],
   )
 

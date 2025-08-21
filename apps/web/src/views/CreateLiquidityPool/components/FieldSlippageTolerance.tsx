@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, BoxProps, FlexGap, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Box, BoxProps, FlexGap, Text } from '@tankswap/uikit'
 import { LiquiditySlippageButton } from 'views/Swap/components/SlippageButton'
 
 export type FieldSlippageToleranceProps = BoxProps

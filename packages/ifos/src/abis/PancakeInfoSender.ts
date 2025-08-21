@@ -1,9 +1,9 @@
-export const pancakeInfoSenderABI = [
+export const tankInfoSenderABI = [
   {
     inputs: [
       { internalType: 'address', name: '_cakePoolAddress', type: 'address' },
       { internalType: 'address', name: '_iCakeAddress', type: 'address' },
-      { internalType: 'address', name: '_pancakeProfileAddress', type: 'address' },
+      { internalType: 'address', name: '_tankProfileAddress', type: 'address' },
       { internalType: 'address', name: '_endpoint', type: 'address' },
     ],
     stateMutability: 'nonpayable',
@@ -259,7 +259,7 @@ export const pancakeInfoSenderABI = [
   },
   {
     inputs: [],
-    name: 'pancakeProfileAddress',
+    name: 'tankProfileAddress',
     outputs: [{ internalType: 'address', name: '', type: 'address' }],
     stateMutability: 'view',
     type: 'function',

@@ -1,6 +1,6 @@
-import { Pair, PAIR_LP_TYPE_TAG, PAIR_RESERVE_TYPE_TAG } from '@pancakeswap/aptos-swap-sdk'
-import { useAccount, useAccountBalances } from '@pancakeswap/awgmi'
-import { unwrapTypeFromString } from '@pancakeswap/awgmi/core'
+import { Pair, PAIR_LP_TYPE_TAG, PAIR_RESERVE_TYPE_TAG } from '@tankswap/aptos-swap-sdk'
+import { useAccount, useAccountBalances } from '@tankswap/awgmi'
+import { unwrapTypeFromString } from '@tankswap/awgmi/core'
 import { useMemo } from 'react'
 
 import { PairState, usePairsFromAddresses } from 'hooks/usePairs'

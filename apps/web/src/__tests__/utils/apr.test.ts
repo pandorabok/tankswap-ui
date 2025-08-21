@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { BIG_TEN, BIG_ZERO } from '@pancakeswap/utils/bigNumber'
+import { ChainId } from '@tankswap/chains'
+import { BIG_TEN, BIG_ZERO } from '@tankswap/utils/bigNumber'
 import BigNumber from 'bignumber.js'
 import lpAprs from 'config/constants/lpAprs/56.json'
 import { getFarmApr, getPoolApr } from 'utils/apr'

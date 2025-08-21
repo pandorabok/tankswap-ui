@@ -1,5 +1,5 @@
 import { styled } from "styled-components";
-import { Box } from "@pancakeswap/uikit";
+import { Box } from "@tankswap/uikit";
 
 const Wrapper = styled.div`
   width: 100%;

@@ -1,4 +1,4 @@
-import unsupportedTokens from 'config/constants/tokenLists/pancake-unsupported.tokenlist.json'
+import unsupportedTokens from 'config/constants/tokenLists/tank-unsupported.tokenlist.json'
 import { GetStaticPaths, GetStaticProps } from 'next'
 import { useRouter } from 'next/router'
 import { useMemo } from 'react'

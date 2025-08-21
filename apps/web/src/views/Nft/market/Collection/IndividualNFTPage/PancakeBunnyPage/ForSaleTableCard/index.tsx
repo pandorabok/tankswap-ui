@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import {
   ArrowDownIcon,
   ArrowUpIcon,
@@ -10,8 +10,8 @@ import {
   Spinner,
   Text,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
+} from '@tankswap/uikit'
+import { BIG_ZERO } from '@tankswap/utils/bigNumber'
 import BigNumber from 'bignumber.js'
 import useTheme from 'hooks/useTheme'
 import chunk from 'lodash/chunk'

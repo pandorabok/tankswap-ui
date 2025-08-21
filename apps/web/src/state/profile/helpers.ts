@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { pancakeProfileABI } from 'config/abi/pancakeProfile'
+import { ChainId } from '@tankswap/chains'
+import { tankProfileABI } from 'config/abi/tankProfile'
 import { API_PROFILE } from 'config/constants/endpoints'
 import { getNftApi } from 'state/nftMarket/helpers'
 import { NftToken } from 'state/nftMarket/types'
@@ -51,13 +51,13 @@ export const getProfile = async (address: string): Promise<GetProfileResponse | 
       contracts: [
         {
           address: getPancakeProfileAddress(),
-          abi: pancakeProfileABI,
+          abi: tankProfileABI,
           functionName: 'hasRegistered',
           args: [address as Address],
         },
         {
           address: getPancakeProfileAddress(),
-          abi: pancakeProfileABI,
+          abi: tankProfileABI,
           functionName: 'getUserProfile',
           args: [address as Address],
         },

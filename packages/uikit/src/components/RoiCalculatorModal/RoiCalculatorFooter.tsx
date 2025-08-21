@@ -1,10 +1,10 @@
-import { useTranslation } from "@pancakeswap/localization";
-import { getApy } from "@pancakeswap/utils/compoundApyHelpers";
+import { useTranslation } from "@tankswap/localization";
+import { getApy } from "@tankswap/utils/compoundApyHelpers";
 import BigNumber from "bignumber.js";
 import { useMemo, useState } from "react";
 import { styled } from "styled-components";
 
-import { BIG_ONE_HUNDRED } from "@pancakeswap/utils/bigNumber";
+import { BIG_ONE_HUNDRED } from "@tankswap/utils/bigNumber";
 import { useTooltip } from "../../hooks/useTooltip";
 import { Box, Flex, Grid } from "../Box";
 import { ExpandableLabel } from "../Button";

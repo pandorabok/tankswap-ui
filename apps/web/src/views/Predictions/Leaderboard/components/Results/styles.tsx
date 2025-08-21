@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Token } from '@pancakeswap/sdk'
-import { Flex, FlexProps, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Token } from '@tankswap/sdk'
+import { Flex, FlexProps, Text } from '@tankswap/uikit'
 import { useTokenUsdPriceBigNumber } from 'views/Predictions/hooks/useTokenPrice'
 
 export const Row: React.FC<React.PropsWithChildren<FlexProps>> = ({ children, ...props }) => {

@@ -1,8 +1,8 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency } from '@pancakeswap/swap-sdk-core'
-import { AddCircleIcon, AutoColumn, AutoRow, IconButton, RemoveIcon, Text } from '@pancakeswap/uikit'
-import { FeeAmount } from '@pancakeswap/v3-sdk'
-import { Card, LightCardProps, NumericalInput } from '@pancakeswap/widgets-internal'
+import { useTranslation } from '@tankswap/localization'
+import { Currency } from '@tankswap/swap-sdk-core'
+import { AddCircleIcon, AutoColumn, AutoRow, IconButton, RemoveIcon, Text } from '@tankswap/uikit'
+import { FeeAmount } from '@tankswap/v3-sdk'
+import { Card, LightCardProps, NumericalInput } from '@tankswap/widgets-internal'
 import { ReactNode, useCallback, useEffect, useState } from 'react'
 import styled from 'styled-components'
 

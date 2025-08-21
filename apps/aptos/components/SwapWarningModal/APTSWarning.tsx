@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Box, Text } from '@tankswap/uikit'
 
 export const APTSWarning = () => {
   const { t } = useTranslation()

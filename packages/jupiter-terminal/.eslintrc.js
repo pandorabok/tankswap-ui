@@ -1,4 +1,4 @@
 module.exports = {
-  extends: ['@pancakeswap/eslint-config-pancake'],
+  extends: ['@tankswap/eslint-config-tank'],
   ignorePatterns: ['overrides/**/*'],
 }

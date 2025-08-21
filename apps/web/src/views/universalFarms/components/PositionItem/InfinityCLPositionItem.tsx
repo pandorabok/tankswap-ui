@@ -1,4 +1,4 @@
-import { getPoolId } from '@pancakeswap/infinity-sdk'
+import { getPoolId } from '@tankswap/infinity-sdk'
 import { getLiquidityDetailURL } from 'config/constants/liquidity'
 import { useTotalPriceUSD } from 'hooks/useTotalPriceUSD'
 import { memo, useMemo } from 'react'

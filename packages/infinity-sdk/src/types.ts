@@ -1,5 +1,5 @@
-import { PermitSingle } from '@pancakeswap/permit2-sdk'
-import { Currency } from '@pancakeswap/swap-sdk-core'
+import { PermitSingle } from '@tankswap/permit2-sdk'
+import { Currency } from '@tankswap/swap-sdk-core'
 import { Address, Prettify } from 'viem'
 
 export interface Permit2Signature extends PermitSingle {
@@ -119,7 +119,7 @@ export type PoolKey<TPoolType extends PoolType = 'CL' | 'Bin'> = {
  * encoded poolKey struct
  *
  * @see PoolKey
- * @see {@link https://github.com/pancakeswap/infinity-core/blob/main/src/types/PoolKey.sol|infinity-core}
+ * @see {@link https://github.com/tankswap/infinity-core/blob/main/src/types/PoolKey.sol|infinity-core}
  */
 export type EncodedPoolKey = {
   currency0: Address

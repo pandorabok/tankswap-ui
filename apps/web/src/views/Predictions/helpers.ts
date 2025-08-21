@@ -1,7 +1,7 @@
-import { BetPosition } from '@pancakeswap/prediction'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
-import { formatBigIntToFixed } from '@pancakeswap/utils/formatBalance'
-import getTimePeriods from '@pancakeswap/utils/getTimePeriods'
+import { BetPosition } from '@tankswap/prediction'
+import { BIG_ZERO } from '@tankswap/utils/bigNumber'
+import { formatBigIntToFixed } from '@tankswap/utils/formatBalance'
+import getTimePeriods from '@tankswap/utils/getTimePeriods'
 import BN from 'bignumber.js'
 import memoize from 'lodash/memoize'
 

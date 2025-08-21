@@ -1,5 +1,5 @@
-import { Currency, CurrencyAmount, Percent, SPLToken, UnifiedCurrencyAmount } from '@pancakeswap/sdk'
-import { FeeAmount, Tick } from '@pancakeswap/v3-sdk'
+import { Currency, CurrencyAmount, Percent, SPLToken, UnifiedCurrencyAmount } from '@tankswap/sdk'
+import { FeeAmount, Tick } from '@tankswap/v3-sdk'
 import { Address, Hex } from 'viem'
 
 export enum PoolType {

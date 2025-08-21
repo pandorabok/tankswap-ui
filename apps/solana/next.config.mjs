@@ -11,15 +11,15 @@ const nextConfig = {
   experimental: {
     scrollRestoration: true,
     fallbackNodePolyfills: false,
-    optimizePackageImports: ['@pancakeswap/widgets-internal', '@pancakeswap/uikit']
+    optimizePackageImports: ['@tankswap/widgets-internal', '@tankswap/uikit']
   },
   compiler: {
     styledComponents: true
   },
   trailingSlash: true,
   transpilePackages: [
-    '@pancakeswap/widgets-internal',
-    '@pancakeswap/uikit',
+    '@tankswap/widgets-internal',
+    '@tankswap/uikit',
     // https://github.com/TanStack/query/issues/6560#issuecomment-1975771676
     '@tanstack/query-core'
   ],

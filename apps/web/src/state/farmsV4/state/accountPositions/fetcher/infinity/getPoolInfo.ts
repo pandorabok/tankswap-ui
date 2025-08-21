@@ -6,9 +6,9 @@ import {
   PoolType,
   decodePoolKey,
   type Slot0,
-} from '@pancakeswap/infinity-sdk'
-import { zeroAddress } from '@pancakeswap/price-api-sdk'
-import { FeeAmount } from '@pancakeswap/v3-sdk'
+} from '@tankswap/infinity-sdk'
+import { zeroAddress } from '@tankswap/price-api-sdk'
+import { FeeAmount } from '@tankswap/v3-sdk'
 import { getPoolManagerAddress } from 'utils/addressHelpers'
 import { publicClient } from 'utils/viem'
 import { Address, ContractFunctionReturnType, Prettify } from 'viem'

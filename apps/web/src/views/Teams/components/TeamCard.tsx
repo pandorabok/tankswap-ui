@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Card, CardBody, CardHeader, CommunityIcon, Heading, PrizeIcon, Skeleton, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Card, CardBody, CardHeader, CommunityIcon, Heading, PrizeIcon, Skeleton, Text } from '@tankswap/uikit'
 import { useQuery } from '@tanstack/react-query'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import { getTeam } from 'state/teams/helpers'

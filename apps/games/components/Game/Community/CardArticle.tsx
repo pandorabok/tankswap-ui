@@ -1,7 +1,7 @@
 import { styled } from 'styled-components'
-import { Box, Text, Flex } from '@pancakeswap/uikit'
+import { Box, Text, Flex } from '@tankswap/uikit'
 import NextLink from 'next/link'
-import { ArticleDataType } from '@pancakeswap/blog'
+import { ArticleDataType } from '@tankswap/blog'
 import { StyledLineClamp } from 'components/Game/Community/StyledLineClamp'
 
 const StyledBackgroundImage = styled(Box)<{ imgUrl: string }>`
@@ -50,7 +50,7 @@ interface CardArticleProps {
 export const CardArticle: React.FC<React.PropsWithChildren<CardArticleProps>> = ({ article }) => {
   return (
     <StyledArticle flexDirection="column">
-      <NextLink passHref href={`https://blog.pancakeswap.finance/articles/${article?.slug}`}>
+      <NextLink passHref href={`https://blog.tankswap.finance/articles/${article?.slug}`}>
         <Flex>
           <Box
             borderRadius={8}

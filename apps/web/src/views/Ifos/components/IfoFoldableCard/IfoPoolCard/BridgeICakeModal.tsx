@@ -13,12 +13,12 @@ import {
   CheckmarkCircleIcon,
   LogoRoundIcon,
   ArrowForwardIcon,
-} from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+} from '@tankswap/uikit'
+import { useTranslation } from '@tankswap/localization'
 import styled from 'styled-components'
 import { SpaceProps } from 'styled-system'
-import { ChainId, Currency, CurrencyAmount } from '@pancakeswap/sdk'
-import { formatAmount } from '@pancakeswap/utils/formatFractions'
+import { ChainId, Currency, CurrencyAmount } from '@tankswap/sdk'
+import { formatAmount } from '@tankswap/utils/formatFractions'
 
 import { useActiveChainId } from 'hooks/useActiveChainId'
 

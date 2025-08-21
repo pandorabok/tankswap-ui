@@ -1,13 +1,13 @@
 import { useCallback, useMemo } from 'react'
 import BigNumber from 'bignumber.js'
-import { Flex, Box, Text, IfoProgressStepper, IfoVestingFooter } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Flex, Box, Text, IfoProgressStepper, IfoVestingFooter } from '@tankswap/uikit'
+import { useTranslation } from '@tankswap/localization'
 import Divider from 'components/Divider'
-import { Ifo, PoolIds } from '@pancakeswap/ifos'
+import { Ifo, PoolIds } from '@tankswap/ifos'
 import { PublicIfoData, WalletIfoData } from 'views/Ifos/types'
 import useIfoVesting from 'views/Ifos/hooks/useIfoVesting'
-import { getFullDisplayBalance } from '@pancakeswap/utils/formatBalance'
-import { BIG_ONE, BIG_ZERO } from '@pancakeswap/utils/bigNumber'
+import { getFullDisplayBalance } from '@tankswap/utils/formatBalance'
+import { BIG_ONE, BIG_ZERO } from '@tankswap/utils/bigNumber'
 
 import { useActiveChainId } from 'hooks/useActiveChainId'
 

@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { Token } from '@pancakeswap/sdk'
+import { ChainId } from '@tankswap/chains'
+import { Token } from '@tankswap/sdk'
 import memoize from 'lodash/memoize'
 import { safeGetAddress } from 'utils'
 import { isAddress } from 'viem'

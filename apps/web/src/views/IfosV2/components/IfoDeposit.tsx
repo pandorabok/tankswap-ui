@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Card, CardBody, CardHeader, FlexGap, Text, IconButton, ArrowBackIcon } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Box, Card, CardBody, CardHeader, FlexGap, Text, IconButton, ArrowBackIcon } from '@tankswap/uikit'
 import { styled } from 'styled-components'
 import useTheme from 'hooks/useTheme'
 import { logGTMIfoConnectWalletEvent } from 'utils/customGTMEventTracking'

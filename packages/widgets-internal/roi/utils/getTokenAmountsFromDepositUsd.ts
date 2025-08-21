@@ -1,5 +1,5 @@
-import { Currency, CurrencyAmount } from "@pancakeswap/sdk";
-import tryParseAmount from "@pancakeswap/utils/tryParseAmount";
+import { Currency, CurrencyAmount } from "@tankswap/sdk";
+import tryParseAmount from "@tankswap/utils/tryParseAmount";
 
 interface Params {
   usdValue?: string;

@@ -1,5 +1,5 @@
 {
-  "name": "@pancakeswap/universal-router-sdk",
+  "name": "@tankswap/universal-router-sdk",
   "version": "1.4.14",
   "description": "🛠 An SDK for building applications on top of Pancakeswap.",
   "main": "dist/index.js",
@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pancakeswap/pancake-frontend.git",
+    "url": "https://github.com/tankswap/tank-frontend.git",
     "directory": "packages/universal-router-sdk"
   },
   "keywords": [
-    "pancakeswap"
+    "tankswap"
   ],
   "scripts": {
     "build": "tsup",
@@ -37,20 +37,20 @@
     "lint": "eslint '{src,test}/**/*.{js,jsx,ts,json}'"
   },
   "devDependencies": {
-    "@pancakeswap/stable-swap-sdk": "workspace:*",
-    "@pancakeswap/tokens": "workspace:*",
+    "@tankswap/stable-swap-sdk": "workspace:*",
+    "@tankswap/tokens": "workspace:*",
     "@types/node": "^15.12.2",
     "tslib": "^2.3.0",
     "tsup": "^6.7.0",
     "@types/lodash": "*"
   },
   "dependencies": {
-    "@pancakeswap/chains": "workspace:*",
-    "@pancakeswap/permit2-sdk": "workspace:*",
-    "@pancakeswap/sdk": "workspace:*",
-    "@pancakeswap/smart-router": "workspace:*",
-    "@pancakeswap/v3-sdk": "workspace:*",
-    "@pancakeswap/infinity-sdk": "workspace:*"
+    "@tankswap/chains": "workspace:*",
+    "@tankswap/permit2-sdk": "workspace:*",
+    "@tankswap/sdk": "workspace:*",
+    "@tankswap/smart-router": "workspace:*",
+    "@tankswap/v3-sdk": "workspace:*",
+    "@tankswap/infinity-sdk": "workspace:*"
   },
   "peerDependencies": {
     "viem": "catalog:",

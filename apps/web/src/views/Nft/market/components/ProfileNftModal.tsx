@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import {
   Button,
   Flex,
@@ -9,13 +9,13 @@ import {
   ScanLink,
   Text,
   useModal,
-} from '@pancakeswap/uikit'
+} from '@tankswap/uikit'
 import useTheme from 'hooks/useTheme'
 import { NftToken } from 'state/nftMarket/types'
 import { styled } from 'styled-components'
 import { getBscScanLinkForNft, safeGetAddress } from 'utils'
 import EditProfileModal from '../../../Profile/components/EditProfileModal'
-import { nftsBaseUrl, pancakeBunniesAddress } from '../constants'
+import { nftsBaseUrl, tankBunniesAddress } from '../constants'
 import { HorizontalDivider, RoundedImage } from './BuySellModals/shared/styles'
 
 export const StyledModal = styled(Modal)`
@@ -39,7 +39,7 @@ const ProfileNftModal: React.FC<React.PropsWithChildren<ProfileNftModalProps>> =
   const { theme } = useTheme()
 
   const itemPageUrlId =
-    safeGetAddress(nft?.collectionAddress) === safeGetAddress(pancakeBunniesAddress)
+    safeGetAddress(nft?.collectionAddress) === safeGetAddress(tankBunniesAddress)
       ? nft?.attributes?.[0].value
       : nft?.tokenId
 

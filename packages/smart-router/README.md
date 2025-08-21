@@ -1,26 +1,26 @@
 # Pancakeswap Smart Router
 
-`@pancakeswap/smart-router` is a SDK for getting best trade routes from Pancakeswap AMM.
+`@tankswap/smart-router` is a SDK for getting best trade routes from Pancakeswap AMM.
 
 ## Install
 
 ```bash
-$ pnpm add @pancakeswap/smart-router
+$ pnpm add @tankswap/smart-router
 
 ```
 
 ## Usage (InfinityRouter)
 
-**NOTE**: `InfinityRouter` will be replaced by `@pancakeswap/routing-sdk` in the future
+**NOTE**: `InfinityRouter` will be replaced by `@tankswap/routing-sdk` in the future
 
 InfinityRouter is utilize the new routing strategy introduced in smart router v5. Use BSC as an example. Here's how we use Infinity router to find the best trade route swapping from BNB to CAKE.
 
-For working code example, please refer to [Infinity router usage example](https://github.com/pancakeswap/smart-router-example).
+For working code example, please refer to [Infinity router usage example](https://github.com/tankswap/smart-router-example).
 
 0. Install other dependencies
 
 ```bash
-$ pnpm add @pancakeswap/smart-router@5 viem@1 @pancakeswap/sdk@5 @pancakeswap/tokens
+$ pnpm add @tankswap/smart-router@5 viem@1 @tankswap/sdk@5 @tankswap/tokens
 ```
 
 1. Prepare on-chain rpc provider
@@ -42,9 +42,9 @@ const client = createPublicClient({
 2. Get candidate pools
 
 ```typescript
-import { Native } from '@pancakeswap/sdk'
-import { InfinityRouter } from '@pancakeswap/smart-router'
-import { bscTokens } from '@pancakeswap/tokens'
+import { Native } from '@tankswap/sdk'
+import { InfinityRouter } from '@tankswap/smart-router'
+import { bscTokens } from '@tankswap/tokens'
 
 const swapFrom = Native.onChain(chainId)
 const swapTo = bscTokens.cake
@@ -59,7 +59,7 @@ const v3Pools = await InfinityRouter.getV3CandidatePools({
 3. Find the best swap trade route
 
 ```typescript
-import { CurrencyAmount, TradeType } from '@pancakeswap/sdk'
+import { CurrencyAmount, TradeType } from '@tankswap/sdk'
 
 // 0.01 BNB in our example
 const amount = CurrencyAmount.fromRawAmount(swapFrom, 10 ** 16)
@@ -74,12 +74,12 @@ const trade = await InfinityRouter.getBestTrade(amount, swapTo, TradeType.EXACT_
 
 Use BSC as an example. Here's how we use smart router sdk to find the best trade route swapping from BNB to CAKE and construct a valid swap transaction from the trade route we got.
 
-For working code example, please refer to [smart-router-example](https://github.com/pancakeswap/smart-router-example).
+For working code example, please refer to [smart-router-example](https://github.com/tankswap/smart-router-example).
 
 0. Install other dependencies
 
 ```bash
-$ pnpm add viem@1 graphql-request@5.0.0 @pancakeswap/sdk @pancakeswap/tokens
+$ pnpm add viem@1 graphql-request@5.0.0 @tankswap/sdk @tankswap/tokens
 ```
 
 1. Prepare on-chain rpc provider and subgraph provider
@@ -87,7 +87,7 @@ $ pnpm add viem@1 graphql-request@5.0.0 @pancakeswap/sdk @pancakeswap/tokens
 ```typescript
 import { createPublicClient, http } from 'viem'
 import { GraphQLClient } from 'graphql-request'
-import { SmartRouter } from '@pancakeswap/smart-router'
+import { SmartRouter } from '@tankswap/smart-router'
 
 const publicClient = createPublicClient({
   chain: mainnet,
@@ -99,7 +99,7 @@ const publicClient = createPublicClient({
   },
 })
 
-const v3SubgraphClient = new GraphQLClient('https://api.thegraph.com/subgraphs/name/pancakeswap/exchange-v3-bsc')
+const v3SubgraphClient = new GraphQLClient('https://api.thegraph.com/subgraphs/name/tankswap/exchange-v3-bsc')
 
 const quoteProvider = SmartRouter.createQuoteProvider({ onChainProvider: () => publicClient })
 ```
@@ -107,9 +107,9 @@ const quoteProvider = SmartRouter.createQuoteProvider({ onChainProvider: () => p
 2. Get candidate pools
 
 ```typescript
-import { Native } from '@pancakeswap/sdk'
-import { SmartRouter } from '@pancakeswap/smart-router'
-import { bscTokens } from '@pancakeswap/tokens'
+import { Native } from '@tankswap/sdk'
+import { SmartRouter } from '@tankswap/smart-router'
+import { bscTokens } from '@tankswap/tokens'
 
 const swapFrom = Native.onChain(chainId)
 const swapTo = bscTokens.cake
@@ -133,7 +133,7 @@ const [v2Pools, v3Pools] = await Promise.all([
 3. Find the best swap trade route
 
 ```typescript
-import { CurrencyAmount, TradeType } from '@pancakeswap/sdk'
+import { CurrencyAmount, TradeType } from '@tankswap/sdk'
 
 // 0.01 BNB in our example
 const amount = CurrencyAmount.fromRawAmount(swapFrom, 10 ** 16)
@@ -151,9 +151,9 @@ const trade = await SmartRouter.getBestTrade(amount, swapTo, TradeType.EXACT_INP
 4. Build the swap transaction from trade
 
 ```typescript
-import { Percent } from '@pancakeswap/sdk'
-import { ChainId } from '@pancakeswap/chains'
-import { SmartRouter, SMART_ROUTER_ADDRESSES, SwapRouter } from '@pancakeswap/smart-router'
+import { Percent } from '@tankswap/sdk'
+import { ChainId } from '@tankswap/chains'
+import { SmartRouter, SMART_ROUTER_ADDRESSES, SwapRouter } from '@tankswap/smart-router'
 import { hexToBigInt } from 'viem'
 
 const routerAddress = SMART_ROUTER_ADDRESSES[ChainId.BSC]

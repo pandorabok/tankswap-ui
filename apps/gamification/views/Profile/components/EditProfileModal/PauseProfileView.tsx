@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { AutoRenewIcon, Button, Checkbox, Flex, InjectedModalProps, Text, useToast } from '@pancakeswap/uikit'
-import { formatBigInt } from '@pancakeswap/utils/formatBalance'
+import { useTranslation } from '@tankswap/localization'
+import { AutoRenewIcon, Button, Checkbox, Flex, InjectedModalProps, Text, useToast } from '@tankswap/uikit'
+import { formatBigInt } from '@tankswap/utils/formatBalance'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import { useCallWithGasPrice } from 'hooks/useCallWithGasPrice'
 import useCatchTxError from 'hooks/useCatchTxError'
@@ -20,7 +20,7 @@ const PauseProfilePage: React.FC<React.PropsWithChildren<PauseProfilePageProps>>
     costs: { numberCakeToReactivate },
   } = useGetProfileCosts()
   const { t } = useTranslation()
-  const pancakeProfileContract = useProfileContract()
+  const tankProfileContract = useProfileContract()
   const { callWithGasPrice } = useCallWithGasPrice()
   const { toastSuccess } = useToast()
   const { fetchWithCatchTxError, loading: isConfirming } = useCatchTxError()
@@ -29,7 +29,7 @@ const PauseProfilePage: React.FC<React.PropsWithChildren<PauseProfilePageProps>>
 
   const handleDeactivateProfile = async () => {
     const receipt = await fetchWithCatchTxError(() => {
-      return callWithGasPrice(pancakeProfileContract, 'pauseProfile')
+      return callWithGasPrice(tankProfileContract, 'pauseProfile')
     })
     if (receipt?.status) {
       // Re-fetch profile

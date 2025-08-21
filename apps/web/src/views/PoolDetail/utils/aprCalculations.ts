@@ -1,4 +1,4 @@
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
+import { BIG_ZERO } from '@tankswap/utils/bigNumber'
 import BigNumber from 'bignumber.js'
 
 export interface AprData {

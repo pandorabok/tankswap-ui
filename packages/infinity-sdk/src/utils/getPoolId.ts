@@ -5,7 +5,7 @@ import { encodePoolParameters } from './encodePoolParameters'
 /**
  * `PoolId` is a bytes32 of `keccak256(abi.encode(poolKey))`
  * @see {@link PoolKey}
- * @see {@link https://github.com/pancakeswap/infinity-core/blob/main/src/types/PoolId.sol|infinity-core}
+ * @see {@link https://github.com/tankswap/infinity-core/blob/main/src/types/PoolId.sol|infinity-core}
  * @param param0
  * @returns
  */

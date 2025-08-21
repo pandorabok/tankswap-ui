@@ -1,9 +1,9 @@
 export const sousChefV3ABI = [
   {
     inputs: [
-      { internalType: 'address', name: '_pancakeProfile', type: 'address' },
-      { internalType: 'bool', name: '_pancakeProfileIsRequested', type: 'bool' },
-      { internalType: 'uint256', name: '_pancakeProfileThresholdPoints', type: 'uint256' },
+      { internalType: 'address', name: '_tankProfile', type: 'address' },
+      { internalType: 'bool', name: '_tankProfileIsRequested', type: 'bool' },
+      { internalType: 'uint256', name: '_tankProfileThresholdPoints', type: 'uint256' },
     ],
     stateMutability: 'nonpayable',
     type: 'constructor',
@@ -185,21 +185,21 @@ export const sousChefV3ABI = [
   },
   {
     inputs: [],
-    name: 'pancakeProfile',
+    name: 'tankProfile',
     outputs: [{ internalType: 'contract IPancakeProfile', name: '', type: 'address' }],
     stateMutability: 'view',
     type: 'function',
   },
   {
     inputs: [],
-    name: 'pancakeProfileIsRequested',
+    name: 'tankProfileIsRequested',
     outputs: [{ internalType: 'bool', name: '', type: 'bool' }],
     stateMutability: 'view',
     type: 'function',
   },
   {
     inputs: [],
-    name: 'pancakeProfileThresholdPoints',
+    name: 'tankProfileThresholdPoints',
     outputs: [{ internalType: 'uint256', name: '', type: 'uint256' }],
     stateMutability: 'view',
     type: 'function',

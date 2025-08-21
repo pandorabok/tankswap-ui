@@ -1,7 +1,7 @@
-import { ChainId } from '@pancakeswap/chains'
-import { getCurrencyKey } from '@pancakeswap/price-api-sdk'
-import { ZERO_ADDRESS } from '@pancakeswap/swap-sdk-core'
-import { cacheByLRU } from '@pancakeswap/utils/cacheByLRU'
+import { ChainId } from '@tankswap/chains'
+import { getCurrencyKey } from '@tankswap/price-api-sdk'
+import { ZERO_ADDRESS } from '@tankswap/swap-sdk-core'
+import { cacheByLRU } from '@tankswap/utils/cacheByLRU'
 import { WALLET_API } from 'config/constants/endpoints'
 import { checksumAddress } from 'utils/checksumAddress'
 import { HomePageToken } from '../types'
@@ -84,7 +84,7 @@ export const queryTokens = cacheByLRU(async () => {
   const topTokens = tokens.map((x, i) => {
     const price = prices[i]
     const addr = checksumAddress(x.id)
-    const logo = tokenMap[`${x.chainId}-${addr}`]?.logoURI || `https://tokens.pancakeswap.finance/images/${addr}.png`
+    const logo = tokenMap[`${x.chainId}-${addr}`]?.logoURI || `https://tokens.tankswap.finance/images/${addr}.png`
     return {
       ...x,
       id: addr,

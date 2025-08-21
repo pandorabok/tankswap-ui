@@ -4,7 +4,7 @@ export const useTokenList = () => {
   const { data: tokenList, isLoading } = useQuery({
     queryKey: ['tokenList'],
     queryFn: async () => {
-      const response = await fetch('https://tokens.pancakeswap.finance/pancakeswap-solana-default.json')
+      const response = await fetch('https://tokens.tankswap.finance/tankswap-solana-default.json')
       if (!response.ok) {
         throw new Error('Failed to fetch token list')
       }

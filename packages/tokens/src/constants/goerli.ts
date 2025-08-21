@@ -1,5 +1,5 @@
-import { ERC20Token, WETH9 } from '@pancakeswap/sdk'
-import { ChainId } from '@pancakeswap/chains'
+import { ERC20Token, WETH9 } from '@tankswap/sdk'
+import { ChainId } from '@tankswap/chains'
 
 import { USDC_GOERLI, CAKE } from './common'
 

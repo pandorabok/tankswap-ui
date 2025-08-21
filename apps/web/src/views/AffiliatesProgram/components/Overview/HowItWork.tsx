@@ -1,5 +1,5 @@
-import { Flex, Heading, Text, Card, Box } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Flex, Heading, Text, Card, Box } from '@tankswap/uikit'
+import { useTranslation } from '@tankswap/localization'
 import GradientLogo from 'components/GradientLogoSvg'
 
 const HowItWork = () => {

@@ -1,4 +1,4 @@
-import { ArrowBackIcon, ArrowForwardIcon, Box, Flex, IconButton, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { ArrowBackIcon, ArrowForwardIcon, Box, Flex, IconButton, Text, useMatchBreakpoints } from '@tankswap/uikit'
 import { useQuery } from '@tanstack/react-query'
 import Trans from 'components/Trans'
 import shuffle from 'lodash/shuffle'
@@ -12,7 +12,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import { safeGetAddress } from 'utils'
 import { Address } from 'viem'
 import { CollectibleLinkCard } from '../../../components/CollectibleCard'
-import { pancakeBunniesAddress } from '../../../constants'
+import { tankBunniesAddress } from '../../../constants'
 import useAllPancakeBunnyNfts from '../../../hooks/useAllPancakeBunnyNfts'
 
 const INITIAL_SLIDE = 4
@@ -50,7 +50,7 @@ const MoreFromThisCollection: React.FC<React.PropsWithChildren<MoreFromThisColle
   const { isMobile, isMd, isLg } = useMatchBreakpoints()
   const allPancakeBunnyNfts = useAllPancakeBunnyNfts(collectionAddress)
 
-  const isPBCollection = safeGetAddress(collectionAddress) === safeGetAddress(pancakeBunniesAddress)
+  const isPBCollection = safeGetAddress(collectionAddress) === safeGetAddress(tankBunniesAddress)
   const checkSummedCollectionAddress = safeGetAddress(collectionAddress) || collectionAddress
 
   const { data: collectionNfts } = useQuery({

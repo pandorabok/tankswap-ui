@@ -1,5 +1,5 @@
-import { ChainId } from "@pancakeswap/chains";
-import { BoxProps, Svg, SvgProps } from "@pancakeswap/uikit";
+import { ChainId } from "@tankswap/chains";
+import { BoxProps, Svg, SvgProps } from "@tankswap/uikit";
 import { LogoWrapper } from "./styles";
 
 export const BinanceIcon: React.FC<SvgProps> = (props) => {

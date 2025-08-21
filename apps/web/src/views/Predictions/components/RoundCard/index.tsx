@@ -1,5 +1,5 @@
-import { BetPosition } from '@pancakeswap/prediction'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
+import { BetPosition } from '@tankswap/prediction'
+import { BIG_ZERO } from '@tankswap/utils/bigNumber'
 import { useGetBetByEpoch, useGetCurrentEpoch } from 'state/predictions/hooks'
 import { NodeRound } from 'state/types'
 import { useConfig } from 'views/Predictions/context/ConfigProvider'

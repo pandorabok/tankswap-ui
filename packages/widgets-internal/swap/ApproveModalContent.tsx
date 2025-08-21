@@ -1,6 +1,6 @@
-import { useTheme } from "@pancakeswap/hooks";
-import { useTranslation } from "@pancakeswap/localization";
-import { Currency } from "@pancakeswap/swap-sdk-core";
+import { useTheme } from "@tankswap/hooks";
+import { useTranslation } from "@tankswap/localization";
+import { Currency } from "@tankswap/swap-sdk-core";
 import {
   AutoColumn,
   Box,
@@ -13,7 +13,7 @@ import {
   Text,
   TooltipText,
   useTooltip,
-} from "@pancakeswap/uikit";
+} from "@tankswap/uikit";
 import { FC, ReactNode, Ref, useMemo, useRef } from "react";
 import styled, { css } from "styled-components";
 import { CurrencyLogo } from "../components/CurrencyLogo";
@@ -195,7 +195,7 @@ export const ApproveCrossChainModalContent = ({ currency, chainName }: { currenc
         $color={theme.colors.primary60}
         onClick={() => {
           window.open(
-            "https://docs.pancakeswap.finance/~/changes/d1gFBwxReM0gH1aeMo0G/readme/help/what-is-an-approval-transaction",
+            "https://docs.tankswap.finance/~/changes/d1gFBwxReM0gH1aeMo0G/readme/help/what-is-an-approval-transaction",
             "_blank"
           );
         }}

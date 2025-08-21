@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import {
   AutoColumn,
   Box,
@@ -11,8 +11,8 @@ import {
   Text,
   Toggle,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
-import { GreyCard } from '@pancakeswap/widgets-internal'
+} from '@tankswap/uikit'
+import { GreyCard } from '@tankswap/widgets-internal'
 import Divider from 'components/Divider'
 import { useCallback } from 'react'
 import { useHookAddressQueryState } from 'state/infinity/create'

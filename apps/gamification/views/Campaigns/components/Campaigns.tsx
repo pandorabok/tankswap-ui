@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, ButtonMenu, ButtonMenuItem, Flex, FlexGap } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Box, ButtonMenu, ButtonMenuItem, Flex, FlexGap } from '@tankswap/uikit'
 import { useState } from 'react'
 import { styled } from 'styled-components'
 import { Campaign } from 'views/Campaigns/components/Campaign'

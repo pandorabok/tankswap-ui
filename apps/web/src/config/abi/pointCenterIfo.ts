@@ -3,7 +3,7 @@ export const pointCenterIfoABI = [
     inputs: [
       {
         internalType: 'address',
-        name: '_pancakeProfileAddress',
+        name: '_tankProfileAddress',
         type: 'address',
       },
     ],

@@ -1,8 +1,8 @@
-import { ChainId } from '@pancakeswap/chains'
-import { FARMING_OFFCHAIN_ABI, INFI_FARMING_DISTRIBUTOR_ADDRESSES } from '@pancakeswap/infinity-sdk'
-import { Currency, CurrencyAmount } from '@pancakeswap/swap-sdk-core'
-import { getTokenByAddress } from '@pancakeswap/tokens'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
+import { ChainId } from '@tankswap/chains'
+import { FARMING_OFFCHAIN_ABI, INFI_FARMING_DISTRIBUTOR_ADDRESSES } from '@tankswap/infinity-sdk'
+import { Currency, CurrencyAmount } from '@tankswap/swap-sdk-core'
+import { getTokenByAddress } from '@tankswap/tokens'
+import { BIG_ZERO } from '@tankswap/utils/bigNumber'
 import { useQuery } from '@tanstack/react-query'
 import BN, { BigNumber } from 'bignumber.js'
 import { QUERY_SETTINGS_IMMUTABLE } from 'config/constants'
@@ -48,7 +48,7 @@ const fetchUserFarmRewards = async ({ chainId, address, poolId, timestamp }: Poo
     {
       // @todo @ChefJerry remove this after the backend is ready
       baseUrl:
-        chainId === ChainId.BSC_TESTNET ? 'https://test.v4.pancakeswap.com/' : 'https://infinity.pancakeswap.com/',
+        chainId === ChainId.BSC_TESTNET ? 'https://test.v4.tankswap.com/' : 'https://infinity.tankswap.com/',
       params: {
         path,
       },
@@ -384,7 +384,7 @@ export const useUserAllFarmRewardsByChainIdFromAPI = ({ chainId, user, timestamp
       const resp = await rewardApiClient.GET('/farms/users/{chainId}/{address}/{timestamp}', {
         // @todo @ChefJerry remove this after the backend is ready
         baseUrl:
-          chainId === ChainId.BSC_TESTNET ? 'https://test.v4.pancakeswap.com/' : 'https://infinity.pancakeswap.com/',
+          chainId === ChainId.BSC_TESTNET ? 'https://test.v4.tankswap.com/' : 'https://infinity.tankswap.com/',
         params: {
           path: {
             chainId,

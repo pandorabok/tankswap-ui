@@ -1,6 +1,6 @@
-import { ChainId } from '@pancakeswap/chains'
-import { CurrencyAmount, Token } from '@pancakeswap/swap-sdk-core'
-import { WNATIVE, Native } from '@pancakeswap/swap-sdk-evm'
+import { ChainId } from '@tankswap/chains'
+import { CurrencyAmount, Token } from '@tankswap/swap-sdk-core'
+import { WNATIVE, Native } from '@tankswap/swap-sdk-evm'
 import { describe, expect, it } from 'vitest'
 
 import { Pair, Route } from '../src/entities'

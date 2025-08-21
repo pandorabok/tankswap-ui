@@ -1,4 +1,4 @@
-import { SUPPORTED_CHAIN_IDS } from '@pancakeswap/ifos'
+import { SUPPORTED_CHAIN_IDS } from '@tankswap/ifos'
 
 import IfoProvider from 'views/Ifos/contexts/IfoContext'
 import dynamic from 'next/dynamic'

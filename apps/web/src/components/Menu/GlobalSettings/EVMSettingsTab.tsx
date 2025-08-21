@@ -1,7 +1,7 @@
-import { ChainId } from '@pancakeswap/chains'
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Flex, PancakeToggle, PreTitle, QuestionHelper, Text, Toggle } from '@pancakeswap/uikit'
-import { useAudioPlay, useExpertMode, useUserExpertModeAcknowledgement } from '@pancakeswap/utils/user'
+import { ChainId } from '@tankswap/chains'
+import { useTranslation } from '@tankswap/localization'
+import { Box, Flex, PancakeToggle, PreTitle, QuestionHelper, Text, Toggle } from '@tankswap/uikit'
+import { useAudioPlay, useExpertMode, useUserExpertModeAcknowledgement } from '@tankswap/utils/user'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useSwapActionHandlers } from 'state/swap/useSwapActionHandlers'
 import { useId, useState } from 'react'
@@ -73,7 +73,7 @@ export const EVMSettingsTab = () => {
           <Flex alignItems="center">
             <Text>{t('Flippy sounds')}</Text>
             <QuestionHelper
-              text={t('Fun sounds to make a truly immersive pancake-flipping trading experience')}
+              text={t('Fun sounds to make a truly immersive tank-flipping trading experience')}
               placement="top"
               ml="4px"
             />

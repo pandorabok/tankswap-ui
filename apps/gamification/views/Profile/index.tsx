@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Flex, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Box, Flex, Text } from '@tankswap/uikit'
 import Page from 'components/Layout/Page'
 import { useProfileForAddress } from 'hooks/useProfile'
 import { useCallback } from 'react'

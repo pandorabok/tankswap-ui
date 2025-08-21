@@ -1,5 +1,5 @@
-import { HOOK_CATEGORY, HookData, POOL_TYPE } from '@pancakeswap/infinity-sdk'
-import { useTranslation } from '@pancakeswap/localization'
+import { HOOK_CATEGORY, HookData, POOL_TYPE } from '@tankswap/infinity-sdk'
+import { useTranslation } from '@tankswap/localization'
 import {
   Box,
   Button,
@@ -15,7 +15,7 @@ import {
   ModalV2Props,
   Text,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
+} from '@tankswap/uikit'
 import intersection from 'lodash/intersection'
 import { useCallback, useMemo, useState } from 'react'
 import styled from 'styled-components'

@@ -1,6 +1,6 @@
-import { Trans } from '@pancakeswap/localization'
-import { Flex } from '@pancakeswap/uikit'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+import { Trans } from '@tankswap/localization'
+import { Flex } from '@tankswap/uikit'
+import { NextLinkFromReactRouter } from '@tankswap/widgets-internal'
 import { styled } from 'styled-components'
 
 import { useRouter } from 'next/router'

@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import {
   ArrowForwardIcon,
   AtomBox,
@@ -10,7 +10,7 @@ import {
   PageHeader,
   RowBetween,
   Text,
-} from '@pancakeswap/uikit'
+} from '@tankswap/uikit'
 import { MobileCard } from 'components/AdPanel/MobileCard'
 import { commonLayoutWhitelistedPages } from 'components/AdPanel/constants'
 import { shouldRenderOnPages } from 'components/AdPanel/renderConditions'
@@ -104,7 +104,7 @@ const MigrationPage: React.FC<React.PropsWithChildren> = () => {
               {t('Migrate your farms and position manager staking to the new staking contract.')}
             </Text>
             <AutoColumn gap="4px" pt="4px">
-              <Link href="https://docs.pancakeswap.finance/code/v3-migration/how-to-migrate" external>
+              <Link href="https://docs.tankswap.finance/code/v3-migration/how-to-migrate" external>
                 <Button p="0" variant="text" scale="sm">
                   <Text color="primary" bold fontSize="16px" mr="4px">
                     {t('Learn more')}

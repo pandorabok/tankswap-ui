@@ -1,8 +1,8 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, LinkExternal, Text, useTooltip } from '@pancakeswap/uikit'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
-import { formatAmount } from '@pancakeswap/utils/formatInfoNumbers'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+import { useTranslation } from '@tankswap/localization'
+import { Box, LinkExternal, Text, useTooltip } from '@tankswap/uikit'
+import { BIG_ZERO } from '@tankswap/utils/bigNumber'
+import { formatAmount } from '@tankswap/utils/formatInfoNumbers'
+import { NextLinkFromReactRouter } from '@tankswap/widgets-internal'
 import BigNumber from 'bignumber.js'
 import { getChainId } from 'config/chains'
 import { ASSET_CDN } from 'config/constants/endpoints'
@@ -149,7 +149,7 @@ const AdPicksTooltip = () => {
           'Pancake Picks are trending tokens from selected categories, filtered by meaningful metrics, and refreshed every weekday.',
         )}
       </Text>
-      <LinkExternal href="https://docs.pancakeswap.finance/products/pancake-picks">
+      <LinkExternal href="https://docs.tankswap.finance/products/tank-picks">
         {t('More Information')}
       </LinkExternal>
     </>

@@ -1,7 +1,7 @@
-import { ChainId } from '@pancakeswap/chains'
-import { Currency, getCurrencyAddress, Token, UnifiedCurrency, WBNB } from '@pancakeswap/sdk'
-import { WrappedTokenInfo } from '@pancakeswap/token-lists'
-import uriToHttp from '@pancakeswap/utils/uriToHttp'
+import { ChainId } from '@tankswap/chains'
+import { Currency, getCurrencyAddress, Token, UnifiedCurrency, WBNB } from '@tankswap/sdk'
+import { WrappedTokenInfo } from '@tankswap/token-lists'
+import uriToHttp from '@tankswap/utils/uriToHttp'
 import makeBlockiesUrl from 'blockies-react-svg/dist/es/makeBlockiesUrl.mjs'
 import { getBasicTokensImage } from 'components/Logo/CurrencyLogo'
 import { ASSET_CDN } from 'config/constants/endpoints'
@@ -30,7 +30,7 @@ export const getImageUrlFromToken = (token?: UnifiedCurrency) => {
   return token
     ? token.isNative && token.chainId !== ChainId.BSC
       ? `${ASSET_CDN}/web/native/${token.chainId}.png`
-      : `https://tokens.pancakeswap.finance/images/${tokenImageChainNameMapping[token.chainId]}${safeGetAddress(
+      : `https://tokens.tankswap.finance/images/${tokenImageChainNameMapping[token.chainId]}${safeGetAddress(
           address,
         )}.png`
     : ''

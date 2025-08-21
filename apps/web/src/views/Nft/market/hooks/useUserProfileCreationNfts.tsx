@@ -3,8 +3,8 @@ import { useAccount } from 'wagmi'
 import { useQuery } from '@tanstack/react-query'
 import { getProfileContract } from 'utils/contractHelpers'
 import { publicClient } from 'utils/wagmi'
-import { pancakeProfileABI } from 'config/abi/pancakeProfile'
-import { ChainId } from '@pancakeswap/chains'
+import { tankProfileABI } from 'config/abi/tankProfile'
+import { ChainId } from '@tankswap/chains'
 import { getPancakeProfileAddress } from 'utils/addressHelpers'
 import { NftLocation } from 'state/nftMarket/types'
 import { useNftsForAddress } from './useNftsForAddress'
@@ -32,11 +32,11 @@ export const useUserProfileCreationNfts = () => {
       if (nftsByCollection.length > 0) {
         const profileContract = getProfileContract()
         const nftRole = await profileContract.read.NFT_ROLE()
-        const pancakeProfileAddress = getPancakeProfileAddress()
+        const tankProfileAddress = getPancakeProfileAddress()
         const collectionRoles = await publicClient({ chainId: ChainId.BSC }).multicall({
           contracts: nftsByCollection.map((collectionAddress) => ({
-            abi: pancakeProfileABI,
-            address: pancakeProfileAddress,
+            abi: tankProfileABI,
+            address: tankProfileAddress,
             functionName: 'hasRole',
             args: [nftRole, collectionAddress],
           })),

@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { ArrowDropDownIcon, AutoRow, Button, Flex, FlexGap, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { ArrowDropDownIcon, AutoRow, Button, Flex, FlexGap, Text } from '@tankswap/uikit'
 import React from 'react'
 import { styled } from 'styled-components'
 

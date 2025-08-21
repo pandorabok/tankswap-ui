@@ -1,4 +1,4 @@
-import { ContextApi } from '@pancakeswap/localization'
+import { ContextApi } from '@tankswap/localization'
 import memoize from 'lodash/memoize'
 import { ASSET_CDN } from './endpoints'
 import { PageMeta } from './types'
@@ -77,7 +77,7 @@ const getPathList = memoize((t: ContextApi['t']): PathList => {
       '/nfts/collections': { basePath: true, title: t('Collections'), image: `${ASSET_CDN}/web/og/nft.jpg` },
       '/nfts/activity': { title: t('Activity'), image: `${ASSET_CDN}/web/og/nft.jpg` },
       '/profile': { basePath: true, title: t('Profile') },
-      '/pancake-squad': { basePath: true, title: t('Pancake Squad') },
+      '/tank-squad': { basePath: true, title: t('Pancake Squad') },
       '/cake-staking': { basePath: true, title: t('CAKE Staking') },
       '/buy-crypto': { basePath: true, title: t('Buy Crypto') },
       '/burn-dashboard': {

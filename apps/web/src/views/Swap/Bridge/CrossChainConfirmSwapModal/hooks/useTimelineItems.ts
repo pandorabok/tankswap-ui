@@ -1,10 +1,10 @@
-import { PriceOrder, zeroAddress } from '@pancakeswap/price-api-sdk'
-import { Currency, ERC20Token, Native } from '@pancakeswap/sdk'
+import { PriceOrder, zeroAddress } from '@tankswap/price-api-sdk'
+import { Currency, ERC20Token, Native } from '@tankswap/sdk'
 
 import { GELATO_NATIVE } from 'config/constants'
 import { useCallback, useMemo } from 'react'
 
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import { useQuery } from '@tanstack/react-query'
 import { useAllTokensByChainIds } from 'hooks/Tokens'
 import { safeGetAddress } from 'utils'

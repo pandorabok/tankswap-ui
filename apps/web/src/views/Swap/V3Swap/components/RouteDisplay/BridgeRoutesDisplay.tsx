@@ -1,4 +1,4 @@
-import { RouteType, SmartRouter } from '@pancakeswap/smart-router'
+import { RouteType, SmartRouter } from '@tankswap/smart-router'
 import {
   AtomBox,
   AutoColumn,
@@ -10,10 +10,10 @@ import {
   Text,
   useMatchBreakpoints,
   useTooltip,
-} from '@pancakeswap/uikit'
-import { ChainLogo, CurrencyLogo, LightCard, LightGreyCard } from '@pancakeswap/widgets-internal'
+} from '@tankswap/uikit'
+import { ChainLogo, CurrencyLogo, LightCard, LightGreyCard } from '@tankswap/widgets-internal'
 
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import { memo, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import styled from 'styled-components'

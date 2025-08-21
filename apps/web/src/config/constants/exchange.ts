@@ -1,5 +1,5 @@
-import { ChainId, NonEVMChainId } from '@pancakeswap/chains'
-import { Percent, Token, WNATIVE } from '@pancakeswap/sdk'
+import { ChainId, NonEVMChainId } from '@tankswap/chains'
+import { Percent, Token, WNATIVE } from '@tankswap/sdk'
 import {
   arbitrumGoerliTokens,
   arbitrumTokens,
@@ -25,7 +25,7 @@ import {
   WBTC_ETH,
   zkSyncTestnetTokens,
   zksyncTokens,
-} from '@pancakeswap/tokens'
+} from '@tankswap/tokens'
 
 import { ChainTokenList } from './types'
 
@@ -36,7 +36,7 @@ export {
   BASES_TO_CHECK_TRADES_AGAINST,
   CUSTOM_BASES,
   V2_ROUTER_ADDRESS,
-} from '@pancakeswap/smart-router'
+} from '@tankswap/smart-router'
 
 export const CHAIN_REFRESH_TIME = {
   [ChainId.ETHEREUM]: 12_000,
@@ -181,10 +181,10 @@ export const DEFAULT_INPUT_CURRENCY = 'BNB'
 export const DEFAULT_OUTPUT_CURRENCY = '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82'
 
 // Handler string is passed to Gelato to use PCS router
-export const GELATO_HANDLER = 'pancakeswap'
+export const GELATO_HANDLER = 'tankswap'
 export const GENERIC_GAS_LIMIT_ORDER_EXECUTION = 500000n
 
-export const LIMIT_ORDERS_DOCS_URL = 'https://docs.pancakeswap.finance/products/pancakeswap-exchange/limit-orders'
+export const LIMIT_ORDERS_DOCS_URL = 'https://docs.tankswap.finance/products/tankswap-exchange/limit-orders'
 
 export const EXCHANGE_PAGE_PATHS = ['/swap', '/limit-orders', 'liquidity', '/add', '/find', '/remove', '/stable', '/v2']
 export const UNIVERSAL_PAGE_PATHS = ['/liquidity/pools', '/liquidity/positions']

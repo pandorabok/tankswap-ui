@@ -1,4 +1,4 @@
-import { useReadContracts } from '@pancakeswap/wagmi'
+import { useReadContracts } from '@tankswap/wagmi'
 import { NftToken } from 'hooks/useProfile/nft/types'
 import fromPairs from 'lodash/fromPairs'
 import { getPancakeProfileAddress } from 'utils/addressHelpers'

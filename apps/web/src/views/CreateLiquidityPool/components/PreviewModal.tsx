@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency, CurrencyAmount } from '@pancakeswap/sdk'
+import { useTranslation } from '@tankswap/localization'
+import { Currency, CurrencyAmount } from '@tankswap/sdk'
 import {
   AutoRow,
   Box,
@@ -11,9 +11,9 @@ import {
   ModalV2,
   ModalV2Props,
   Text,
-} from '@pancakeswap/uikit'
-import truncateHash from '@pancakeswap/utils/truncateHash'
-import { CurrencyLogo, DoubleCurrencyLogo, LightGreyCard } from '@pancakeswap/widgets-internal'
+} from '@tankswap/uikit'
+import truncateHash from '@tankswap/utils/truncateHash'
+import { CurrencyLogo, DoubleCurrencyLogo, LightGreyCard } from '@tankswap/widgets-internal'
 import Divider from 'components/Divider'
 import { useStablecoinPrice } from 'hooks/useStablecoinPrice'
 import React, { useState } from 'react'

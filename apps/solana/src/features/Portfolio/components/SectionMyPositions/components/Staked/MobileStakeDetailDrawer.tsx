@@ -1,6 +1,6 @@
 import { Button, Drawer, DrawerBody, DrawerContent, DrawerFooter, DrawerOverlay, Flex, HStack, Spacer, Text } from '@chakra-ui/react'
-import { useTranslation } from '@pancakeswap/localization'
-import { ApiV3Token } from '@pancakeswap/solana-core-sdk'
+import { useTranslation } from '@tankswap/localization'
+import { ApiV3Token } from '@tankswap/solana-core-sdk'
 import { colors } from '@/theme/cssVariables'
 import TokenAvatar from '@/components/TokenAvatar'
 import { QuestionToolTip } from '@/components/QuestionToolTip'

@@ -1,4 +1,4 @@
-import { ContextApi, useTranslation } from '@pancakeswap/localization'
+import { ContextApi, useTranslation } from '@tankswap/localization'
 import {
   DropdownMenuItems,
   DropdownMenuItemType,
@@ -8,7 +8,7 @@ import {
   MoreIcon,
   SwapFillIcon,
   SwapIcon,
-} from '@pancakeswap/uikit'
+} from '@tankswap/uikit'
 import { useMemo } from 'react'
 import { useMenuItemsStatus } from './useMenuItemsStatus'
 
@@ -36,7 +36,7 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
       },
       {
         label: t('Bridge'),
-        href: 'https://bridge.pancakeswap.finance/aptos',
+        href: 'https://bridge.tankswap.finance/aptos',
         type: DropdownMenuItemType.EXTERNAL_LINK,
       },
     ],
@@ -70,7 +70,7 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
       },
       {
         label: t('Blog'),
-        href: 'https://blog.pancakeswap.finance',
+        href: 'https://blog.tankswap.finance',
         type: DropdownMenuItemType.EXTERNAL_LINK,
       },
     ],

@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { POOL_TYPE } from '@pancakeswap/infinity-sdk'
+import { ChainId } from '@tankswap/chains'
+import { POOL_TYPE } from '@tankswap/infinity-sdk'
 import {
   CurrencyAmount,
   ERC20Token,
@@ -10,9 +10,9 @@ import {
   Route as V2Route,
   Trade as V2Trade,
   ZERO_ADDRESS,
-} from '@pancakeswap/sdk'
-import { InfinityBinPool, InfinityClPool, PoolType, SmartRouter, SmartRouterTrade } from '@pancakeswap/smart-router'
-import { Pool } from '@pancakeswap/v3-sdk'
+} from '@tankswap/sdk'
+import { InfinityBinPool, InfinityClPool, PoolType, SmartRouter, SmartRouterTrade } from '@tankswap/smart-router'
+import { Pool } from '@tankswap/v3-sdk'
 import { isHex, parseEther, stringify } from 'viem'
 import { beforeEach, describe, expect, it } from 'vitest'
 import { PancakeSwapUniversalRouter } from '../src'

@@ -1,4 +1,4 @@
-import { GameLinkType } from '@pancakeswap/games'
+import { GameLinkType } from '@tankswap/games'
 
 export function getGameLink({
   gameId,

@@ -1,10 +1,10 @@
 {
-  "name": "@pancakeswap/price-api-sdk",
+  "name": "@tankswap/price-api-sdk",
   "version": "11.0.2",
-  "description": "SDK for pancakeswap price api",
+  "description": "SDK for tankswap price api",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pancakeswap/pancake-frontend.git",
+    "url": "https://github.com/tankswap/tank-frontend.git",
     "directory": "packages/price-api-sdk"
   },
   "type": "module",
@@ -23,35 +23,35 @@
     "dist"
   ],
   "peerDependencies": {
-    "@pancakeswap/permit2-sdk": "workspace:*",
-    "@pancakeswap/smart-router": "workspace:*",
-    "@pancakeswap/swap-sdk-core": "workspace:*",
-    "@pancakeswap/pcsx-sdk": "workspace:*"
+    "@tankswap/permit2-sdk": "workspace:*",
+    "@tankswap/smart-router": "workspace:*",
+    "@tankswap/swap-sdk-core": "workspace:*",
+    "@tankswap/pcsx-sdk": "workspace:*"
   },
   "peerDependenciesMeta": {
-    "@pancakeswap/permit2-sdk": {
+    "@tankswap/permit2-sdk": {
       "optional": true
     },
-    "@pancakeswap/swap-sdk-core": {
+    "@tankswap/swap-sdk-core": {
       "optional": true
     },
-    "@pancakeswap/smart-router": {
+    "@tankswap/smart-router": {
       "optional": true
     },
-    "@pancakeswap/pcsx-sdk": {
+    "@tankswap/pcsx-sdk": {
       "optional": true
     }
   },
   "dependencies": {
-    "@pancakeswap/chains": "workspace:*"
+    "@tankswap/chains": "workspace:*"
   },
   "devDependencies": {
-    "@pancakeswap/permit2-sdk": "workspace:*",
-    "@pancakeswap/sdk": "workspace:*",
-    "@pancakeswap/smart-router": "workspace:*",
-    "@pancakeswap/swap-sdk-core": "workspace:*",
-    "@pancakeswap/pcsx-sdk": "workspace:*",
-    "@pancakeswap/tsconfig": "workspace:*",
+    "@tankswap/permit2-sdk": "workspace:*",
+    "@tankswap/sdk": "workspace:*",
+    "@tankswap/smart-router": "workspace:*",
+    "@tankswap/swap-sdk-core": "workspace:*",
+    "@tankswap/pcsx-sdk": "workspace:*",
+    "@tankswap/tsconfig": "workspace:*",
     "tsup": "^6.7.0"
   },
   "exports": {

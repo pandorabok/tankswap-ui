@@ -1,5 +1,5 @@
-import { Box, LinkExternal, Text } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Box, LinkExternal, Text } from '@tankswap/uikit'
+import { useTranslation } from '@tankswap/localization'
 
 const GalaWarning = () => {
   const { t } = useTranslation()

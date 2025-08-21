@@ -1,18 +1,18 @@
-# @pancakeswap/token-lists
+# @tankswap/token-lists
 
 ## 0.0.16
 
 ### Patch Changes
 
 - Updated dependencies [cd589e1]
-  - @pancakeswap/swap-sdk-core@1.5.0
+  - @tankswap/swap-sdk-core@1.5.0
 
 ## 0.0.15
 
 ### Patch Changes
 
 - Updated dependencies [cb44715]
-  - @pancakeswap/swap-sdk-core@1.4.0
+  - @tankswap/swap-sdk-core@1.4.0
 
 ## 0.0.14
 
@@ -20,7 +20,7 @@
 
 - Updated dependencies [176eb10]
 - Updated dependencies [176eb10]
-  - @pancakeswap/swap-sdk-core@1.3.0
+  - @tankswap/swap-sdk-core@1.3.0
 
 ## 0.0.13
 
@@ -33,21 +33,21 @@
 ### Patch Changes
 
 - Updated dependencies [f551e5e]
-  - @pancakeswap/swap-sdk-core@1.2.0
+  - @tankswap/swap-sdk-core@1.2.0
 
 ## 0.0.11
 
 ### Patch Changes
 
 - Updated dependencies [610a24a]
-  - @pancakeswap/swap-sdk-core@1.1.0
+  - @tankswap/swap-sdk-core@1.1.0
 
 ## 0.0.10
 
 ### Patch Changes
 
 - Updated dependencies [c269d43]
-  - @pancakeswap/swap-sdk-core@1.0.1
+  - @tankswap/swap-sdk-core@1.0.1
 
 ## 0.0.9
 
@@ -66,7 +66,7 @@
 ### Patch Changes
 
 - Updated dependencies [b5dbd2921]
-  - @pancakeswap/swap-sdk-core@1.0.0
+  - @tankswap/swap-sdk-core@1.0.0
 
 ## 0.0.6
 

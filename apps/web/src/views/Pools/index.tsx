@@ -1,9 +1,9 @@
 import { styled } from 'styled-components'
 
-import { ChainId } from '@pancakeswap/chains'
-import { useTranslation } from '@pancakeswap/localization'
-import { checkIsBoostedPool } from '@pancakeswap/pools'
-import { Token } from '@pancakeswap/sdk'
+import { ChainId } from '@tankswap/chains'
+import { useTranslation } from '@tankswap/localization'
+import { checkIsBoostedPool } from '@tankswap/pools'
+import { Token } from '@tankswap/sdk'
 import {
   Flex,
   FlexLayout,
@@ -15,8 +15,8 @@ import {
   Text,
   ViewMode,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
-import { Pool } from '@pancakeswap/widgets-internal'
+} from '@tankswap/uikit'
+import { Pool } from '@tankswap/widgets-internal'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import Page from 'components/Layout/Page'
 import PinnedFAQButton from 'components/PinnedFAQButton'
@@ -82,7 +82,7 @@ const Pools: React.FC<React.PropsWithChildren> = () => {
                 {t('Looking for v1 CAKE syrup pools?')}
               </Text>
               <FinishedTextLink
-                href="https://v1-farms.pancakeswap.finance/pools/history"
+                href="https://v1-farms.tankswap.finance/pools/history"
                 fontSize={['16px', null, '20px']}
                 color="failure"
               >
@@ -163,7 +163,7 @@ const Pools: React.FC<React.PropsWithChildren> = () => {
             </Text>
             {isMobile ? (
               <PinnedFAQButton
-                docLink="https://docs.pancakeswap.finance/products/syrup-pool/syrup-pool-guide"
+                docLink="https://docs.tankswap.finance/products/syrup-pool/syrup-pool-guide"
                 faqConfig={faqConfig}
               />
             ) : null}

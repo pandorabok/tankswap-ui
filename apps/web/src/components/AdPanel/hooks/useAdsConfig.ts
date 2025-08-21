@@ -1,13 +1,13 @@
-import { ContextApi, useTranslation } from '@pancakeswap/localization'
-import { useMatchBreakpoints } from '@pancakeswap/uikit'
+import { ContextApi, useTranslation } from '@tankswap/localization'
+import { useMatchBreakpoints } from '@tankswap/uikit'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import { useMemo } from 'react'
 import { AdsCampaignConfig, Priority } from '../types'
 import { getImageUrl } from '../utils'
 
 export enum AdsIds {
-  PANCAKE_SOCIAL_LOGIN = 'pancake-social-login',
-  PANCAKE_GIFT = 'pancake-gift',
+  PANCAKE_SOCIAL_LOGIN = 'tank-social-login',
+  PANCAKE_GIFT = 'tank-gift',
   BINANCE_ALPHA = 'binance-alpha',
   SOLANA_LIQUIDITY = 'solana-liquidity',
   TRADE_SOCIAL = 'trade-social',
@@ -31,7 +31,7 @@ const getAdsConfigs = (t: ContextApi['t'], isMobile: boolean): AdsCampaignConfig
         ],
         btn: {
           text: t('Learn More'),
-          link: 'https://blog.pancakeswap.finance/articles/sociallogin',
+          link: 'https://blog.tankswap.finance/articles/sociallogin',
           mt: !isMobile ? '8px' : undefined,
         },
       },
@@ -41,19 +41,19 @@ const getAdsConfigs = (t: ContextApi['t'], isMobile: boolean): AdsCampaignConfig
       id: AdsIds.PANCAKE_GIFT,
       priority: Priority.HIGH,
       ad: {
-        img: getImageUrl(isMobile ? 'pancake-gift-mobile' : 'pancake-gift'),
+        img: getImageUrl(isMobile ? 'tank-gift-mobile' : 'tank-gift'),
         texts: [
           {
             text: t('Introducing Pancake Gifts.'),
           },
           {
             text: t('Gift Now'),
-            link: 'https://pancakeswap.finance/swap?utm_source=website&utm_medium=Homepage&utm_campaign=banner&utm_id=PancakeGifts',
+            link: 'https://tankswap.finance/swap?utm_source=website&utm_medium=Homepage&utm_campaign=banner&utm_id=PancakeGifts',
           },
         ],
         btn: {
           text: t('Learn More'),
-          link: 'https://blog.pancakeswap.finance/articles/Pancake-Gifts?utm_source=website&utm_medium=Homepage&utm_campaign=banner&utm_id=PancakeGifts',
+          link: 'https://blog.tankswap.finance/articles/Pancake-Gifts?utm_source=website&utm_medium=Homepage&utm_campaign=banner&utm_id=PancakeGifts',
           mt: !isMobile ? '8px' : undefined,
         },
       },
@@ -68,7 +68,7 @@ const getAdsConfigs = (t: ContextApi['t'], isMobile: boolean): AdsCampaignConfig
             ? [
                 {
                   text: t('Trade with %product%', { product: 'Social Login' }),
-                  link: 'https://pancakeswap.finance/swap?utm_source=Website&utm_medium=banner&utm_campaign=SocialLogin&utm_id=TradingCompetition',
+                  link: 'https://tankswap.finance/swap?utm_source=Website&utm_medium=banner&utm_campaign=SocialLogin&utm_id=TradingCompetition',
                   inline: true,
                 },
                 {
@@ -82,13 +82,13 @@ const getAdsConfigs = (t: ContextApi['t'], isMobile: boolean): AdsCampaignConfig
                 },
                 {
                   text: t('Trade Now'),
-                  link: 'https://pancakeswap.finance/swap?utm_source=Website&utm_medium=banner&utm_campaign=SocialLogin&utm_id=TradingCompetition',
+                  link: 'https://tankswap.finance/swap?utm_source=Website&utm_medium=banner&utm_campaign=SocialLogin&utm_id=TradingCompetition',
                 },
               ]),
         ],
         btn: {
           text: t('Learn More'),
-          link: 'https://blog.pancakeswap.finance/articles/social-login-trading-competition?utm_source=Website&utm_medium=banner&utm_campaign=SocialLogin&utm_id=TradingCompetition',
+          link: 'https://blog.tankswap.finance/articles/social-login-trading-competition?utm_source=Website&utm_medium=banner&utm_campaign=SocialLogin&utm_id=TradingCompetition',
           mt: !isMobile ? '8px' : '32px',
         },
         ...(isMobile && {
@@ -110,12 +110,12 @@ const getAdsConfigs = (t: ContextApi['t'], isMobile: boolean): AdsCampaignConfig
           },
           {
             text: t('Trade Now'),
-            link: 'https://pancakeswap.finance/swap?utm_source=Website&utm_medium=banner&utm_campaign=Swap&utm_id=TradingCompetition',
+            link: 'https://tankswap.finance/swap?utm_source=Website&utm_medium=banner&utm_campaign=Swap&utm_id=TradingCompetition',
           },
         ],
         btn: {
           text: t('Learn More'),
-          link: 'https://blog.pancakeswap.finance/articles/trading-competition?utm_source=Website&utm_medium=banner&utm_campaign=Swap&utm_id=TradingCompetition',
+          link: 'https://blog.tankswap.finance/articles/trading-competition?utm_source=Website&utm_medium=banner&utm_campaign=Swap&utm_id=TradingCompetition',
           mt: !isMobile ? '8px' : undefined,
         },
         ...(isMobile && {
@@ -138,7 +138,7 @@ const getAdsConfigs = (t: ContextApi['t'], isMobile: boolean): AdsCampaignConfig
         ],
         btn: {
           text: t('Add LP Now'),
-          link: 'https://solana.pancakeswap.finance/liquidity-pools',
+          link: 'https://solana.tankswap.finance/liquidity-pools',
           mt: '32px',
         },
       },

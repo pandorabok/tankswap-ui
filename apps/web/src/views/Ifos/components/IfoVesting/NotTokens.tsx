@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Flex, Text, BunnyPlaceholderIcon } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Flex, Text, BunnyPlaceholderIcon } from '@tankswap/uikit'
 import NextLink from 'next/link'
 import { MessageTextLink } from '../IfoCardStyles'
 

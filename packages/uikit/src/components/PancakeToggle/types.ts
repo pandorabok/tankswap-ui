@@ -27,13 +27,13 @@ export interface InputProps {
 }
 
 export const scaleKeys = {
-  pancakeSize: "pancakeSize",
+  tankSize: "tankSize",
   travelDistance: "travelDistance",
   toggleHeight: "toggleHeight",
   toggleWidth: "toggleWidth",
-  pancakeThickness: "pancakeThickness",
-  pancakeTwoOffset: "pancakeTwoOffset",
-  pancakeThreeOffset: "pancakeThreeOffset",
+  tankThickness: "tankThickness",
+  tankTwoOffset: "tankTwoOffset",
+  tankThreeOffset: "tankThreeOffset",
   butterTop: "butterTop",
   butterLeft: "butterLeft",
   butterWidth: "butterWidth",

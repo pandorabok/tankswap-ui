@@ -1,6 +1,6 @@
-import { Token } from '@pancakeswap/aptos-swap-sdk'
-import { useTranslation } from '@pancakeswap/localization'
-import { Balance, BoxProps, Flex, Heading, Text } from '@pancakeswap/uikit'
+import { Token } from '@tankswap/aptos-swap-sdk'
+import { useTranslation } from '@tankswap/localization'
+import { Balance, BoxProps, Flex, Heading, Text } from '@tankswap/uikit'
 import BigNumber from 'bignumber.js'
 import { TokenImage } from 'components/TokenImage'
 

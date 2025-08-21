@@ -6,7 +6,7 @@ import { isEqual } from 'utils/hash'
 
 import { PublicKey } from '@solana/web3.js'
 
-const WALLET_PRICE_URL = 'https://wallet-api.pancakeswap.com/sol/v1/prices/list'
+const WALLET_PRICE_URL = 'https://wallet-api.tankswap.com/sol/v1/prices/list'
 
 type PriceReturnType = { [key: string]: number }
 

@@ -1,10 +1,10 @@
 import DisclaimerModal, { CheckType } from 'components/DisclaimerModal'
 import { useUserNotUsCitizenAcknowledgement, IdType } from 'hooks/useUserIsUsCitizenAcknowledgement'
 import { ReactNode, memo, useCallback, useEffect } from 'react'
-import { Text, Link } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Text, Link } from '@tankswap/uikit'
+import { useTranslation } from '@tankswap/localization'
 import { useRouter } from 'next/router'
-import { usePreviousValue } from '@pancakeswap/hooks'
+import { usePreviousValue } from '@tankswap/hooks'
 
 interface USCitizenConfirmModalProps {
   id: IdType

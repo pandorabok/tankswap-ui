@@ -1,6 +1,6 @@
-import { Protocol } from '@pancakeswap/farms'
-import { HookData } from '@pancakeswap/infinity-sdk'
-import { Currency } from '@pancakeswap/swap-sdk-core'
+import { Protocol } from '@tankswap/farms'
+import { HookData } from '@tankswap/infinity-sdk'
+import { Currency } from '@tankswap/swap-sdk-core'
 import { Address } from 'viem'
 import { FarmInfo } from '../search/farm.util'
 

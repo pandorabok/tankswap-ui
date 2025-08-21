@@ -1,9 +1,9 @@
-import { Text, useMatchBreakpoints } from '@pancakeswap/uikit'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
-import { Pool } from '@pancakeswap/widgets-internal'
+import { Text, useMatchBreakpoints } from '@tankswap/uikit'
+import { BIG_ZERO } from '@tankswap/utils/bigNumber'
+import { Pool } from '@tankswap/widgets-internal'
 
-import { useTranslation } from '@pancakeswap/localization'
-import { Token } from '@pancakeswap/sdk'
+import { useTranslation } from '@tankswap/localization'
+import { Token } from '@tankswap/sdk'
 import BigNumber from 'bignumber.js'
 
 import Apr from '../../Apr'

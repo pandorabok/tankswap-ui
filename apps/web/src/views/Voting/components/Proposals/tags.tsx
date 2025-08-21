@@ -1,5 +1,5 @@
-import { TagProps } from '@pancakeswap/uikit'
-import { FarmWidget } from '@pancakeswap/widgets-internal'
+import { TagProps } from '@tankswap/uikit'
+import { FarmWidget } from '@tankswap/widgets-internal'
 import { ProposalState } from 'state/types'
 
 const { ClosedTag, CommunityTag, CoreTag, SoonTag, VoteNowTag } = FarmWidget.Tags

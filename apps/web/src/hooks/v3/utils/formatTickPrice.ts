@@ -1,4 +1,4 @@
-import { Currency, Price, Token } from '@pancakeswap/sdk'
+import { Currency, Price, Token } from '@tankswap/sdk'
 import { Bound } from 'config/constants/types'
 import { formatPrice } from 'utils/formatCurrencyAmount'
 

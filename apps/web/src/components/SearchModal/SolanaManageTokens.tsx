@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { SPLToken } from '@pancakeswap/swap-sdk-core'
-import type { TokenInfo } from '@pancakeswap/solana-core-sdk'
+import { useTranslation } from '@tankswap/localization'
+import { SPLToken } from '@tankswap/swap-sdk-core'
+import type { TokenInfo } from '@tankswap/solana-core-sdk'
 import {
   AutoColumn,
   BscScanIcon,
@@ -11,7 +11,7 @@ import {
   Input,
   Link,
   Text,
-} from '@pancakeswap/uikit'
+} from '@tankswap/uikit'
 import Row, { RowBetween, RowFixed } from 'components/Layout/Row'
 import { useSolanaTokenList } from 'hooks/solana/useSolanaTokenList'
 import { RefObject, useCallback, useMemo, useRef, useState } from 'react'
@@ -20,9 +20,9 @@ import { convertRawTokenInfoIntoSPLToken } from 'config/solana-list'
 import { MintLayout } from '@solana/spl-token-0.4'
 import { useQuery } from '@tanstack/react-query'
 import { useAtom } from 'jotai'
-import { solanaExplorerAtom } from '@pancakeswap/utils/user'
-import { CheckIcon, CurrencyLogo } from '@pancakeswap/widgets-internal'
-import { NonEVMChainId } from '@pancakeswap/chains'
+import { solanaExplorerAtom } from '@tankswap/utils/user'
+import { CheckIcon, CurrencyLogo } from '@tankswap/widgets-internal'
+import { NonEVMChainId } from '@tankswap/chains'
 import { useSolanaConnectionWithRpcAtom } from 'hooks/solana/useSolanaConnectionWithRpcAtom'
 
 import { Footer, Wrapper } from './ManageTokens'

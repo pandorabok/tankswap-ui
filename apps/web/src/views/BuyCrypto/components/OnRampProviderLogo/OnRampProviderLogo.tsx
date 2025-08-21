@@ -1,5 +1,5 @@
-import type { Token } from '@pancakeswap/swap-sdk-core'
-import { Box, Image, Skeleton, TokenPairImage } from '@pancakeswap/uikit'
+import type { Token } from '@tankswap/swap-sdk-core'
+import { Box, Image, Skeleton, TokenPairImage } from '@tankswap/uikit'
 import { FiatLogo } from 'components/Logo/CurrencyLogo'
 import { getImageUrlFromToken } from 'components/TokenImage'
 import { ASSET_CDN } from 'config/constants/endpoints'

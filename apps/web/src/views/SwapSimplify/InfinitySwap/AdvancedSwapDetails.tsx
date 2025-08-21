@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import {
   Currency,
   CurrencyAmount,
@@ -7,14 +7,14 @@ import {
   TradeType,
   UnifiedCurrency,
   UnifiedCurrencyAmount,
-} from '@pancakeswap/sdk'
-import { LegacyPair as Pair } from '@pancakeswap/smart-router/legacy-router'
-import { AutoColumn, Box, Link, QuestionHelperV2, SkeletonV2, Text } from '@pancakeswap/uikit'
-import { formatAmount, formatFraction } from '@pancakeswap/utils/formatFractions'
+} from '@tankswap/sdk'
+import { LegacyPair as Pair } from '@tankswap/smart-router/legacy-router'
+import { AutoColumn, Box, Link, QuestionHelperV2, SkeletonV2, Text } from '@tankswap/uikit'
+import { formatAmount, formatFraction } from '@tankswap/utils/formatFractions'
 import { memo, useMemo, useState } from 'react'
 
-import { OrderType, PriceOrder } from '@pancakeswap/price-api-sdk'
-import { NumberDisplay, SwapUIV2 } from '@pancakeswap/widgets-internal'
+import { OrderType, PriceOrder } from '@tankswap/price-api-sdk'
+import { NumberDisplay, SwapUIV2 } from '@tankswap/widgets-internal'
 import BigNumber from 'bignumber.js'
 import { LightGreyCard } from 'components/Card'
 import { RowBetween, RowFixed } from 'components/Layout/Row'
@@ -290,7 +290,7 @@ export const TradeSummary = memo(function TradeSummary({
                       style={{ display: 'inline' }}
                       ml="4px"
                       external
-                      href="https://docs.pancakeswap.finance/products/pancakeswap-exchange/faq#what-will-be-the-trading-fee-breakdown-for-v3-exchange"
+                      href="https://docs.tankswap.finance/products/tankswap-exchange/faq#what-will-be-the-trading-fee-breakdown-for-v3-exchange"
                     >
                       {t('Fee Breakdown and Tokenomics')}
                     </Link>

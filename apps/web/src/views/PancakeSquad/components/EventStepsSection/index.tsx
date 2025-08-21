@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import { Box, Button, Card, CardBody, Flex, Step, Stepper, Text } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Box, Button, Card, CardBody, Flex, Step, Stepper, Text } from '@tankswap/uikit'
+import { useTranslation } from '@tankswap/localization'
 import { StyledWaveContainer, LandingBodyWrapper } from 'views/PancakeSquad/styles'
 import useTheme from 'hooks/useTheme'
 import { useBSCCakeBalance } from 'hooks/useTokenBalance'
@@ -78,7 +78,7 @@ const EventStepsSection: React.FC<React.PropsWithChildren<EventStepsProps>> = ({
       </LandingBodyWrapper>
       <StyledWaveContainer bottom="-3px">
         <Flex justifyContent="center">
-          <StyledBunniesSquadImg src="/images/pancakeSquad/squadRow.png" alt="pancake bunnies squad" />
+          <StyledBunniesSquadImg src="/images/tankSquad/squadRow.png" alt="tank bunnies squad" />
         </Flex>
         <EventStepsBottomWave isDark={isDark} />
       </StyledWaveContainer>

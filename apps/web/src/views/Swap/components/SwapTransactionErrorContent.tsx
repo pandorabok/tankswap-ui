@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { LinkExternal, Text } from '@pancakeswap/uikit'
-import { TransactionErrorContent } from '@pancakeswap/widgets-internal'
+import { useTranslation } from '@tankswap/localization'
+import { LinkExternal, Text } from '@tankswap/uikit'
+import { TransactionErrorContent } from '@tankswap/widgets-internal'
 import { useCallback } from 'react'
 
 const PancakeRouterSlippageErrorMsg =
@@ -30,7 +30,7 @@ export const SwapTransactionErrorContent = ({ onDismiss, message, openSettingMod
             </Text>
           </Text>
           <LinkExternal
-            href="https://docs.pancakeswap.finance/products/pancakeswap-exchange/trade-guide"
+            href="https://docs.tankswap.finance/products/tankswap-exchange/trade-guide"
             style={{ width: '100%', justifyContent: 'center' }}
           >
             {t('What are the potential issues with the token?')}

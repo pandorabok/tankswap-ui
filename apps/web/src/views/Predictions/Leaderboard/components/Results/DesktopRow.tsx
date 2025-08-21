@@ -1,5 +1,5 @@
-import { Token } from '@pancakeswap/sdk'
-import { Td, Text } from '@pancakeswap/uikit'
+import { Token } from '@tankswap/sdk'
+import { Td, Text } from '@tankswap/uikit'
 import { PredictionUser } from 'state/types'
 import ResultAvatar from './ResultAvatar'
 import { NetWinnings } from './styles'

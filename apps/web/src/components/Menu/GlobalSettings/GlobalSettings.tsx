@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Flex, PreTitle, FlexGap } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Flex, PreTitle, FlexGap } from '@tankswap/uikit'
 import { useCallback, useMemo, useState } from 'react'
 
 import { GlobalSettingsTab } from './GlobalSettingsTab'

@@ -1,5 +1,5 @@
-import { Trans } from '@pancakeswap/localization'
-import { Card, CardBody, CardHeader, Heading, Link, Text } from '@pancakeswap/uikit'
+import { Trans } from '@tankswap/localization'
+import { Card, CardBody, CardHeader, Heading, Link, Text } from '@tankswap/uikit'
 import Divider from 'components/Divider'
 import FoldableText from 'components/FoldableSection/FoldableText'
 import styled from 'styled-components'
@@ -146,7 +146,7 @@ export const RedeemFaqs = () => (
             marginTop: '10px',
           }}
           external
-          href="https://docs.pancakeswap.finance/protocol/cake-tokenomics"
+          href="https://docs.tankswap.finance/protocol/cake-tokenomics"
         >
           <Trans>CAKE Tokenomics 3.0 Docs</Trans>
         </Link>
@@ -155,7 +155,7 @@ export const RedeemFaqs = () => (
             marginTop: '10px',
           }}
           external
-          href="https://blog.pancakeswap.finance/articles/implementation-of-cake-tokenomics-3-0-what-you-need-to-know"
+          href="https://blog.tankswap.finance/articles/implementation-of-cake-tokenomics-3-0-what-you-need-to-know"
         >
           <Trans>Blog Post: What You Need to Know</Trans>
         </Link>
@@ -164,7 +164,7 @@ export const RedeemFaqs = () => (
             marginTop: '10px',
           }}
           external
-          href="https://docs.pancakeswap.finance/welcome-to-pancakeswap/vecake-sunset"
+          href="https://docs.tankswap.finance/welcome-to-tankswap/vecake-sunset"
         >
           <Trans>Product Doc: veCAKE Redemption Guide</Trans>
         </Link>

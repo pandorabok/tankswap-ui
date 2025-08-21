@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Card, CardBody, Button } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Card, CardBody, Button } from '@tankswap/uikit'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { getBlockExploreLink } from 'utils'
 import dynamic from 'next/dynamic'
@@ -18,7 +18,7 @@ const IfoSubmittedCard: React.FC<IfoSubmittedCardProps> = ({ txHash }) => {
   const [animationData, setAnimationData] = useState<any>()
 
   useEffect(() => {
-    fetch('https://assets.pancakeswap.finance/web/ifos/submitted.json')
+    fetch('https://assets.tankswap.finance/web/ifos/submitted.json')
       .then((res) => res.json())
       .then(setAnimationData)
   }, [])

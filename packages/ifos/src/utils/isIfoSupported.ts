@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/sdk'
+import { ChainId } from '@tankswap/sdk'
 
 import {
   PROFILE_SUPPORTED_CHAIN_IDS,

@@ -40,7 +40,7 @@ test('exports', () => {
       "getBridgeICakeGasFee",
       "getCrossChainMessage",
       "iCakeABI",
-      "pancakeInfoSenderABI",
+      "tankInfoSenderABI",
       "ifoV7ABI",
       "ifoV8ABI",
     ]

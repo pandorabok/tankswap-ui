@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Text } from '@pancakeswap/uikit'
-import { AdPlayerProps } from '@pancakeswap/widgets-internal'
+import { useTranslation } from '@tankswap/localization'
+import { Text } from '@tankswap/uikit'
+import { AdPlayerProps } from '@tankswap/widgets-internal'
 
 import { BodyText } from '../BodyText'
 import { AdButton } from '../Button'
@@ -8,7 +8,7 @@ import { AdCard } from '../Card'
 
 import { getImageUrl } from '../utils'
 
-const learnMoreLink = 'https://blog.pancakeswap.finance/articles/expanding-solana-s-accessibility'
+const learnMoreLink = 'https://blog.tankswap.finance/articles/expanding-solana-s-accessibility'
 
 export const AdPCSxSolana = (props: Omit<AdPlayerProps, 'config'>) => {
   const { t } = useTranslation()

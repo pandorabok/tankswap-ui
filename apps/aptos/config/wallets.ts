@@ -1,4 +1,4 @@
-import { LegacyWalletConfig, LegacyWalletIds } from '@pancakeswap/ui-wallets'
+import { LegacyWalletConfig, LegacyWalletIds } from '@tankswap/ui-wallets'
 
 export enum ConnectorNames {
   Petra = 'petra',
@@ -52,17 +52,17 @@ export const wallets: LegacyWalletConfig<ConnectorNames>[] = [
   {
     id: LegacyWalletIds.Trust,
     title: 'Trust Wallet',
-    icon: 'https://pancakeswap.finance/images/wallets/trust.png',
+    icon: 'https://tankswap.finance/images/wallets/trust.png',
     get installed() {
       return typeof window !== 'undefined' && Boolean(window.aptos) && Boolean((window.aptos as any)?.isTrust)
     },
-    deepLink: 'https://link.trustwallet.com/open_url?coin_id=637&url=https://aptos.pancakeswap.finance/',
+    deepLink: 'https://link.trustwallet.com/open_url?coin_id=637&url=https://aptos.tankswap.finance/',
     connectorId: ConnectorNames.TrustWallet,
   },
   {
     id: LegacyWalletIds.SafePal,
     title: 'SafePal',
-    icon: 'https://pancakeswap.finance/images/wallets/safepal.png',
+    icon: 'https://tankswap.finance/images/wallets/safepal.png',
     get installed() {
       return typeof window !== 'undefined' && Boolean(window.safePal) && Boolean((window.safePal as any)?.sfpPlatform)
     },
@@ -87,7 +87,7 @@ export const wallets: LegacyWalletConfig<ConnectorNames>[] = [
     downloadLink: {
       desktop: {
         text: 'Go to MSafe',
-        url: 'https://aptos.m-safe.io/store/pancake',
+        url: 'https://aptos.m-safe.io/store/tank',
       },
     },
     connectorId: ConnectorNames.Msafe,

@@ -1,6 +1,6 @@
 import { Bet } from 'state/types'
-import { BetPosition } from '@pancakeswap/prediction'
-import { formatNumber } from '@pancakeswap/utils/formatBalance'
+import { BetPosition } from '@tankswap/prediction'
+import { formatNumber } from '@tankswap/utils/formatBalance'
 
 export const formatUsd = (usd: number | undefined, displayedDecimals: number) => {
   return `$${formatNumber(usd || 0, displayedDecimals, displayedDecimals)}`

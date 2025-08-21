@@ -54,7 +54,7 @@ test('exports', () => {
       "computePairAddress",
       "inputOutputComparator",
       "isTradeBetter",
-      "pancakePairV2ABI",
+      "tankPairV2ABI",
       "tradeComparator",
       "ERC20Token",
       "Ether",

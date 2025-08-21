@@ -1,7 +1,7 @@
 import { GetStaticProps } from 'next'
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@tankswap/chains'
 import { dehydrate, QueryClient } from '@tanstack/react-query'
-import { pancakeProfileABI } from 'config/abi/pancakeProfile'
+import { tankProfileABI } from 'config/abi/tankProfile'
 import { getCollections } from 'state/nftMarket/helpers'
 import { getPancakeProfileAddress } from 'utils/addressHelpers'
 import { getProfileContract } from 'utils/contractHelpers'
@@ -32,7 +32,7 @@ export const getStaticProps: GetStaticProps = async () => {
     const collectionRoles = await viemServerClients[ChainId.BSC].multicall({
       contracts: Object.keys(fetchedCollections).map((collectionAddress) => {
         return {
-          abi: pancakeProfileABI,
+          abi: tankProfileABI,
           address: getPancakeProfileAddress(),
           functionName: 'hasRole',
           args: [nftRole, collectionAddress],
@@ -41,11 +41,11 @@ export const getStaticProps: GetStaticProps = async () => {
       allowFailure: false,
     })
 
-    const pancakeCollectibles = Object.values(fetchedCollections).filter((_, index) => {
+    const tankCollectibles = Object.values(fetchedCollections).filter((_, index) => {
       return collectionRoles[index]
     })
 
-    queryClient.setQueryData(['pancakeCollectibles'], pancakeCollectibles)
+    queryClient.setQueryData(['tankCollectibles'], tankCollectibles)
 
     return {
       props: {

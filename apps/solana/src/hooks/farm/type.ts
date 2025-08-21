@@ -8,7 +8,7 @@ import {
   FormatFarmInfoOutV6,
   RewardInfoV345,
   RewardInfoV6
-} from '@pancakeswap/solana-core-sdk'
+} from '@tankswap/solana-core-sdk'
 
 export type FarmDecodeData =
   | ReturnType<typeof farmStateV3Layout.decode>

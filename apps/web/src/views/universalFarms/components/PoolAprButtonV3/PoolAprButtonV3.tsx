@@ -1,5 +1,5 @@
-import { Protocol } from '@pancakeswap/farms'
-import { useModalV2, useTooltip } from '@pancakeswap/uikit'
+import { Protocol } from '@tankswap/farms'
+import { useModalV2, useTooltip } from '@tankswap/uikit'
 import { useMemo } from 'react'
 import { CakeApr } from 'state/farmsV4/atom'
 import {

@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import {
   ChartDisableIcon,
   ChartIcon,
@@ -11,9 +11,9 @@ import {
   TooltipText,
   useModal,
   useTooltip,
-} from '@pancakeswap/uikit'
-import { useExpertMode } from '@pancakeswap/utils/user'
-import { Swap } from '@pancakeswap/widgets-internal'
+} from '@tankswap/uikit'
+import { useExpertMode } from '@tankswap/utils/user'
+import { Swap } from '@tankswap/widgets-internal'
 import TransactionsModal from 'components/App/Transactions/TransactionsModal'
 import InternalLink from 'components/Links'
 import RefreshIcon from 'components/Svg/RefreshIcon'

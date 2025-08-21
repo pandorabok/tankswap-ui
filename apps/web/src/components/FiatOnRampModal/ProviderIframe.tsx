@@ -1,4 +1,4 @@
-import { CircleLoader, LoadingDot } from '@pancakeswap/uikit'
+import { CircleLoader, LoadingDot } from '@tankswap/uikit'
 import { useTheme } from 'styled-components'
 import { ONRAMP_PROVIDERS } from 'views/BuyCrypto/constants'
 import { IFrameWrapper, StyledIframe } from 'views/BuyCrypto/styles'

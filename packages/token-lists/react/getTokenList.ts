@@ -1,7 +1,7 @@
 /* eslint-disable no-continue */
 /* eslint-disable no-await-in-loop */
-import uriToHttp from '@pancakeswap/utils/uriToHttp'
-import schema from '../schema/pancakeswap.json'
+import uriToHttp from '@tankswap/utils/uriToHttp'
+import schema from '../schema/tankswap.json'
 import { TokenList } from '../src/types'
 
 /**

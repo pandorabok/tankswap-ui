@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Flex, lightColors, Spinner, Text, Timeline } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Box, Flex, lightColors, Spinner, Text, Timeline } from '@tankswap/uikit'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import useTheme from 'hooks/useTheme'
 import { useBSCCakeBalance } from 'hooks/useTokenBalance'

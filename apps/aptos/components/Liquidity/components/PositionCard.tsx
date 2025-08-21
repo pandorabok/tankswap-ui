@@ -1,8 +1,8 @@
 import { memo, useState } from 'react'
-import { Percent } from '@pancakeswap/swap-sdk-core'
+import { Percent } from '@tankswap/swap-sdk-core'
 import { styled } from 'styled-components'
-import { useTranslation } from '@pancakeswap/localization'
-import { Pair, Currency, CurrencyAmount } from '@pancakeswap/aptos-swap-sdk'
+import { useTranslation } from '@tankswap/localization'
+import { Pair, Currency, CurrencyAmount } from '@tankswap/aptos-swap-sdk'
 import { CurrencyLogo, DoubleCurrencyLogo } from 'components/Logo'
 
 import {
@@ -21,9 +21,9 @@ import {
   Button,
   AddIcon,
   useTooltip,
-} from '@pancakeswap/uikit'
+} from '@tankswap/uikit'
 
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+import { NextLinkFromReactRouter } from '@tankswap/widgets-internal'
 
 import formatAmountDisplay from 'utils/formatAmountDisplay'
 
@@ -152,7 +152,7 @@ function MinimalPositionCardView({
       ) : (
         <LightCard padding="24px">
           <Text fontSize="14px" style={{ textAlign: 'center' }}>
-            <span role="img" aria-label="pancake-icon">
+            <span role="img" aria-label="tank-icon">
               🥞
             </span>{' '}
             {t(

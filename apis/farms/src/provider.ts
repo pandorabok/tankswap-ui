@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@tankswap/chains'
 import { Chain, createPublicClient, http, PublicClient } from 'viem'
 import {
   arbitrum,

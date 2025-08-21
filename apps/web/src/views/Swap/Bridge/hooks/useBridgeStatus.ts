@@ -1,5 +1,5 @@
-import { CurrencyAmount } from '@pancakeswap/swap-sdk-core'
-import { formatScientificToDecimal } from '@pancakeswap/utils/formatNumber'
+import { CurrencyAmount } from '@tankswap/swap-sdk-core'
+import { formatScientificToDecimal } from '@tankswap/utils/formatNumber'
 import { useQuery } from '@tanstack/react-query'
 import { useCurrencyByChainId } from 'hooks/Tokens'
 import { useMemo } from 'react'

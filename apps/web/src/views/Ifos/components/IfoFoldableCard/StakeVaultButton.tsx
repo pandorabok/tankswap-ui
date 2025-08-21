@@ -1,13 +1,13 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { CAKE_VAULT_SUPPORTED_CHAINS, isCakeVaultSupported } from '@pancakeswap/pools'
-import { Button, Flex, Text, useModalV2 } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { CAKE_VAULT_SUPPORTED_CHAINS, isCakeVaultSupported } from '@tankswap/pools'
+import { Button, Flex, Text, useModalV2 } from '@tankswap/uikit'
 import { useRouter } from 'next/router'
 import { useCallback, useMemo } from 'react'
 
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useConfig } from 'views/Ifos/contexts/IfoContext'
 
-import { isTestnetChainId } from '@pancakeswap/chains'
+import { isTestnetChainId } from '@tankswap/chains'
 import { useChainNames } from '../../hooks/useChainNames'
 import { ICakeLogo } from '../Icons'
 import { NetworkSwitcherModal } from './IfoPoolCard/NetworkSwitcherModal'

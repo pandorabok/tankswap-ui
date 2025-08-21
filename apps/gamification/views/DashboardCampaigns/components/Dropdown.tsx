@@ -1,4 +1,4 @@
-import { Flex, FlexProps } from '@pancakeswap/uikit'
+import { Flex, FlexProps } from '@tankswap/uikit'
 import { useEffect } from 'react'
 import { styled } from 'styled-components'
 

@@ -1,4 +1,4 @@
-import { ChevronDownIcon } from "@pancakeswap/uikit";
+import { ChevronDownIcon } from "@tankswap/uikit";
 import { useCallback, useLayoutEffect, useRef } from "react";
 import { styled } from "styled-components";
 

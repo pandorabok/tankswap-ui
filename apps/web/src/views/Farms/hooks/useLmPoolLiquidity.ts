@@ -1,4 +1,4 @@
-import { pancakeV3PoolABI } from '@pancakeswap/v3-sdk'
+import { tankV3PoolABI } from '@tankswap/v3-sdk'
 import { useQuery } from '@tanstack/react-query'
 import { safeGetAddress, isAddressEqual } from 'utils'
 import { publicClient } from 'utils/wagmi'
@@ -13,7 +13,7 @@ const fetchLmPoolLiquidity = async (lpAddress: Address, chainId: number): Promis
   try {
     const lmPool = await client.readContract({
       address: lpAddress,
-      abi: pancakeV3PoolABI,
+      abi: tankV3PoolABI,
       functionName: 'lmPool',
     })
 

@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@tankswap/chains'
 import addresses from 'config/constants/contracts'
 import { Address } from 'viem'
 
@@ -11,7 +11,7 @@ export const getAddressFromMap = (address: Addresses, chainId?: number): `0x${st
 }
 
 export const getPancakeProfileAddress = () => {
-  return getAddressFromMap(addresses.pancakeProfile)
+  return getAddressFromMap(addresses.tankProfile)
 }
 
 export const getBunnyFactoryAddress = () => {
@@ -19,7 +19,7 @@ export const getBunnyFactoryAddress = () => {
 }
 
 export const getPancakeBunniesAddress = () => {
-  return getAddressFromMap(addresses.pancakeBunnies)
+  return getAddressFromMap(addresses.tankBunnies)
 }
 
 export const getNftMarketAddress = () => {

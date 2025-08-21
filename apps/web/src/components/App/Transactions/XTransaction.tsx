@@ -1,12 +1,12 @@
-import { useCountdown } from '@pancakeswap/hooks'
-import { useTranslation } from '@pancakeswap/localization'
-import { ChevronRightIcon, FlexGap, ModalV2, Text, useModalV2 } from '@pancakeswap/uikit'
+import { useCountdown } from '@tankswap/hooks'
+import { useTranslation } from '@tankswap/localization'
+import { ChevronRightIcon, FlexGap, ModalV2, Text, useModalV2 } from '@tankswap/uikit'
 import {
   TransactionListItem,
   TransactionListItemDesc,
   TransactionListItemTitle,
   TransactionStatus,
-} from '@pancakeswap/widgets-internal'
+} from '@tankswap/widgets-internal'
 import dayjs from 'dayjs'
 import { useCurrency } from 'hooks/Tokens'
 import { useMemo } from 'react'

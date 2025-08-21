@@ -2,7 +2,7 @@ import { useMemo } from 'react'
 
 import useSWR from 'swr'
 
-import { WSOLMint } from '@pancakeswap/solana-core-sdk'
+import { WSOLMint } from '@tankswap/solana-core-sdk'
 import { PublicKey } from '@solana/web3.js'
 
 export interface BirdEyeTokenPrice {

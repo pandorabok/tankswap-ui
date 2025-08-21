@@ -1,4 +1,4 @@
-import { ChainId, UnifiedChainId } from '@pancakeswap/chains'
+import { ChainId, UnifiedChainId } from '@tankswap/chains'
 
 /**
  * This config is used to manage the supported chains for crosschain swap:

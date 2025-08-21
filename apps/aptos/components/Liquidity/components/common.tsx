@@ -1,6 +1,6 @@
 import React from 'react'
-import { Percent, CurrencyAmount, Price } from '@pancakeswap/aptos-swap-sdk'
-import { Currency } from '@pancakeswap/swap-sdk-core'
+import { Percent, CurrencyAmount, Price } from '@tankswap/aptos-swap-sdk'
+import { Currency } from '@tankswap/swap-sdk-core'
 
 import {
   Text,
@@ -13,13 +13,13 @@ import {
   AutoColumn,
   RowBetween,
   AutoRow,
-} from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+} from '@tankswap/uikit'
+import { useTranslation } from '@tankswap/localization'
 import { getLPSymbol } from 'utils/getLpSymbol'
 import { styled } from 'styled-components'
 import { GreyCard } from 'components/Card'
 import { CurrencyLogo, DoubleCurrencyLogo } from 'components/Logo'
-import { useUserSlippage } from '@pancakeswap/utils/user'
+import { useUserSlippage } from '@tankswap/utils/user'
 import formatAmountDisplay from 'utils/formatAmountDisplay'
 
 import { CurrencySelectorValue } from '../hooks/useCurrencySelectRoute'

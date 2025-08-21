@@ -1,15 +1,15 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import {
   LegacyWalletModal,
   LegacyWalletConfig,
   MultichainWalletModal,
   SolanaConnectorNames,
-} from '@pancakeswap/ui-wallets'
+} from '@tankswap/ui-wallets'
 import { ConnectorNames, createQrCode, createWallets, getDocLink, mevDocLink, TOP_WALLET_MAP } from 'config/wallet'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import useAuth from 'hooks/useAuth'
 
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@tankswap/chains'
 import { useFirebaseAuth } from 'wallet/Privy/firebase'
 import { useCallback, useMemo } from 'react'
 import { logGTMWalletConnectedEvent } from 'utils/customGTMEventTracking'

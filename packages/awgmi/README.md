@@ -1,9 +1,9 @@
-# @pancakeswap/awgmi
+# @tankswap/awgmi
 
 ## Install
 
 ```bash
-pnpm i @pancakeswap/awgmi @tanstack/react-query
+pnpm i @tankswap/awgmi @tanstack/react-query
 ```
 
 Connect to Aptos with similar [wagmi](https://github.com/wagmi-dev/wagmi) React hooks.
@@ -19,15 +19,15 @@ Support Aptos Wallet Connectors:
 - Msafe
 
 ```jsx
-import { createClient, AwgmiConfig, useConnect, getDefaultProviders, defaultChains } from '@pancakeswap/awgmi'
+import { createClient, AwgmiConfig, useConnect, getDefaultProviders, defaultChains } from '@tankswap/awgmi'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
-import { PetraConnector } from '@pancakeswap/awgmi/connectors/petra'
-import { MartianConnector } from '@pancakeswap/awgmi/connectors/martain'
-import { SafePalConnector } from '@pancakeswap/awgmi/connectors/safePal'
-import { BloctoConnector } from '@pancakeswap/awgmi/connectors/blocto'
-import { FewchaConnector } from '@pancakeswap/awgmi/connectors/fewcha'
+import { PetraConnector } from '@tankswap/awgmi/connectors/petra'
+import { MartianConnector } from '@tankswap/awgmi/connectors/martain'
+import { SafePalConnector } from '@tankswap/awgmi/connectors/safePal'
+import { BloctoConnector } from '@tankswap/awgmi/connectors/blocto'
+import { FewchaConnector } from '@tankswap/awgmi/connectors/fewcha'
 
-// import { mainnet, testnet } from '@pancakeswap/awgmi/core'
+// import { mainnet, testnet } from '@tankswap/awgmi/core'
 const chains = defaultChains // mainnet, testnet, devnet
 
 const queryClient = new QueryClient({
@@ -71,7 +71,7 @@ function App() {
 ## Connector
 
 ```jsx
-import { useConnect, useDisconnect } from '@pancakeswap/awgmi'
+import { useConnect, useDisconnect } from '@tankswap/awgmi'
 
 function ConnectButton() {
   const { connect, connectors } = useConnect()
@@ -102,7 +102,7 @@ import {
   useSendTransaction,
   useSimulateTransaction,
   useTableItem,
-} from '@pancakeswap/awgmi'
+} from '@tankswap/awgmi'
 ```
 
 ### Balance
@@ -118,7 +118,7 @@ const { data } = useAccountBalance({
 ### Send Transaction
 
 ```js
-import { UserRejectedRequestError } from '@pancakeswap/awgmi'
+import { UserRejectedRequestError } from '@tankswap/awgmi'
 
 const { sendTransactionAsync } = useSendTransaction()
 

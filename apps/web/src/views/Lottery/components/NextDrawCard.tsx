@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import {
   Balance,
   Box,
@@ -13,8 +13,8 @@ import {
   Skeleton,
   Text,
   useModal,
-} from '@pancakeswap/uikit'
-import { getBalanceNumber } from '@pancakeswap/utils/formatBalance'
+} from '@tankswap/uikit'
+import { getBalanceNumber } from '@tankswap/utils/formatBalance'
 import { LotteryStatus } from 'config/constants/types'
 import { useCakePrice } from 'hooks/useCakePrice'
 import { useState } from 'react'

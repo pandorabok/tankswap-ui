@@ -1,4 +1,4 @@
-# @pancakeswap/chains
+# @tankswap/chains
 
 ## 0.6.0
 

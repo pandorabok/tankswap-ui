@@ -1,9 +1,9 @@
 import { useState, useMemo } from 'react'
 import { SiweMessage } from 'siwe'
 import { useAccount } from 'wagmi'
-import { useSignMessage } from '@pancakeswap/wagmi'
-import { Button } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { useSignMessage } from '@tankswap/wagmi'
+import { Button } from '@tankswap/uikit'
+import { useTranslation } from '@tankswap/localization'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useQueryClient } from '@tanstack/react-query'
 

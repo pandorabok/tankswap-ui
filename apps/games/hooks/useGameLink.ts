@@ -1,5 +1,5 @@
-import { GameLinkType } from '@pancakeswap/games'
-import { useMatchBreakpoints } from '@pancakeswap/uikit'
+import { GameLinkType } from '@tankswap/games'
+import { useMatchBreakpoints } from '@tankswap/uikit'
 import { useMemo } from 'react'
 import { getGameLink } from 'utils/getGameLink'
 

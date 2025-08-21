@@ -1,4 +1,4 @@
-import { Currency, Token } from '@pancakeswap/aptos-swap-sdk'
+import { Currency, Token } from '@tankswap/aptos-swap-sdk'
 import {
   Button,
   Heading,
@@ -11,14 +11,14 @@ import {
   ModalHeader,
   ModalTitle,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
-import { ImportList } from '@pancakeswap/widgets-internal'
+} from '@tankswap/uikit'
+import { ImportList } from '@tankswap/widgets-internal'
 import { useCallback, useEffect, useRef, useState } from 'react'
 
-import { usePreviousValue } from '@pancakeswap/hooks'
-import { useTranslation } from '@pancakeswap/localization'
-import { TokenList } from '@pancakeswap/token-lists'
-import { enableList, removeList, useFetchListCallback } from '@pancakeswap/token-lists/react'
+import { usePreviousValue } from '@tankswap/hooks'
+import { useTranslation } from '@tankswap/localization'
+import { TokenList } from '@tankswap/token-lists'
+import { enableList, removeList, useFetchListCallback } from '@tankswap/token-lists/react'
 import { styled } from 'styled-components'
 import { useListState } from '../../state/lists'
 import { useAllLists } from '../../state/lists/hooks'

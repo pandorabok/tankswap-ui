@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Card, CardBody, Heading, PrizeIcon } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Card, CardBody, Heading, PrizeIcon } from '@tankswap/uikit'
 import { Achievement } from 'config/constants/types'
 import AchievementsList from './AchievementsList'
 import ClaimPointsCallout from './ClaimPointsCallout'

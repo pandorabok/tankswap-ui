@@ -1,4 +1,4 @@
-import { getChainName } from '@pancakeswap/chains'
+import { getChainName } from '@tankswap/chains'
 import { LS_CB1 } from 'config/constants'
 import useAccountActiveChain from 'hooks/useAccountActiveChain'
 import { useEffect, useState } from 'react'
@@ -7,7 +7,7 @@ interface CB1State {
   expired: number
 }
 
-const BASE_URI = 'https://attestation-api.pancakeswap.com'
+const BASE_URI = 'https://attestation-api.tankswap.com'
 
 const EXPIRE = 1000 * 24 * 3600
 

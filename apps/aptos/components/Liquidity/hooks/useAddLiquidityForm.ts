@@ -1,6 +1,6 @@
-import { Currency, CurrencyAmount, Percent, Price } from '@pancakeswap/aptos-swap-sdk'
-import { useTranslation } from '@pancakeswap/localization'
-import tryParseAmount from '@pancakeswap/utils/tryParseAmount'
+import { Currency, CurrencyAmount, Percent, Price } from '@tankswap/aptos-swap-sdk'
+import { useTranslation } from '@tankswap/localization'
+import tryParseAmount from '@tankswap/utils/tryParseAmount'
 
 import { useContext, useMemo } from 'react'
 import { useLiquidityStateOnly } from '../state/add'

@@ -1,15 +1,15 @@
 import { useMemo, useState, useCallback, useEffect } from 'react'
-import { ChainId, CurrencyAmount, Currency } from '@pancakeswap/sdk'
+import { ChainId, CurrencyAmount, Currency } from '@tankswap/sdk'
 import {
   INFO_SENDER,
   getCrossChainMessageUrl,
   CrossChainMessage,
   getBridgeICakeGasFee,
   getCrossChainMessage,
-  pancakeInfoSenderABI,
+  tankInfoSenderABI,
   getLayerZeroChainId,
   MessageStatus,
-} from '@pancakeswap/ifos'
+} from '@tankswap/ifos'
 import { useAccount } from 'wagmi'
 import { Hash, Address } from 'viem'
 import localforage from 'localforage'
@@ -84,7 +84,7 @@ export function useBridgeICake({ srcChainId, ifoChainId, icake, ifoId, dstIcake,
   const { address: account } = useAccount()
   const { callWithGasPrice } = useCallWithGasPrice()
   const addTransaction = useTransactionAdder()
-  const infoSender = useContract(INFO_SENDER, pancakeInfoSenderABI, { chainId: srcChainId })
+  const infoSender = useContract(INFO_SENDER, tankInfoSenderABI, { chainId: srcChainId })
   const { receipt, saveTransactionHash, clearTransactionHash, txHash } = useLatestBridgeTx(ifoId, srcChainId)
   const message = useCrossChainMessage({ txHash: receipt?.transactionHash, srcChainId })
   const { fetchWithCatchTxError } = useCatchTxError({ throwUserRejectError: true })

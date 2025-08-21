@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@tankswap/chains'
 
 import { HOOK_CATEGORY, HookType, POOL_TYPE, type HookData, type PoolType } from '../../types'
 import { CL_DYNAMIC_FEE_HOOKS_BY_CHAIN } from './dynamicFeeHook'
@@ -9,12 +9,12 @@ export const CL_DYNAMIC_HOOK: HookData = {
   poolType: POOL_TYPE.CLAMM,
   description:
     'PancakeSwap’s Dynamic Fee Hook adjusts swap fees based on market volatility—penalizing arbitrageurs and rewarding LPs during turbulence, while keeping fees low in stable conditions for smoother trading.',
-  github: 'https://github.com/pancakeswap/',
-  learnMoreLink: 'https://docs.pancakeswap.finance/trade/pancakeswap-infinity/hooks/dynamic-fee-hook',
+  github: 'https://github.com/tankswap/',
+  learnMoreLink: 'https://docs.tankswap.finance/trade/tankswap-infinity/hooks/dynamic-fee-hook',
   category: [HOOK_CATEGORY.DynamicFees],
   isVerified: false,
   isUpgradable: false,
-  creator: 'https://github.com/pancakeswap/',
+  creator: 'https://github.com/tankswap/',
   defaultFee: 500,
   hooksRegistration: {
     afterInitialize: true,

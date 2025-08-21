@@ -1,6 +1,6 @@
-import { getSourceChain } from '@pancakeswap/ifos'
+import { getSourceChain } from '@tankswap/ifos'
 import { useMemo } from 'react'
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@tankswap/chains'
 
 // By deafult source chain is the first chain that supports native ifo
 export function useIfoSourceChain(chainId?: ChainId) {

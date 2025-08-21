@@ -1,8 +1,8 @@
-import { ChainId } from '@pancakeswap/aptos-swap-sdk'
-import { useNetwork } from '@pancakeswap/awgmi'
-import { useIsMounted } from '@pancakeswap/hooks'
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Text, UserMenu, UserMenuDivider, UserMenuItem } from '@pancakeswap/uikit'
+import { ChainId } from '@tankswap/aptos-swap-sdk'
+import { useNetwork } from '@tankswap/awgmi'
+import { useIsMounted } from '@tankswap/hooks'
+import { useTranslation } from '@tankswap/localization'
+import { Box, Text, UserMenu, UserMenuDivider, UserMenuItem } from '@tankswap/uikit'
 import { APEX_DOMAIN, ASSETS_CDN } from 'config'
 import { defaultChain, SOLANA_MENU } from 'config/chains'
 import Image from 'next/image'
@@ -74,7 +74,7 @@ export const NetworkSwitcher = () => {
     <UserMenu
       mr="8px"
       variant="default"
-      avatarSrc="https://tokens.pancakeswap.finance/images/symbol/apt.png"
+      avatarSrc="https://tokens.tankswap.finance/images/symbol/apt.png"
       avatarClassName={aptosLogoClass({
         isProduction: isMounted && chain?.id === ChainId.MAINNET,
       })}

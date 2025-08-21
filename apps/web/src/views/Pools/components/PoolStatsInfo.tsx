@@ -1,9 +1,9 @@
-import { Flex, LinkExternal, ScanLink, Skeleton, Text } from '@pancakeswap/uikit'
-import { Pool } from '@pancakeswap/widgets-internal'
+import { Flex, LinkExternal, ScanLink, Skeleton, Text } from '@tankswap/uikit'
+import { Pool } from '@tankswap/widgets-internal'
 
-import { useTranslation } from '@pancakeswap/localization'
-import { Token } from '@pancakeswap/sdk'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
+import { useTranslation } from '@tankswap/localization'
+import { Token } from '@tankswap/sdk'
+import { BIG_ZERO } from '@tankswap/utils/bigNumber'
 import AddToWalletButton, { AddToWalletTextOptions } from 'components/AddToWallet/AddToWalletButton'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { memo, useMemo } from 'react'
@@ -133,7 +133,7 @@ const PoolStatsInfo: React.FC<React.PropsWithChildren<ExpandedFooterProps>> = ({
             tokenAddress={tokenAddress}
             tokenSymbol={earningToken.symbol}
             tokenDecimals={earningToken.decimals}
-            tokenLogo={`https://tokens.pancakeswap.finance/images/${tokenAddress}.png`}
+            tokenLogo={`https://tokens.tankswap.finance/images/${tokenAddress}.png`}
           />
         </Flex>
       )}

@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency } from '@pancakeswap/sdk'
-import { Text, Heading } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Currency } from '@tankswap/sdk'
+import { Text, Heading } from '@tankswap/uikit'
 import { LightGreyCard, LightCardProps } from 'components/Card'
 
 interface RangePriceSectionProps extends LightCardProps {

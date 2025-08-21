@@ -1,4 +1,4 @@
-import { Trans } from '@pancakeswap/localization'
+import { Trans } from '@tankswap/localization'
 
 const LIQUIDITY_TX_MSG = (props?: Record<string, unknown>) => ({
   addLiquidity: {

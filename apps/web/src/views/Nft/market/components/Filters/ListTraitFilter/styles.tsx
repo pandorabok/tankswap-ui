@@ -1,6 +1,6 @@
-import { Radio, Text } from '@pancakeswap/uikit'
+import { Radio, Text } from '@tankswap/uikit'
 import noop from 'lodash/noop'
-import { formatNumber } from '@pancakeswap/utils/formatBalance'
+import { formatNumber } from '@tankswap/utils/formatBalance'
 import { ItemImage, StyledItemRow } from '../ListFilter/styles'
 import { Item } from './types'
 

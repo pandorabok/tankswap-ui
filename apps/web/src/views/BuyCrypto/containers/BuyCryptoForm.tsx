@@ -1,5 +1,5 @@
-import { useDebounce } from '@pancakeswap/hooks'
-import { useTranslation } from '@pancakeswap/localization'
+import { useDebounce } from '@tankswap/hooks'
+import { useTranslation } from '@tankswap/localization'
 import {
   AutoColumn,
   AutoRow,
@@ -11,8 +11,8 @@ import {
   Row,
   Text,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
-import { Swap as SwapUI } from '@pancakeswap/widgets-internal'
+} from '@tankswap/uikit'
+import { Swap as SwapUI } from '@tankswap/widgets-internal'
 import { FiatOnRampModalButton } from 'components/FiatOnRampModal/FiatOnRampModal'
 import {
   Suspense,
@@ -262,7 +262,7 @@ export function BuyCryptoForm({ providerAvailabilities }: { providerAvailabiliti
               style={{ color: `${theme.colors.primary}` }}
               display="flex"
               fontSize="14px"
-              href="https://pancakeswap.finance/terms-of-service"
+              href="https://tankswap.finance/terms-of-service"
               external
             >
               {t('terms of service')}

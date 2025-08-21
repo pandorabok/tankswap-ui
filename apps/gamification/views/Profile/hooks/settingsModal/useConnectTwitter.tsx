@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { useToast } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { useToast } from '@tankswap/uikit'
 import { useSiwe } from 'hooks/useSiwe'
 import { signIn } from 'next-auth/react'
 import { encodePacked, keccak256 } from 'viem'

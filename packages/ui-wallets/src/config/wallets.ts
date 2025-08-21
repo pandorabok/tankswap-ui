@@ -1,6 +1,6 @@
 import { Wallet as SolanaWalletAdapter } from '@solana/wallet-adapter-react'
 import { WalletName, WalletReadyState } from '@solana/wallet-adapter-base'
-import safeGetWindow from '@pancakeswap/utils/safeGetWindow'
+import safeGetWindow from '@tankswap/utils/safeGetWindow'
 import { WalletAdaptedNetwork, WalletConfigV3 } from '../types'
 import { WalletIds } from './walletIds'
 import { EvmConnectorNames, SolanaWalletNames, SolanaConnectorNames } from './connectorNames'
@@ -63,9 +63,9 @@ export const getWalletsConfig = ({
       },
       connectorId: EvmConnectorNames.Injected,
       solanaAdapterName: SolanaWalletNames.MetaMask,
-      deepLink: 'https://metamask.app.link/dapp/pancakeswap.finance/',
+      deepLink: 'https://metamask.app.link/dapp/tankswap.finance/',
       qrCode,
-      downloadLink: 'https://metamask.app.link/dapp/pancakeswap.finance/',
+      downloadLink: 'https://metamask.app.link/dapp/tankswap.finance/',
       MEVSupported: true,
     },
     {
@@ -78,7 +78,7 @@ export const getWalletsConfig = ({
       get installed() {
         return isTrustWalletInstalled()
       },
-      deepLink: 'https://link.trustwallet.com/open_url?coin_id=20000714&url=https://pancakeswap.finance/',
+      deepLink: 'https://link.trustwallet.com/open_url?coin_id=20000714&url=https://tankswap.finance/',
       downloadLink: 'https://trustwallet.com/browser-extension',
       guide: {
         desktop: 'https://trustwallet.com/browser-extension',
@@ -99,7 +99,7 @@ export const getWalletsConfig = ({
       },
       downloadLink: 'https://www.okx.com/download',
       deepLink:
-        'https://www.okx.com/download?deeplink=okx%3A%2F%2Fwallet%2Fdapp%2Furl%3FdappUrl%3Dhttps%253A%252F%252Fpancakeswap.finance',
+        'https://www.okx.com/download?deeplink=okx%3A%2F%2Fwallet%2Fdapp%2Furl%3FdappUrl%3Dhttps%253A%252F%252Ftankswap.finance',
       guide: {
         desktop: 'https://www.okx.com/web3',
         mobile: 'https://www.okx.com/web3',

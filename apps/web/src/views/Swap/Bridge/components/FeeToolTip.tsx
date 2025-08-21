@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Link, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Link, Text } from '@tankswap/uikit'
 
 export function TotalFeeToolTip() {
   const { t } = useTranslation()
@@ -17,7 +17,7 @@ export function TotalFeeToolTip() {
           style={{ display: 'inline' }}
           ml="4px"
           external
-          href="https://docs.pancakeswap.finance/products/pancakeswap-exchange/faq#what-will-be-the-trading-fee-breakdown-for-v3-exchange"
+          href="https://docs.tankswap.finance/products/tankswap-exchange/faq#what-will-be-the-trading-fee-breakdown-for-v3-exchange"
         >
           {t('Fee Breakdown and Tokenomics')}
         </Link>

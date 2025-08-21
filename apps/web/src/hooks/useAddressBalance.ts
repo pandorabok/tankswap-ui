@@ -1,5 +1,5 @@
-import { ChainId, NonEVMChainId } from '@pancakeswap/chains'
-import { ZERO_ADDRESS } from '@pancakeswap/swap-sdk-core'
+import { ChainId, NonEVMChainId } from '@tankswap/chains'
+import { ZERO_ADDRESS } from '@tankswap/swap-sdk-core'
 import { useQuery } from '@tanstack/react-query'
 import BigNumber from 'bignumber.js'
 import { useCallback, useMemo } from 'react'
@@ -41,7 +41,7 @@ interface UseAddressBalanceOptions {
   enabled?: boolean
 }
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_WALLET_API_BASE_URL || 'https://wallet-api.pancakeswap.com/v1'
+const API_BASE_URL = process.env.NEXT_PUBLIC_WALLET_API_BASE_URL || 'https://wallet-api.tankswap.com/v1'
 
 function isNative(address: string): boolean {
   return address === ZERO_ADDRESS

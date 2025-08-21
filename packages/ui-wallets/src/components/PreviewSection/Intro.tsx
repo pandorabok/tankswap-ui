@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Image, Text, Button, AutoRow, Card, CardBody, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Image, Text, Button, AutoRow, Card, CardBody, useMatchBreakpoints } from '@tankswap/uikit'
 import styled from 'styled-components'
 import { ASSET_CDN } from '../../config/url'
 
@@ -28,7 +28,7 @@ export const Intro = ({ docLink }: { docLink: string }) => {
           as="a"
           color="backgroundAlt"
           variant="text"
-          href="https://pancakeswap.finance/terms-of-service"
+          href="https://tankswap.finance/terms-of-service"
           scale="xs"
           p="0"
         >

@@ -1,5 +1,5 @@
-import { Currency, Price, Token } from '@pancakeswap/swap-sdk-core'
-import { tickToPrice } from '@pancakeswap/v3-sdk'
+import { Currency, Price, Token } from '@tankswap/swap-sdk-core'
+import { tickToPrice } from '@tankswap/v3-sdk'
 
 export function getTickToPrice<T extends Currency | Token = Token>(
   baseToken?: T,

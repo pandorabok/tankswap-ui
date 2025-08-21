@@ -23,7 +23,7 @@ const fetchAllMerklConfig = async (): Promise<any[]> => {
   const response = await fetch(
     `https://api.merkl.xyz/v4/opportunities/?chainId=${Object.keys(chainIdToChainName).join(
       ',',
-    )}&test=false&mainProtocolId=pancake-swap&action=POOL,HOLD&status=LIVE`,
+    )}&test=false&mainProtocolId=tank-swap&action=POOL,HOLD&status=LIVE`,
   )
 
   if (!response.ok) {
@@ -44,8 +44,8 @@ const parseMerklConfig = (merklConfigResponse: any[]): MerklConfigPool[] => {
     .filter(
       (opportunity) =>
         (opportunity?.tokens?.[0]?.symbol?.toLowerCase().startsWith('cake-lp') ||
-          opportunity?.protocol?.id?.toLowerCase().startsWith('pancake-swap') ||
-          opportunity?.protocol?.id?.toLowerCase().startsWith('pancakeswap')) &&
+          opportunity?.protocol?.id?.toLowerCase().startsWith('tank-swap') ||
+          opportunity?.protocol?.id?.toLowerCase().startsWith('tankswap')) &&
         opportunity?.apr > 0,
     )
     .map((pool) => ({

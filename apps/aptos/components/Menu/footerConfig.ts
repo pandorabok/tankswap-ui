@@ -1,5 +1,5 @@
-import { ContextApi } from '@pancakeswap/localization'
-import { FooterLinkType } from '@pancakeswap/uikit'
+import { ContextApi } from '@tankswap/localization'
+import { FooterLinkType } from '@tankswap/uikit'
 
 export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
   {
@@ -15,15 +15,15 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
       },
       {
         label: t('Game'),
-        href: 'https://pancakeswap.games/',
+        href: 'https://tankswap.games/',
       },
       {
         label: t('Play'),
-        href: 'https://pancakeswap.finance/prediction',
+        href: 'https://tankswap.finance/prediction',
       },
       {
         label: t('Merchandise'),
-        href: 'https://merch.pancakeswap.finance/',
+        href: 'https://merch.tankswap.finance/',
       },
     ],
   },
@@ -32,19 +32,19 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     items: [
       {
         label: t('CAKE Incentives'),
-        href: 'https://docs.pancakeswap.finance/ecosystem-and-partnerships/business-partnerships/syrup-pools-and-farms',
+        href: 'https://docs.tankswap.finance/ecosystem-and-partnerships/business-partnerships/syrup-pools-and-farms',
       },
       {
         label: t('Staking Pools'),
-        href: 'https://pancakeswap.finance/pools',
+        href: 'https://tankswap.finance/pools',
       },
       {
         label: t('Token Launches'),
-        href: 'https://docs.pancakeswap.finance/ecosystem-and-partnerships/business-partnerships/initial-farm-offerings-ifos',
+        href: 'https://docs.tankswap.finance/ecosystem-and-partnerships/business-partnerships/initial-farm-offerings-ifos',
       },
       {
         label: t('Brand Assets'),
-        href: 'https://docs.pancakeswap.finance/ecosystem-and-partnerships/brand',
+        href: 'https://docs.tankswap.finance/ecosystem-and-partnerships/brand',
       },
     ],
   },
@@ -53,15 +53,15 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     items: [
       {
         label: t('Contributing'),
-        href: 'https://docs.pancakeswap.finance/developers/contributing',
+        href: 'https://docs.tankswap.finance/developers/contributing',
       },
       {
         label: t('Github'),
-        href: 'https://github.com/pancakeswap',
+        href: 'https://github.com/tankswap',
       },
       {
         label: t('Bug Bounty'),
-        href: 'https://docs.pancakeswap.finance/developers/bug-bounty',
+        href: 'https://docs.tankswap.finance/developers/bug-bounty',
       },
     ],
   },
@@ -70,23 +70,23 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     items: [
       {
         label: t('Get Help'),
-        href: 'https://docs.pancakeswap.finance/contact-us/customer-support',
+        href: 'https://docs.tankswap.finance/contact-us/customer-support',
       },
       {
         label: t('Troubleshooting'),
-        href: 'https://docs.pancakeswap.finance/readme/help/troubleshooting',
+        href: 'https://docs.tankswap.finance/readme/help/troubleshooting',
       },
       {
         label: t('Documentation'),
-        href: 'https://docs.pancakeswap.finance/',
+        href: 'https://docs.tankswap.finance/',
       },
       {
         label: t('Audits'),
-        href: 'https://docs.pancakeswap.finance/readme/audits',
+        href: 'https://docs.tankswap.finance/readme/audits',
       },
       {
         label: t('Legacy products'),
-        href: 'https://docs.pancakeswap.finance/products/legacy-products',
+        href: 'https://docs.tankswap.finance/products/legacy-products',
       },
     ],
   },
@@ -95,23 +95,23 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     items: [
       {
         label: t('Tokenomics'),
-        href: 'https://docs.pancakeswap.finance/governance-and-tokenomics/cake-tokenomics',
+        href: 'https://docs.tankswap.finance/governance-and-tokenomics/cake-tokenomics',
       },
       {
         label: t('CAKE Emission Projection'),
-        href: 'https://analytics.pancakeswap.finance/',
+        href: 'https://analytics.tankswap.finance/',
       },
       {
         label: t('Blog'),
-        href: 'https://blog.pancakeswap.finance/',
+        href: 'https://blog.tankswap.finance/',
       },
       {
         label: t('Careers'),
-        href: 'https://docs.pancakeswap.finance/team/become-a-chef',
+        href: 'https://docs.tankswap.finance/team/become-a-chef',
       },
       {
         label: t('Terms Of Service'),
-        href: 'https://pancakeswap.finance/terms-of-service',
+        href: 'https://tankswap.finance/terms-of-service',
       },
     ],
   },

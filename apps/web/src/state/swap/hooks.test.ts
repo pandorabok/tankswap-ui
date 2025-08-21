@@ -2,7 +2,7 @@
 /* eslint-disable vars-on-top */
 import { parse } from 'querystring'
 import { Mock, vi } from 'vitest'
-import { NonEVMChainId } from '@pancakeswap/chains'
+import { NonEVMChainId } from '@tankswap/chains'
 import { Field } from './actions'
 import { queryParametersToSwapState } from './hooks'
 

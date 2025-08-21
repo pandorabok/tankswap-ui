@@ -1,5 +1,5 @@
-import { BigintIsh, Price } from '@pancakeswap/sdk'
-import { Currency } from '@pancakeswap/swap-sdk-core'
+import { BigintIsh, Price } from '@tankswap/sdk'
+import { Currency } from '@tankswap/swap-sdk-core'
 import { Q192 } from '../internalConstants'
 
 /**

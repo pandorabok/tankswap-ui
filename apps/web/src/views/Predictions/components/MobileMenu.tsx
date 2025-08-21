@@ -9,9 +9,9 @@ import {
   ChartIcon,
   HistoryIcon,
   IconButton,
-} from '@pancakeswap/uikit'
+} from '@tankswap/uikit'
 import useLocalDispatch from 'contexts/LocalRedux/useLocalDispatch'
-import { PredictionStatus } from '@pancakeswap/prediction'
+import { PredictionStatus } from '@tankswap/prediction'
 import { useGetPredictionsStatus, useIsChartPaneOpen, useIsHistoryPaneOpen } from 'state/predictions/hooks'
 import { setChartPaneState, setHistoryPaneState } from 'state/predictions'
 import useSwiper from '../hooks/useSwiper'

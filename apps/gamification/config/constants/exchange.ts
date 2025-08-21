@@ -1,11 +1,11 @@
-import { Percent } from '@pancakeswap/sdk'
+import { Percent } from '@tankswap/sdk'
 
 export {
   ADDITIONAL_BASES,
   BASES_TO_CHECK_TRADES_AGAINST,
   CUSTOM_BASES,
   V2_ROUTER_ADDRESS,
-} from '@pancakeswap/smart-router'
+} from '@tankswap/smart-router'
 
 export const BIPS_BASE = 10000n
 

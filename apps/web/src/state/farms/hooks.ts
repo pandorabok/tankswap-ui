@@ -3,7 +3,7 @@ import {
   DeserializedFarmUserData,
   getLegacyFarmConfig,
   supportedChainIdV2,
-} from '@pancakeswap/farms'
+} from '@tankswap/farms'
 import { useQuery } from '@tanstack/react-query'
 import { SLOW_INTERVAL } from 'config/constants'
 import { useActiveChainId } from 'hooks/useActiveChainId'
@@ -57,7 +57,7 @@ export function useFarmV2PublicAPI() {
     queryKey: ['farm-v2-pubic-api', chainId],
 
     queryFn: async () => {
-      return fetch(`https://farms-api.pancakeswap.com/${chainId}`)
+      return fetch(`https://farms-api.tankswap.com/${chainId}`)
         .then((res) => res.json())
         .then((res) => res.data)
     },

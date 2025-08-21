@@ -1,7 +1,7 @@
-import { Ifo, PoolIds } from '@pancakeswap/ifos'
-import { useTranslation } from '@pancakeswap/localization'
-import { MaxUint256 } from '@pancakeswap/swap-sdk-core'
-import { CAKE } from '@pancakeswap/tokens'
+import { Ifo, PoolIds } from '@tankswap/ifos'
+import { useTranslation } from '@tankswap/localization'
+import { MaxUint256 } from '@tankswap/swap-sdk-core'
+import { CAKE } from '@tankswap/tokens'
 import {
   BalanceInput,
   Box,
@@ -16,9 +16,9 @@ import {
   TooltipText,
   useToast,
   useTooltip,
-} from '@pancakeswap/uikit'
-import { formatNumber, getBalanceAmount } from '@pancakeswap/utils/formatBalance'
-import { getFullDecimalMultiplier } from '@pancakeswap/utils/getFullDecimalMultiplier'
+} from '@tankswap/uikit'
+import { formatNumber, getBalanceAmount } from '@tankswap/utils/formatBalance'
+import { getFullDecimalMultiplier } from '@tankswap/utils/getFullDecimalMultiplier'
 import BigNumber from 'bignumber.js'
 import ApproveConfirmButtons from 'components/ApproveConfirmButtons'
 import { ToastDescriptionWithTx } from 'components/Toast'
@@ -237,7 +237,7 @@ const ContributeModal: React.FC<React.PropsWithChildren<Props>> = ({
             <Link
               fontSize="12px"
               display="inline"
-              href="https://docs.pancakeswap.finance/products/ifo-initial-farm-offering"
+              href="https://docs.tankswap.finance/products/ifo-initial-farm-offering"
               external
             >
               {t('Read more')}

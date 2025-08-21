@@ -1,5 +1,5 @@
-import { useTranslation } from "@pancakeswap/localization";
-import { Currency } from "@pancakeswap/swap-sdk-core";
+import { useTranslation } from "@tankswap/localization";
+import { Currency } from "@tankswap/swap-sdk-core";
 import {
   Box,
   BoxProps,
@@ -12,7 +12,7 @@ import {
   Row,
   SwapLoading,
   Text,
-} from "@pancakeswap/uikit";
+} from "@tankswap/uikit";
 import { FC, ReactNode, Ref, useMemo } from "react";
 import styled, { css } from "styled-components";
 import { CurrencyLogo } from "../components/CurrencyLogo";
@@ -104,7 +104,7 @@ export const ApproveModalContentV3: React.FC<ApproveModalContentV3Props> = ({
         <LinkExternal
           mt="8px"
           mx="auto"
-          href="https://docs.pancakeswap.finance/~/changes/d1gFBwxReM0gH1aeMo0G/readme/help/what-is-an-approval-transaction"
+          href="https://docs.tankswap.finance/~/changes/d1gFBwxReM0gH1aeMo0G/readme/help/what-is-an-approval-transaction"
           showExternalIcon={false}
           style={{ textDecoration: "none" }}
         >

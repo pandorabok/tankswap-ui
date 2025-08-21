@@ -1,6 +1,6 @@
-import { ChainId } from '@pancakeswap/chains'
-import { CAKE } from '@pancakeswap/tokens'
-import { FeeAmount } from '@pancakeswap/v3-sdk'
+import { ChainId } from '@tankswap/chains'
+import { CAKE } from '@tankswap/tokens'
+import { FeeAmount } from '@tankswap/v3-sdk'
 import { nanoid } from '@reduxjs/toolkit'
 import { TaskConfigType } from 'views/DashboardQuestEdit/context/types'
 import { TaskType } from 'views/DashboardQuestEdit/type'
@@ -83,7 +83,7 @@ export const generateNewTask = (tasks: TaskConfigType[], taskType: TaskType): Ta
         sid: randomId,
         title: '',
         description: '',
-        link: 'https://t.me/pancakefi_bot',
+        link: 'https://t.me/tankfi_bot',
         taskType,
         orderNumber: 0,
         network: DEFAULT_CHAIN,

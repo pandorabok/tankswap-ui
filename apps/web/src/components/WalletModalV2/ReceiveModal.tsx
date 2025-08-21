@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Flex, LogoIcon, Modal, ModalV2 } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Box, Flex, LogoIcon, Modal, ModalV2 } from '@tankswap/uikit'
 
 import { QRCodeSVG } from 'qrcode.react'
 import { styled } from 'styled-components'
@@ -50,7 +50,7 @@ export const ReceiveContent: React.FC<{
               level="H"
               includeMargin
               imageSettings={{
-                src: '/images/tokens/pancakeswap-token.png',
+                src: '/images/tokens/tankswap-token.png',
                 x: undefined,
                 y: undefined,
                 height: 48,

@@ -12,11 +12,11 @@ import {
   ShieldCheckIcon,
   useTooltip,
   Link,
-} from '@pancakeswap/uikit'
-import { StyledCardInner } from '@pancakeswap/uikit/components/Card/StyledCard'
+} from '@tankswap/uikit'
+import { StyledCardInner } from '@tankswap/uikit/components/Card/StyledCard'
 import React from 'react'
 import styled, { useTheme } from 'styled-components'
-import { Trans } from '@pancakeswap/localization'
+import { Trans } from '@tankswap/localization'
 import { WalletAdaptedNetwork, WalletConfigV3 } from '../../types'
 import { walletIconClass } from '../WalletModal.css'
 import { ASSET_CDN } from '../../config/url'
@@ -99,7 +99,7 @@ export const WalletSelectItem = <T,>({ wallet, onClick }: WalletSelectItemProps<
           style={{ display: 'inline' }}
           fontWeight="normal !important"
           external
-          href="https://docs.pancakeswap.finance/trading-tools/pancakeswap-mev-guard"
+          href="https://docs.tankswap.finance/trading-tools/tankswap-mev-guard"
         />,
       ]}
     />,

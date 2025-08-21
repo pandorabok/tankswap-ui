@@ -1,11 +1,11 @@
-import { ApiV3PoolInfoItem, ApiV3PoolInfoCountItem, TokenInfo } from '@pancakeswap/solana-core-sdk'
+import { ApiV3PoolInfoItem, ApiV3PoolInfoCountItem, TokenInfo } from '@tankswap/solana-core-sdk'
 
 import { isClient } from '@/utils/common'
 import { formatLocaleStr } from '@/utils/numberish/formatter'
 import toPercentString, { ToPercentStringOptions, toTotalPercent } from '@/utils/numberish/toPercentString'
 import { transformSymbol } from '@/utils/pool/nameFormat'
 
-const POOL_CACHE_KEY = '_pancake_favorite_pool_'
+const POOL_CACHE_KEY = '_tank_favorite_pool_'
 
 const favoritePoolCache =
   typeof window !== 'undefined' ? new Set<string>(JSON.parse(localStorage.getItem(POOL_CACHE_KEY) || '[]')) : new Set<string>()

@@ -1,6 +1,6 @@
-import { ChainId } from '@pancakeswap/chains'
-import { useTranslation } from '@pancakeswap/localization'
-import { zksyncTokens } from '@pancakeswap/tokens'
+import { ChainId } from '@tankswap/chains'
+import { useTranslation } from '@tankswap/localization'
+import { zksyncTokens } from '@tankswap/tokens'
 import {
   AtomBox,
   Box,
@@ -17,8 +17,8 @@ import {
   Text,
   useMatchBreakpoints,
   useTooltip,
-} from '@pancakeswap/uikit'
-import { formatNumber, getBalanceNumber } from '@pancakeswap/utils/formatBalance'
+} from '@tankswap/uikit'
+import { formatNumber, getBalanceNumber } from '@tankswap/utils/formatBalance'
 import BN from 'bignumber.js'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import { ASSET_CDN } from 'config/constants/endpoints'
@@ -152,7 +152,7 @@ export const ClaimZksyncAirdropModal: React.FC<{
                     account: account ?? '',
                   })}
             </Text>
-            <Link href="https://blog.pancakeswap.finance/articles/pancake-swap-airdrops-2-4-million-zk-tokens-to-the-community">
+            <Link href="https://blog.tankswap.finance/articles/tank-swap-airdrops-2-4-million-zk-tokens-to-the-community">
               {t('Learn more about the campaign')}
             </Link>
             {account ? (

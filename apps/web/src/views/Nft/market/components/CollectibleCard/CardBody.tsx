@@ -1,8 +1,8 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, CardBody, Flex, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Box, CardBody, Flex, Text } from '@tankswap/uikit'
 import { useBNBPrice } from 'hooks/useBNBPrice'
 import { safeGetAddress } from 'utils'
-import { pancakeBunniesAddress } from '../../constants'
+import { tankBunniesAddress } from '../../constants'
 import { useGetLowestPriceFromNft } from '../../hooks/useGetLowestPrice'
 import NFTMedia from '../NFTMedia'
 import LocationTag from './LocationTag'
@@ -19,7 +19,7 @@ const CollectibleCardBody: React.FC<React.PropsWithChildren<CollectibleCardProps
   const { t } = useTranslation()
   const { name } = nft
   const bnbBusdPrice = useBNBPrice()
-  const isPancakeBunny = safeGetAddress(nft.collectionAddress) === safeGetAddress(pancakeBunniesAddress)
+  const isPancakeBunny = safeGetAddress(nft.collectionAddress) === safeGetAddress(tankBunniesAddress)
   const { isFetching, lowestPrice } = useGetLowestPriceFromNft(nft)
 
   return (

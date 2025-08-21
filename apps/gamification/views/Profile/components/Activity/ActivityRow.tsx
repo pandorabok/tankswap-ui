@@ -9,14 +9,14 @@ import {
   Text,
   useMatchBreakpoints,
   useModal,
-} from '@pancakeswap/uikit'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+} from '@tankswap/uikit'
+import { NextLinkFromReactRouter } from '@tankswap/widgets-internal'
 
 import BigNumber from 'bignumber.js'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { Activity, NftToken } from 'hooks/useProfile/nft/types'
 import { getBlockExploreLink, safeGetAddress } from 'utils'
-import { nftsBaseUrl, pancakeBunniesAddress } from 'views/ProfileCreation/Nft/constants'
+import { nftsBaseUrl, tankBunniesAddress } from 'views/ProfileCreation/Nft/constants'
 import NFTMedia from '../NFTMedia'
 import { ProfileCell } from '../ProfileCell'
 import ActivityEventText from './ActivityEventText'
@@ -58,7 +58,7 @@ const ActivityRow: React.FC<React.PropsWithChildren<ActivityRowProps>> = ({
       isUserActivity={isUserActivity}
     />,
   )
-  const isPBCollection = nft ? safeGetAddress(nft.collectionAddress) === safeGetAddress(pancakeBunniesAddress) : false
+  const isPBCollection = nft ? safeGetAddress(nft.collectionAddress) === safeGetAddress(tankBunniesAddress) : false
   const tokenId =
     nft && isPBCollection
       ? nft.attributes?.find((attribute) => attribute.traitType === 'bunnyId')?.value

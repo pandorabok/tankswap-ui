@@ -12,19 +12,19 @@ import {
   useMatchBreakpoints,
   useModal,
   useTooltip,
-} from '@pancakeswap/uikit'
-import { Pool } from '@pancakeswap/widgets-internal'
+} from '@tankswap/uikit'
+import { Pool } from '@tankswap/widgets-internal'
 
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import BigNumber from 'bignumber.js'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import { PoolCategory } from 'config/constants/types'
 import { useERC20 } from 'hooks/useContract'
 import { useAccount } from 'wagmi'
 
-import { Token } from '@pancakeswap/sdk'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
-import { getBalanceNumber } from '@pancakeswap/utils/formatBalance'
+import { Token } from '@tankswap/sdk'
+import { BIG_ZERO } from '@tankswap/utils/bigNumber'
+import { getBalanceNumber } from '@tankswap/utils/formatBalance'
 import { styled } from 'styled-components'
 import { useProfileRequirement } from 'views/Pools/hooks/useProfileRequirement'
 

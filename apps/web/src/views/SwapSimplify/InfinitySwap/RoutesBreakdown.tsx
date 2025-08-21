@@ -1,7 +1,7 @@
-import { useDebounce } from '@pancakeswap/hooks'
-import { useTranslation } from '@pancakeswap/localization'
-import { Route } from '@pancakeswap/smart-router'
-import { Box, ModalV2, QuestionHelperV2, SkeletonV2, Text, useModalV2 } from '@pancakeswap/uikit'
+import { useDebounce } from '@tankswap/hooks'
+import { useTranslation } from '@tankswap/localization'
+import { Route } from '@tankswap/smart-router'
+import { Box, ModalV2, QuestionHelperV2, SkeletonV2, Text, useModalV2 } from '@tankswap/uikit'
 import { memo } from 'react'
 import { styled } from 'styled-components'
 

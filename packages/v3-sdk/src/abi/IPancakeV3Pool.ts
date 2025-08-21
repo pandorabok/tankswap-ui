@@ -1,4 +1,4 @@
-export const pancakeV3PoolABI = [
+export const tankV3PoolABI = [
   { inputs: [], stateMutability: 'nonpayable', type: 'constructor' },
   {
     anonymous: false,

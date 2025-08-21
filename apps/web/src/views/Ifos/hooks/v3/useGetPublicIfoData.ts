@@ -4,18 +4,18 @@ import { BSC_BLOCK_TIME } from 'config'
 import round from 'lodash/round'
 import { ifoV2ABI } from 'config/abi/ifoV2'
 import { ifoV3ABI } from 'config/abi/ifoV3'
-import { bscTokens } from '@pancakeswap/tokens'
-import { Ifo, IfoStatus } from '@pancakeswap/ifos'
+import { bscTokens } from '@tankswap/tokens'
+import { Ifo, IfoStatus } from '@tankswap/ifos'
 
 import { useLpTokenPrice } from 'state/farms/hooks'
 import { useCakePrice } from 'hooks/useCakePrice'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
+import { BIG_ZERO } from '@tankswap/utils/bigNumber'
 import { publicClient } from 'utils/wagmi'
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@tankswap/chains'
 import { PublicIfoData } from '../../types'
 import { getStatus } from '../helpers'
 
-// https://github.com/pancakeswap/pancake-contracts/blob/master/projects/ifo/contracts/IFOV2.sol#L431
+// https://github.com/tankswap/tank-contracts/blob/master/projects/ifo/contracts/IFOV2.sol#L431
 // 1,000,000,000 / 100
 const TAX_PRECISION = new BigNumber(10000000000)
 

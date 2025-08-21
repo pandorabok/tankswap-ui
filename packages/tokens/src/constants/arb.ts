@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { ERC20Token, WETH9 } from '@pancakeswap/sdk'
+import { ChainId } from '@tankswap/chains'
+import { ERC20Token, WETH9 } from '@tankswap/sdk'
 import { CAKE, USDC, USDT } from './common'
 
 export const arbitrumTokens = {
@@ -253,7 +253,7 @@ export const arbitrumTokens = {
     18,
     'DLP',
     'RDNT-WETH',
-    'https://pancakeswap.finance',
+    'https://tankswap.finance',
   ),
   mdlp: new ERC20Token(
     ChainId.ARBITRUM_ONE,

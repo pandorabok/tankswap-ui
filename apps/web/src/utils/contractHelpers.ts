@@ -1,6 +1,6 @@
-import { ChainId } from '@pancakeswap/chains'
-import { BinPositionManagerAbi, CLPositionManagerAbi } from '@pancakeswap/infinity-sdk'
-import { CAKE } from '@pancakeswap/tokens'
+import { ChainId } from '@tankswap/chains'
+import { BinPositionManagerAbi, CLPositionManagerAbi } from '@tankswap/infinity-sdk'
+import { CAKE } from '@tankswap/tokens'
 
 // Addresses
 import {
@@ -45,7 +45,7 @@ import {
 } from 'utils/addressHelpers'
 
 // ABI
-import { predictionsV1ABI, predictionsV2ABI, predictionsV3ABI } from '@pancakeswap/prediction'
+import { predictionsV1ABI, predictionsV2ABI, predictionsV3ABI } from '@tankswap/prediction'
 import { crossFarmingProxyABI } from 'config/abi/crossFarmingProxy'
 import { crossFarmingSenderABI } from 'config/abi/crossFarmingSender'
 import { crossFarmingVaultABI } from 'config/abi/crossFarmingVault'
@@ -53,10 +53,10 @@ import { nftSaleABI } from 'config/abi/nftSale'
 import { pointCenterIfoABI } from 'config/abi/pointCenterIfo'
 import { stableSwapNativeHelperABI } from 'config/abi/stableSwapNativeHelper'
 
-import { bCakeFarmBoosterVeCakeABI } from '@pancakeswap/farms/constants/v3/abi/bCakeFarmBoosterVeCake'
-import { getIfoCreditAddressContract as getIfoCreditAddressContract_ } from '@pancakeswap/ifos'
-import { cakeFlexibleSideVaultV2ABI, cakeVaultV1ABI, cakeVaultV2ABI } from '@pancakeswap/pools'
-import { masterChefV3ABI } from '@pancakeswap/v3-sdk'
+import { bCakeFarmBoosterVeCakeABI } from '@tankswap/farms/constants/v3/abi/bCakeFarmBoosterVeCake'
+import { getIfoCreditAddressContract as getIfoCreditAddressContract_ } from '@tankswap/ifos'
+import { cakeFlexibleSideVaultV2ABI, cakeVaultV1ABI, cakeVaultV2ABI } from '@tankswap/pools'
+import { masterChefV3ABI } from '@tankswap/v3-sdk'
 import { sidABI } from 'config/abi/SID'
 import { SIDResolverABI } from 'config/abi/SIDResolver'
 import { affiliateProgramABI } from 'config/abi/affiliateProgram'
@@ -71,9 +71,9 @@ import { fixedStakingABI } from 'config/abi/fixedStaking'
 import { lotteryV2ABI } from 'config/abi/lotteryV2'
 import { masterChefV2ABI } from 'config/abi/masterchefV2'
 import { nftMarketABI } from 'config/abi/nftMarket'
-import { pancakeProfileABI } from 'config/abi/pancakeProfile'
-import { pancakeSquadABI } from 'config/abi/pancakeSquad'
-import { pancakeVeSenderV2ABI } from 'config/abi/pancakeVeSenderV2ABI'
+import { tankProfileABI } from 'config/abi/tankProfile'
+import { tankSquadABI } from 'config/abi/tankSquad'
+import { tankVeSenderV2ABI } from 'config/abi/tankVeSenderV2ABI'
 import { revenueSharingPoolABI } from 'config/abi/revenueSharingPool'
 import { revenueSharingPoolGatewayABI } from 'config/abi/revenueSharingPoolGateway'
 import { revenueSharingPoolProxyABI } from 'config/abi/revenueSharingPoolProxy'
@@ -157,7 +157,7 @@ export const getCakeContract = (chainId?: number) => {
 }
 
 export const getProfileContract = (signer?: WalletClient) => {
-  return getContract({ abi: pancakeProfileABI, address: getPancakeProfileAddress(), signer })
+  return getContract({ abi: tankProfileABI, address: getPancakeProfileAddress(), signer })
 }
 
 export const getBunnyFactoryContract = (signer?: WalletClient) => {
@@ -239,7 +239,7 @@ export const getNftSaleContract = (signer?: WalletClient) => {
   return getContract({ abi: nftSaleABI, address: getNftSaleAddress(), signer })
 }
 export const getPancakeSquadContract = (signer?: WalletClient) => {
-  return getContract({ abi: pancakeSquadABI, address: getPancakeSquadAddress(), signer })
+  return getContract({ abi: tankSquadABI, address: getPancakeSquadAddress(), signer })
 }
 
 export const getIfoCreditAddressContract = (signer?: WalletClient) => {
@@ -473,7 +473,7 @@ export const getVeCakeContract: GetContractFn<typeof veCakeABI, WalletClient> = 
 
 export const getPancakeVeSenderV2Contract = (signer?: WalletClient, chainId?: number) => {
   return getContract({
-    abi: pancakeVeSenderV2ABI,
+    abi: tankVeSenderV2ABI,
     address: getPancakeVeSenderV2Address(chainId) ?? getPancakeVeSenderV2Address(ChainId.BSC),
     signer,
     chainId,

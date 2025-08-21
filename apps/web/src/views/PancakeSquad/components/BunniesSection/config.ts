@@ -1,4 +1,4 @@
-import { ContextApi } from '@pancakeswap/localization'
+import { ContextApi } from '@tankswap/localization'
 
 const bunniesConfig = (t: ContextApi['t']) => {
   return {
@@ -15,7 +15,7 @@ const bunniesConfig = (t: ContextApi['t']) => {
       to: '/nfts',
       text: t('View in Market'),
     },
-    images: { basePath: '/images/pancakeSquad/bunnies/bunny', alt: 'bunny nft' },
+    images: { basePath: '/images/tankSquad/bunnies/bunny', alt: 'bunny nft' },
   }
 }
 

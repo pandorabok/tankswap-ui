@@ -1,8 +1,8 @@
-export const pancakeVeSenderV2ABI = [
+export const tankVeSenderV2ABI = [
   {
     inputs: [
       { internalType: 'address', name: '_veCake', type: 'address' },
-      { internalType: 'address', name: '_pancakeProfileAddress', type: 'address' },
+      { internalType: 'address', name: '_tankProfileAddress', type: 'address' },
       { internalType: 'address', name: '_endpoint', type: 'address' },
       { internalType: 'address', name: '_delegate', type: 'address' },
     ],
@@ -224,7 +224,7 @@ export const pancakeVeSenderV2ABI = [
   },
   {
     inputs: [],
-    name: 'pancakeProfileAddress',
+    name: 'tankProfileAddress',
     outputs: [{ internalType: 'address', name: '', type: 'address' }],
     stateMutability: 'view',
     type: 'function',

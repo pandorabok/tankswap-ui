@@ -1,4 +1,4 @@
-import { getIsInitializedByPoolKey, PoolKey } from '@pancakeswap/infinity-sdk'
+import { getIsInitializedByPoolKey, PoolKey } from '@tankswap/infinity-sdk'
 import { useQuery } from '@tanstack/react-query'
 import { useMemo } from 'react'
 import { publicClient } from 'utils/viem'

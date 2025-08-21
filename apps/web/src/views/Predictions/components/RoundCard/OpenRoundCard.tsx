@@ -1,6 +1,6 @@
-import { AVERAGE_CHAIN_BLOCK_TIMES } from '@pancakeswap/chains'
-import { useTranslation } from '@pancakeswap/localization'
-import { BetPosition, TRANSACTION_BUFFER_BLOCKS } from '@pancakeswap/prediction'
+import { AVERAGE_CHAIN_BLOCK_TIMES } from '@tankswap/chains'
+import { useTranslation } from '@tankswap/localization'
+import { BetPosition, TRANSACTION_BUFFER_BLOCKS } from '@tankswap/prediction'
 import {
   ArrowDownIcon,
   ArrowUpIcon,
@@ -10,7 +10,7 @@ import {
   PlayCircleOutlineIcon,
   useToast,
   useTooltip,
-} from '@pancakeswap/uikit'
+} from '@tankswap/uikit'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import useLocalDispatch from 'contexts/LocalRedux/useLocalDispatch'
 import { useActiveChainId } from 'hooks/useActiveChainId'

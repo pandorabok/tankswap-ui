@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import {
   Box,
   Button,
@@ -11,17 +11,17 @@ import {
   Text,
   ThemeSwitcher,
   Toggle,
-} from '@pancakeswap/uikit'
-import { ExpertModal } from '@pancakeswap/widgets-internal'
+} from '@tankswap/uikit'
+import { ExpertModal } from '@tankswap/widgets-internal'
 
-import { escapeRegExp } from '@pancakeswap/utils/escapeRegExp'
+import { escapeRegExp } from '@tankswap/utils/escapeRegExp'
 import {
   useAudioPlay,
   useExpertMode,
   useUserExpertModeAcknowledgement,
   useUserSingleHopOnly,
   useUserSlippage,
-} from '@pancakeswap/utils/user'
+} from '@tankswap/utils/user'
 import { useTheme } from 'next-themes'
 import { useCallback, useState } from 'react'
 import { styled } from 'styled-components'
@@ -253,7 +253,7 @@ export const SettingsModal: React.FC<React.PropsWithChildren<InjectedModalProps>
             <Flex alignItems="center">
               <Text>{t('Flippy sounds')}</Text>
               <QuestionHelper
-                text={t('Fun sounds to make a truly immersive pancake-flipping trading experience')}
+                text={t('Fun sounds to make a truly immersive tank-flipping trading experience')}
                 placement="top"
                 ml="4px"
               />

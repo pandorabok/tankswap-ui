@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { CrossChainMessage, getCrossChainMessage } from '@pancakeswap/ifos'
+import { ChainId } from '@tankswap/chains'
+import { CrossChainMessage, getCrossChainMessage } from '@tankswap/ifos'
 import { useQuery } from '@tanstack/react-query'
 import { FAST_INTERVAL } from 'config/constants'
 

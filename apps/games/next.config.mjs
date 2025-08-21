@@ -1,4 +1,4 @@
-import { withWebSecurityHeaders } from '@pancakeswap/next-config/withWebSecurityHeaders'
+import { withWebSecurityHeaders } from '@tankswap/next-config/withWebSecurityHeaders'
 import { createVanillaExtractPlugin } from '@vanilla-extract/next-plugin'
 import { RetryChunkLoadPlugin } from 'webpack-retry-chunk-load-plugin'
 
@@ -8,12 +8,12 @@ const withVanillaExtract = createVanillaExtractPlugin()
 const nextConfig = {
   reactStrictMode: true,
   transpilePackages: [
-    '@pancakeswap/uikit',
-    '@pancakeswap/hooks',
-    '@pancakeswap/localization',
-    '@pancakeswap/utils',
-    '@pancakeswap/games',
-    '@pancakeswap/blog',
+    '@tankswap/uikit',
+    '@tankswap/hooks',
+    '@tankswap/localization',
+    '@tankswap/utils',
+    '@tankswap/games',
+    '@tankswap/blog',
     // https://github.com/TanStack/query/issues/6560#issuecomment-1975771676
     '@tanstack/query-core',
   ],
@@ -22,7 +22,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'assets.pancakeswap.finance',
+        hostname: 'assets.tankswap.finance',
         pathname: '/web/**',
       },
     ],

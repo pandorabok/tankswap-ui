@@ -12,12 +12,12 @@ import {
   LaurelRightIcon,
   CheckmarkCircleIcon,
   useModal,
-} from '@pancakeswap/uikit'
+} from '@tankswap/uikit'
 import { CLAIM, OVER } from 'config/constants/trading-competition/phases'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import SubgraphHealthIndicator from 'components/SubgraphHealthIndicator'
-import { useTranslation } from '@pancakeswap/localization'
-import { ChainId } from '@pancakeswap/chains'
+import { useTranslation } from '@tankswap/localization'
+import { ChainId } from '@tankswap/chains'
 import ClaimModal from '../ClaimModal'
 import CardUserInfo from './CardUserInfo'
 import ShareImageModal from '../ShareImageModal'

@@ -1,5 +1,5 @@
-import { Protocol } from '@pancakeswap/farms'
-import { Currency, isCurrencySorted } from '@pancakeswap/swap-sdk-core'
+import { Protocol } from '@tankswap/farms'
+import { Currency, isCurrencySorted } from '@tankswap/swap-sdk-core'
 import { BinTickProcessed, useBinPoolActiveLiquidity, usePoolActiveLiquidity } from 'hooks/infinity/usePoolTickData'
 import { tryParsePrice } from 'hooks/v3/utils'
 import { useMemo } from 'react'
@@ -12,7 +12,7 @@ function parsePrice(baseCurrency?: Currency, quoteCurrency?: Currency, priceValu
   let price = isSorted ? basePrice : basePrice?.invert()
 
   // Patch fix for native pairs' niche issue with token ordering
-  // https://linear.app/pancakeswap/issue/PAN-7555/cannot-see-liquidity-depth-chart
+  // https://linear.app/tankswap/issue/PAN-7555/cannot-see-liquidity-depth-chart
   if (protocol === Protocol.InfinityCLAMM && (baseCurrency?.isNative || quoteCurrency?.isNative)) {
     price = isSorted ? basePrice?.invert() : basePrice
   }

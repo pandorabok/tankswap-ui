@@ -3,14 +3,14 @@ import { CORS_ALLOW, isOriginAllowed } from './index'
 
 describe('worker-utils', () => {
   it.each([
-    ['https://pancakeswap.finance', true],
-    ['https://pancakeswap.com', true],
-    ['https://aptospancakeswap.finance', false],
-    ['https://aptos.pancakeswap.finance', true],
-    ['https://pancakeswap.finance.com', false],
-    ['http://pancakeswap.finance', false],
-    ['https://pancake.run', false],
-    ['https://test.pancake.run', true],
+    ['https://tankswap.finance', true],
+    ['https://tankswap.com', true],
+    ['https://aptostankswap.finance', false],
+    ['https://aptos.tankswap.finance', true],
+    ['https://tankswap.finance.com', false],
+    ['http://tankswap.finance', false],
+    ['https://tank.run', false],
+    ['https://test.tank.run', true],
     ['http://localhost:3000', true],
     ['http://localhost:3001', true],
   ])(`isOriginAllowed(%s)`, (origin, expected) => {

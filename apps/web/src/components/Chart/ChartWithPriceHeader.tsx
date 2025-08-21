@@ -1,5 +1,5 @@
-import { Currency } from '@pancakeswap/sdk'
-import { Box } from '@pancakeswap/uikit'
+import { Currency } from '@tankswap/sdk'
+import { Box } from '@tankswap/uikit'
 import { useSetAtom } from 'jotai'
 import React, { useCallback, useState } from 'react'
 import { styled } from 'styled-components'

@@ -1,6 +1,6 @@
-import { ChainId } from '@pancakeswap/chains'
-import { Percent } from '@pancakeswap/swap-sdk-core'
-import { parseCurrencyAmount, toSerializableCurrencyAmount } from '@pancakeswap/routing-sdk'
+import { ChainId } from '@tankswap/chains'
+import { Percent } from '@tankswap/swap-sdk-core'
+import { parseCurrencyAmount, toSerializableCurrencyAmount } from '@tankswap/routing-sdk'
 
 import { SerializableStablePool, StablePool, StablePoolData } from './types'
 import { createStablePool } from './createStablePool'

@@ -1,17 +1,17 @@
-import { ChainId, STABLESWAP_SUBGRAPHS, V2_SUBGRAPHS, V3_SUBGRAPHS } from '@pancakeswap/chains'
+import { ChainId, STABLESWAP_SUBGRAPHS, V2_SUBGRAPHS, V3_SUBGRAPHS } from '@tankswap/chains'
 
-export const THE_GRAPH_PROXY_API = 'https://thegraph.pancakeswap.com'
+export const THE_GRAPH_PROXY_API = 'https://thegraph.tankswap.com'
 
 export const GRAPH_API_PROFILE = `${THE_GRAPH_PROXY_API}/profile`
 
 export const GRAPH_API_LOTTERY = `${THE_GRAPH_PROXY_API}/lottery-bsc`
 export const SNAPSHOT_BASE_URL = process.env.NEXT_PUBLIC_SNAPSHOT_BASE_URL
-export const API_PROFILE = 'https://profile.pancakeswap.com'
-export const API_NFT = 'https://nft.pancakeswap.com/api/v1'
+export const API_PROFILE = 'https://profile.tankswap.com'
+export const API_NFT = 'https://nft.tankswap.com/api/v1'
 export const SNAPSHOT_API = `${SNAPSHOT_BASE_URL}/graphql`
 // export const ONRAMP_API_BASE_URL = 'https://monkfish-app-s4mda.ondigitalocean.app'
-export const ONRAMP_API_BASE_URL = 'https://onramp2-api.pancakeswap.com'
-export const NOTIFICATION_HUB_BASE_URL = 'https://notification-hub.pancakeswap.com'
+export const ONRAMP_API_BASE_URL = 'https://onramp2-api.tankswap.com'
+export const NOTIFICATION_HUB_BASE_URL = 'https://notification-hub.tankswap.com'
 /**
  * V1 will be deprecated but is still used to claim old rounds
  */
@@ -19,7 +19,7 @@ export const GRAPH_API_PREDICTION_V1 = `${THE_GRAPH_PROXY_API}/prediction-v1-bsc
 
 export const V3_BSC_INFO_CLIENT = `https://open-platform.nodereal.io/${
   process.env.NEXT_PUBLIC_NODE_REAL_API_INFO || process.env.NEXT_PUBLIC_NODE_REAL_API_ETH
-}/pancakeswap-v3/graphql`
+}/tankswap-v3/graphql`
 
 export const GRAPH_API_NFTMARKET = `${THE_GRAPH_PROXY_API}/nft-marketplace-bsc`
 export const GRAPH_HEALTH = 'https://indexer.upgrade.thegraph.com/status'
@@ -29,7 +29,7 @@ export const TC_MOD_SUBGRAPH = `${THE_GRAPH_PROXY_API}/trading-competition-v4`
 
 export const BIT_QUERY = 'https://graphql.bitquery.io'
 
-export const ACCESS_RISK_API = 'https://red.alert.pancakeswap.com/red-api'
+export const ACCESS_RISK_API = 'https://red.alert.tankswap.com/red-api'
 
 export const CELER_API = 'https://api.celerscan.com/scan'
 
@@ -45,7 +45,7 @@ export const V2_SUBGRAPH_URLS = {
   [ChainId.OPBNB]: `${THE_GRAPH_PROXY_API}/exchange-v2-opbnb`,
 }
 
-export const ASSET_CDN = process.env.NEXT_PUBLIC_ASSET_CDN || 'https://assets.pancakeswap.finance'
+export const ASSET_CDN = process.env.NEXT_PUBLIC_ASSET_CDN || 'https://assets.tankswap.finance'
 
 export const V3_SUBGRAPH_URLS = {
   ...V3_SUBGRAPHS,
@@ -74,10 +74,10 @@ export const QUOTING_API_PREFIX = `${X_API_ENDPOINT}/order-price`
 
 export const QUOTING_API = `${QUOTING_API_PREFIX}/get-price`
 
-export const FARMS_API = 'https://farms-api.pancakeswap.com'
+export const FARMS_API = 'https://farms-api.tankswap.com'
 export const FARMS_API_V2 = 'https://v3-farm-api-prod-6ulht.ondigitalocean.app/api'
 
-export const WALLET_API = 'https://wallet-api.pancakeswap.com'
+export const WALLET_API = 'https://wallet-api.tankswap.com'
 
 export const BINANCE_DATA_API = 'https://data-api.binance.vision/api'
 

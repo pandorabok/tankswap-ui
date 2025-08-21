@@ -1,5 +1,5 @@
-import { Chain, ChainId, Chains, isTestnetChainId, NonEVMChainId, UnifiedChainId } from '@pancakeswap/chains'
-import { useTranslation } from '@pancakeswap/localization'
+import { Chain, ChainId, Chains, isTestnetChainId, NonEVMChainId, UnifiedChainId } from '@tankswap/chains'
+import { useTranslation } from '@tankswap/localization'
 import {
   ArrowDownIcon,
   ArrowUpIcon,
@@ -17,7 +17,7 @@ import {
   UserMenuDivider,
   UserMenuItem,
   useTooltip,
-} from '@pancakeswap/uikit'
+} from '@tankswap/uikit'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useHover } from 'hooks/useHover'
 import { useSwitchNetwork } from 'hooks/useSwitchNetwork'
@@ -77,7 +77,7 @@ const NetworkSelect = ({ switchNetwork, chainId, isWrongNetwork, onDismiss }: Ne
       },
       [NonEVMChainId.APTOS]: {
         onClick: () => {
-          window.open('https://aptos.pancakeswap.finance', '_self')
+          window.open('https://aptos.tankswap.finance', '_self')
           onDismiss()
         },
       },

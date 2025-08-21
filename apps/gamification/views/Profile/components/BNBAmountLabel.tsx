@@ -1,4 +1,4 @@
-import { BinanceIcon, Flex, FlexProps, Text } from '@pancakeswap/uikit'
+import { BinanceIcon, Flex, FlexProps, Text } from '@tankswap/uikit'
 
 interface BNBAmountLabelProps extends FlexProps {
   amount: number

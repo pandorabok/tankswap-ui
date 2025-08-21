@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Button, InjectedModalProps, Link, Skeleton, StyledLink, Text, useToast } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Box, Button, InjectedModalProps, Link, Skeleton, StyledLink, Text, useToast } from '@tankswap/uikit'
 import ApproveConfirmButtons from 'components/ApproveConfirmButtons'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import useApproveConfirmTransaction from 'hooks/useApproveConfirmTransaction'
@@ -123,7 +123,7 @@ const ChangeProfilePicPage: React.FC<React.PropsWithChildren<ChangeProfilePicPag
           </Text>
           <Text as="p" color="textSubtle" mb="24px">
             {t('Make sure you have a Pancake Collectible in your wallet and try again!')}
-            <Link href="/profile/pancake-collectibles">
+            <Link href="/profile/tank-collectibles">
               <StyledLink color="primary">{t('See the list >')}</StyledLink>
             </Link>
           </Text>

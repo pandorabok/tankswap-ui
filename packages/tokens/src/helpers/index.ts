@@ -1,7 +1,7 @@
-import { Currency, Native, Token, WNATIVE } from '@pancakeswap/sdk'
-import { ChainId } from '@pancakeswap/chains'
-import { enumValues } from '@pancakeswap/utils/enumValues'
-import { TokenAddressMap } from '@pancakeswap/token-lists'
+import { Currency, Native, Token, WNATIVE } from '@tankswap/sdk'
+import { ChainId } from '@tankswap/chains'
+import { enumValues } from '@tankswap/utils/enumValues'
+import { TokenAddressMap } from '@tankswap/token-lists'
 
 export * from './getTokensByChain'
 

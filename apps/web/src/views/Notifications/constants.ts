@@ -1,6 +1,6 @@
-import { ChainId } from '@pancakeswap/chains'
-import { ContextApi } from '@pancakeswap/localization'
-import { OptionProps } from '@pancakeswap/uikit'
+import { ChainId } from '@tankswap/chains'
+import { ContextApi } from '@tankswap/localization'
+import { OptionProps } from '@tankswap/uikit'
 import {
   EventInformation,
   PancakeNotificationBuilders,
@@ -63,8 +63,8 @@ export const PancakeNotifications: {
     return {
       title: t('New LP Position Added'),
       body: t('New LP position successfully added. You will be notified on important updates.'),
-      icon: `https://pancakeswap.finance/logo.png`,
-      url: 'https://pancakeswap.finance',
+      icon: `https://tankswap.finance/logo.png`,
+      url: 'https://tankswap.finance',
       type: SubsctiptionType.Liquidity,
     }
   },
@@ -74,19 +74,19 @@ export const PancakeNotifications: {
       body: t(
         'You are now susbscribed and will receive alerts and updates on PCS features. If you dont want to receive notifications you can unsubscribe at any time.',
       ),
-      icon: `https://pancakeswap.finance/logo.png`,
+      icon: `https://tankswap.finance/logo.png`,
       type: SubsctiptionType.Alerts,
     }
   },
 }
-export const APP_DOMAIN = 'pancakeswap.finance'
+export const APP_DOMAIN = 'tankswap.finance'
 
 export const PUBLIC_VAPID_KEY = process.env.NEXT_PUBLIC_VAPID_KEY ?? ''
 
 export const Events: { [event in keyof typeof ResponseEvents]: EventInformation } = {
   [ResponseEvents.NotificationsEnabled]: {
     title: (t) => t('Notifications Enabled'),
-    message: (t) => t('You can now opt-in to pancakeswap web notifications'),
+    message: (t) => t('You can now opt-in to tankswap web notifications'),
   },
   [ResponseEvents.NotificationsEnabledError]: {
     title: (t) => t('Error Enabling Notifications'),

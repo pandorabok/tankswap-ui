@@ -1,6 +1,6 @@
-import { useDisconnect } from '@pancakeswap/awgmi'
-import { useTranslation } from '@pancakeswap/localization'
-import { Button, HelpIcon, Link, Message, MessageText, Modal, ModalV2, Text } from '@pancakeswap/uikit'
+import { useDisconnect } from '@tankswap/awgmi'
+import { useTranslation } from '@tankswap/localization'
+import { Button, HelpIcon, Link, Message, MessageText, Modal, ModalV2, Text } from '@tankswap/uikit'
 import { useActiveNetwork } from 'hooks/useNetwork'
 import { styled } from 'styled-components'
 
@@ -27,7 +27,7 @@ export const WrongNetworkModal: React.FC = () => {
           <MessageText>{t('Unable to switch network. Please try it on your wallet')}</MessageText>
         </Message>
         <StyledLink
-          href="https://docs.pancakeswap.finance/get-started-aptos/connection-guide#connect-to-aptos-mainnet"
+          href="https://docs.tankswap.finance/get-started-aptos/connection-guide#connect-to-aptos-mainnet"
           external
         >
           <Button width="100%" variant="secondary">

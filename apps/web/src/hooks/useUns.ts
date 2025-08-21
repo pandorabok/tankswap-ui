@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@tankswap/chains'
 import { useQuery } from '@tanstack/react-query'
 import { useMemo } from 'react'
 import { polygonRpcProvider } from 'utils/providers'

@@ -1,7 +1,7 @@
 export const tradingCompetitionMoDABI = [
   {
     inputs: [
-      { internalType: 'address', name: '_pancakeProfileAddress', type: 'address' },
+      { internalType: 'address', name: '_tankProfileAddress', type: 'address' },
       { internalType: 'address', name: '_bunnyStationAddress', type: 'address' },
       { internalType: 'address', name: '_cakeTokenAddress', type: 'address' },
       { internalType: 'address', name: '_darTokenAddress', type: 'address' },
@@ -162,7 +162,7 @@ export const tradingCompetitionMoDABI = [
   },
   {
     inputs: [],
-    name: 'pancakeProfile',
+    name: 'tankProfile',
     outputs: [{ internalType: 'contract IPancakeProfile', name: '', type: 'address' }],
     stateMutability: 'view',
     type: 'function',

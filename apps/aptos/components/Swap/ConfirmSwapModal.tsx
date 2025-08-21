@@ -1,11 +1,11 @@
 import { useCallback, memo, useMemo } from 'react'
-import { Trade, Currency, TradeType, CurrencyAmount } from '@pancakeswap/aptos-swap-sdk'
-import { InjectedModalProps, LinkExternal, Text } from '@pancakeswap/uikit'
-import { TransactionErrorContent, ConfirmationPendingContent } from '@pancakeswap/widgets-internal'
+import { Trade, Currency, TradeType, CurrencyAmount } from '@tankswap/aptos-swap-sdk'
+import { InjectedModalProps, LinkExternal, Text } from '@tankswap/uikit'
+import { TransactionErrorContent, ConfirmationPendingContent } from '@tankswap/widgets-internal'
 
 import { TransactionSubmittedContent } from 'components/TransactionConfirmationModal'
 import { Field } from 'state/swap'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import { useActiveChainId } from 'hooks/useNetwork'
 import TransactionConfirmSwapContent from './TransactionConfirmSwapContent'
 import ConfirmSwapModalContainer from './ConfirmSwapModalContainer'
@@ -38,7 +38,7 @@ const SwapTransactionErrorContent = ({ onDismiss, message, openSettingModal }) =
             </Text>
           </Text>
           <LinkExternal
-            href="https://docs.pancakeswap.finance/products/pancakeswap-exchange/trade-guide"
+            href="https://docs.tankswap.finance/products/tankswap-exchange/trade-guide"
             style={{ width: '100%', justifyContent: 'center' }}
           >
             {t('What are the potential issues with the token?')}

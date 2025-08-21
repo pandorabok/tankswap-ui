@@ -1,4 +1,4 @@
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@tankswap/localization";
 import { Button } from "../../components/Button";
 import { Image } from "../../components/Image";
 import { Link } from "../../components/Link";
@@ -38,7 +38,7 @@ const IfoGetTokenModal: React.FC<React.PropsWithChildren<Props>> = ({ symbol, ad
           mt="1rem"
           as={Link}
           external
-          href="https://pancakeswap.finance/bridge"
+          href="https://tankswap.finance/bridge"
           color="invertedContrast"
           endIcon={<OpenNewIcon color="invertedContrast" />}
           minWidth="100%" // Bypass the width="fit-content" on Links

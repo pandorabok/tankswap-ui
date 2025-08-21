@@ -1,8 +1,8 @@
 import { useMemo, useContext } from 'react'
-import { Currency, CurrencyAmount, Pair, Percent } from '@pancakeswap/sdk'
-import { Text, Card, CardBody, Flex, CardProps, TooltipText, useTooltip, Link, AutoColumn } from '@pancakeswap/uikit'
+import { Currency, CurrencyAmount, Pair, Percent } from '@tankswap/sdk'
+import { Text, Card, CardBody, Flex, CardProps, TooltipText, useTooltip, Link, AutoColumn } from '@tankswap/uikit'
 import { styled } from 'styled-components'
-import { useTranslation, Trans } from '@pancakeswap/localization'
+import { useTranslation, Trans } from '@tankswap/localization'
 import useTotalSupply from 'hooks/useTotalSupply'
 import { useStablecoinPriceAmount } from 'hooks/useStablecoinPrice'
 import { useAccount } from 'wagmi'
@@ -229,7 +229,7 @@ function MinimalPositionCardView({
       ) : (
         <LightCard>
           <Text fontSize="14px" style={{ textAlign: 'center' }}>
-            <span role="img" aria-label="pancake-icon">
+            <span role="img" aria-label="tank-icon">
               🥞
             </span>{' '}
             {isStableLP ? (
@@ -241,7 +241,7 @@ function MinimalPositionCardView({
                       style={{ display: 'inline' }}
                       ml="4px"
                       external
-                      href="https://docs.pancakeswap.finance/products/stableswap#stableswap-fees"
+                      href="https://docs.tankswap.finance/products/stableswap#stableswap-fees"
                     />,
                   ]}
                 />

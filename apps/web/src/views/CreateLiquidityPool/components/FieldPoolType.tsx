@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import {
   Box,
   BoxProps,
@@ -8,7 +8,7 @@ import {
   LinkExternal,
   PreTitle,
   QuestionHelper,
-} from '@pancakeswap/uikit'
+} from '@tankswap/uikit'
 import { useCallback } from 'react'
 import { usePoolTypeQueryState, useStartingPriceQueryState } from 'state/infinity/create'
 import { useHookReset } from 'views/HookSettings/hooks/useHookReset'
@@ -68,7 +68,7 @@ export const FieldPoolType: React.FC<FieldPoolTypeProps> = ({ ...boxProps }) => 
               <br />
               <br />
               <LinkExternal
-                href="https://docs.pancakeswap.finance/trade/pancakeswap-infinity/pool-types"
+                href="https://docs.tankswap.finance/trade/tankswap-infinity/pool-types"
                 fontSize="14px"
               >
                 {t('Learn More')}

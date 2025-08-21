@@ -1,4 +1,4 @@
-import { Button } from '@pancakeswap/uikit'
+import { Button } from '@tankswap/uikit'
 import styled from 'styled-components'
 
 export const StyledSmallButton = styled(Button).attrs({ variant: 'secondary', scale: 'sm' })`

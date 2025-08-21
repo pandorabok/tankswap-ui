@@ -1,4 +1,4 @@
-import { INetworkProps, ITokenProps, toTokenValue } from '@pancakeswap/widgets-internal'
+import { INetworkProps, ITokenProps, toTokenValue } from '@tankswap/widgets-internal'
 import { useMemo } from 'react'
 import { getKeyForPools, useAccountV2LpDetails, useV2PoolsLength } from 'state/farmsV4/hooks'
 import { POSITION_STATUS, V2LPDetail } from 'state/farmsV4/state/accountPositions/type'

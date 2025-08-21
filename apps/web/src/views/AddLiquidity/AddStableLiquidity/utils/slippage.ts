@@ -1,4 +1,4 @@
-import { Percent } from '@pancakeswap/sdk'
+import { Percent } from '@tankswap/sdk'
 
 import { BIPS_BASE } from 'config/constants/exchange'
 

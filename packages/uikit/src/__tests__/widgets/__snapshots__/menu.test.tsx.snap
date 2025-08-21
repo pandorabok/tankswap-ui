@@ -85,14 +85,14 @@ exports[`renders correctly 1`] = `
   box-shadow: var(--shadows-focus);
 }
 
-.c32:active:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled) {
+.c32:active:not(:disabled):not(.tank-button--disabled):not(.tank-button--disabled) {
   opacity: 0.85;
   transform: translateY(1px);
   box-shadow: none;
 }
 
 .c32:disabled,
-.c32.pancake-button--disabled {
+.c32.tank-button--disabled {
   background-color: var(--colors-backgroundDisabled);
   border-color: var(--colors-backgroundDisabled);
   box-shadow: none;
@@ -131,14 +131,14 @@ exports[`renders correctly 1`] = `
   box-shadow: var(--shadows-focus);
 }
 
-.c36:active:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled) {
+.c36:active:not(:disabled):not(.tank-button--disabled):not(.tank-button--disabled) {
   opacity: 0.85;
   transform: translateY(1px);
   box-shadow: none;
 }
 
 .c36:disabled,
-.c36.pancake-button--disabled {
+.c36.tank-button--disabled {
   background-color: var(--colors-backgroundDisabled);
   border-color: var(--colors-backgroundDisabled);
   box-shadow: none;
@@ -643,13 +643,13 @@ exports[`renders correctly 1`] = `
 }
 
 @media (hover: hover) {
-  .c32:hover:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled):not(:active) {
+  .c32:hover:not(:disabled):not(.tank-button--disabled):not(.tank-button--disabled):not(:active) {
     opacity: 0.65;
   }
 }
 
 @media (hover: hover) {
-  .c36:hover:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled):not(:active) {
+  .c36:hover:not(:disabled):not(.tank-button--disabled):not(.tank-button--disabled):not(:active) {
     opacity: 0.65;
   }
 }
@@ -1185,7 +1185,7 @@ exports[`renders correctly 1`] = `
           >
             <a
               class="c27"
-              href="https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82&chainId=56"
+              href="https://tankswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82&chainId=56"
               target="_blank"
             >
               <svg
@@ -1694,14 +1694,14 @@ exports[`renders correctly 1`] = `
   box-shadow: var(--shadows-focus);
 }
 
-.c44:active:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled) {
+.c44:active:not(:disabled):not(.tank-button--disabled):not(.tank-button--disabled) {
   opacity: 0.85;
   transform: translateY(1px);
   box-shadow: none;
 }
 
 .c44:disabled,
-.c44.pancake-button--disabled {
+.c44.tank-button--disabled {
   background-color: var(--colors-backgroundDisabled);
   border-color: var(--colors-backgroundDisabled);
   box-shadow: none;
@@ -1738,14 +1738,14 @@ exports[`renders correctly 1`] = `
   box-shadow: var(--shadows-focus);
 }
 
-.c41:active:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled) {
+.c41:active:not(:disabled):not(.tank-button--disabled):not(.tank-button--disabled) {
   opacity: 0.85;
   transform: translateY(1px);
   box-shadow: none;
 }
 
 .c41:disabled,
-.c41.pancake-button--disabled {
+.c41.tank-button--disabled {
   background-color: var(--colors-backgroundDisabled);
   border-color: var(--colors-backgroundDisabled);
   box-shadow: none;
@@ -1781,14 +1781,14 @@ exports[`renders correctly 1`] = `
   box-shadow: var(--shadows-focus);
 }
 
-.c52:active:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled) {
+.c52:active:not(:disabled):not(.tank-button--disabled):not(.tank-button--disabled) {
   opacity: 0.85;
   transform: translateY(1px);
   box-shadow: none;
 }
 
 .c52:disabled,
-.c52.pancake-button--disabled {
+.c52.tank-button--disabled {
   background-color: var(--colors-backgroundDisabled);
   border-color: var(--colors-backgroundDisabled);
   box-shadow: none;
@@ -2126,19 +2126,19 @@ exports[`renders correctly 1`] = `
 }
 
 @media (hover: hover) {
-  .c44:hover:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled):not(:active) {
+  .c44:hover:not(:disabled):not(.tank-button--disabled):not(.tank-button--disabled):not(:active) {
     opacity: 0.65;
   }
 }
 
 @media (hover: hover) {
-  .c41:hover:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled):not(:active) {
+  .c41:hover:not(:disabled):not(.tank-button--disabled):not(.tank-button--disabled):not(:active) {
     opacity: 0.65;
   }
 }
 
 @media (hover: hover) {
-  .c52:hover:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled):not(:active) {
+  .c52:hover:not(:disabled):not(.tank-button--disabled):not(.tank-button--disabled):not(:active) {
     opacity: 0.65;
   }
 }
@@ -2323,7 +2323,7 @@ exports[`renders correctly 1`] = `
             <a
               class="c12 c13"
               data-theme="dark"
-              href="https://docs.pancakeswap.finance/contact-us"
+              href="https://docs.tankswap.finance/contact-us"
               rel="noreferrer noopener"
               style="text-transform: none;"
               target="_blank"
@@ -2337,7 +2337,7 @@ exports[`renders correctly 1`] = `
             <a
               class="c12 c13"
               data-theme="dark"
-              href="https://blog.pancakeswap.finance/"
+              href="https://blog.tankswap.finance/"
               rel="noreferrer noopener"
               style="text-transform: none;"
               target="_blank"
@@ -2351,7 +2351,7 @@ exports[`renders correctly 1`] = `
             <a
               class="c12 c13"
               data-theme="dark"
-              href="https://docs.pancakeswap.finance/contact-us/telegram"
+              href="https://docs.tankswap.finance/contact-us/telegram"
               rel="noreferrer noopener"
               style="text-transform: none;"
               target="_blank"
@@ -2365,7 +2365,7 @@ exports[`renders correctly 1`] = `
             <a
               class="c12 c13"
               data-theme="dark"
-              href="https://docs.pancakeswap.finance/tokenomics/cake"
+              href="https://docs.tankswap.finance/tokenomics/cake"
               rel="noreferrer noopener"
               style="text-transform: none;"
               target="_blank"
@@ -2388,7 +2388,7 @@ exports[`renders correctly 1`] = `
             <a
               class="c15 c13"
               data-theme="dark"
-              href="https://pancakeswap.creator-spring.com/"
+              href="https://tankswap.creator-spring.com/"
               rel="noreferrer noopener"
               style="text-transform: none;"
               target="_blank"
@@ -2411,7 +2411,7 @@ exports[`renders correctly 1`] = `
             <a
               class="c12 c13"
               data-theme="dark"
-              href="Support https://docs.pancakeswap.finance/contact-us/customer-support"
+              href="Support https://docs.tankswap.finance/contact-us/customer-support"
               rel="noreferrer noopener"
               style="text-transform: none;"
               target="_blank"
@@ -2425,7 +2425,7 @@ exports[`renders correctly 1`] = `
             <a
               class="c12 c13"
               data-theme="dark"
-              href="https://docs.pancakeswap.finance/help/troubleshooting"
+              href="https://docs.tankswap.finance/help/troubleshooting"
               rel="noreferrer noopener"
               style="text-transform: none;"
               target="_blank"
@@ -2439,7 +2439,7 @@ exports[`renders correctly 1`] = `
             <a
               class="c12 c13"
               data-theme="dark"
-              href="https://docs.pancakeswap.finance/get-started"
+              href="https://docs.tankswap.finance/get-started"
               rel="noreferrer noopener"
               style="text-transform: none;"
               target="_blank"
@@ -2462,7 +2462,7 @@ exports[`renders correctly 1`] = `
             <a
               class="c12 c13"
               data-theme="dark"
-              href="https://github.com/pancakeswap"
+              href="https://github.com/tankswap"
               rel="noreferrer noopener"
               style="text-transform: none;"
               target="_blank"
@@ -2476,7 +2476,7 @@ exports[`renders correctly 1`] = `
             <a
               class="c12 c13"
               data-theme="dark"
-              href="https://docs.pancakeswap.finance"
+              href="https://docs.tankswap.finance"
               rel="noreferrer noopener"
               style="text-transform: none;"
               target="_blank"
@@ -2490,7 +2490,7 @@ exports[`renders correctly 1`] = `
             <a
               class="c12 c13"
               data-theme="dark"
-              href="https://app.gitbook.com/@pancakeswap-1/s/pancakeswap/code/bug-bounty"
+              href="https://app.gitbook.com/@tankswap-1/s/tankswap/code/bug-bounty"
               rel="noreferrer noopener"
               style="text-transform: none;"
               target="_blank"
@@ -2504,7 +2504,7 @@ exports[`renders correctly 1`] = `
             <a
               class="c12 c13"
               data-theme="dark"
-              href="https://docs.pancakeswap.finance/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited"
+              href="https://docs.tankswap.finance/help/faq#is-tankswap-safe-has-tankswap-been-audited"
               rel="noreferrer noopener"
               style="text-transform: none;"
               target="_blank"
@@ -2518,7 +2518,7 @@ exports[`renders correctly 1`] = `
             <a
               class="c12 c13"
               data-theme="dark"
-              href="https://docs.pancakeswap.finance/hiring/become-a-chef"
+              href="https://docs.tankswap.finance/hiring/become-a-chef"
               rel="noreferrer noopener"
               style="text-transform: none;"
               target="_blank"
@@ -2570,7 +2570,7 @@ exports[`renders correctly 1`] = `
         <a
           aria-label="Twitter"
           class="c20 c13"
-          href="https://twitter.com/pancakeswap"
+          href="https://twitter.com/tankswap"
           rel="noreferrer noopener"
           target="_blank"
         >
@@ -2622,7 +2622,7 @@ exports[`renders correctly 1`] = `
             <a
               aria-label="English"
               class="c26 c13"
-              href="https://t.me/pancakeswap"
+              href="https://t.me/tankswap"
               rel="noreferrer noopener"
               target="_blank"
             >
@@ -2631,7 +2631,7 @@ exports[`renders correctly 1`] = `
             <a
               aria-label="Bahasa Indonesia"
               class="c26 c13"
-              href="https://t.me/pancakeswapIndonesia"
+              href="https://t.me/tankswapIndonesia"
               rel="noreferrer noopener"
               target="_blank"
             >
@@ -2640,7 +2640,7 @@ exports[`renders correctly 1`] = `
             <a
               aria-label="中文"
               class="c26 c13"
-              href="https://t.me/pancakeswap_CN"
+              href="https://t.me/tankswap_CN"
               rel="noreferrer noopener"
               target="_blank"
             >
@@ -2658,7 +2658,7 @@ exports[`renders correctly 1`] = `
             <a
               aria-label="русский"
               class="c26 c13"
-              href="https://t.me/pancakeswap_ru"
+              href="https://t.me/tankswap_ru"
               rel="noreferrer noopener"
               target="_blank"
             >
@@ -2667,7 +2667,7 @@ exports[`renders correctly 1`] = `
             <a
               aria-label="Português"
               class="c26 c13"
-              href="https://t.me/pancakeswapPortuguese"
+              href="https://t.me/tankswapPortuguese"
               rel="noreferrer noopener"
               target="_blank"
             >
@@ -2676,7 +2676,7 @@ exports[`renders correctly 1`] = `
             <a
               aria-label="Español"
               class="c26 c13"
-              href="https://t.me/pancakeswapES"
+              href="https://t.me/tankswapES"
               rel="noreferrer noopener"
               target="_blank"
             >
@@ -2685,7 +2685,7 @@ exports[`renders correctly 1`] = `
             <a
               aria-label="日本語"
               class="c26 c13"
-              href="https://t.me/pancakeswapJP"
+              href="https://t.me/tankswapJP"
               rel="noreferrer noopener"
               target="_blank"
             >
@@ -2694,7 +2694,7 @@ exports[`renders correctly 1`] = `
             <a
               aria-label="Deutsch"
               class="c26 c13"
-              href="https://t.me/pancakeswap_DE"
+              href="https://t.me/tankswap_DE"
               rel="noreferrer noopener"
               target="_blank"
             >
@@ -2703,7 +2703,7 @@ exports[`renders correctly 1`] = `
             <a
               aria-label="Filipino"
               class="c26 c13"
-              href="https://t.me/pancakeswap_PH"
+              href="https://t.me/tankswap_PH"
               rel="noreferrer noopener"
               target="_blank"
             >
@@ -2712,7 +2712,7 @@ exports[`renders correctly 1`] = `
             <a
               aria-label="ქართული ენა"
               class="c26 c13"
-              href="https://t.me/pancakeswapGeorgia"
+              href="https://t.me/tankswapGeorgia"
               rel="noreferrer noopener"
               target="_blank"
             >
@@ -2721,7 +2721,7 @@ exports[`renders correctly 1`] = `
             <a
               aria-label="हिन्दी"
               class="c26 c13"
-              href="https://t.me/pancakeswap_INDIA"
+              href="https://t.me/tankswap_INDIA"
               rel="noreferrer noopener"
               target="_blank"
             >
@@ -2741,7 +2741,7 @@ exports[`renders correctly 1`] = `
         <a
           aria-label="Reddit"
           class="c20 c13"
-          href="https://reddit.com/r/pancakeswap"
+          href="https://reddit.com/r/tankswap"
           rel="noreferrer noopener"
           target="_blank"
         >
@@ -2767,7 +2767,7 @@ exports[`renders correctly 1`] = `
         <a
           aria-label="Instagram"
           class="c20 c13"
-          href="https://instagram.com/pancakeswap_official"
+          href="https://instagram.com/tankswap_official"
           rel="noreferrer noopener"
           target="_blank"
         >
@@ -2790,7 +2790,7 @@ exports[`renders correctly 1`] = `
         <a
           aria-label="Github"
           class="c20 c13"
-          href="https://github.com/pancakeswap/"
+          href="https://github.com/tankswap/"
           rel="noreferrer noopener"
           target="_blank"
         >
@@ -2812,7 +2812,7 @@ exports[`renders correctly 1`] = `
         <a
           aria-label="Discord"
           class="c20 c13"
-          href="https://discord.gg/pancakeswap"
+          href="https://discord.gg/tankswap"
           rel="noreferrer noopener"
           target="_blank"
         >
@@ -2832,7 +2832,7 @@ exports[`renders correctly 1`] = `
         <a
           aria-label="Youtube"
           class="c27 c13"
-          href="https://www.youtube.com/@pancakeswap_official"
+          href="https://www.youtube.com/@tankswap_official"
           rel="noreferrer noopener"
           target="_blank"
         >
@@ -3168,7 +3168,7 @@ exports[`renders correctly 1`] = `
           >
             <a
               class="c49"
-              href="https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82&chainId=56"
+              href="https://tankswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82&chainId=56"
               target="_blank"
             >
               <svg
@@ -3232,7 +3232,7 @@ exports[`renders correctly 1`] = `
           <a
             class="c52"
             data-theme="dark"
-            href="https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82&chainId=56"
+            href="https://tankswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82&chainId=56"
             scale="sm"
             target="_blank"
             variant="primary"

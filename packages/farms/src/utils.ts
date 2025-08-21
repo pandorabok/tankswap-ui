@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { getStableSwapPools } from '@pancakeswap/stable-swap-sdk'
+import { ChainId } from '@tankswap/chains'
+import { getStableSwapPools } from '@tankswap/stable-swap-sdk'
 import { Address } from 'viem'
 import {
   ComputedFarmConfigV3,

@@ -1,5 +1,5 @@
 {
-  "name": "@pancakeswap/chains",
+  "name": "@tankswap/chains",
   "license": "MIT",
   "version": "0.6.0",
   "description": "The single source of truth for Pancakeswap chain-related information",
@@ -11,11 +11,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/pancakeswap/pancake-frontend.git",
+    "url": "https://github.com/tankswap/tank-frontend.git",
     "directory": "packages/chains"
   },
   "keywords": [
-    "pancakeswap",
+    "tankswap",
     "chain"
   ],
   "exports": {

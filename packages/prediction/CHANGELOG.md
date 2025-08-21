@@ -1,59 +1,59 @@
-# @pancakeswap/prediction
+# @tankswap/prediction
 
 ## 1.1.18
 
 ### Patch Changes
 
 - Updated dependencies [5b6d71a]
-  - @pancakeswap/tokens@0.7.8
-  - @pancakeswap/pools@5.1.46
+  - @tankswap/tokens@0.7.8
+  - @tankswap/pools@5.1.46
 
 ## 1.1.17
 
 ### Patch Changes
 
 - Updated dependencies [cd589e1]
-  - @pancakeswap/chains@0.6.0
-  - @pancakeswap/sdk@5.8.16
-  - @pancakeswap/pools@5.1.45
-  - @pancakeswap/tokens@0.7.7
+  - @tankswap/chains@0.6.0
+  - @tankswap/sdk@5.8.16
+  - @tankswap/pools@5.1.45
+  - @tankswap/tokens@0.7.7
 
 ## 1.1.16
 
 ### Patch Changes
 
 - Updated dependencies [979f5e0]
-  - @pancakeswap/chains@0.5.3
-  - @pancakeswap/pools@5.1.44
-  - @pancakeswap/sdk@5.8.15
-  - @pancakeswap/tokens@0.7.6
+  - @tankswap/chains@0.5.3
+  - @tankswap/pools@5.1.44
+  - @tankswap/sdk@5.8.15
+  - @tankswap/tokens@0.7.6
 
 ## 1.1.15
 
 ### Patch Changes
 
 - Updated dependencies [2f165c8]
-  - @pancakeswap/tokens@0.7.5
-  - @pancakeswap/pools@5.1.43
+  - @tankswap/tokens@0.7.5
+  - @tankswap/pools@5.1.43
 
 ## 1.1.14
 
 ### Patch Changes
 
 - Updated dependencies [3de0443]
-  - @pancakeswap/chains@0.5.2
-  - @pancakeswap/pools@5.1.42
-  - @pancakeswap/sdk@5.8.14
-  - @pancakeswap/tokens@0.7.4
+  - @tankswap/chains@0.5.2
+  - @tankswap/pools@5.1.42
+  - @tankswap/sdk@5.8.14
+  - @tankswap/tokens@0.7.4
 
 ## 1.1.13
 
 ### Patch Changes
 
 - Updated dependencies [cb44715]
-  - @pancakeswap/sdk@5.8.13
-  - @pancakeswap/tokens@0.7.3
-  - @pancakeswap/pools@5.1.41
+  - @tankswap/sdk@5.8.13
+  - @tankswap/tokens@0.7.3
+  - @tankswap/pools@5.1.41
 
 ## 1.1.12
 
@@ -61,25 +61,25 @@
 
 - Updated dependencies [5f264c5]
 - Updated dependencies [0436fec]
-  - @pancakeswap/chains@0.5.1
-  - @pancakeswap/pools@5.1.40
-  - @pancakeswap/sdk@5.8.12
-  - @pancakeswap/tokens@0.7.2
+  - @tankswap/chains@0.5.1
+  - @tankswap/pools@5.1.40
+  - @tankswap/sdk@5.8.12
+  - @tankswap/tokens@0.7.2
 
 ## 1.1.11
 
 ### Patch Changes
 
 - Updated dependencies [9fa225f]
-  - @pancakeswap/tokens@0.7.1
-  - @pancakeswap/pools@5.1.39
+  - @tankswap/tokens@0.7.1
+  - @tankswap/pools@5.1.39
 
 ## 1.1.10
 
 ### Patch Changes
 
 - Updated dependencies [49352a5]
-  - @pancakeswap/pools@5.1.38
+  - @tankswap/pools@5.1.38
 
 ## 1.1.9
 
@@ -87,43 +87,43 @@
 
 - Updated dependencies [6a6acdb]
 - Updated dependencies [77db844]
-  - @pancakeswap/chains@0.5.0
-  - @pancakeswap/tokens@0.7.0
-  - @pancakeswap/pools@5.1.37
-  - @pancakeswap/sdk@5.8.11
+  - @tankswap/chains@0.5.0
+  - @tankswap/tokens@0.7.0
+  - @tankswap/pools@5.1.37
+  - @tankswap/sdk@5.8.11
 
 ## 1.1.8
 
 ### Patch Changes
 
 - Updated dependencies [36f8955]
-  - @pancakeswap/sdk@5.8.10
-  - @pancakeswap/tokens@0.6.29
-  - @pancakeswap/pools@5.1.36
+  - @tankswap/sdk@5.8.10
+  - @tankswap/tokens@0.6.29
+  - @tankswap/pools@5.1.36
 
 ## 1.1.7
 
 ### Patch Changes
 
-- @pancakeswap/sdk@5.8.9
-- @pancakeswap/tokens@0.6.28
-- @pancakeswap/pools@5.1.35
+- @tankswap/sdk@5.8.9
+- @tankswap/tokens@0.6.28
+- @tankswap/pools@5.1.35
 
 ## 1.1.6
 
 ### Patch Changes
 
 - Updated dependencies [8218dbf]
-  - @pancakeswap/tokens@0.6.27
-  - @pancakeswap/pools@5.1.34
+  - @tankswap/tokens@0.6.27
+  - @tankswap/pools@5.1.34
 
 ## 1.1.5
 
 ### Patch Changes
 
 - Updated dependencies [72fb1db]
-  - @pancakeswap/tokens@0.6.26
-  - @pancakeswap/pools@5.1.33
+  - @tankswap/tokens@0.6.26
+  - @tankswap/pools@5.1.33
 
 ## 1.1.4
 
@@ -131,8 +131,8 @@
 
 - Updated dependencies [b0d3ac4]
 - Updated dependencies [6d4ecf0]
-  - @pancakeswap/pools@5.1.32
-  - @pancakeswap/tokens@0.6.25
+  - @tankswap/pools@5.1.32
+  - @tankswap/tokens@0.6.25
 
 ## 1.1.3
 
@@ -141,23 +141,23 @@
 - Updated dependencies [103dd63]
 - Updated dependencies [1c1d186]
 - Updated dependencies [c6e9e02]
-  - @pancakeswap/tokens@0.6.24
-  - @pancakeswap/pools@5.1.31
+  - @tankswap/tokens@0.6.24
+  - @tankswap/pools@5.1.31
 
 ## 1.1.2
 
 ### Patch Changes
 
-- @pancakeswap/sdk@5.8.8
-- @pancakeswap/tokens@0.6.23
-- @pancakeswap/pools@5.1.30
+- @tankswap/sdk@5.8.8
+- @tankswap/tokens@0.6.23
+- @tankswap/pools@5.1.30
 
 ## 1.1.1
 
 ### Patch Changes
 
 - Updated dependencies [bf07bfa]
-  - @pancakeswap/pools@5.1.29
+  - @tankswap/pools@5.1.29
 
 ## 1.1.0
 
@@ -169,8 +169,8 @@
 
 - Updated dependencies [4628ab7]
 - Updated dependencies [8f573cf]
-  - @pancakeswap/tokens@0.6.22
-  - @pancakeswap/pools@5.1.28
+  - @tankswap/tokens@0.6.22
+  - @tankswap/pools@5.1.28
 
 ## 1.0.16
 
@@ -178,10 +178,10 @@
 
 - Updated dependencies [7235e91]
 - Updated dependencies [9a16780]
-  - @pancakeswap/pools@5.1.27
-  - @pancakeswap/chains@0.4.6
-  - @pancakeswap/sdk@5.8.7
-  - @pancakeswap/tokens@0.6.21
+  - @tankswap/pools@5.1.27
+  - @tankswap/chains@0.4.6
+  - @tankswap/sdk@5.8.7
+  - @tankswap/tokens@0.6.21
 
 ## 1.0.15
 
@@ -190,10 +190,10 @@
 - Updated dependencies [b9c91d1]
 - Updated dependencies [5fa28e0]
 - Updated dependencies [95cfa0c]
-  - @pancakeswap/chains@0.4.5
-  - @pancakeswap/tokens@0.6.20
-  - @pancakeswap/pools@5.1.26
-  - @pancakeswap/sdk@5.8.6
+  - @tankswap/chains@0.4.5
+  - @tankswap/tokens@0.6.20
+  - @tankswap/pools@5.1.26
+  - @tankswap/sdk@5.8.6
 
 ## 1.0.14
 
@@ -201,19 +201,19 @@
 
 - edc3f30: Upgrade viem and wagmi
 - Updated dependencies [edc3f30]
-  - @pancakeswap/sdk@5.8.5
-  - @pancakeswap/pools@5.1.25
-  - @pancakeswap/tokens@0.6.19
+  - @tankswap/sdk@5.8.5
+  - @tankswap/pools@5.1.25
+  - @tankswap/tokens@0.6.19
 
 ## 1.0.13
 
 ### Patch Changes
 
 - Updated dependencies [edf4640]
-  - @pancakeswap/chains@0.4.4
-  - @pancakeswap/pools@5.1.24
-  - @pancakeswap/sdk@5.8.4
-  - @pancakeswap/tokens@0.6.18
+  - @tankswap/chains@0.4.4
+  - @tankswap/pools@5.1.24
+  - @tankswap/sdk@5.8.4
+  - @tankswap/tokens@0.6.18
 
 ## 1.0.12
 
@@ -223,9 +223,9 @@
 - Updated dependencies [e99c216]
 - Updated dependencies [755bb18]
 - Updated dependencies [502d961]
-  - @pancakeswap/tokens@0.6.17
-  - @pancakeswap/sdk@5.8.3
-  - @pancakeswap/pools@5.1.23
+  - @tankswap/tokens@0.6.17
+  - @tankswap/sdk@5.8.3
+  - @tankswap/pools@5.1.23
 
 ## 1.0.11
 
@@ -233,8 +233,8 @@
 
 - Updated dependencies [b20f210]
 - Updated dependencies [9bef4cd]
-  - @pancakeswap/tokens@0.6.16
-  - @pancakeswap/pools@5.1.22
+  - @tankswap/tokens@0.6.16
+  - @tankswap/pools@5.1.22
 
 ## 1.0.10
 
@@ -242,26 +242,26 @@
 
 - Updated dependencies [0f4281c]
 - Updated dependencies [63a63d8]
-  - @pancakeswap/chains@0.4.3
-  - @pancakeswap/pools@5.1.21
-  - @pancakeswap/sdk@5.8.2
-  - @pancakeswap/tokens@0.6.15
+  - @tankswap/chains@0.4.3
+  - @tankswap/pools@5.1.21
+  - @tankswap/sdk@5.8.2
+  - @tankswap/tokens@0.6.15
 
 ## 1.0.9
 
 ### Patch Changes
 
 - Updated dependencies [e8c58b7]
-  - @pancakeswap/tokens@0.6.14
-  - @pancakeswap/pools@5.1.20
+  - @tankswap/tokens@0.6.14
+  - @tankswap/pools@5.1.20
 
 ## 1.0.8
 
 ### Patch Changes
 
 - Updated dependencies [b4a1d82]
-  - @pancakeswap/tokens@0.6.13
-  - @pancakeswap/pools@5.1.19
+  - @tankswap/tokens@0.6.13
+  - @tankswap/pools@5.1.19
 
 ## 1.0.7
 
@@ -270,154 +270,154 @@
 - 72c834c: Upgrade viem and wagmi v2
 - Updated dependencies [72c834c]
 - Updated dependencies [d4283e5]
-  - @pancakeswap/sdk@5.8.1
-  - @pancakeswap/chains@0.4.2
-  - @pancakeswap/pools@5.1.18
-  - @pancakeswap/tokens@0.6.12
+  - @tankswap/sdk@5.8.1
+  - @tankswap/chains@0.4.2
+  - @tankswap/pools@5.1.18
+  - @tankswap/tokens@0.6.12
 
 ## 1.0.6
 
 ### Patch Changes
 
 - Updated dependencies [c469596]
-  - @pancakeswap/pools@5.1.17
+  - @tankswap/pools@5.1.17
 
 ## 1.0.5
 
 ### Patch Changes
 
 - Updated dependencies [087a863]
-  - @pancakeswap/pools@5.1.16
+  - @tankswap/pools@5.1.16
 
 ## 1.0.4
 
 ### Patch Changes
 
 - Updated dependencies [30ef48c]
-  - @pancakeswap/tokens@0.6.11
-  - @pancakeswap/pools@5.1.15
+  - @tankswap/tokens@0.6.11
+  - @tankswap/pools@5.1.15
 
 ## 1.0.3
 
 ### Patch Changes
 
 - Updated dependencies [d7586b8]
-  - @pancakeswap/pools@5.1.14
-  - @pancakeswap/tokens@0.6.10
+  - @tankswap/pools@5.1.14
+  - @tankswap/tokens@0.6.10
 
 ## 1.0.2
 
 ### Patch Changes
 
 - Updated dependencies [e26505f]
-  - @pancakeswap/pools@5.1.13
-  - @pancakeswap/tokens@0.6.9
+  - @tankswap/pools@5.1.13
+  - @tankswap/tokens@0.6.9
 
 ## 1.0.1
 
 ### Patch Changes
 
 - Updated dependencies [928b9a8]
-  - @pancakeswap/tokens@0.6.8
-  - @pancakeswap/pools@5.1.12
+  - @tankswap/tokens@0.6.8
+  - @tankswap/pools@5.1.12
 
 ## 1.0.0
 
 ### Patch Changes
 
 - Updated dependencies [610a24a]
-  - @pancakeswap/sdk@5.8.0
-  - @pancakeswap/tokens@0.6.7
-  - @pancakeswap/pools@5.1.11
+  - @tankswap/sdk@5.8.0
+  - @tankswap/tokens@0.6.7
+  - @tankswap/pools@5.1.11
 
 ## 0.0.12
 
 ### Patch Changes
 
-- @pancakeswap/sdk@5.7.7
-- @pancakeswap/tokens@0.6.6
-- @pancakeswap/pools@5.1.10
+- @tankswap/sdk@5.7.7
+- @tankswap/tokens@0.6.6
+- @tankswap/pools@5.1.10
 
 ## 0.0.11
 
 ### Patch Changes
 
 - Updated dependencies [6157db8]
-  - @pancakeswap/tokens@0.6.5
-  - @pancakeswap/pools@5.1.9
+  - @tankswap/tokens@0.6.5
+  - @tankswap/pools@5.1.9
 
 ## 0.0.10
 
 ### Patch Changes
 
 - Updated dependencies [82f61f9]
-  - @pancakeswap/tokens@0.6.4
-  - @pancakeswap/pools@5.1.8
+  - @tankswap/tokens@0.6.4
+  - @tankswap/pools@5.1.8
 
 ## 0.0.9
 
 ### Patch Changes
 
 - Updated dependencies [a8ffc15]
-  - @pancakeswap/tokens@0.6.3
-  - @pancakeswap/pools@5.1.7
+  - @tankswap/tokens@0.6.3
+  - @tankswap/pools@5.1.7
 
 ## 0.0.8
 
 ### Patch Changes
 
 - Updated dependencies [ce2d025]
-  - @pancakeswap/pools@5.1.6
+  - @tankswap/pools@5.1.6
 
 ## 0.0.7
 
 ### Patch Changes
 
 - Updated dependencies [91969f80f]
-  - @pancakeswap/sdk@5.7.6
-  - @pancakeswap/chains@0.4.1
-  - @pancakeswap/tokens@0.6.2
-  - @pancakeswap/pools@5.1.5
+  - @tankswap/sdk@5.7.6
+  - @tankswap/chains@0.4.1
+  - @tankswap/tokens@0.6.2
+  - @tankswap/pools@5.1.5
 
 ## 0.0.6
 
 ### Patch Changes
 
 - Updated dependencies [48ac84692]
-  - @pancakeswap/tokens@0.6.1
-  - @pancakeswap/pools@5.1.4
+  - @tankswap/tokens@0.6.1
+  - @tankswap/pools@5.1.4
 
 ## 0.0.5
 
 ### Patch Changes
 
 - Updated dependencies [205c08713]
-  - @pancakeswap/tokens@0.6.0
-  - @pancakeswap/pools@5.1.3
+  - @tankswap/tokens@0.6.0
+  - @tankswap/pools@5.1.3
 
 ## 0.0.4
 
 ### Patch Changes
 
 - Updated dependencies [8fcd67c85]
-  - @pancakeswap/chains@0.4.0
-  - @pancakeswap/pools@5.1.2
-  - @pancakeswap/sdk@5.7.5
-  - @pancakeswap/tokens@0.5.8
+  - @tankswap/chains@0.4.0
+  - @tankswap/pools@5.1.2
+  - @tankswap/sdk@5.7.5
+  - @tankswap/tokens@0.5.8
 
 ## 0.0.3
 
 ### Patch Changes
 
 - Updated dependencies [49730e609]
-  - @pancakeswap/chains@0.3.1
-  - @pancakeswap/pools@5.1.1
-  - @pancakeswap/sdk@5.7.4
-  - @pancakeswap/tokens@0.5.7
+  - @tankswap/chains@0.3.1
+  - @tankswap/pools@5.1.1
+  - @tankswap/sdk@5.7.4
+  - @tankswap/tokens@0.5.7
 
 ## 0.0.2
 
 ### Patch Changes
 
 - Updated dependencies [0d60f672c]
-  - @pancakeswap/pools@5.1.0
+  - @tankswap/pools@5.1.0

@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency } from '@pancakeswap/sdk'
+import { useTranslation } from '@tankswap/localization'
+import { Currency } from '@tankswap/sdk'
 import {
   Heading,
   InjectedModalProps,
@@ -10,7 +10,7 @@ import {
   ModalHeader,
   ModalTitle,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
+} from '@tankswap/uikit'
 import { CurrencySearch } from 'components/SearchModal/CurrencySearch'
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { styled } from 'styled-components'

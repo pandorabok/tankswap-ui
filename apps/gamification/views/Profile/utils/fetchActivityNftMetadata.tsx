@@ -3,13 +3,13 @@ import partition from 'lodash/partition'
 import uniqBy from 'lodash/uniqBy'
 import { safeGetAddress } from 'utils'
 import { Address } from 'viem'
-import { pancakeBunniesAddress } from 'views/ProfileCreation/Nft/constants'
+import { tankBunniesAddress } from 'views/ProfileCreation/Nft/constants'
 import { getNftsFromCollectionApi, getNftsFromDifferentCollectionsApi } from 'views/ProfileCreation/Nft/helpers'
 
 export const fetchActivityNftMetadata = async (activities: Activity[]): Promise<NftToken[]> => {
   const [pbCollections, nonPBCollections] = partition(
     activities,
-    (activity) => safeGetAddress(activity.nft?.collection.id) === safeGetAddress(pancakeBunniesAddress),
+    (activity) => safeGetAddress(activity.nft?.collection.id) === safeGetAddress(tankBunniesAddress),
   )
 
   const activityNftTokenIds = uniqBy(
@@ -21,7 +21,7 @@ export const fetchActivityNftMetadata = async (activities: Activity[]): Promise<
   )
 
   const [bunniesMetadata, nfts] = await Promise.all([
-    pbCollections.length ? getNftsFromCollectionApi(pancakeBunniesAddress) : Promise.resolve(null),
+    pbCollections.length ? getNftsFromCollectionApi(tankBunniesAddress) : Promise.resolve(null),
     getNftsFromDifferentCollectionsApi(activityNftTokenIds),
   ])
 

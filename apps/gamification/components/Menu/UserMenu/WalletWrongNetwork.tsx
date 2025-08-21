@@ -1,6 +1,6 @@
-import { ChainId } from '@pancakeswap/chains'
-import { useTranslation } from '@pancakeswap/localization'
-import { Button, HelpIcon, Link, Message, MessageText, Text } from '@pancakeswap/uikit'
+import { ChainId } from '@tankswap/chains'
+import { useTranslation } from '@tankswap/localization'
+import { Button, HelpIcon, Link, Message, MessageText, Text } from '@tankswap/uikit'
 import { useSwitchNetwork } from 'hooks/useSwitchNetwork'
 import { styled } from 'styled-components'
 
@@ -36,7 +36,7 @@ const WalletWrongNetwork: React.FC<React.PropsWithChildren<WalletWrongNetworkPro
           <MessageText>{t('Unable to switch network. Please try it on your wallet')}</MessageText>
         </Message>
       )}
-      <StyledLink href="https://docs.pancakeswap.finance/get-started/connection-guide" external>
+      <StyledLink href="https://docs.tankswap.finance/get-started/connection-guide" external>
         <Button width="100%" variant="secondary">
           {t('Learn How')}
           <HelpIcon color="primary" ml="6px" />

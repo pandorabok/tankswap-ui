@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@tankswap/chains'
 import { useQuery } from '@tanstack/react-query'
 import debounce from 'lodash/debounce'
 import { useEffect, useMemo, useState } from 'react'
@@ -20,7 +20,7 @@ export const useVerifyHookAddress = ({ chainId, hookAddress }: { chainId?: numbe
       const resp = await rewardApiClient.GET('/farms/verification/verify-contract', {
         // @todo @ChefJerry remove this after the backend is ready
         baseUrl:
-          chainId === ChainId.BSC_TESTNET ? 'https://test.v4.pancakeswap.com/' : 'https://infinity.pancakeswap.com/',
+          chainId === ChainId.BSC_TESTNET ? 'https://test.v4.tankswap.com/' : 'https://infinity.tankswap.com/',
         params: {
           query: {
             address: hookAddress,

@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency, CurrencyAmount, Percent, TradeType, UnifiedCurrencyAmount } from '@pancakeswap/sdk'
-import { SmartRouter } from '@pancakeswap/smart-router'
+import { useTranslation } from '@tankswap/localization'
+import { Currency, CurrencyAmount, Percent, TradeType, UnifiedCurrencyAmount } from '@tankswap/sdk'
+import { SmartRouter } from '@tankswap/smart-router'
 import {
   AutoColumn,
   BackForwardIcon,
@@ -14,9 +14,9 @@ import {
   WarningIcon,
   useMatchBreakpoints,
   useTooltip,
-} from '@pancakeswap/uikit'
-import { formatAmount } from '@pancakeswap/utils/formatFractions'
-import { CurrencyLogo as CurrencyLogoWidget } from '@pancakeswap/widgets-internal'
+} from '@tankswap/uikit'
+import { formatAmount } from '@tankswap/utils/formatFractions'
+import { CurrencyLogo as CurrencyLogoWidget } from '@tankswap/widgets-internal'
 import { AutoRow, RowBetween, RowFixed } from 'components/Layout/Row'
 import { useGasToken } from 'hooks/useGasToken'
 import { memo, useMemo, useState } from 'react'
@@ -227,7 +227,7 @@ export const SwapModalFooterV2 = memo(function SwapModalFooterV2({
                       style={{ display: 'inline' }}
                       ml="4px"
                       external
-                      href="https://docs.pancakeswap.finance/products/pancakeswap-exchange/faq#what-will-be-the-trading-fee-breakdown-for-v3-exchange"
+                      href="https://docs.tankswap.finance/products/tankswap-exchange/faq#what-will-be-the-trading-fee-breakdown-for-v3-exchange"
                     >
                       {t('Fee Breakdown and Tokenomics')}
                     </Link>

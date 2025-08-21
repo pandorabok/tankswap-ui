@@ -1,4 +1,4 @@
-import { Box } from '@pancakeswap/uikit'
+import { Box } from '@tankswap/uikit'
 import { PieChart, Pie, Cell } from 'recharts'
 import { ChartInfo } from 'views/AffiliatesProgram/components/Dashboard/CommissionInfo'
 

@@ -1,5 +1,5 @@
-import { ChainId, Chains, NonEVMChainId, UnifiedChainId } from '@pancakeswap/chains'
-import { useTranslation } from '@pancakeswap/localization'
+import { ChainId, Chains, NonEVMChainId, UnifiedChainId } from '@tankswap/chains'
+import { useTranslation } from '@tankswap/localization'
 import {
   appearAnimation,
   ArrowDropDownIcon,
@@ -9,8 +9,8 @@ import {
   InlineMenu,
   SkeletonText,
   Text,
-} from '@pancakeswap/uikit'
-import { ChainLogo } from '@pancakeswap/widgets-internal'
+} from '@tankswap/uikit'
+import { ChainLogo } from '@tankswap/widgets-internal'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import drop from 'lodash/drop'
 import take from 'lodash/take'

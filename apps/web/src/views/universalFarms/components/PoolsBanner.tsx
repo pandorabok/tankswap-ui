@@ -1,5 +1,5 @@
-import { useTheme } from '@pancakeswap/hooks'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTheme } from '@tankswap/hooks'
+import { useTranslation } from '@tankswap/localization'
 import {
   Box,
   Button,
@@ -13,8 +13,8 @@ import {
   Row,
   Text,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
-import { VerticalDivider } from '@pancakeswap/widgets-internal'
+} from '@tankswap/uikit'
+import { VerticalDivider } from '@tankswap/widgets-internal'
 import { PickAdSlides } from 'components/AdPanel/PickAdSlides'
 import LiquiditySunsetWarning from 'components/Liquidity/LiquiditySunsetWarning'
 import { Suspense, useCallback } from 'react'
@@ -34,7 +34,7 @@ export const PoolsBanner = ({ additionLink }: { additionLink?: React.ReactNode }
   const handleLearnMoreClick = useCallback(() => {
     if (typeof window !== 'undefined' && window) {
       window.open(
-        'https://docs.pancakeswap.finance/products/yield-farming/how-to-use-farms',
+        'https://docs.tankswap.finance/products/yield-farming/how-to-use-farms',
         '_blank',
         'noopener noreferrer',
       )
@@ -109,7 +109,7 @@ export const PoolsBanner = ({ additionLink }: { additionLink?: React.ReactNode }
                 </FarmH2>
                 <Row flexWrap="wrap" gap="16px">
                   <LinkExternal
-                    href="https://docs.pancakeswap.finance/products/yield-farming/how-to-use-farms"
+                    href="https://docs.tankswap.finance/products/yield-farming/how-to-use-farms"
                     showExternalIcon={false}
                   >
                     <Button p="0" variant="text">

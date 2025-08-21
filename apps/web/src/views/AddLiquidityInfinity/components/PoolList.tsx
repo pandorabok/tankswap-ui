@@ -1,8 +1,8 @@
-import { useIntersectionObserver } from '@pancakeswap/hooks'
-import { useTranslation } from '@pancakeswap/localization'
-import { UnifiedCurrency } from '@pancakeswap/swap-sdk-core'
-import { AddIcon, Button, Grid, Heading, IColumnsType, TableView, useMatchBreakpoints } from '@pancakeswap/uikit'
-import { getCurrencyAddress, PoolTypeFilter, toTokenValue } from '@pancakeswap/widgets-internal'
+import { useIntersectionObserver } from '@tankswap/hooks'
+import { useTranslation } from '@tankswap/localization'
+import { UnifiedCurrency } from '@tankswap/swap-sdk-core'
+import { AddIcon, Button, Grid, Heading, IColumnsType, TableView, useMatchBreakpoints } from '@tankswap/uikit'
+import { getCurrencyAddress, PoolTypeFilter, toTokenValue } from '@tankswap/widgets-internal'
 import { CurrencySelectV2 } from 'components/CurrencySelectV2'
 import { NetworkSelector } from 'components/NetworkSelector'
 import { CommonBasesType } from 'components/SearchModal/types'
@@ -27,8 +27,8 @@ import { getPoolDetailPageLink } from 'utils/getPoolLink'
 import { usePoolTypes } from 'views/universalFarms/constants'
 import { useOrderChainIds } from 'views/universalFarms/hooks/useMultiChains'
 
-import { ALL_PROTOCOLS, Protocol } from '@pancakeswap/farms'
-import { HOOK_CATEGORY } from '@pancakeswap/infinity-sdk'
+import { ALL_PROTOCOLS, Protocol } from '@tankswap/farms'
+import { HOOK_CATEGORY } from '@tankswap/infinity-sdk'
 import { isAddressEqual } from 'utils'
 import { TokenFilterContainer } from './styles'
 
@@ -272,7 +272,7 @@ export const PoolList = () => {
 
   const { orderedChainIds, activeChainId, othersChains } = useOrderChainIds()
 
-  // default sorting logic: https://linear.app/pancakeswap/issue/PAN-3669/default-sorting-logic-update-for-pair-list
+  // default sorting logic: https://linear.app/tankswap/issue/PAN-3669/default-sorting-logic-update-for-pair-list
   const sortedData = useMemo(() => {
     // active Farms: current chain -> other chains
     // ordered by farm config list

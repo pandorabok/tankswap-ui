@@ -1,6 +1,6 @@
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+import { NextLinkFromReactRouter } from '@tankswap/widgets-internal'
 import { safeGetAddress } from 'utils'
-import { nftsBaseUrl, pancakeBunniesAddress } from 'views/ProfileCreation/Nft/constants'
+import { nftsBaseUrl, tankBunniesAddress } from 'views/ProfileCreation/Nft/constants'
 import CardBody from './CardBody'
 import { StyledCollectibleCard } from './styles'
 import { CollectibleCardProps } from './types'
@@ -12,7 +12,7 @@ export const CollectibleLinkCard: React.FC<React.PropsWithChildren<CollectibleCa
   ...props
 }) => {
   const urlId =
-    safeGetAddress(nft.collectionAddress) === safeGetAddress(pancakeBunniesAddress)
+    safeGetAddress(nft.collectionAddress) === safeGetAddress(tankBunniesAddress)
       ? nft.attributes?.[0].value
       : nft.tokenId
   return (

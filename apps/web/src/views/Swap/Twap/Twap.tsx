@@ -1,7 +1,7 @@
-import { Orders, TWAP as PancakeTWAP, ToastProps } from '@orbs-network/twap-ui-pancake'
-import { useTheme } from '@pancakeswap/hooks'
-import { Percent } from '@pancakeswap/sdk'
-import { Currency, CurrencyAmount, TradeType, UnifiedCurrency } from '@pancakeswap/swap-sdk-core'
+import { Orders, TWAP as PancakeTWAP, ToastProps } from '@orbs-network/twap-ui-tank'
+import { useTheme } from '@tankswap/hooks'
+import { Percent } from '@tankswap/sdk'
+import { Currency, CurrencyAmount, TradeType, UnifiedCurrency } from '@tankswap/swap-sdk-core'
 import {
   AutoColumn,
   Button,
@@ -14,10 +14,10 @@ import {
   useModal,
   useToast,
   useTooltip,
-} from '@pancakeswap/uikit'
+} from '@tankswap/uikit'
 
-import replaceBrowserHistoryMultiple from '@pancakeswap/utils/replaceBrowserHistoryMultiple'
-import { CurrencyLogo, NumericalInput, SwapUIV2 } from '@pancakeswap/widgets-internal'
+import replaceBrowserHistoryMultiple from '@tankswap/utils/replaceBrowserHistoryMultiple'
+import { CurrencyLogo, NumericalInput, SwapUIV2 } from '@tankswap/widgets-internal'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import { AutoRow } from 'components/Layout/Row'
 import CurrencySearchModal from 'components/SearchModal/CurrencySearchModal'
@@ -44,7 +44,7 @@ import { keyframes, styled } from 'styled-components'
 import currencyId from 'utils/currencyId'
 import { maxAmountSpend } from 'utils/maxAmountSpend'
 import { useAccount } from 'wagmi'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import { useSwitchNetwork } from 'hooks/useSwitchNetwork'
 import { useRouter } from 'next/router'
 import CurrencyInputPanelSimplify from 'components/CurrencyInputPanelSimplify'

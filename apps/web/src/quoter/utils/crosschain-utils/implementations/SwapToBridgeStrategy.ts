@@ -1,8 +1,8 @@
-import { Loadable } from '@pancakeswap/utils/Loadable'
+import { Loadable } from '@tankswap/utils/Loadable'
 import { Field } from 'state/swap/actions'
 import { computeSlippageAdjustedAmounts } from 'views/Swap/V3Swap/utils/exchange'
 import { type InterfaceOrder } from 'views/Swap/utils'
-import { Currency, CurrencyAmount } from '@pancakeswap/swap-sdk-core'
+import { Currency, CurrencyAmount } from '@tankswap/swap-sdk-core'
 import { CrossChainQuoteStrategy } from '../base/CrossChainQuoteStrategy'
 
 export class SwapToBridgeStrategy extends CrossChainQuoteStrategy {

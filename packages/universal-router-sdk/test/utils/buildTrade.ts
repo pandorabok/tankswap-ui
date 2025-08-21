@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, ERC20Token, Native, Pair, TradeType, Trade as V2Trade } from '@pancakeswap/sdk'
+import { Currency, CurrencyAmount, ERC20Token, Native, Pair, TradeType, Trade as V2Trade } from '@tankswap/sdk'
 import {
   Pool as GenericPool,
   InfinityBinPool,
@@ -10,9 +10,9 @@ import {
   StablePool,
   V2Pool,
   V3Pool,
-} from '@pancakeswap/smart-router'
-import { getSwapOutput } from '@pancakeswap/stable-swap-sdk'
-import { Pool, Trade as V3Trade } from '@pancakeswap/v3-sdk'
+} from '@tankswap/smart-router'
+import { getSwapOutput } from '@tankswap/stable-swap-sdk'
+import { Pool, Trade as V3Trade } from '@tankswap/v3-sdk'
 import { convertPairToV2Pool, convertPoolToV3Pool } from '../fixtures/address'
 
 export const buildV2Trade = (

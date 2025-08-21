@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { LinkExternal, Text, useModal } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { LinkExternal, Text, useModal } from '@tankswap/uikit'
 import { useCallback, useEffect } from 'react'
 import { useAccount } from 'wagmi'
 

@@ -1,11 +1,11 @@
-import { Currency, Token } from '@pancakeswap/sdk'
+import { Currency, Token } from '@tankswap/sdk'
 import {
   ImageProps,
   TokenImage as UIKitTokenImage,
   TokenPairImage as UIKitTokenPairImage,
   TokenPairImageProps as UIKitTokenPairImageProps,
   TokenPairLogo as UIKitTokenPairLogo,
-} from '@pancakeswap/uikit'
+} from '@tankswap/uikit'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import { useMemo } from 'react'
 import {

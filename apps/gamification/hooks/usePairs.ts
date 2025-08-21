@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { Currency, CurrencyAmount, Pair, Token, WNATIVE, pancakePairV2ABI } from '@pancakeswap/sdk'
+import { ChainId } from '@tankswap/chains'
+import { Currency, CurrencyAmount, Pair, Token, WNATIVE, tankPairV2ABI } from '@tankswap/sdk'
 import { useMemo } from 'react'
 import { useMultipleContractSingleData } from 'state/multicall/hooks'
 import { useActiveChainId } from './useActiveChainId'
@@ -47,7 +47,7 @@ export function useV2Pairs(currencies: [Currency | undefined, Currency | undefin
   )
   const results = useMultipleContractSingleData({
     addresses: pairAddresses,
-    abi: pancakePairV2ABI,
+    abi: tankPairV2ABI,
     functionName: 'getReserves',
   })
 

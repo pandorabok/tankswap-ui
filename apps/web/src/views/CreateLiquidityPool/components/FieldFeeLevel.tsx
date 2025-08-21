@@ -1,7 +1,7 @@
-import { usePreviousValue } from '@pancakeswap/hooks'
-import { POOL_TYPE, PoolType } from '@pancakeswap/infinity-sdk'
+import { usePreviousValue } from '@tankswap/hooks'
+import { POOL_TYPE, PoolType } from '@tankswap/infinity-sdk'
 import styled from 'styled-components'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import {
   Box,
   BoxProps,
@@ -17,7 +17,7 @@ import {
   Text,
   Toggle,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
+} from '@tankswap/uikit'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { useFeeLevelQueryState, useFeeTierSettingQueryState } from 'state/infinity/create'
 import { escapeRegExp } from 'utils'

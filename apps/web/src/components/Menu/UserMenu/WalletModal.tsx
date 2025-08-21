@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import {
   ButtonMenu,
   ButtonMenuItem,
@@ -9,13 +9,13 @@ import {
   ModalTitle,
   ModalWrapper,
   ModalHeader as UIKitModalHeader,
-} from '@pancakeswap/uikit'
+} from '@tankswap/uikit'
 import { useCallback } from 'react'
 import { styled } from 'styled-components'
 import { parseEther } from 'viem'
 import { useAccount, useBalance } from 'wagmi'
 import { useActiveChainId } from 'hooks/useActiveChainId'
-import { NonEVMChainId } from '@pancakeswap/chains'
+import { NonEVMChainId } from '@tankswap/chains'
 import { useMenuTab, WalletView } from './providers/MenuTabProvider'
 import WalletInfo from './WalletInfo'
 import WalletTransactions from './WalletTransactions'

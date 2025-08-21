@@ -1,4 +1,4 @@
-import { PoolType } from '@pancakeswap/smart-router'
+import { PoolType } from '@tankswap/smart-router'
 import { QuoteQuery } from 'quoter/quoter.types'
 
 export function getAllowedPoolTypes(options: QuoteQuery) {

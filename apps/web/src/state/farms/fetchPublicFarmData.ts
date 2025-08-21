@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { SerializedFarm } from '@pancakeswap/farms'
+import { ChainId } from '@tankswap/chains'
+import { SerializedFarm } from '@tankswap/farms'
 import chunk from 'lodash/chunk'
 import { getMasterChefV2Address } from 'utils/addressHelpers'
 import { publicClient } from 'utils/wagmi'

@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Button, ErrorIcon, Flex, FlexGap, InjectedModalProps, Modal, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Box, Button, ErrorIcon, Flex, FlexGap, InjectedModalProps, Modal, Text } from '@tankswap/uikit'
 
 interface ConfirmDeleteModalProps extends InjectedModalProps {
   handleDelete: () => void

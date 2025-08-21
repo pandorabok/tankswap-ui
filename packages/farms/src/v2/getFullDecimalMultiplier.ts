@@ -1,5 +1,5 @@
-import { BIG_TEN } from '@pancakeswap/utils/bigNumber'
-import memoize from '@pancakeswap/utils/memoize'
+import { BIG_TEN } from '@tankswap/utils/bigNumber'
+import memoize from '@tankswap/utils/memoize'
 import BN from 'bignumber.js'
 
 export const getFullDecimalMultiplier = memoize((decimals: number): BN => {

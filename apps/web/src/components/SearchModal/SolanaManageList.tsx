@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { AutoColumn, Column, Text, Toggle } from '@pancakeswap/uikit'
-import { ListLogo } from '@pancakeswap/widgets-internal'
+import { useTranslation } from '@tankswap/localization'
+import { AutoColumn, Column, Text, Toggle } from '@tankswap/uikit'
+import { ListLogo } from '@tankswap/widgets-internal'
 
 import { useAtom } from 'jotai'
 import { memo, useCallback } from 'react'

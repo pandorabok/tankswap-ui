@@ -1,6 +1,6 @@
 import NextLink from 'next/link'
-import { Box, Breadcrumbs, Text, StyledLink } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Box, Breadcrumbs, Text, StyledLink } from '@tankswap/uikit'
+import { useTranslation } from '@tankswap/localization'
 
 const Crumbs = () => {
   const { t } = useTranslation()

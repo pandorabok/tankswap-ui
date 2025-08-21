@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@tankswap/chains'
 import {
   OrderType,
   type BridgeOrder,
@@ -6,9 +6,9 @@ import {
   type PriceOrder,
   type SVMOrder,
   type XOrder,
-} from '@pancakeswap/price-api-sdk'
-import { UnifiedCurrencyAmount, type Currency, type TradeType } from '@pancakeswap/swap-sdk-core'
-import { CAKE, STABLE_COIN, USDC, USDT } from '@pancakeswap/tokens'
+} from '@tankswap/price-api-sdk'
+import { UnifiedCurrencyAmount, type Currency, type TradeType } from '@tankswap/swap-sdk-core'
+import { CAKE, STABLE_COIN, USDC, USDT } from '@tankswap/tokens'
 import { BridgeOrderFee, computeBridgeOrderFee } from './Bridge/utils'
 import { computeTradePriceBreakdown, SVMTradePriceBreakdown, TradePriceBreakdown } from './V3Swap/utils/exchange'
 

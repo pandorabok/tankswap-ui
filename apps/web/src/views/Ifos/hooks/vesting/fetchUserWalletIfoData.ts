@@ -4,7 +4,7 @@ import {
   VestingCharacteristics,
   fetchUserVestingData,
   fetchUserVestingDataV8,
-} from '@pancakeswap/ifos'
+} from '@tankswap/ifos'
 import { Address } from 'viem'
 
 import { getViemClients } from 'utils/viem'

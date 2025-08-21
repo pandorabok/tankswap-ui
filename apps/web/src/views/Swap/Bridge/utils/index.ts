@@ -1,5 +1,5 @@
-import { OrderType } from '@pancakeswap/price-api-sdk'
-import { Percent } from '@pancakeswap/swap-sdk-core'
+import { OrderType } from '@tankswap/price-api-sdk'
+import { Percent } from '@tankswap/swap-sdk-core'
 import { BridgeOrderWithCommands, isXOrder } from 'views/Swap/utils'
 import {
   computeTradePriceBreakdown,

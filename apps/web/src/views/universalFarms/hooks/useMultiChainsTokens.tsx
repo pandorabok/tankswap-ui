@@ -1,5 +1,5 @@
-import { ChainId, ERC20Token, Native } from '@pancakeswap/sdk'
-import type { TokenInfo } from '@pancakeswap/token-lists'
+import { ChainId, ERC20Token, Native } from '@tankswap/sdk'
+import type { TokenInfo } from '@tankswap/token-lists'
 import { SUGGESTED_BASES } from 'config/constants/exchange'
 import {
   PANCAKE_ARB_DEFAULT,

@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { useModal } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { useModal } from '@tankswap/uikit'
 import DisclaimerModal from 'components/DisclaimerModal/DisclaimerModal'
 import { memo, useCallback, useEffect } from 'react'
 import { useGetBridgeDisclaimerState } from 'state/useGetBridgeDisclaimerState'

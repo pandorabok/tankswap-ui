@@ -1,4 +1,4 @@
-import getTimePeriods from '@pancakeswap/utils/getTimePeriods'
+import getTimePeriods from '@tankswap/utils/getTimePeriods'
 
 /**
  * @param {Object} periods Return value from getTimePeriods

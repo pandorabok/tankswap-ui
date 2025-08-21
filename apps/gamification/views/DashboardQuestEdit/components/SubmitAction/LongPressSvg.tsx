@@ -1,4 +1,4 @@
-import { Svg } from '@pancakeswap/uikit'
+import { Svg } from '@tankswap/uikit'
 
 interface LongPressSvgProps {
   progress: number

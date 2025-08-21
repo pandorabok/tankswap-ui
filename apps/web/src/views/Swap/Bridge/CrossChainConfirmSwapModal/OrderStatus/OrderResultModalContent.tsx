@@ -10,14 +10,14 @@ import {
   SwapSpinner,
   Text,
   WarningIcon,
-} from '@pancakeswap/uikit'
-import { DualCurrencyDisplay } from '@pancakeswap/widgets-internal'
+} from '@tankswap/uikit'
+import { DualCurrencyDisplay } from '@tankswap/widgets-internal'
 import { useAtomValue } from 'jotai'
 
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency, CurrencyAmount } from '@pancakeswap/sdk'
-import { formatAmount } from '@pancakeswap/utils/formatFractions'
-import { formatScientificToDecimal } from '@pancakeswap/utils/formatNumber'
+import { useTranslation } from '@tankswap/localization'
+import { Currency, CurrencyAmount } from '@tankswap/sdk'
+import { formatAmount } from '@tankswap/utils/formatFractions'
+import { formatScientificToDecimal } from '@tankswap/utils/formatNumber'
 import { useCurrencyByChainId } from 'hooks/Tokens'
 import { ReactNode, useMemo } from 'react'
 import { swapReducerAtom } from 'state/swap/reducer'

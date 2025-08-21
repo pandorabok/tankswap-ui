@@ -1,6 +1,6 @@
-import { ChainId } from '@pancakeswap/chains'
-import { bCakeFarmBoosterV3VeCakeAddress } from '@pancakeswap/farms/constants/v3'
-import { PoolType } from '@pancakeswap/infinity-sdk'
+import { ChainId } from '@tankswap/chains'
+import { bCakeFarmBoosterV3VeCakeAddress } from '@tankswap/farms/constants/v3'
+import { PoolType } from '@tankswap/infinity-sdk'
 
 import addresses from 'config/constants/contracts'
 import { Address } from 'viem'
@@ -28,14 +28,14 @@ export const getLotteryV2Address = () => {
   return getAddressFromMap(addresses.lotteryV2)
 }
 export const getPancakeProfileAddress = () => {
-  return getAddressFromMap(addresses.pancakeProfile)
+  return getAddressFromMap(addresses.tankProfile)
 }
 export const getPancakeProfileProxyAddress = (chainId: number) => {
-  return getAddressFromMap(addresses.pancakeProfileProxy, chainId)
+  return getAddressFromMap(addresses.tankProfileProxy, chainId)
 }
 
 export const getPancakeBunniesAddress = () => {
-  return getAddressFromMap(addresses.pancakeBunnies)
+  return getAddressFromMap(addresses.tankBunnies)
 }
 export const getBunnyFactoryAddress = () => {
   return getAddressFromMap(addresses.bunnyFactory)
@@ -80,7 +80,7 @@ export const getNftSaleAddress = () => {
   return getAddressFromMap(addresses.nftSale)
 }
 export const getPancakeSquadAddress = () => {
-  return getAddressFromMap(addresses.pancakeSquad)
+  return getAddressFromMap(addresses.tankSquad)
 }
 
 export const getBCakeFarmBoosterAddress = () => {
@@ -148,7 +148,7 @@ export const getVeCakeAddress = (chainId?: number) => {
 }
 
 export const getPancakeVeSenderV2Address = (chainId?: number) => {
-  return getAddressFromMap(addresses.pancakeVeSenderV2, chainId)
+  return getAddressFromMap(addresses.tankVeSenderV2, chainId)
 }
 
 export const getRevenueSharingCakePoolAddress = (chainId?: number) => {

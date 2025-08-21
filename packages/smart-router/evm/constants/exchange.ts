@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { ERC20Token, Token, WNATIVE } from '@pancakeswap/sdk'
+import { ChainId } from '@tankswap/chains'
+import { ERC20Token, Token, WNATIVE } from '@tankswap/sdk'
 import {
   BUSD,
   USDC,
@@ -25,7 +25,7 @@ import {
   sepoliaTokens,
   zkSyncTestnetTokens,
   zksyncTokens,
-} from '@pancakeswap/tokens'
+} from '@tankswap/tokens'
 
 import { ChainMap, ChainTokenList } from '../types'
 
@@ -175,7 +175,7 @@ export const ADDITIONAL_BASES: ADDITIONAL_BASES_TABLE = {
     [bscTokens.brm.address]: [bscTokens.ora],
     [bscTokens.susdx.address]: [bscTokens.usdx],
 
-    // pancakeswap/pancake-frontend#7909
+    // tankswap/tank-frontend#7909
     // LSDT
     '0xAa83Bb1Be2a74AaA8795a8887054919A0Ea96BFA': [czusd],
     // GEM

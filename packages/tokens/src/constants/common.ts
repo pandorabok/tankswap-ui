@@ -1,5 +1,5 @@
-import { ChainId, NonEVMChainId } from '@pancakeswap/chains'
-import { ERC20Token } from '@pancakeswap/sdk'
+import { ChainId, NonEVMChainId } from '@tankswap/chains'
+import { ERC20Token } from '@tankswap/sdk'
 import { solanaTokens } from './solana'
 
 export const CAKE_MAINNET = new ERC20Token(
@@ -8,7 +8,7 @@ export const CAKE_MAINNET = new ERC20Token(
   18,
   'CAKE',
   'PancakeSwap Token',
-  'https://pancakeswap.finance/',
+  'https://tankswap.finance/',
 )
 
 export const CAKE_TESTNET = new ERC20Token(
@@ -17,7 +17,7 @@ export const CAKE_TESTNET = new ERC20Token(
   18,
   'CAKE',
   'PancakeSwap Token',
-  'https://pancakeswap.finance/',
+  'https://tankswap.finance/',
 )
 
 export const USDC_BSC = new ERC20Token(
@@ -148,7 +148,7 @@ export const CAKE = {
     18,
     'CAKE',
     'PancakeSwap Token',
-    'https://pancakeswap.finance/',
+    'https://tankswap.finance/',
   ),
   [ChainId.GOERLI]: new ERC20Token(
     ChainId.GOERLI,
@@ -156,7 +156,7 @@ export const CAKE = {
     18,
     'CAKE',
     'PancakeSwap Token',
-    'https://pancakeswap.finance/',
+    'https://tankswap.finance/',
   ),
   [ChainId.BSC]: CAKE_MAINNET,
   [ChainId.BSC_TESTNET]: CAKE_TESTNET,
@@ -166,7 +166,7 @@ export const CAKE = {
     18,
     'CAKE',
     'PancakeSwap Token',
-    'https://pancakeswap.finance/',
+    'https://tankswap.finance/',
   ),
   [ChainId.POLYGON_ZKEVM_TESTNET]: new ERC20Token(
     ChainId.POLYGON_ZKEVM_TESTNET,
@@ -174,7 +174,7 @@ export const CAKE = {
     18,
     'CAKE',
     'PancakeSwap Token',
-    'https://pancakeswap.finance/',
+    'https://tankswap.finance/',
   ),
   [ChainId.ZKSYNC_TESTNET]: new ERC20Token(
     ChainId.ZKSYNC_TESTNET,
@@ -182,7 +182,7 @@ export const CAKE = {
     18,
     'CAKE',
     'PancakeSwap Token',
-    'https://pancakeswap.finance/',
+    'https://tankswap.finance/',
   ),
   [ChainId.ZKSYNC]: new ERC20Token(
     ChainId.ZKSYNC,
@@ -190,7 +190,7 @@ export const CAKE = {
     18,
     'CAKE',
     'PancakeSwap Token',
-    'https://pancakeswap.finance/',
+    'https://tankswap.finance/',
   ),
   [ChainId.ARBITRUM_ONE]: new ERC20Token(
     ChainId.ARBITRUM_ONE,
@@ -198,7 +198,7 @@ export const CAKE = {
     18,
     'CAKE',
     'PancakeSwap Token',
-    'https://pancakeswap.finance/',
+    'https://tankswap.finance/',
   ),
   [ChainId.ARBITRUM_GOERLI]: new ERC20Token(
     ChainId.ARBITRUM_GOERLI,
@@ -206,7 +206,7 @@ export const CAKE = {
     18,
     'CAKE',
     'PancakeSwap Token',
-    'https://pancakeswap.finance/',
+    'https://tankswap.finance/',
   ),
   [ChainId.LINEA]: new ERC20Token(
     ChainId.LINEA,
@@ -214,7 +214,7 @@ export const CAKE = {
     18,
     'CAKE',
     'PancakeSwap Token',
-    'https://pancakeswap.finance/',
+    'https://tankswap.finance/',
   ),
   [ChainId.BASE]: new ERC20Token(
     ChainId.BASE,
@@ -222,7 +222,7 @@ export const CAKE = {
     18,
     'CAKE',
     'PancakeSwap Token',
-    'https://pancakeswap.finance/',
+    'https://tankswap.finance/',
   ),
   [ChainId.BASE_TESTNET]: new ERC20Token(
     ChainId.BASE_TESTNET,
@@ -230,7 +230,7 @@ export const CAKE = {
     18,
     'CAKE',
     'PancakeSwap Token',
-    'https://pancakeswap.finance/',
+    'https://tankswap.finance/',
   ),
   [ChainId.LINEA_TESTNET]: new ERC20Token(
     ChainId.LINEA_TESTNET,
@@ -238,7 +238,7 @@ export const CAKE = {
     18,
     'CAKE',
     'PancakeSwap Token',
-    'https://pancakeswap.finance/',
+    'https://tankswap.finance/',
   ),
   [ChainId.OPBNB]: new ERC20Token(
     ChainId.OPBNB,
@@ -246,7 +246,7 @@ export const CAKE = {
     18,
     'CAKE',
     'PancakeSwap Token',
-    'https://pancakeswap.finance/',
+    'https://tankswap.finance/',
   ),
   [ChainId.OPBNB_TESTNET]: new ERC20Token(
     ChainId.OPBNB_TESTNET,
@@ -254,7 +254,7 @@ export const CAKE = {
     18,
     'CAKE',
     'PancakeSwap Token',
-    'https://pancakeswap.finance/',
+    'https://tankswap.finance/',
   ),
   [NonEVMChainId.SOLANA]: solanaTokens.cake,
 }

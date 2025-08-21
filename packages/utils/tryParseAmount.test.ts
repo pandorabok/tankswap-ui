@@ -1,4 +1,4 @@
-import { Token } from '@pancakeswap/swap-sdk-core'
+import { Token } from '@tankswap/swap-sdk-core'
 import { describe, it, expect } from 'vitest'
 import tryParseAmount from './tryParseAmount'
 
@@ -20,7 +20,7 @@ describe('utils/tryParseAmount', () => {
           18,
           'CAKE',
           'PancakeSwap Token',
-          'https://pancakeswap.finance/',
+          'https://tankswap.finance/',
         ),
       ),
     ).toBeTruthy()

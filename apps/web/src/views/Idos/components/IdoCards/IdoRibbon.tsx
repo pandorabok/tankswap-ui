@@ -1,9 +1,9 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Flex, Heading, Progress, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Box, Flex, Heading, Progress, Text } from '@tankswap/uikit'
 import { ReactNode } from 'react'
 import { styled } from 'styled-components'
 
-import { IfoStatus } from '@pancakeswap/ifos'
+import { IfoStatus } from '@tankswap/ifos'
 import useTheme from 'hooks/useTheme'
 import { PublicIfoData } from '../../types'
 import LiveTimer, { SoonTimer } from './Timer'

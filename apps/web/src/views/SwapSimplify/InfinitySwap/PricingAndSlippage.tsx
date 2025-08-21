@@ -1,7 +1,7 @@
-import { useModal } from '@pancakeswap/uikit'
-import { SwapUIV2 } from '@pancakeswap/widgets-internal'
+import { useModal } from '@tankswap/uikit'
+import { SwapUIV2 } from '@tankswap/widgets-internal'
 
-import { Currency, Price } from '@pancakeswap/sdk'
+import { Currency, Price } from '@tankswap/sdk'
 import { memo } from 'react'
 
 import GlobalSettings from 'components/Menu/GlobalSettings'

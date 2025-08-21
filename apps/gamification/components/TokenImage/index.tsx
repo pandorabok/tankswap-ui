@@ -1,12 +1,12 @@
-import { ChainId } from '@pancakeswap/chains'
-import { Currency } from '@pancakeswap/sdk'
+import { ChainId } from '@tankswap/chains'
+import { Currency } from '@tankswap/sdk'
 import {
   HelpIcon,
   ImageProps,
   TokenImage as UIKitTokenImage,
   TokenPairImage as UIKitTokenPairImage,
   TokenPairImageProps as UIKitTokenPairImageProps,
-} from '@pancakeswap/uikit'
+} from '@tankswap/uikit'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import { useState } from 'react'
 
@@ -31,7 +31,7 @@ export const getImageUrlFromToken = (token: Currency) => {
 
   return token?.isNative && token.chainId !== ChainId.BSC
     ? `${ASSET_CDN}/web/native/${token.chainId}.png`
-    : `https://tokens.pancakeswap.finance/images/${tokenImageChainNameMapping[token.chainId]}${address}.png`
+    : `https://tokens.tankswap.finance/images/${tokenImageChainNameMapping[token.chainId]}${address}.png`
 }
 
 export const TokenPairImage: React.FC<React.PropsWithChildren<TokenPairImageProps>> = ({

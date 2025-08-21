@@ -1,7 +1,7 @@
-import { Protocol } from '@pancakeswap/farms'
-import { HOOK_CATEGORY } from '@pancakeswap/infinity-sdk'
-import { useTranslation } from '@pancakeswap/localization'
-import { useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Protocol } from '@tankswap/farms'
+import { HOOK_CATEGORY } from '@tankswap/infinity-sdk'
+import { useTranslation } from '@tankswap/localization'
+import { useMatchBreakpoints } from '@tankswap/uikit'
 import { INFINITY_PROTOCOLS } from 'config/constants/protocols'
 import { useMemo } from 'react'
 

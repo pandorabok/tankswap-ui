@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { SolanaProviderLocalStorageKey, WalletAdaptedNetwork, selectedWalletAtom } from '@pancakeswap/ui-wallets'
-import { ASSET_CDN } from '@pancakeswap/ui-wallets/src/config/url'
+import { useTranslation } from '@tankswap/localization'
+import { SolanaProviderLocalStorageKey, WalletAdaptedNetwork, selectedWalletAtom } from '@tankswap/ui-wallets'
+import { ASSET_CDN } from '@tankswap/ui-wallets/src/config/url'
 import {
   ArrowBackIcon,
   Box,
@@ -14,8 +14,8 @@ import {
   LogoutIcon,
   RowBetween,
   Text,
-} from '@pancakeswap/uikit'
-import truncateHash from '@pancakeswap/utils/truncateHash'
+} from '@tankswap/uikit'
+import truncateHash from '@tankswap/utils/truncateHash'
 import { WalletName } from '@solana/wallet-adapter-base'
 import { useLocalStorage, useWallet } from '@solana/wallet-adapter-react'
 import useAccountActiveChain from 'hooks/useAccountActiveChain'

@@ -309,7 +309,7 @@ export const ifoV7ABI = [
     inputs: [
       { internalType: 'address', name: '_lpToken', type: 'address' },
       { internalType: 'address', name: '_offeringToken', type: 'address' },
-      { internalType: 'address', name: '_pancakeProfileAddress', type: 'address' },
+      { internalType: 'address', name: '_tankProfileAddress', type: 'address' },
       { internalType: 'uint256', name: '_startTimestamp', type: 'uint256' },
       { internalType: 'uint256', name: '_endTimestamp', type: 'uint256' },
       { internalType: 'uint256', name: '_maxBufferSeconds', type: 'uint256' },
@@ -389,7 +389,7 @@ export const ifoV7ABI = [
   },
   {
     inputs: [],
-    name: 'pancakeProfileAddress',
+    name: 'tankProfileAddress',
     outputs: [{ internalType: 'address', name: '', type: 'address' }],
     stateMutability: 'view',
     type: 'function',

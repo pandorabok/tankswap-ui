@@ -1,10 +1,10 @@
 import { useRouter } from 'next/router'
 import { useMemo } from 'react'
 import { styled, keyframes, css } from 'styled-components'
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Box, Text } from '@tankswap/uikit'
 import { VestingData } from 'views/Ifos/hooks/vesting/fetchUserWalletIfoData'
-import { PoolIds } from '@pancakeswap/ifos'
+import { PoolIds } from '@tankswap/ifos'
 import { useIfoConfigAcrossChainsById } from 'hooks/useIfoConfig'
 
 import Info from './Info'

@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency, CurrencyAmount, Percent } from '@pancakeswap/sdk'
+import { useTranslation } from '@tankswap/localization'
+import { Currency, CurrencyAmount, Percent } from '@tankswap/sdk'
 import {
   BalanceInput,
   Box,
@@ -14,9 +14,9 @@ import {
   Text,
   Toggle,
   useToast,
-} from '@pancakeswap/uikit'
-import { getDecimalAmount, getFullDisplayBalance } from '@pancakeswap/utils/formatBalance'
-import { getFullDecimalMultiplier } from '@pancakeswap/utils/getFullDecimalMultiplier'
+} from '@tankswap/uikit'
+import { getDecimalAmount, getFullDisplayBalance } from '@tankswap/utils/formatBalance'
+import { getFullDecimalMultiplier } from '@tankswap/utils/getFullDecimalMultiplier'
 import BigNumber from 'bignumber.js'
 import Divider from 'components/Divider'
 import { CurrencyLogo } from 'components/Logo'

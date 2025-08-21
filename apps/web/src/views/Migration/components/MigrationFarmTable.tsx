@@ -1,8 +1,8 @@
-import { FarmWithStakedValue } from '@pancakeswap/farms'
-import { useTranslation } from '@pancakeswap/localization'
-import { Flex, RowType, Spinner } from '@pancakeswap/uikit'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
-import { getBalanceNumber } from '@pancakeswap/utils/formatBalance'
+import { FarmWithStakedValue } from '@tankswap/farms'
+import { useTranslation } from '@tankswap/localization'
+import { Flex, RowType, Spinner } from '@tankswap/uikit'
+import { BIG_ZERO } from '@tankswap/utils/bigNumber'
+import { getBalanceNumber } from '@tankswap/utils/formatBalance'
 import BigNumber from 'bignumber.js'
 import React, { useMemo } from 'react'
 import { styled } from 'styled-components'
@@ -43,7 +43,7 @@ const MigrationFarmTable: React.FC<React.PropsWithChildren<ITableProps>> = ({
   const { t } = useTranslation()
 
   const rowData = farms.map((farm) => {
-    const lpLabel = farm.lpSymbol && farm.lpSymbol.replace(/pancake/gi, '')
+    const lpLabel = farm.lpSymbol && farm.lpSymbol.replace(/tank/gi, '')
 
     const row: RowProps = {
       farm: {

@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Flex } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Flex } from '@tankswap/uikit'
 import { styled } from 'styled-components'
 
 const EmptyTasksContainer = styled(Flex)`

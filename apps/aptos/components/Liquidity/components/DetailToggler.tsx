@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { RowBetween, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { RowBetween, Text } from '@tankswap/uikit'
 
 // import { useState } from 'react'
 

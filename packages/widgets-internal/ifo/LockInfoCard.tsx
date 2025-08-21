@@ -1,6 +1,6 @@
-import { useTranslation } from "@pancakeswap/localization";
-import { RowBetween, AutoColumn, Text, Card, CardBody } from "@pancakeswap/uikit";
-import { formatUnixTimestamp } from "@pancakeswap/utils/formatTimestamp";
+import { useTranslation } from "@tankswap/localization";
+import { RowBetween, AutoColumn, Text, Card, CardBody } from "@tankswap/uikit";
+import { formatUnixTimestamp } from "@tankswap/utils/formatTimestamp";
 import BigNumber from "bignumber.js";
 import dayjs from "dayjs";
 import { useMemo } from "react";

@@ -1,8 +1,8 @@
-import { useAccount } from '@pancakeswap/awgmi'
-import type { DeserializedFarm } from '@pancakeswap/farms'
-import { FarmWithStakedValue, filterFarmsByQuery } from '@pancakeswap/farms'
-import { useIntersectionObserver } from '@pancakeswap/hooks'
-import { useTranslation } from '@pancakeswap/localization'
+import { useAccount } from '@tankswap/awgmi'
+import type { DeserializedFarm } from '@tankswap/farms'
+import { FarmWithStakedValue, filterFarmsByQuery } from '@tankswap/farms'
+import { useIntersectionObserver } from '@tankswap/hooks'
+import { useTranslation } from '@tankswap/localization'
 import {
   Box,
   Flex,
@@ -17,8 +17,8 @@ import {
   Text,
   Toggle,
   ToggleView,
-} from '@pancakeswap/uikit'
-import { FarmWidget } from '@pancakeswap/widgets-internal'
+} from '@tankswap/uikit'
+import { FarmWidget } from '@tankswap/widgets-internal'
 import BigNumber from 'bignumber.js'
 import useLpRewardsAprs from 'components/Farms/hooks/useLpRewardsAprs'
 import Page from 'components/Layout/Page'

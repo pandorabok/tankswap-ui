@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import {
   AutoColumn,
   Box,
@@ -9,8 +9,8 @@ import {
   Skeleton,
   Text,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+} from '@tankswap/uikit'
+import { NextLinkFromReactRouter } from '@tankswap/widgets-internal'
 import { LightGreyCard } from 'components/Card'
 import styled from 'styled-components'
 import { BurnLastSevenDaysCard } from './components/burns/BurnLastSevenDaysCard'
@@ -68,7 +68,7 @@ export const BurnDashboard = () => {
             </StyledGradientCard>
           ) : null}
           <NextLinkFromReactRouter
-            to="https://docs.pancakeswap.finance/governance-and-tokenomics/cake-tokenomics"
+            to="https://docs.tankswap.finance/governance-and-tokenomics/cake-tokenomics"
             target="_blank"
           >
             <Button variant="subtle" width="max-content">

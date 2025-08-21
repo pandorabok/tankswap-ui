@@ -1,14 +1,14 @@
 {
-  "name": "@pancakeswap/wagmi",
+  "name": "@tankswap/wagmi",
   "version": "3.1.0",
   "license": "MIT",
-  "description": "wagmi adaptor for pancakeswap",
+  "description": "wagmi adaptor for tankswap",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pancakeswap/pancake-frontend.git",
+    "url": "https://github.com/tankswap/tank-frontend.git",
     "directory": "packages/wagmi"
   },
   "scripts": {
@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "@blocto/sdk": "^0.5.4",
-    "@pancakeswap/tsconfig": "workspace:*",
+    "@tankswap/tsconfig": "workspace:*",
     "@types/react": "catalog:",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",

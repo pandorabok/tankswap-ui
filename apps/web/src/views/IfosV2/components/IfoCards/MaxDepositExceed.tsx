@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { FlexGap, Text, ErrorIcon } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { FlexGap, Text, ErrorIcon } from '@tankswap/uikit'
 
 interface MaxDepositExceedProps {
   show: boolean

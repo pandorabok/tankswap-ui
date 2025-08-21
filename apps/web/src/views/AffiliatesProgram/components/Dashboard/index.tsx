@@ -1,6 +1,6 @@
-import { Flex, Box, Card } from '@pancakeswap/uikit'
+import { Flex, Box, Card } from '@tankswap/uikit'
 import { useAccount } from 'wagmi'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import AffiliatesProgramLayout from 'views/AffiliatesProgram/components/AffiliatesProgramLayout'
 import Banner from 'views/AffiliatesProgram/components/Dashboard/Banner'
 import MyReferralLink from 'views/AffiliatesProgram/components/Dashboard/MyReferralLink'

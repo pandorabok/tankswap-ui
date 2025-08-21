@@ -6,13 +6,13 @@ import {
 } from 'state/nftMarket/helpers'
 import { NftToken } from 'state/nftMarket/types'
 import { safeGetAddress } from 'utils'
-import { pancakeBunniesAddress } from '../constants'
+import { tankBunniesAddress } from '../constants'
 
 // If collection is PancakeBunnies - gets all available bunnies, otherwise - null
 const useAllPancakeBunnyNfts = (collectionAddress: string | undefined) => {
   const [allPancakeBunnyNfts, setAllPancakeBunnyNfts] = useState<NftToken[] | null>(null)
 
-  const isPBCollection = safeGetAddress(collectionAddress) === safeGetAddress(pancakeBunniesAddress)
+  const isPBCollection = safeGetAddress(collectionAddress) === safeGetAddress(tankBunniesAddress)
 
   useEffect(() => {
     const fetchPancakeBunnies = async () => {
@@ -20,7 +20,7 @@ const useAllPancakeBunnyNfts = (collectionAddress: string | undefined) => {
       // On this page we just want to display all bunnies with their lowest prices and updates on the market
       // Since some bunnies might not be on the market at all, we don't refer to the redux nfts state (which stores NftToken with actual token ids)
       // We merely request from API all available bunny ids with their metadata and query subgraph for lowest price and latest updates.
-      const response = await getNftsFromCollectionApi(pancakeBunniesAddress)
+      const response = await getNftsFromCollectionApi(tankBunniesAddress)
       if (!response) return
       const { data } = response
       const bunnyIds = Object.keys(data)
@@ -34,7 +34,7 @@ const useAllPancakeBunnyNfts = (collectionAddress: string | undefined) => {
           tokenId: data[bunnyId].name,
           name: data[bunnyId].name,
           description: data[bunnyId].description,
-          collectionAddress: pancakeBunniesAddress,
+          collectionAddress: tankBunniesAddress,
           collectionName: data[bunnyId].collection.name,
           image: data[bunnyId].image,
           attributes: [

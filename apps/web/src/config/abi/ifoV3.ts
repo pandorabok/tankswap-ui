@@ -323,7 +323,7 @@ export const ifoV3ABI = [
     inputs: [
       { internalType: 'address', name: '_lpToken', type: 'address' },
       { internalType: 'address', name: '_offeringToken', type: 'address' },
-      { internalType: 'address', name: '_pancakeProfileAddress', type: 'address' },
+      { internalType: 'address', name: '_tankProfileAddress', type: 'address' },
       { internalType: 'uint256', name: '_startBlock', type: 'uint256' },
       { internalType: 'uint256', name: '_endBlock', type: 'uint256' },
       { internalType: 'uint256', name: '_maxBufferBlocks', type: 'uint256' },
@@ -402,7 +402,7 @@ export const ifoV3ABI = [
   },
   {
     inputs: [],
-    name: 'pancakeProfile',
+    name: 'tankProfile',
     outputs: [{ internalType: 'contract PancakeProfile', name: '', type: 'address' }],
     stateMutability: 'view',
     type: 'function',

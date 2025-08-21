@@ -1,4 +1,4 @@
-import { Currency, TradeType, UnifiedCurrency } from '@pancakeswap/swap-sdk-core'
+import { Currency, TradeType, UnifiedCurrency } from '@tankswap/swap-sdk-core'
 
 import { logger } from './datadog'
 

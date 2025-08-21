@@ -1,6 +1,6 @@
-import { GameType, PostersItemData, PostersLayout } from '@pancakeswap/games'
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Button, Card, CardHeader, Flex, Link, TelegramIcon, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { GameType, PostersItemData, PostersLayout } from '@tankswap/games'
+import { useTranslation } from '@tankswap/localization'
+import { Box, Button, Card, CardHeader, Flex, Link, TelegramIcon, Text, useMatchBreakpoints } from '@tankswap/uikit'
 import { Carousel } from 'components/Game/Home/Carousel'
 import { CarouselView } from 'components/Game/Home/CarouselView'
 import { StyledTag, TrendingTags } from 'components/Game/Home/TrendingTags'
@@ -102,7 +102,7 @@ export const Game: React.FC<React.PropsWithChildren<GameProps>> = ({ isLatest, g
 
   return (
     <StyledGameContainer isHorizontal={isHorizontal}>
-      {isLatest && isDesktop && game.id === 'pancake-protectors' && (
+      {isLatest && isDesktop && game.id === 'tank-protectors' && (
         <Flex flexDirection="column" mb="32px">
           <Box margin="auto">
             <Image width={59} height={64} alt="flagship-game" src="/images/game/home/flagship-game.png" />

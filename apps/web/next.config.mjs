@@ -2,8 +2,8 @@ import path from 'path'
 import { fileURLToPath } from 'url'
 /* eslint-disable @typescript-eslint/no-var-requires */
 import BundleAnalyzer from '@next/bundle-analyzer'
-import { withWebSecurityHeaders } from '@pancakeswap/next-config/withWebSecurityHeaders'
-import smartRouterPkgs from '@pancakeswap/smart-router/package.json' with { type: 'json' }
+import { withWebSecurityHeaders } from '@tankswap/next-config/withWebSecurityHeaders'
+import smartRouterPkgs from '@tankswap/smart-router/package.json' with { type: 'json' }
 import { withSentryConfig } from '@sentry/nextjs'
 import { createVanillaExtractPlugin } from '@vanilla-extract/next-plugin'
 import vercelToolbarPlugin from '@vercel/toolbar/plugins/next'
@@ -45,23 +45,23 @@ const sentryWebpackPluginOptions =
     }
 
 const workerDeps = Object.keys(smartRouterPkgs.dependencies)
-  .map((d) => d.replace('@pancakeswap/', 'packages/'))
+  .map((d) => d.replace('@tankswap/', 'packages/'))
   .concat(['/packages/smart-router/', '/packages/swap-sdk/', '/packages/token-lists/'])
 
 const prodTranspiles = [
     'next-typesafe-url',
-    '@pancakeswap/farms',
-    '@pancakeswap/localization',
-    '@pancakeswap/hooks',
-    '@pancakeswap/utils',
-    '@pancakeswap/widgets-internal',
-    '@pancakeswap/ifos',
-    '@pancakeswap/uikit'
+    '@tankswap/farms',
+    '@tankswap/localization',
+    '@tankswap/hooks',
+    '@tankswap/utils',
+    '@tankswap/widgets-internal',
+    '@tankswap/ifos',
+    '@tankswap/uikit'
   ]
 
 const basicTranspiles = [
   'next-typesafe-url',
-  '@pancakeswap/localization', 
+  '@tankswap/localization', 
 ]
 /** @type {import('next').NextConfig} */
 const config = {
@@ -75,7 +75,7 @@ const config = {
   experimental: {
     scrollRestoration: true,
     fallbackNodePolyfills: false,
-    optimizePackageImports: ['@pancakeswap/widgets-internal', '@pancakeswap/uikit'],
+    optimizePackageImports: ['@tankswap/widgets-internal', '@tankswap/uikit'],
     // Allow Next.js to handle CJS packages that depend on ESM modules
     // without throwing `import-esm-externals` errors
     esmExternals: 'loose',
@@ -93,17 +93,17 @@ const config = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'static-nft.pancakeswap.com',
+        hostname: 'static-nft.tankswap.com',
         pathname: '/mainnet/**',
       },
       {
         protocol: 'https',
-        hostname: 'assets.pancakeswap.finance',
+        hostname: 'assets.tankswap.finance',
         pathname: '/web/**',
       },
       {
         protocol: 'https',
-        hostname: 'tokens.pancakeswap.finance',
+        hostname: 'tokens.tankswap.finance',
         pathname: '/web/**',
       }
     ],
@@ -125,7 +125,7 @@ const config = {
         },
         {
           source: '/perp/:path*',
-          destination: 'https://perp.pancakeswap.finance/perp/:path*',
+          destination: 'https://perp.tankswap.finance/perp/:path*',
         },
       ],
     }
@@ -243,12 +243,12 @@ const config = {
       },
       {
         source: '/position-managers/:path*',
-        destination: 'https://legacy-pm.pancakeswap.finance/position-managers/:path*',
+        destination: 'https://legacy-pm.tankswap.finance/position-managers/:path*',
         permanent: true,
       },
       {
         source: '/images/tokens/:address',
-        destination: 'https://tokens.pancakeswap.finance/images/:address',
+        destination: 'https://tokens.tankswap.finance/images/:address',
         permanent: false,
       }
     ]

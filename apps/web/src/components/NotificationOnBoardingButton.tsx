@@ -1,5 +1,5 @@
-import { TranslateFunction, useTranslation } from '@pancakeswap/localization'
-import { AutoColumn, CircleLoader, Flex, Text, useToast } from '@pancakeswap/uikit'
+import { TranslateFunction, useTranslation } from '@tankswap/localization'
+import { AutoColumn, CircleLoader, Flex, Text, useToast } from '@tankswap/uikit'
 import { usePrepareRegistration, useRegister, useSubscribe, useSubscription } from '@web3inbox/react'
 import { CommitButton } from 'components/CommitButton'
 import ConnectWalletButton from 'components/ConnectWalletButton'

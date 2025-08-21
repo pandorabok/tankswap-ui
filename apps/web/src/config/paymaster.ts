@@ -1,8 +1,8 @@
-import { zksyncTokens } from '@pancakeswap/tokens'
+import { zksyncTokens } from '@tankswap/tokens'
 
-import { ChainId } from '@pancakeswap/chains'
-import { Currency, Native } from '@pancakeswap/sdk'
-import { getUniversalRouterAddress } from '@pancakeswap/universal-router-sdk'
+import { ChainId } from '@tankswap/chains'
+import { Currency, Native } from '@tankswap/sdk'
+import { getUniversalRouterAddress } from '@tankswap/universal-router-sdk'
 import addresses from 'config/constants/contracts'
 import { getAddressFromMap } from 'utils/addressHelpers'
 import { Address, Hex } from 'viem'

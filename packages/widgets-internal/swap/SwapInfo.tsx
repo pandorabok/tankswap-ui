@@ -1,7 +1,7 @@
-import { useTranslation } from "@pancakeswap/localization";
-import { useIsMounted } from "@pancakeswap/hooks";
+import { useTranslation } from "@tankswap/localization";
+import { useIsMounted } from "@tankswap/hooks";
 import { PropsWithChildren, ReactNode } from "react";
-import { AutoColumn, RowBetween, Text, TextProps, IconButton, PencilIcon } from "@pancakeswap/uikit";
+import { AutoColumn, RowBetween, Text, TextProps, IconButton, PencilIcon } from "@tankswap/uikit";
 
 type SwapInfoType = {
   price: ReactNode;

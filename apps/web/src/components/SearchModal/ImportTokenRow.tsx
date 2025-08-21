@@ -1,5 +1,5 @@
-import { UnifiedCurrency, UnifiedToken } from '@pancakeswap/swap-sdk-core'
-import { TokenRowButton } from '@pancakeswap/widgets-internal'
+import { UnifiedCurrency, UnifiedToken } from '@tankswap/swap-sdk-core'
+import { TokenRowButton } from '@tankswap/widgets-internal'
 import { CSSProperties } from 'react'
 import { getTokenSymbolAlias } from 'utils/getTokenAlias'
 import TokenRowWithCurrencyLogo from './TokenRowWithCurrencyLogo'

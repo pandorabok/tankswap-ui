@@ -1,9 +1,9 @@
-import type { Pool, Route } from '@pancakeswap/routing-sdk'
-import { InfinityBinPool, InfinityCLPool } from '@pancakeswap/routing-sdk-addon-infinity'
-import { StablePool } from '@pancakeswap/routing-sdk-addon-stable-swap'
-import { V2Pool } from '@pancakeswap/routing-sdk-addon-v2'
-import { V3Pool } from '@pancakeswap/routing-sdk-addon-v3'
-import { Currency, CurrencyAmount } from '@pancakeswap/swap-sdk-core'
+import type { Pool, Route } from '@tankswap/routing-sdk'
+import { InfinityBinPool, InfinityCLPool } from '@tankswap/routing-sdk-addon-infinity'
+import { StablePool } from '@tankswap/routing-sdk-addon-stable-swap'
+import { V2Pool } from '@tankswap/routing-sdk-addon-v2'
+import { V3Pool } from '@tankswap/routing-sdk-addon-v3'
+import { Currency, CurrencyAmount } from '@tankswap/swap-sdk-core'
 import type { PublicClient } from 'viem'
 
 export type QuoteRoute<P extends Pool = Pool> = Pick<Route<P>, 'path' | 'pools'> & {

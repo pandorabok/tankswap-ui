@@ -1,4 +1,4 @@
-export const pancakeProfileProxyABI = [
+export const tankProfileProxyABI = [
   {
     inputs: [
       { internalType: 'address', name: '_deployer', type: 'address' },

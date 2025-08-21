@@ -2,7 +2,7 @@ import { useRouter } from 'next/router'
 import { safeGetAddress } from 'utils'
 import Container from 'components/Layout/Container'
 import PancakeBunniesTraits from './PancakeBunniesTraits'
-import { pancakeBunniesAddress } from '../../constants'
+import { tankBunniesAddress } from '../../constants'
 import CollectionTraits from './CollectionTraits'
 
 const Traits = () => {
@@ -11,7 +11,7 @@ const Traits = () => {
   return (
     <>
       <Container py="40px">
-        {safeGetAddress(collectionAddress) === safeGetAddress(pancakeBunniesAddress) ? (
+        {safeGetAddress(collectionAddress) === safeGetAddress(tankBunniesAddress) ? (
           <PancakeBunniesTraits collectionAddress={collectionAddress} />
         ) : (
           <CollectionTraits collectionAddress={collectionAddress} />

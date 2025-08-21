@@ -62,7 +62,7 @@ export const MixedQuoterAbi = [
   },
   {
     type: 'function',
-    name: 'pancakeV3SwapCallback',
+    name: 'tankV3SwapCallback',
     inputs: [
       { name: 'amount0Delta', type: 'int256', internalType: 'int256' },
       { name: 'amount1Delta', type: 'int256', internalType: 'int256' },

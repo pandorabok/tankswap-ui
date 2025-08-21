@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@tankswap/chains'
 
 import IfoProvider from 'views/Ifos/contexts/IfoContext'
 import { NextPageWithLayout } from 'utils/page.types'

@@ -77,7 +77,7 @@ export const quoterV2ABI = [
         type: 'bytes',
       },
     ],
-    name: 'pancakeV3SwapCallback',
+    name: 'tankV3SwapCallback',
     outputs: [],
     stateMutability: 'view',
     type: 'function',

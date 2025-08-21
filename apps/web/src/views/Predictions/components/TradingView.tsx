@@ -1,5 +1,5 @@
 import { Suspense } from 'react'
-import { Flex, Spinner } from '@pancakeswap/uikit'
+import { Flex, Spinner } from '@tankswap/uikit'
 import TradingViewChart from 'components/TradingView'
 import { useConfig } from '../context/ConfigProvider'
 

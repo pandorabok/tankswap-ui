@@ -1,14 +1,14 @@
-import { isIfoSupported } from '@pancakeswap/ifos'
-import { useTranslation } from '@pancakeswap/localization'
-import { ChainId } from '@pancakeswap/sdk'
-import { Box, Button, Container, Flex, Heading, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { isIfoSupported } from '@tankswap/ifos'
+import { useTranslation } from '@tankswap/localization'
+import { ChainId } from '@tankswap/sdk'
+import { Box, Button, Container, Flex, Heading, Text, useMatchBreakpoints } from '@tankswap/uikit'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useRouter } from 'next/router'
 import { useMemo } from 'react'
 import { styled } from 'styled-components'
 
 import { ASSET_CDN } from 'config/constants/endpoints'
-import { getChainName } from '@pancakeswap/chains'
+import { getChainName } from '@tankswap/chains'
 import { getChainBasedImageUrl } from '../helpers'
 
 const StyledHero = styled(Box)`

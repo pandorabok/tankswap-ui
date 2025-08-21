@@ -1,10 +1,10 @@
-import { useTheme } from '@pancakeswap/hooks'
+import { useTheme } from '@tankswap/hooks'
 import html2canvas from 'html2canvas'
 import { useCallback, useMemo, useState } from 'react'
 
 export const OPTIONS = {
   scale: 2,
-  filename: 'pancake-gift',
+  filename: 'tank-gift',
 }
 
 async function convertToCanvas(elementId: string, isDark: boolean): Promise<Blob | null> {

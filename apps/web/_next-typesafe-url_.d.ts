@@ -90,7 +90,7 @@ declare module "@@@next-typesafe-url" {
     "/nfts/collections/[collectionAddress]": StaticRoute;
     "/nfts/collections": StaticRoute;
     "/nfts": StaticRoute;
-    "/pancake-squad": StaticRoute;
+    "/tank-squad": StaticRoute;
     "/pools/[chainName]/[id]": StaticRoute;
     "/pools/history": StaticRoute;
     "/pools": StaticRoute;
@@ -100,7 +100,7 @@ declare module "@@@next-typesafe-url" {
     "/profile/[accountAddress]/activity": StaticRoute;
     "/profile/[accountAddress]": StaticRoute;
     "/profile": StaticRoute;
-    "/profile/pancake-collectibles": StaticRoute;
+    "/profile/tank-collectibles": StaticRoute;
     "/remove/[tokenId]": StaticRoute;
     "/simple-staking": StaticRoute;
     "/sol/wallet-test": StaticRoute;

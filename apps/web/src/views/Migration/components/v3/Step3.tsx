@@ -1,11 +1,11 @@
-import { useTheme } from '@pancakeswap/hooks'
-import { AtomBox, AutoColumn, AutoRow, Heading, LinkExternal, Text } from '@pancakeswap/uikit'
-import { Chart } from '@pancakeswap/widgets-internal'
+import { useTheme } from '@tankswap/hooks'
+import { AtomBox, AutoColumn, AutoRow, Heading, LinkExternal, Text } from '@tankswap/uikit'
+import { Chart } from '@tankswap/widgets-internal'
 import { format } from 'd3'
-import { useTranslation } from '@pancakeswap/localization'
-import { ChainId } from '@pancakeswap/chains'
-import { bscTokens, ethereumTokens } from '@pancakeswap/tokens'
-import { FeeAmount } from '@pancakeswap/v3-sdk'
+import { useTranslation } from '@tankswap/localization'
+import { ChainId } from '@tankswap/chains'
+import { bscTokens, ethereumTokens } from '@tankswap/tokens'
+import { FeeAmount } from '@tankswap/v3-sdk'
 import { LightCard } from 'components/Card'
 import { Bound } from 'config/constants/types'
 import { useActiveChainId } from 'hooks/useActiveChainId'
@@ -306,7 +306,7 @@ export function Step3() {
         </LightCard>
       </AutoRow>
       <AtomBox p="48px">
-        <LinkExternal m="auto" href="https://docs.pancakeswap.finance/products/pancakeswap-exchange/liquidity-guide">
+        <LinkExternal m="auto" href="https://docs.tankswap.finance/products/tankswap-exchange/liquidity-guide">
           {t('Learn More')}
         </LinkExternal>
       </AtomBox>

@@ -1,6 +1,6 @@
-import { SPLToken } from '@pancakeswap/swap-sdk-core'
-import type { TokenInfo } from '@pancakeswap/solana-core-sdk'
-import { NonEVMChainId } from '@pancakeswap/chains'
+import { SPLToken } from '@tankswap/swap-sdk-core'
+import type { TokenInfo } from '@tankswap/solana-core-sdk'
+import { NonEVMChainId } from '@tankswap/chains'
 import { TOKEN_2022_PROGRAM_ID, TOKEN_PROGRAM_ID } from '@solana/spl-token-0.4'
 
 export const USER_ADDED_KEY = 'solana-user-added-tokens'
@@ -10,7 +10,7 @@ export const USER_ADDED_KEY = 'solana-user-added-tokens'
 type Parser = (data: any) => SPLToken[]
 
 export enum TokenListKey {
-  PANCAKESWAP = 'pancakeswap',
+  PANCAKESWAP = 'tankswap',
   RAYDIUM = 'raydium',
   JUPITER = 'jupiter',
 }
@@ -58,9 +58,9 @@ export const SOLANA_LISTS_CONFIG: Record<TokenListKey, SolanaTokenListConfig> = 
   [TokenListKey.PANCAKESWAP]: {
     key: TokenListKey.PANCAKESWAP,
     name: 'PancakeSwap',
-    logoURI: 'https://pancakeswap.finance/logo.png',
+    logoURI: 'https://tankswap.finance/logo.png',
     description: 'PancakeSwap Token List',
-    apiUrl: 'https://tokens.pancakeswap.finance/pancakeswap-solana-default.json',
+    apiUrl: 'https://tokens.tankswap.finance/tankswap-solana-default.json',
     parser: (data: { tokens: TokenInfo[] }) => {
       return (data?.tokens ?? []).map(convertRawTokenInfoIntoSPLToken)
     }, // Default parser for standard token lists

@@ -1,5 +1,5 @@
-import { bscTokens } from '@pancakeswap/tokens'
-import { getBalanceNumber } from '@pancakeswap/utils/formatBalance'
+import { bscTokens } from '@tankswap/tokens'
+import { getBalanceNumber } from '@tankswap/utils/formatBalance'
 import BigNumber from 'bignumber.js'
 import { easterPrizes, PrizesConfig } from 'config/constants/trading-competition/prizes'
 import { useCakePrice } from 'hooks/useCakePrice'

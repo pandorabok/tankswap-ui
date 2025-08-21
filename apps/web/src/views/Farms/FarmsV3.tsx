@@ -1,7 +1,7 @@
-import { ChainId } from '@pancakeswap/chains'
-import { FarmWithStakedValue, filterFarmsByQuery, supportedChainIdV2, supportedChainIdV3 } from '@pancakeswap/farms'
-import { useIntersectionObserver } from '@pancakeswap/hooks'
-import { useTranslation } from '@pancakeswap/localization'
+import { ChainId } from '@tankswap/chains'
+import { FarmWithStakedValue, filterFarmsByQuery, supportedChainIdV2, supportedChainIdV3 } from '@tankswap/farms'
+import { useIntersectionObserver } from '@tankswap/hooks'
+import { useTranslation } from '@tankswap/localization'
 import {
   Box,
   Flex,
@@ -16,11 +16,11 @@ import {
   Text,
   Toggle,
   ToggleView,
-} from '@pancakeswap/uikit'
+} from '@tankswap/uikit'
 import partition from 'lodash/partition'
 
-import { BIG_ONE, BIG_ZERO } from '@pancakeswap/utils/bigNumber'
-import { FarmWidget, NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+import { BIG_ONE, BIG_ZERO } from '@tankswap/utils/bigNumber'
+import { FarmWidget, NextLinkFromReactRouter } from '@tankswap/widgets-internal'
 import BigNumber from 'bignumber.js'
 import Page from 'components/Layout/Page'
 import { V2_BCAKE_MIGRATION_SUPPORTED_CHAINS, V3_MIGRATION_SUPPORTED_CHAINS } from 'config/constants/supportChains'
@@ -484,7 +484,7 @@ const Farms: React.FC<React.PropsWithChildren> = ({ children }) => {
                   external
                   color="failure"
                   fontSize={['16px', null, '20px']}
-                  href="https://v1-farms.pancakeswap.finance/farms/history"
+                  href="https://v1-farms.tankswap.finance/farms/history"
                 >
                   {t('check out v1 farms')}.
                 </FinishedExternalTextLink>

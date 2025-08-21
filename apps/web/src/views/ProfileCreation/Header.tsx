@@ -1,7 +1,7 @@
-import { TranslateFunction, useTranslation } from '@pancakeswap/localization'
-import { Breadcrumbs, Button, Heading, Text } from '@pancakeswap/uikit'
+import { TranslateFunction, useTranslation } from '@tankswap/localization'
+import { Breadcrumbs, Button, Heading, Text } from '@tankswap/uikit'
 import { styled } from 'styled-components'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+import { NextLinkFromReactRouter } from '@tankswap/widgets-internal'
 import useProfileCreation from './contexts/hook'
 
 const Wrapper = styled.div`

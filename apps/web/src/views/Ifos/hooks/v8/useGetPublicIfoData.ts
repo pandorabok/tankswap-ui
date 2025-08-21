@@ -1,6 +1,6 @@
-import { Ifo, IfoStatus, ifoV8ABI } from '@pancakeswap/ifos'
-import { CAKE } from '@pancakeswap/tokens'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
+import { Ifo, IfoStatus, ifoV8ABI } from '@tankswap/ifos'
+import { CAKE } from '@tankswap/tokens'
+import { BIG_ZERO } from '@tankswap/utils/bigNumber'
 import BigNumber from 'bignumber.js'
 import round from 'lodash/round'
 import { useCallback, useEffect, useState } from 'react'
@@ -14,7 +14,7 @@ import { publicClient } from 'utils/wagmi'
 import { PublicIfoData } from '../../types'
 import { getStatusByTimestamp } from '../helpers'
 
-// https://github.com/pancakeswap/pancake-contracts/blob/master/projects/ifo/contracts/IFOV2.sol#L431
+// https://github.com/tankswap/tank-contracts/blob/master/projects/ifo/contracts/IFOV2.sol#L431
 // 1,000,000,000 / 100
 const TAX_PRECISION = new BigNumber(10000000000)
 

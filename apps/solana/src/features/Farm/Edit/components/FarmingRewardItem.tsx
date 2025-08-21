@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { Badge, Box, Button, Flex, Grid, GridItem, HStack, SimpleGrid, Tag, Text, VStack, useDisclosure } from '@chakra-ui/react'
-import { TokenInfo } from '@pancakeswap/solana-core-sdk'
+import { TokenInfo } from '@tankswap/solana-core-sdk'
 
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import Decimal from 'decimal.js'
 import TokenAvatar from '@/components/TokenAvatar'
 import { useEvent } from '@/hooks/useEvent'

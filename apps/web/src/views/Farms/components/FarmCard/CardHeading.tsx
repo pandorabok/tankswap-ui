@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Token } from '@pancakeswap/sdk'
+import { useTranslation } from '@tankswap/localization'
+import { Token } from '@tankswap/sdk'
 import {
   AutoRow,
   Box,
@@ -11,9 +11,9 @@ import {
   Tag,
   Text,
   useTooltip,
-} from '@pancakeswap/uikit'
-import { FeeAmount } from '@pancakeswap/v3-sdk'
-import { FarmWidget } from '@pancakeswap/widgets-internal'
+} from '@tankswap/uikit'
+import { FeeAmount } from '@tankswap/v3-sdk'
+import { FarmWidget } from '@tankswap/widgets-internal'
 import { GiftTooltip } from 'components/GiftTooltip/GiftTooltip'
 import { TokenPairImage } from 'components/TokenImage'
 import { styled } from 'styled-components'

@@ -1,4 +1,4 @@
-import { PositionDetails } from '@pancakeswap/farms'
+import { PositionDetails } from '@tankswap/farms'
 import { atom } from 'jotai'
 import { ChainIdAddressKey } from '../type'
 

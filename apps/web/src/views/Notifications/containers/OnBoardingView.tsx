@@ -1,5 +1,5 @@
-import { Trans } from '@pancakeswap/localization'
-import { Box, Flex, FlexGap, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Trans } from '@tankswap/localization'
+import { Box, Flex, FlexGap, Text, useMatchBreakpoints } from '@tankswap/uikit'
 import { useSubscription } from '@web3inbox/react'
 import NotificationsOnboardingButton from 'components/NotificationOnBoardingButton'
 import { useInitializeNotifications } from 'hooks/useInitializeNotifications'

@@ -1,4 +1,4 @@
-import { Box, Link } from '@pancakeswap/uikit'
+import { Box, Link } from '@tankswap/uikit'
 import Trans from 'components/Trans'
 import { styled } from 'styled-components'
 
@@ -40,7 +40,7 @@ const config = [
       </Box>,
       <Box mt="1rem">
         <Trans>Learn more about iCAKE</Trans>
-        <InlineLink ml="4px" external href="https://docs.pancakeswap.finance/products/ifo-initial-farm-offering/icake">
+        <InlineLink ml="4px" external href="https://docs.tankswap.finance/products/ifo-initial-farm-offering/icake">
           <Trans>here</Trans>
         </InlineLink>
       </Box>,
@@ -135,7 +135,7 @@ const config = [
         <InlineLink
           ml="4px"
           external
-          href="https://medium.com/pancakeswap/community-initial-farm-offering-cifo-the-new-ifo-subtype-ac1abacf66be"
+          href="https://medium.com/tankswap/community-initial-farm-offering-cifo-the-new-ifo-subtype-ac1abacf66be"
         >
           <Trans>here</Trans>
         </InlineLink>

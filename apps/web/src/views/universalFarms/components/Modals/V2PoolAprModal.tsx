@@ -1,9 +1,9 @@
-import { Protocol } from '@pancakeswap/farms'
-import { useTranslation } from '@pancakeswap/localization'
-import { LegacyStableSwapPair } from '@pancakeswap/smart-router/legacy-router'
-import { ModalV2, RoiCalculatorModal, UseModalV2Props } from '@pancakeswap/uikit'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
-import { displayApr } from '@pancakeswap/utils/displayApr'
+import { Protocol } from '@tankswap/farms'
+import { useTranslation } from '@tankswap/localization'
+import { LegacyStableSwapPair } from '@tankswap/smart-router/legacy-router'
+import { ModalV2, RoiCalculatorModal, UseModalV2Props } from '@tankswap/uikit'
+import { BIG_ZERO } from '@tankswap/utils/bigNumber'
+import { displayApr } from '@tankswap/utils/displayApr'
 import BigNumber from 'bignumber.js'
 import { useCakePrice } from 'hooks/useCakePrice'
 import { useMemo } from 'react'
@@ -11,7 +11,7 @@ import { useAccountPositionDetailByPool } from 'state/farmsV4/hooks'
 import { useStableSwapPairsByChainId } from 'state/farmsV4/state/accountPositions/hooks'
 import { StablePoolInfo, V2PoolInfo } from 'state/farmsV4/state/type'
 import { isAddressEqual } from 'utils'
-import { getCurrencyAddress } from '@pancakeswap/swap-sdk-core'
+import { getCurrencyAddress } from '@tankswap/swap-sdk-core'
 import getLiquidityUrlPathParts from 'utils/getLiquidityUrlPathParts'
 import { Address } from 'viem'
 import { useMasterChefV2Data } from 'views/Farms/hooks/useMasterChefV2Data'
@@ -38,7 +38,7 @@ const AprModal: React.FC<Omit<V2PoolAprModalProps, 'modal'>> = ({ poolInfo, comb
     [poolInfo],
   )
   const lpLabel = useMemo(() => {
-    return lpSymbol.replace(/pancake/gi, '')
+    return lpSymbol.replace(/tank/gi, '')
   }, [lpSymbol])
   const { data: userPosition } = useAccountPositionDetailByPool<Protocol.STABLE | Protocol.V2>(
     poolInfo.chainId,

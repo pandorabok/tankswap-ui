@@ -1,8 +1,8 @@
 /* eslint-disable react/no-array-index-key */
-import { isIfoSupported } from '@pancakeswap/ifos'
-import { useTranslation } from '@pancakeswap/localization'
-import { ChainId } from '@pancakeswap/sdk'
-import { Card, CardBody, CardHeader, Container, Flex, Heading, Image, Text } from '@pancakeswap/uikit'
+import { isIfoSupported } from '@tankswap/ifos'
+import { useTranslation } from '@tankswap/localization'
+import { ChainId } from '@tankswap/sdk'
+import { Card, CardBody, CardHeader, Container, Flex, Heading, Image, Text } from '@tankswap/uikit'
 import FoldableText from 'components/FoldableSection/FoldableText'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useMemo } from 'react'

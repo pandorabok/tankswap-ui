@@ -1,6 +1,6 @@
-import { usePreviousValue } from '@pancakeswap/hooks'
+import { usePreviousValue } from '@tankswap/hooks'
 import styled from 'styled-components'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import {
   Box,
   BoxProps,
@@ -11,7 +11,7 @@ import {
   PreTitle,
   QuestionHelper,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
+} from '@tankswap/uikit'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { useFeeLevelQueryState } from 'state/infinity/create'
 

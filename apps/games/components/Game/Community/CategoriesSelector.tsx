@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
-import { Flex, Button, Text } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Flex, Button, Text } from '@tankswap/uikit'
+import { useTranslation } from '@tankswap/localization'
 import { GameCategoriesType } from 'hooks/useGameCategories'
 
 interface CategoriesSelectorProps {

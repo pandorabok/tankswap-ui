@@ -1,12 +1,12 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { CAKE_VAULT_SUPPORTED_CHAINS, isCakeVaultSupported } from '@pancakeswap/pools'
-import { Button, Flex, Text, useModalV2 } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { CAKE_VAULT_SUPPORTED_CHAINS, isCakeVaultSupported } from '@tankswap/pools'
+import { Button, Flex, Text, useModalV2 } from '@tankswap/uikit'
 import { useCallback, useMemo } from 'react'
 import { SpaceProps } from 'styled-system'
 
 import { useActiveChainId } from 'hooks/useActiveChainId'
 
-import { isTestnetChainId } from '@pancakeswap/chains'
+import { isTestnetChainId } from '@tankswap/chains'
 import { useRouter } from 'next/router'
 import { useChainNames } from '../../../hooks/useChainNames'
 import { ICakeLogo } from '../../Icons'

@@ -1,4 +1,4 @@
-import { Flex, FlexGap } from '@pancakeswap/uikit'
+import { Flex, FlexGap } from '@tankswap/uikit'
 import { DefaultExplorerSettingField } from 'components/Settings/DefaultExplorerSettingField'
 import { RPCConnectionSettingField } from 'components/Settings/RPCConnectionSettingField'
 

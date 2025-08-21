@@ -66,14 +66,14 @@ it("renders correctly", () => {
       box-shadow: var(--shadows-focus);
     }
 
-    .c1:active:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled) {
+    .c1:active:not(:disabled):not(.tank-button--disabled):not(.tank-button--disabled) {
       opacity: 0.85;
       transform: translateY(1px);
       box-shadow: none;
     }
 
     .c1:disabled,
-    .c1.pancake-button--disabled {
+    .c1.tank-button--disabled {
       background-color: var(--colors-backgroundDisabled);
       border-color: var(--colors-backgroundDisabled);
       box-shadow: none;
@@ -91,7 +91,7 @@ it("renders correctly", () => {
     }
 
     @media (hover: hover) {
-      .c1:hover:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled):not(:active) {
+      .c1:hover:not(:disabled):not(.tank-button--disabled):not(.tank-button--disabled):not(:active) {
         opacity: 0.65;
       }
     }

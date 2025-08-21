@@ -1,4 +1,4 @@
-import { Price, Token, Currency, Percent, Fraction } from "@pancakeswap/sdk";
+import { Price, Token, Currency, Percent, Fraction } from "@tankswap/sdk";
 import { parseUnits } from "viem";
 import {
   encodeSqrtRatioX96,
@@ -7,8 +7,8 @@ import {
   priceToClosestTick,
   TICK_SPACINGS,
   TickMath,
-} from "@pancakeswap/v3-sdk";
-import tryParseAmount from "@pancakeswap/utils/tryParseAmount";
+} from "@tankswap/v3-sdk";
+import tryParseAmount from "@tankswap/utils/tryParseAmount";
 
 export * from "./computeSurroundingTicks";
 export * from "./getTokenAmountsFromDepositUsd";

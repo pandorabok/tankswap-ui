@@ -1,7 +1,7 @@
 // NOTE: duplicate of the function in apps/web/src/views/Swap/V3Swap/utils/exchange.ts
 
-import { ChainId, chainNames } from "@pancakeswap/chains";
-import { Currency } from "@pancakeswap/sdk";
+import { ChainId, chainNames } from "@tankswap/chains";
+import { Currency } from "@tankswap/sdk";
 import upperCase from "lodash/upperCase";
 // due to the dependency limitation
 export function displaySymbolWithChainName(currency?: Currency, showChainName?: boolean) {

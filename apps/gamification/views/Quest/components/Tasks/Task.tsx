@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Native } from '@pancakeswap/sdk'
+import { useTranslation } from '@tankswap/localization'
+import { Native } from '@tankswap/sdk'
 import {
   Box,
   Button,
@@ -16,8 +16,8 @@ import {
   Text,
   useModal,
   useToast,
-} from '@pancakeswap/uikit'
-import { updateQuery } from '@pancakeswap/utils/clientRouter'
+} from '@tankswap/uikit'
+import { updateQuery } from '@tankswap/utils/clientRouter'
 import { CHAIN_QUERY_NAME } from 'config/chains'
 import { useDebounceCallback } from 'hooks/useDebouncedCallback'
 import { useSiwe } from 'hooks/useSiwe'
@@ -339,8 +339,8 @@ export const Task: React.FC<TaskProps> = ({ questId, task, taskStatus, hasIdRegi
       const isNativeToken = ADDRESS_ZERO.toLowerCase() === tokenAddress.toLowerCase()
 
       const url = isNativeToken
-        ? `https://pancakeswap.finance/swap?chain=${CHAIN_QUERY_NAME[network]}&persistChain=${network}&outputCurrency=${nativeToken.symbol}`
-        : `https://pancakeswap.finance/swap?chain=${CHAIN_QUERY_NAME[network]}&persistChain=${network}&outputCurrency=${tokenAddress}`
+        ? `https://tankswap.finance/swap?chain=${CHAIN_QUERY_NAME[network]}&persistChain=${network}&outputCurrency=${nativeToken.symbol}`
+        : `https://tankswap.finance/swap?chain=${CHAIN_QUERY_NAME[network]}&persistChain=${network}&outputCurrency=${tokenAddress}`
       window.open(url, '_blank', 'noopener noreferrer')
     }
   }

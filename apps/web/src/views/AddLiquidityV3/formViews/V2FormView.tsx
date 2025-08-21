@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Pair, Percent } from '@pancakeswap/sdk'
+import { useTranslation } from '@tankswap/localization'
+import { Pair, Percent } from '@tankswap/sdk'
 import {
   AutoColumn,
   Box,
@@ -16,8 +16,8 @@ import {
   ScanLink,
   Text,
   Toggle,
-} from '@pancakeswap/uikit'
-import { useIsExpertMode } from '@pancakeswap/utils/user'
+} from '@tankswap/uikit'
+import { useIsExpertMode } from '@tankswap/utils/user'
 import { ReactNode, useMemo } from 'react'
 import { ChainLinkSupportChains } from 'state/info/constant'
 import useNativeCurrency from 'hooks/useNativeCurrency'
@@ -34,7 +34,7 @@ import ApproveLiquidityTokens from 'views/AddLiquidityV3/components/ApproveLiqui
 import { MevProtectToggle } from 'views/Mev/MevProtectToggle'
 import CurrencyInputPanelSimplify from 'components/CurrencyInputPanelSimplify'
 import { LiquiditySlippageButton, SlippageButton } from 'views/Swap/components/SlippageButton'
-import tryParseAmount from '@pancakeswap/utils/tryParseAmount'
+import tryParseAmount from '@tankswap/utils/tryParseAmount'
 import { formatDollarAmount } from 'views/V3Info/utils/numbers'
 import { useTotalUsdValue } from '../../AddLiquidity/hooks/useTotalUsdValue'
 import { useNativeCurrencyInstead } from '../hooks/useNativeCurrencyInstead'
@@ -136,7 +136,7 @@ export default function V2FormView({
                 )}
               </MessageText>
               <LinkExternal
-                href="https://docs.pancakeswap.finance/products/pancakeswap-exchange/faq#why-cant-i-add-liquidity-to-a-pair-i-just-created"
+                href="https://docs.tankswap.finance/products/tankswap-exchange/faq#why-cant-i-add-liquidity-to-a-pair-i-just-created"
                 mt="0.25rem"
               >
                 {t('Learn more how to fix')}

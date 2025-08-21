@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Button, CardBody, Select, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Box, Button, CardBody, Select, Text } from '@tankswap/uikit'
 import { AppHeader } from 'components/App'
 import NextLink from 'next/link'
 import { OptionProps } from 'pages/liquid-staking/index'

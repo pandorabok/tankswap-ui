@@ -1,5 +1,5 @@
-import { ERC20Token } from "@pancakeswap/sdk";
-import { ChainId } from "@pancakeswap/chains";
+import { ERC20Token } from "@tankswap/sdk";
+import { ChainId } from "@tankswap/chains";
 
 // For StoryBook
 export const cakeToken = new ERC20Token(
@@ -8,7 +8,7 @@ export const cakeToken = new ERC20Token(
   18,
   "CAKE",
   "PancakeSwap Token",
-  "https://pancakeswap.finance/"
+  "https://tankswap.finance/"
 );
 
 export const bscToken = new ERC20Token(

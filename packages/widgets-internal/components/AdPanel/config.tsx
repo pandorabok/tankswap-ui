@@ -1,4 +1,4 @@
-import { useMatchBreakpoints } from "@pancakeswap/uikit";
+import { useMatchBreakpoints } from "@tankswap/uikit";
 import { useMemo } from "react";
 import { AdSlide } from "./types";
 

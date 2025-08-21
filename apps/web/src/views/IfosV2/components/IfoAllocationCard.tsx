@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Card, CardBody, Button, Text, FlexGap } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Card, CardBody, Button, Text, FlexGap } from '@tankswap/uikit'
 import AddToWalletButton from 'components/AddToWallet/AddToWalletButton'
 
 interface IfoAllocationCardProps {
@@ -17,7 +17,7 @@ export const IfoAllocationDisplay: React.FC<IfoAllocationCardProps> = ({
 }) => {
   const { t } = useTranslation()
   const amount = allocatedAmount ?? '0'
-  const swapUrl = `https://pancakeswap.finance/swap?chain=bsc&inputCurrency=${tokenAddress}&outputCurrency=BNB`
+  const swapUrl = `https://tankswap.finance/swap?chain=bsc&inputCurrency=${tokenAddress}&outputCurrency=BNB`
 
   return (
     <FlexGap flexDirection="column" alignItems="center" gap="16px">

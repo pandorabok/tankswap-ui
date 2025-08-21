@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import {
   Box,
   ChevronRightIcon,
@@ -9,7 +9,7 @@ import {
   SwapLoading,
   Text,
   useModalV2,
-} from '@pancakeswap/uikit'
+} from '@tankswap/uikit'
 import { useMemo } from 'react'
 
 import {
@@ -17,12 +17,12 @@ import {
   TransactionListItemTitle,
   TransactionListItemV2,
   TransactionStatusV2,
-} from '@pancakeswap/widgets-internal'
+} from '@tankswap/widgets-internal'
 
 import styled from 'styled-components'
 
-import { CurrencyAmount } from '@pancakeswap/swap-sdk-core'
-import { formatScientificToDecimal } from '@pancakeswap/utils/formatNumber'
+import { CurrencyAmount } from '@tankswap/swap-sdk-core'
+import { formatScientificToDecimal } from '@tankswap/utils/formatNumber'
 import { useQuery } from '@tanstack/react-query'
 import { ViewOnExplorerButton } from 'components/ViewOnExplorerButton'
 import { DISPLAY_PRECISION } from 'config/constants/formatting'

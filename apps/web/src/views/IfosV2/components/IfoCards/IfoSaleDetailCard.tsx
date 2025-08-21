@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Card, CardBody, FlexGap, Text, CheckmarkCircleIcon, Box } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Card, CardBody, FlexGap, Text, CheckmarkCircleIcon, Box } from '@tankswap/uikit'
 import useTheme from 'hooks/useTheme'
 import useIfo from '../../hooks/useIfo'
 import IfoPoolInfoDisplay from './IfoPoolInfoDisplay'

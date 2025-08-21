@@ -1,6 +1,6 @@
 import { styled } from "styled-components";
-import { useTranslation } from "@pancakeswap/localization";
-import { Button, RowFixed, Text, CheckmarkCircleIcon, useMatchBreakpoints } from "@pancakeswap/uikit";
+import { useTranslation } from "@tankswap/localization";
+import { Button, RowFixed, Text, CheckmarkCircleIcon, useMatchBreakpoints } from "@tankswap/uikit";
 
 export const CheckIcon = styled(CheckmarkCircleIcon)`
   height: 16px;

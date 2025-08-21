@@ -1,7 +1,7 @@
-import { Protocol } from "@pancakeswap/farms";
-import { useTranslation } from "@pancakeswap/localization";
-import { Percent } from "@pancakeswap/swap-sdk-core";
-import { FeeTier, LinkExternal, Text, useTooltip } from "@pancakeswap/uikit";
+import { Protocol } from "@tankswap/farms";
+import { useTranslation } from "@tankswap/localization";
+import { Percent } from "@tankswap/swap-sdk-core";
+import { FeeTier, LinkExternal, Text, useTooltip } from "@tankswap/uikit";
 import { useMemo } from "react";
 
 export type FeeTierTooltipProps = {
@@ -32,7 +32,7 @@ const FeeTooltips: React.FC<FeeTierTooltipProps> = ({ type, dynamic, percent, sh
             <>
               {t("Dynamic fee: ↕️ %p%% Fee may vary based on several conditions", { p })}
               {/* @todo @ChefJerry */}
-              <LinkExternal href="https://pancakeswap.finance/#todo">{t("Learn more")}</LinkExternal>
+              <LinkExternal href="https://tankswap.finance/#todo">{t("Learn more")}</LinkExternal>
             </>
           ) : (
             t("Static Fee: %p%%", { p })

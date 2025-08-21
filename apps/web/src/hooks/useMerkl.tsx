@@ -1,7 +1,7 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency, CurrencyAmount, Token } from '@pancakeswap/sdk'
-import { TokenInfo } from '@pancakeswap/token-lists'
-import { useToast } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Currency, CurrencyAmount, Token } from '@tankswap/sdk'
+import { TokenInfo } from '@tankswap/token-lists'
+import { useToast } from '@tankswap/uikit'
 import { useQuery } from '@tanstack/react-query'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import { distributorABI } from 'config/abi/AngleProtocolDistributor'
@@ -19,7 +19,7 @@ import { useWalletClient } from 'wagmi'
 import { useMasterchefV3 } from 'hooks/useContract'
 import { isAddressEqual } from 'utils'
 import { useCurrentBlockTimestamp as useBlockTimestamp } from 'state/block/hooks'
-import { supportedChainIdV4 } from '@pancakeswap/farms'
+import { supportedChainIdV4 } from '@tankswap/farms'
 
 export const MERKL_API_V4 = 'https://api.merkl.xyz/v4'
 
@@ -47,7 +47,7 @@ export function useMerklInfo(poolAddress?: string): {
       const responsev4 = await fetch(
         `${MERKL_API_V4}/opportunities?${supportedChainIdV4.join(
           ',',
-        )}&test=false&mainProtocolId=pancake-swap&action=POOL,HOLD&status=LIVE`,
+        )}&test=false&mainProtocolId=tank-swap&action=POOL,HOLD&status=LIVE`,
       )
 
       if (!responsev4.ok) {
@@ -59,8 +59,8 @@ export function useMerklInfo(poolAddress?: string): {
       const opportunities = merklDataV4?.filter(
         (opportunity) =>
           opportunity?.tokens?.[0]?.symbol?.toLowerCase().startsWith('cake-lp') ||
-          opportunity?.protocol?.id?.toLowerCase().startsWith('pancake-swap') ||
-          opportunity?.protocol?.id?.toLowerCase().startsWith('pancakeswap'),
+          opportunity?.protocol?.id?.toLowerCase().startsWith('tank-swap') ||
+          opportunity?.protocol?.id?.toLowerCase().startsWith('tankswap'),
       )
 
       if (!opportunities || !opportunities.length) return undefined

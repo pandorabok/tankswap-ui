@@ -1,6 +1,6 @@
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
-import { Pool } from '@pancakeswap/widgets-internal'
-import { Coin } from '@pancakeswap/aptos-swap-sdk'
+import { Pool } from '@tankswap/widgets-internal'
+import { Coin } from '@tankswap/aptos-swap-sdk'
 
 const withShownApr = (AprComp) => (props) => {
   const { account } = useActiveWeb3React()

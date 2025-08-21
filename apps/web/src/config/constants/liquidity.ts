@@ -1,5 +1,5 @@
-import { ChainId, chainNames } from '@pancakeswap/chains'
-import { Protocol } from '@pancakeswap/farms'
+import { ChainId, chainNames } from '@tankswap/chains'
+import { Protocol } from '@tankswap/farms'
 import { $path } from 'next-typesafe-url'
 import { Address, Hex } from 'viem'
 import { PERSIST_CHAIN_KEY } from '.'

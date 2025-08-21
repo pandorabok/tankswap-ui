@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Button, Flex, InjectedModalProps, Modal, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Button, Flex, InjectedModalProps, Modal, Text } from '@tankswap/uikit'
 import NextLink from 'next/link'
 
 interface ConnectSocialAccountModalProps extends InjectedModalProps {

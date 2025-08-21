@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Modal, useToast } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Box, Modal, useToast } from '@tankswap/uikit'
 import snapshot from '@snapshot-labs/snapshot.js'
 import { useState } from 'react'
 import { ProposalTypeName } from 'state/types'

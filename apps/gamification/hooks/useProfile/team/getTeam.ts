@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { pancakeProfileABI } from 'config/abi/pancakeProfile'
+import { ChainId } from '@tankswap/chains'
+import { tankProfileABI } from 'config/abi/tankProfile'
 import fromPairs from 'lodash/fromPairs'
 import merge from 'lodash/merge'
 import { getPancakeProfileAddress } from 'utils/addressHelpers'
@@ -42,7 +42,7 @@ export const getTeams = async (): Promise<TeamsById | null> => {
     const calls = Array.from({ length: Number(nbTeams) }).map(
       (_, i) =>
         ({
-          abi: pancakeProfileABI,
+          abi: tankProfileABI,
           address: getPancakeProfileAddress(),
           functionName: 'getTeamProfile',
           args: [BigInt(i + 1)] as const,

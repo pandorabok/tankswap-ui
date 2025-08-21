@@ -1,10 +1,10 @@
-import { chainNames } from '@pancakeswap/chains'
-import { Protocol } from '@pancakeswap/farms'
-import { useTheme } from '@pancakeswap/hooks'
-import { getPoolId } from '@pancakeswap/infinity-sdk'
-import { useTranslation } from '@pancakeswap/localization'
-import { type Currency } from '@pancakeswap/swap-sdk-core'
-import { bscTokens } from '@pancakeswap/tokens'
+import { chainNames } from '@tankswap/chains'
+import { Protocol } from '@tankswap/farms'
+import { useTheme } from '@tankswap/hooks'
+import { getPoolId } from '@tankswap/infinity-sdk'
+import { useTranslation } from '@tankswap/localization'
+import { type Currency } from '@tankswap/swap-sdk-core'
+import { bscTokens } from '@tankswap/tokens'
 import {
   AutoColumn,
   AutoRow,
@@ -16,9 +16,9 @@ import {
   ModalV2Props,
   Text,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
-import { formatFiatNumber } from '@pancakeswap/utils/formatFiatNumber'
-import { formatNumber } from '@pancakeswap/utils/formatNumber'
+} from '@tankswap/uikit'
+import { formatFiatNumber } from '@tankswap/utils/formatFiatNumber'
+import { formatNumber } from '@tankswap/utils/formatNumber'
 import {
   CurrencyLogo,
   DoubleCurrencyLogo,
@@ -26,7 +26,7 @@ import {
   GreyCard,
   Tips,
   TokenOverview,
-} from '@pancakeswap/widgets-internal'
+} from '@tankswap/widgets-internal'
 import BigNumber from 'bignumber.js'
 import { InfinityFeeTierBreakdown } from 'components/FeeTierBreakdown'
 import { TokenPairLogo } from 'components/TokenImage'

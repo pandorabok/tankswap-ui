@@ -1,5 +1,5 @@
-import { HOOK_CATEGORY, findHook } from '@pancakeswap/infinity-sdk'
-import { OrderType } from '@pancakeswap/price-api-sdk'
+import { HOOK_CATEGORY, findHook } from '@tankswap/infinity-sdk'
+import { OrderType } from '@tankswap/price-api-sdk'
 import {
   Currency,
   CurrencyAmount,
@@ -11,11 +11,11 @@ import {
   UnifiedCurrency,
   UnifiedCurrencyAmount,
   ZERO,
-} from '@pancakeswap/sdk'
-import { Route, SmartRouter, SmartRouterTrade } from '@pancakeswap/smart-router'
-import { formatPrice, parseNumberToFraction } from '@pancakeswap/utils/formatFractions'
-import { FeeAmount } from '@pancakeswap/v3-sdk'
-import { displaySymbolWithChainName } from '@pancakeswap/widgets-internal'
+} from '@tankswap/sdk'
+import { Route, SmartRouter, SmartRouterTrade } from '@tankswap/smart-router'
+import { formatPrice, parseNumberToFraction } from '@tankswap/utils/formatFractions'
+import { FeeAmount } from '@tankswap/v3-sdk'
+import { displaySymbolWithChainName } from '@tankswap/widgets-internal'
 
 import { BIPS_BASE, INPUT_FRACTION_AFTER_FEE } from 'config/constants/exchange'
 import last from 'lodash/last'

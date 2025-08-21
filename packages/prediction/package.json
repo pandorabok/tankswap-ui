@@ -1,5 +1,5 @@
 {
-  "name": "@pancakeswap/prediction",
+  "name": "@tankswap/prediction",
   "version": "1.1.18",
   "sideEffects": false,
   "private": true,
@@ -8,16 +8,16 @@
   },
   "type": "module",
   "peerDependencies": {
-    "@pancakeswap/sdk": "workspace:*"
+    "@tankswap/sdk": "workspace:*"
   },
   "dependencies": {
-    "@pancakeswap/chains": "workspace:*",
-    "@pancakeswap/pools": "workspace:*",
-    "@pancakeswap/tokens": "workspace:*",
+    "@tankswap/chains": "workspace:*",
+    "@tankswap/pools": "workspace:*",
+    "@tankswap/tokens": "workspace:*",
     "viem": "catalog:"
   },
   "devDependencies": {
-    "@pancakeswap/sdk": "workspace:*",
-    "@pancakeswap/tsconfig": "workspace:*"
+    "@tankswap/sdk": "workspace:*",
+    "@tankswap/tsconfig": "workspace:*"
   }
 }

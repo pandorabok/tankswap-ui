@@ -1,4 +1,4 @@
-import { Card, CardBody, FlexGap, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Card, CardBody, FlexGap, useMatchBreakpoints } from '@tankswap/uikit'
 import { PoolInfo, IFOUserStatus } from 'views/IfosV2/ifov2.types'
 import useTheme from 'hooks/useTheme'
 import { IfoAllocationCard } from '../IfoAllocationCard'

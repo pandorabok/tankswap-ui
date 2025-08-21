@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@tankswap/chains'
 import MERKL_POOLS from 'config/constants/merklPools.json'
 import memoize from 'lodash/memoize'
 import { useMemo } from 'react'

@@ -1,4 +1,4 @@
-import { getChainName, isEvm } from '@pancakeswap/chains'
+import { getChainName, isEvm } from '@tankswap/chains'
 import { CHAIN_QUERY_NAME } from 'config/chains'
 import { useActiveChainIdRef } from 'hooks/useAccountActiveChain'
 import useAuth from 'hooks/useAuth'
@@ -155,7 +155,7 @@ const useProcessSwitchChainRequest = () => {
 
         // Solana
         if (!SOLANA_SUPPORTED_PATH.includes(path)) {
-          window.open('https://solana.pancakeswap.finance', '_self')
+          window.open('https://solana.tankswap.finance', '_self')
           return true
         }
         updateAccountState((prev) => ({

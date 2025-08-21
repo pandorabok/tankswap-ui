@@ -1,6 +1,6 @@
 /* eslint-disable react/no-array-index-key */
-import { useTranslation } from '@pancakeswap/localization'
-import { Card, CardBody, CardHeader, Heading, Text, Container } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Card, CardBody, CardHeader, Heading, Text, Container } from '@tankswap/uikit'
 import { styled } from 'styled-components'
 import FoldableText from 'components/FoldableSection/FoldableText'
 import { IFOFAQs } from '../../ifov2.types'

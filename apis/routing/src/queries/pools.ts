@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@tankswap/chains'
 import { getAddress } from 'viem'
 
 const CHAIN_TO_QUERY = {
@@ -28,7 +28,7 @@ export async function getPoolsTvlFromExplorerAPI({ chainId }: { chainId: ChainId
   while (hasMorePools) {
     // eslint-disable-next-line no-await-in-loop
     const res = await fetch(
-      `https://explorer.pancakeswap.com/api/cached/pools/list?orderBy=tvlUSD&protocols=v3&chains=${chain}${
+      `https://explorer.tankswap.com/api/cached/pools/list?orderBy=tvlUSD&protocols=v3&chains=${chain}${
         endCursor ? `&after=${endCursor}` : ''
       }`,
       {

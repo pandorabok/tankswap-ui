@@ -1,5 +1,5 @@
 {
-  "name": "@pancakeswap/farms",
+  "name": "@tankswap/farms",
   "version": "1.2.12",
   "sideEffects": false,
   "private": true,
@@ -14,15 +14,15 @@
     "wrangler": "catalog:"
   },
   "dependencies": {
-    "@pancakeswap/price-api-sdk": "workspace:*",
-    "@pancakeswap/chains": "workspace:*",
-    "@pancakeswap/sdk": "workspace:*",
-    "@pancakeswap/stable-swap-sdk": "workspace:*",
-    "@pancakeswap/swap-sdk-core": "workspace:*",
-    "@pancakeswap/token-lists": "workspace:*",
-    "@pancakeswap/tokens": "workspace:*",
-    "@pancakeswap/utils": "workspace:*",
-    "@pancakeswap/v3-sdk": "workspace:*",
+    "@tankswap/price-api-sdk": "workspace:*",
+    "@tankswap/chains": "workspace:*",
+    "@tankswap/sdk": "workspace:*",
+    "@tankswap/stable-swap-sdk": "workspace:*",
+    "@tankswap/swap-sdk-core": "workspace:*",
+    "@tankswap/token-lists": "workspace:*",
+    "@tankswap/tokens": "workspace:*",
+    "@tankswap/utils": "workspace:*",
+    "@tankswap/v3-sdk": "workspace:*",
     "bignumber.js": "^9.0.0",
     "dayjs": "^1.11.10",
     "viem": "catalog:"

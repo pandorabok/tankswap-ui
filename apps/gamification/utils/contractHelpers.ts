@@ -8,10 +8,10 @@ import {
 } from 'utils/addressHelpers'
 
 // ABI
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@tankswap/chains'
 import { bunnyFactoryABI } from 'config/abi/bunnyFactory'
 import { nftMarketABI } from 'config/abi/nftMarket'
-import { pancakeProfileABI } from 'config/abi/pancakeProfile'
+import { tankProfileABI } from 'config/abi/tankProfile'
 import { pointCenterIfoABI } from 'config/abi/pointCenterIfo'
 import { questRewardAbi } from 'config/abi/questRewardAbi'
 import { viemClients } from 'utils/viem'
@@ -72,7 +72,7 @@ export const getBunnyFactoryContract = (signer?: WalletClient) => {
 }
 
 export const getProfileContract = (signer?: WalletClient) => {
-  return getContract({ abi: pancakeProfileABI, address: getPancakeProfileAddress(), signer })
+  return getContract({ abi: tankProfileABI, address: getPancakeProfileAddress(), signer })
 }
 
 export const getNftMarketContract = (signer?: WalletClient) => {

@@ -1,7 +1,7 @@
-import { Box, Flex, Logo, ThemeSwitcher, Link, Button, LangSelector } from '@pancakeswap/uikit'
+import { Box, Flex, Logo, ThemeSwitcher, Link, Button, LangSelector } from '@tankswap/uikit'
 import { useTheme as useNextTheme } from 'next-themes'
-import { useTranslation, languageList } from '@pancakeswap/localization'
-import { useTheme } from '@pancakeswap/hooks'
+import { useTranslation, languageList } from '@tankswap/localization'
+import { useTheme } from '@tankswap/hooks'
 import NoSSR from 'components/NoSSR'
 
 const Menu = () => {
@@ -28,7 +28,7 @@ const Menu = () => {
           langs={languageList}
           setLang={setLanguage}
         />
-        <Link external href="https://pancakeswap.finance/">
+        <Link external href="https://tankswap.finance/">
           <Button scale="sm">{t('Launch App')}</Button>
         </Link>
       </Flex>

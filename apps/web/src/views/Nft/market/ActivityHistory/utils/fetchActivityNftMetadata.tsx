@@ -4,12 +4,12 @@ import { getNftsFromCollectionApi, getNftsFromDifferentCollectionsApi } from 'st
 import { Activity, ApiSingleTokenData, NftToken, TokenIdWithCollectionAddress } from 'state/nftMarket/types'
 import { safeGetAddress } from 'utils'
 import { Address } from 'viem'
-import { pancakeBunniesAddress } from '../../constants'
+import { tankBunniesAddress } from '../../constants'
 
 export const fetchActivityNftMetadata = async (activities: Activity[]): Promise<NftToken[]> => {
   const [pbCollections, nonPBCollections] = partition(
     activities,
-    (activity) => safeGetAddress(activity.nft?.collection.id) === safeGetAddress(pancakeBunniesAddress),
+    (activity) => safeGetAddress(activity.nft?.collection.id) === safeGetAddress(tankBunniesAddress),
   )
 
   const activityNftTokenIds = uniqBy(
@@ -21,7 +21,7 @@ export const fetchActivityNftMetadata = async (activities: Activity[]): Promise<
   )
 
   const [bunniesMetadata, nfts] = await Promise.all([
-    pbCollections.length ? getNftsFromCollectionApi(pancakeBunniesAddress) : Promise.resolve(null),
+    pbCollections.length ? getNftsFromCollectionApi(tankBunniesAddress) : Promise.resolve(null),
     getNftsFromDifferentCollectionsApi(activityNftTokenIds),
   ])
 

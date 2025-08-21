@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Route, RouteType, SVMPool } from '@pancakeswap/smart-router'
+import { useTranslation } from '@tankswap/localization'
+import { Route, RouteType, SVMPool } from '@tankswap/smart-router'
 import {
   AutoColumn,
   Flex,
@@ -10,17 +10,17 @@ import {
   Text,
   UseModalV2Props,
   useTooltip,
-} from '@pancakeswap/uikit'
-import { CurrencyLogo } from '@pancakeswap/widgets-internal'
+} from '@tankswap/uikit'
+import { CurrencyLogo } from '@tankswap/widgets-internal'
 import { memo, useMemo, useState } from 'react'
 
 import { RoutingSettingsButtonView, RoutingSettingsModalContent } from 'components/Menu/GlobalSettings/SettingsModalV2'
 import { CurrencyLogoWrapper, RouterBox, RouterTypeText } from 'views/Swap/components/RouterViewer'
 import { useHookDiscount } from 'views/SwapSimplify/hooks/useHookDiscount'
-import { Currency, SPLToken, UnifiedCurrency } from '@pancakeswap/sdk'
+import { Currency, SPLToken, UnifiedCurrency } from '@tankswap/sdk'
 import { useUnifiedCurrency } from 'hooks/Tokens'
 import { TertiaryButton } from 'views/Swap/components/SlippageButton'
-import { useTheme } from '@pancakeswap/hooks'
+import { useTheme } from '@tankswap/hooks'
 
 import { BridgeRoutesDisplay } from './RouteDisplay/BridgeRoutesDisplay'
 import { EVMPairNodes } from './RouteDisplay/pairNode'

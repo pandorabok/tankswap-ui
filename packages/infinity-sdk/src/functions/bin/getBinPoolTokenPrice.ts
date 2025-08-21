@@ -1,4 +1,4 @@
-import { Currency, Price } from '@pancakeswap/swap-sdk-core'
+import { Currency, Price } from '@tankswap/swap-sdk-core'
 
 import { BinPoolState } from './createBinPool'
 

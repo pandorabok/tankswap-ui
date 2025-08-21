@@ -1,5 +1,5 @@
-import { AtomBox, FlexGap, Heading, Image, Loading, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { AtomBox, FlexGap, Heading, Image, Loading, Text, useMatchBreakpoints } from '@tankswap/uikit'
+import { useTranslation } from '@tankswap/localization'
 import { useAtomValue } from 'jotai'
 import { errorEvmAtom, errorSolanaAtom } from '../../state/atom'
 import { WalletAdaptedNetwork, WalletConfigV3 } from '../../types'

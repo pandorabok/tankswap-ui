@@ -34,14 +34,14 @@ it("renders correctly", () => {
       box-shadow: var(--shadows-focus);
     }
 
-    .c0:active:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled) {
+    .c0:active:not(:disabled):not(.tank-button--disabled):not(.tank-button--disabled) {
       opacity: 0.85;
       transform: translateY(1px);
       box-shadow: none;
     }
 
     .c0:disabled,
-    .c0.pancake-button--disabled {
+    .c0.tank-button--disabled {
       background-color: var(--colors-backgroundDisabled);
       border-color: var(--colors-backgroundDisabled);
       box-shadow: none;
@@ -50,7 +50,7 @@ it("renders correctly", () => {
     }
 
     @media (hover: hover) {
-      .c0:hover:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled):not(:active) {
+      .c0:hover:not(:disabled):not(.tank-button--disabled):not(.tank-button--disabled):not(:active) {
         opacity: 0.65;
       }
     }

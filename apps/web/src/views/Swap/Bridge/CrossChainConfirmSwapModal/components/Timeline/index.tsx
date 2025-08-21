@@ -7,7 +7,7 @@ import {
   ScanLink,
   SwapSpinner,
   WarningIcon,
-} from '@pancakeswap/uikit'
+} from '@tankswap/uikit'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import styled, { css } from 'styled-components'
 import { getBlockExploreLink } from 'utils'

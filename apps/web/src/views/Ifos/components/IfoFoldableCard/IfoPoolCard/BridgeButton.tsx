@@ -1,7 +1,7 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import { SpaceProps } from 'styled-system'
-import { ChainId, CurrencyAmount, Currency } from '@pancakeswap/sdk'
-import { Button, useModalV2, Loading } from '@pancakeswap/uikit'
+import { ChainId, CurrencyAmount, Currency } from '@tankswap/sdk'
+import { Button, useModalV2, Loading } from '@tankswap/uikit'
 import { useCallback, useEffect, useState } from 'react'
 
 import { useActiveChainId } from 'hooks/useActiveChainId'

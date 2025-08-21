@@ -1,5 +1,5 @@
-import { TranslateFunction, useTranslation } from '@pancakeswap/localization'
-import { Breadcrumbs, Button, Heading, Link, Text } from '@pancakeswap/uikit'
+import { TranslateFunction, useTranslation } from '@tankswap/localization'
+import { Breadcrumbs, Button, Heading, Link, Text } from '@tankswap/uikit'
 import { styled } from 'styled-components'
 import useProfileCreation from './contexts/hook'
 

@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Button, Card, CardBody, FlexGap, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Button, Card, CardBody, FlexGap, Text } from '@tankswap/uikit'
 import { useStablecoinPriceAmount } from 'hooks/useStablecoinPrice'
 import useTheme from 'hooks/useTheme'
 import { useChainId } from 'wagmi'

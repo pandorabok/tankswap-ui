@@ -1,12 +1,12 @@
-import { ChainId } from '@pancakeswap/chains'
-import { Token } from '@pancakeswap/swap-sdk-core'
-import memoize from '@pancakeswap/utils/memoize'
+import { ChainId } from '@tankswap/chains'
+import { Token } from '@tankswap/swap-sdk-core'
+import memoize from '@tankswap/utils/memoize'
 import { Address, checksumAddress } from 'viem'
 import { ADDITIONAL_BASES, ADDITIONAL_BASES_TABLE } from '../../constants'
 
 const fetchConfig = memoize(
   async () => {
-    const url = `https://proofs.pancakeswap.com/cms-config/routing-base-config.json`
+    const url = `https://proofs.tankswap.com/cms-config/routing-base-config.json`
     try {
       const response = await fetch(url)
       const data: {

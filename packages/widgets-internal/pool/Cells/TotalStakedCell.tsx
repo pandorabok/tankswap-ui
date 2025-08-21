@@ -1,8 +1,8 @@
 import { styled } from "styled-components";
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@tankswap/localization";
 import BigNumber from "bignumber.js";
-import { getBalanceNumber } from "@pancakeswap/utils/formatBalance";
-import { Text, Skeleton, Flex, Balance } from "@pancakeswap/uikit";
+import { getBalanceNumber } from "@tankswap/utils/formatBalance";
+import { Text, Skeleton, Flex, Balance } from "@tankswap/uikit";
 
 import { BaseCell, CellContent } from "./BaseCell";
 

@@ -1,4 +1,4 @@
-import { Container, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Container, useMatchBreakpoints } from '@tankswap/uikit'
 import { ReactNode } from 'react'
 import { Address } from 'viem'
 

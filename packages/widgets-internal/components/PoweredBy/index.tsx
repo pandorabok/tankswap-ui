@@ -1,6 +1,6 @@
 import { PropsWithChildren, ReactNode } from "react";
-import { FlexGap, Text, Link } from "@pancakeswap/uikit";
-import { useTranslation } from "@pancakeswap/localization";
+import { FlexGap, Text, Link } from "@tankswap/uikit";
+import { useTranslation } from "@tankswap/localization";
 
 type Props = {
   entity?: ReactNode;

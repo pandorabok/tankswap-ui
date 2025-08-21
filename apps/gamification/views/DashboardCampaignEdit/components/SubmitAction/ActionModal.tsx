@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Flex, Modal, ModalV2 } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Flex, Modal, ModalV2 } from '@tankswap/uikit'
 import { useRouter } from 'next/router'
 import { useState } from 'react'
 import { Default } from 'views/DashboardCampaignEdit/components/SubmitAction/Default'

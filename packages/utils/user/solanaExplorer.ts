@@ -1,7 +1,7 @@
 import { atom } from 'jotai'
 import { atomWithStorage } from 'jotai/utils'
 
-const host = 'https://solana.pancakeswap.finance'
+const host = 'https://solana.tankswap.finance'
 export const supportedExplorers = [
   {
     name: 'Solscan',

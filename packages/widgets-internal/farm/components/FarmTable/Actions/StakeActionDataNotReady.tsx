@@ -1,5 +1,5 @@
-import { useTranslation } from "@pancakeswap/localization";
-import { Skeleton, Text } from "@pancakeswap/uikit";
+import { useTranslation } from "@tankswap/localization";
+import { Skeleton, Text } from "@tankswap/uikit";
 import { ActionContent, ActionTitles, StyledActionContainer } from "./styles";
 
 const StakeActionDataNotReady: React.FC<{ bCakeInfoSlot?: React.ReactElement }> = ({ bCakeInfoSlot }) => {

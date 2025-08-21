@@ -1,9 +1,9 @@
-import { Currency, CurrencyAmount, Router } from '@pancakeswap/aptos-swap-sdk'
-import { SimulateTransactionError, UserRejectedRequestError } from '@pancakeswap/awgmi/core'
-import { useTranslation } from '@pancakeswap/localization'
+import { Currency, CurrencyAmount, Router } from '@tankswap/aptos-swap-sdk'
+import { SimulateTransactionError, UserRejectedRequestError } from '@tankswap/awgmi/core'
+import { useTranslation } from '@tankswap/localization'
 import { useCallback, useContext, useMemo, useState } from 'react'
 
-import { useUserSlippage } from '@pancakeswap/utils/user'
+import { useUserSlippage } from '@tankswap/utils/user'
 import useSimulationAndSendTransaction from 'hooks/useSimulationAndSendTransaction'
 import { useTransactionAdder } from 'state/transactions/hooks'
 import { calculateSlippageAmount } from 'utils/exchange'

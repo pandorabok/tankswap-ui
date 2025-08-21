@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Price } from '@pancakeswap/sdk'
+import { Currency, CurrencyAmount, Price } from '@tankswap/sdk'
 
 interface FormatLocaleNumberArgs {
   number: CurrencyAmount<Currency> | Price<Currency, Currency> | number

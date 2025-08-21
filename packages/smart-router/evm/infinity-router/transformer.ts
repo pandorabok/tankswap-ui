@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { TradeType } from '@pancakeswap/swap-sdk-core'
+import { ChainId } from '@tankswap/chains'
+import { TradeType } from '@tankswap/swap-sdk-core'
 
 import {
   SerializedCurrency,

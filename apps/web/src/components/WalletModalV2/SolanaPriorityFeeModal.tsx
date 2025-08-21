@@ -1,9 +1,9 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Button, ButtonMenu, ButtonMenuItem, Flex, Input, ModalV2, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Box, Button, ButtonMenu, ButtonMenuItem, Flex, Input, ModalV2, Text } from '@tankswap/uikit'
 import React, { useCallback, useState } from 'react'
 import { useCurrencyUsdPrice } from 'hooks/useCurrencyUsdPrice'
 import useNativeCurrency from 'hooks/useNativeCurrency'
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@tankswap/chains'
 import { PriorityLevel, PriorityMode, useSolanaPriorityFee } from './hooks/useSolanaPriorityFee'
 
 interface SolanaPriorityFeeModalProps {

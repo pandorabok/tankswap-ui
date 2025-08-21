@@ -1,10 +1,10 @@
-import { formatBigInt } from '@pancakeswap/utils/formatBalance'
+import { formatBigInt } from '@tankswap/utils/formatBalance'
 import { useQuery } from '@tanstack/react-query'
 import { getNftsMarketData, getNftsUpdatedMarketData } from 'state/nftMarket/helpers'
 import { NftToken } from 'state/nftMarket/types'
 import { safeGetAddress } from 'utils'
 import { Address } from 'viem'
-import { pancakeBunniesAddress } from '../constants'
+import { tankBunniesAddress } from '../constants'
 
 export interface LowestNftPrice {
   isFetching: boolean
@@ -43,7 +43,7 @@ export const useGetLowestPriceFromBunnyId = (bunnyId?: string): LowestNftPrice =
       if (!response.length) return undefined
 
       const nftsMarketTokenIds = response.map((marketData) => marketData.tokenId)
-      const lowestPriceUpdatedBunny = await getLowestUpdatedToken(pancakeBunniesAddress, nftsMarketTokenIds)
+      const lowestPriceUpdatedBunny = await getLowestUpdatedToken(tankBunniesAddress, nftsMarketTokenIds)
 
       if (lowestPriceUpdatedBunny) {
         return parseFloat(formatBigInt(lowestPriceUpdatedBunny.currentAskPrice))
@@ -57,7 +57,7 @@ export const useGetLowestPriceFromBunnyId = (bunnyId?: string): LowestNftPrice =
 }
 
 export const useGetLowestPriceFromNft = (nft?: NftToken): LowestNftPrice => {
-  const isPancakeBunny = safeGetAddress(nft?.collectionAddress) === safeGetAddress(pancakeBunniesAddress)
+  const isPancakeBunny = safeGetAddress(nft?.collectionAddress) === safeGetAddress(tankBunniesAddress)
 
   const bunnyIdAttr = isPancakeBunny && nft ? getBunnyIdFromNft(nft) : undefined
 

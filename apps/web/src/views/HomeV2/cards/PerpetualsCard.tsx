@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Flex, Text, TriangleDownIcon, TriangleUpIcon, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Flex, Text, TriangleDownIcon, TriangleUpIcon, useMatchBreakpoints } from '@tankswap/uikit'
 import { HomePageToken } from 'pages/api/home/types'
 import React from 'react'
 import styled from 'styled-components'
@@ -80,7 +80,7 @@ export const PerpetualCard: React.FC<PerpetualCardProps> = ({ tokens }) => {
       subtitle={t('Perpetuals')}
       button={{
         text: t('See All'),
-        link: 'https://perp.pancakeswap.finance/',
+        link: 'https://perp.tankswap.finance/',
       }}
     >
       {tokens.map((token, index) => (

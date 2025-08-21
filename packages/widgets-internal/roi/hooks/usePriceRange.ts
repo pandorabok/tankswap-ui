@@ -1,6 +1,6 @@
-import { Currency, ERC20Token, Price, Token } from "@pancakeswap/sdk";
-import { formatPrice } from "@pancakeswap/utils/formatFractions";
-import { TickMath, nearestUsableTick, priceToClosestTick, tickToPrice } from "@pancakeswap/v3-sdk";
+import { Currency, ERC20Token, Price, Token } from "@tankswap/sdk";
+import { formatPrice } from "@tankswap/utils/formatFractions";
+import { TickMath, nearestUsableTick, priceToClosestTick, tickToPrice } from "@tankswap/v3-sdk";
 import { useCallback, useEffect, useMemo, useState } from "react";
 
 import { Bound } from "../../swap/LiquidityChartRangeInput";

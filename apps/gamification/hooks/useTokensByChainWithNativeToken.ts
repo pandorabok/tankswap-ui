@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { getTokensByChain } from '@pancakeswap/tokens'
+import { ChainId } from '@tankswap/chains'
+import { getTokensByChain } from '@tankswap/tokens'
 import useNativeCurrency from 'hooks/useNativeCurrency'
 import { useMemo } from 'react'
 

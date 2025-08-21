@@ -1,6 +1,6 @@
 import { styled } from 'styled-components'
-import { Box } from '@pancakeswap/uikit'
-import { GameType } from '@pancakeswap/games'
+import { Box } from '@tankswap/uikit'
+import { GameType } from '@tankswap/games'
 import { QuickAccess } from 'components/Game/Project/QuickAccess'
 
 const StyledQuickAccessModal = styled(Box)`

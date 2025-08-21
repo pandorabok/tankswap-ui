@@ -1,4 +1,4 @@
-import { ChainId, testnetChainIds } from '@pancakeswap/chains'
+import { ChainId, testnetChainIds } from '@tankswap/chains'
 import addresses from 'config/constants/contracts'
 import dayjs from 'dayjs'
 import { gql } from 'graphql-request'
@@ -77,7 +77,7 @@ export const getTotalTvl = async () => {
       getStats('v2', mainnetChainIds),
       getStats('v3', mainnetChainIds),
       getStats('stable', [ChainId.ARBITRUM_ONE, ChainId.BSC]),
-      fetch('https://farms-api.pancakeswap.com/price/cake').then((res) => res.json()),
+      fetch('https://farms-api.tankswap.com/price/cake').then((res) => res.json()),
       getCakeContract().read.balanceOf([getCakeVaultAddress()]),
       getCakeContract().read.balanceOf([addresses.veCake[ChainId.BSC]]),
     ])

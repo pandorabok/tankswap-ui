@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { ArrowForwardIcon, Box, Column, Flex, FlexGap, Link, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
-import { VerticalDivider } from '@pancakeswap/widgets-internal'
+import { useTranslation } from '@tankswap/localization'
+import { ArrowForwardIcon, Box, Column, Flex, FlexGap, Link, Text, useMatchBreakpoints } from '@tankswap/uikit'
+import { VerticalDivider } from '@tankswap/widgets-internal'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import styled from 'styled-components'
 
@@ -17,7 +17,7 @@ const stripeImageAlt = 'AI Predictions'
 const defaultCtaLink =
   '/prediction?token=ETH&chain=arb&utm_source=infostripe&utm_medium=website&utm_campaign=Arbitrum&utm_id=PredictionLaunch'
 const defaultLearnMoreLink =
-  'https://blog.pancakeswap.finance/articles/pancake-swap-introduces-ai-powered-prediction-market-on-arbitrum-up-to-100-fund-protection-and-launching-60-000-arb-campaign?utm_source=infostripe&utm_medium=website&utm_campaign=Arbitrum&utm_id=PredictionLaunch'
+  'https://blog.tankswap.finance/articles/tank-swap-introduces-ai-powered-prediction-market-on-arbitrum-up-to-100-fund-protection-and-launching-60-000-arb-campaign?utm_source=infostripe&utm_medium=website&utm_campaign=Arbitrum&utm_id=PredictionLaunch'
 
 interface AIPredictionStripeProps {
   ctaLink?: string

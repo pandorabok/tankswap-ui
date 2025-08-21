@@ -1,4 +1,4 @@
-import { useDebounce } from '@pancakeswap/hooks'
+import { useDebounce } from '@tankswap/hooks'
 import { useGetENSAddressByName } from 'hooks/useGetENSAddressByName'
 import { useMemo } from 'react'
 import { useSwapState } from 'state/swap/hooks'

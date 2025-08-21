@@ -1,5 +1,5 @@
-import type { IfoStatus } from '@pancakeswap/ifos'
-import { type Currency, CurrencyAmount, Price } from '@pancakeswap/swap-sdk-core'
+import type { IfoStatus } from '@tankswap/ifos'
+import { type Currency, CurrencyAmount, Price } from '@tankswap/swap-sdk-core'
 import dayjs from 'dayjs'
 import { useMemo } from 'react'
 import { getStatusByTimestamp } from '../helpers'

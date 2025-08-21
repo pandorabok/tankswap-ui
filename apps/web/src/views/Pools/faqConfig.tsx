@@ -1,4 +1,4 @@
-import { Link } from '@pancakeswap/uikit'
+import { Link } from '@tankswap/uikit'
 import { FaqConfig } from 'components/PinnedFAQButton'
 import Trans from 'components/Trans'
 import { styled } from 'styled-components'
@@ -103,7 +103,7 @@ const faqConfig: FaqConfig[] = [
         <InlineLink
           target="_blank"
           rel="noreferrer"
-          href="https://docs.pancakeswap.finance/products/vecake/migrate-from-cake-pool"
+          href="https://docs.tankswap.finance/products/vecake/migrate-from-cake-pool"
         >
           <Trans>Learn how to migrate here</Trans>
         </InlineLink>

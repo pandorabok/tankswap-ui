@@ -1,4 +1,4 @@
-export const pancakeProfileABI = [
+export const tankProfileABI = [
   {
     inputs: [
       { internalType: 'contract IBEP20', name: '_cakeToken', type: 'address' },

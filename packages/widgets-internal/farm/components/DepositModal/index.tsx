@@ -1,4 +1,4 @@
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@tankswap/localization";
 import {
   AutoRenewIcon,
   Box,
@@ -19,11 +19,11 @@ import {
   Skeleton,
   Text,
   WarningIcon,
-} from "@pancakeswap/uikit";
-import { BIG_ZERO } from "@pancakeswap/utils/bigNumber";
-import { getInterestBreakdown } from "@pancakeswap/utils/compoundApyHelpers";
-import { formatNumber, getDecimalAmount, getFullDisplayBalance } from "@pancakeswap/utils/formatBalance";
-import { trimTrailZero } from "@pancakeswap/utils/trimTrailZero";
+} from "@tankswap/uikit";
+import { BIG_ZERO } from "@tankswap/utils/bigNumber";
+import { getInterestBreakdown } from "@tankswap/utils/compoundApyHelpers";
+import { formatNumber, getDecimalAmount, getFullDisplayBalance } from "@tankswap/utils/formatBalance";
+import { trimTrailZero } from "@tankswap/utils/trimTrailZero";
 import BigNumber from "bignumber.js";
 import _toNumber from "lodash/toNumber";
 import { useCallback, useMemo, useState } from "react";

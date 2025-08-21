@@ -7,10 +7,10 @@ import {
   Token,
   Trade,
   TradeType,
-} from '@pancakeswap/aptos-swap-sdk'
-import { useAccount } from '@pancakeswap/awgmi'
-import { SimulateTransactionError, UserRejectedRequestError, parseVmStatusError } from '@pancakeswap/awgmi/core'
-import { useTranslation } from '@pancakeswap/localization'
+} from '@tankswap/aptos-swap-sdk'
+import { useAccount } from '@tankswap/awgmi'
+import { SimulateTransactionError, UserRejectedRequestError, parseVmStatusError } from '@tankswap/awgmi/core'
+import { useTranslation } from '@tankswap/localization'
 import {
   AtomBox,
   AutoColumn,
@@ -24,14 +24,14 @@ import {
   Skeleton,
   Text,
   useModal,
-} from '@pancakeswap/uikit'
-import { Swap as SwapUI, useAsyncConfirmPriceImpactWithoutFee } from '@pancakeswap/widgets-internal'
+} from '@tankswap/uikit'
+import { Swap as SwapUI, useAsyncConfirmPriceImpactWithoutFee } from '@tankswap/widgets-internal'
 import { useQuery } from '@tanstack/react-query'
 
-import replaceBrowserHistoryMultiple from '@pancakeswap/utils/replaceBrowserHistoryMultiple'
-import tryParseAmount from '@pancakeswap/utils/tryParseAmount'
-import { useUserSlippage } from '@pancakeswap/utils/user'
-import { useIsExpertMode } from '@pancakeswap/utils/user/expertMode'
+import replaceBrowserHistoryMultiple from '@tankswap/utils/replaceBrowserHistoryMultiple'
+import tryParseAmount from '@tankswap/utils/tryParseAmount'
+import { useUserSlippage } from '@tankswap/utils/user'
+import { useIsExpertMode } from '@tankswap/utils/user/expertMode'
 import { CurrencyInputPanel } from 'components/CurrencyInputPanel'
 import { ExchangeLayout } from 'components/Layout/ExchangeLayout'
 import { PageMeta } from 'components/Layout/Page'

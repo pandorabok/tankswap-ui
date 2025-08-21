@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { TradeType } from '@pancakeswap/sdk'
+import { ChainId } from '@tankswap/chains'
+import { TradeType } from '@tankswap/sdk'
 import { Address } from 'viem'
 import { z } from 'zod'
 

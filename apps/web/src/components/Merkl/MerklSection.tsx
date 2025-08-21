@@ -1,4 +1,4 @@
-import { Trans, useTranslation } from '@pancakeswap/localization'
+import { Trans, useTranslation } from '@tankswap/localization'
 import {
   AutoRow,
   Button,
@@ -10,12 +10,12 @@ import {
   Text,
   TooltipText,
   useTooltip,
-} from '@pancakeswap/uikit'
-import { CurrencyLogo } from '@pancakeswap/widgets-internal'
+} from '@tankswap/uikit'
+import { CurrencyLogo } from '@tankswap/widgets-internal'
 import { LightGreyCard } from 'components/Card'
 
-import { ChainId } from '@pancakeswap/chains'
-import { Currency, CurrencyAmount } from '@pancakeswap/swap-sdk-core'
+import { ChainId } from '@tankswap/chains'
+import { Currency, CurrencyAmount } from '@tankswap/swap-sdk-core'
 import { getMerklLink } from 'utils/getMerklLink'
 import useMerkl from '../../hooks/useMerkl'
 

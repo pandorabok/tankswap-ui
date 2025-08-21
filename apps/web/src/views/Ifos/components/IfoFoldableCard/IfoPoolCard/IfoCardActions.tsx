@@ -1,6 +1,6 @@
-import { IfoSkeletonCardActions } from '@pancakeswap/uikit'
+import { IfoSkeletonCardActions } from '@tankswap/uikit'
 
-import { Ifo, PoolIds } from '@pancakeswap/ifos'
+import { Ifo, PoolIds } from '@tankswap/ifos'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { isBasicSale } from 'views/Ifos/hooks/v7/helpers'

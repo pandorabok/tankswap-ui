@@ -1,10 +1,10 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { BinanceIcon, Button, Flex, Grid, LinkExternal, ScanLink, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { BinanceIcon, Button, Flex, Grid, LinkExternal, ScanLink, Text } from '@tankswap/uikit'
 import DELIST_COLLECTIONS from 'config/constants/nftsCollections/delist'
 import { NftToken } from 'hooks/useProfile/nft/types'
 import { getBscScanLinkForNft, safeGetAddress } from 'utils'
 import { Divider, HorizontalDivider, RoundedImage } from 'views/Profile/components/SellModal/shared/styles'
-import { nftsBaseUrl, pancakeBunniesAddress } from 'views/ProfileCreation/Nft/constants'
+import { nftsBaseUrl, tankBunniesAddress } from 'views/ProfileCreation/Nft/constants'
 
 interface EditStageProps {
   nftToSell: NftToken
@@ -24,7 +24,7 @@ const EditStage: React.FC<React.PropsWithChildren<EditStageProps>> = ({
 
   const { t } = useTranslation()
   const itemPageUrlId =
-    safeGetAddress(nftToSell.collectionAddress) === safeGetAddress(pancakeBunniesAddress)
+    safeGetAddress(nftToSell.collectionAddress) === safeGetAddress(tankBunniesAddress)
       ? nftToSell.attributes?.[0].value
       : nftToSell.tokenId
 

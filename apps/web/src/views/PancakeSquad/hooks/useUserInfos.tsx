@@ -3,14 +3,14 @@ import { getNftSaleAddress } from 'utils/addressHelpers'
 import { getPancakeSquadContract } from 'utils/contractHelpers'
 import { nftSaleABI } from 'config/abi/nftSale'
 import { publicClient } from 'utils/wagmi'
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@tankswap/chains'
 
 const useUserInfos = ({ account, refreshCounter, setCallback }) => {
   useEffect(() => {
     const fetchUserInfos = async () => {
       try {
         const nftSaleAddress = getNftSaleAddress()
-        const pancakeSquadContract = getPancakeSquadContract()
+        const tankSquadContract = getPancakeSquadContract()
 
         if (account) {
           const calls = (
@@ -44,7 +44,7 @@ const useUserInfos = ({ account, refreshCounter, setCallback }) => {
             args: [account, 0n, 600n],
           })
 
-          const currentNumberTokensOfUser = await pancakeSquadContract.read.balanceOf(account)
+          const currentNumberTokensOfUser = await tankSquadContract.read.balanceOf(account)
 
           setCallback({
             canClaimForGen0: currentCanClaimForGen0,

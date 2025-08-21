@@ -1,5 +1,5 @@
 import { styled } from 'styled-components'
-import { Text } from '@pancakeswap/uikit'
+import { Text } from '@tankswap/uikit'
 
 export const StyledTextLineClamp = styled(Text)<{ lineClamp: number }>`
   display: -webkit-box;

@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { ChainId } from '@pancakeswap/sdk'
+import { useTranslation } from '@tankswap/localization'
+import { ChainId } from '@tankswap/sdk'
 import { Address } from 'viem'
 
 import { StakeButton } from './StakeButton'

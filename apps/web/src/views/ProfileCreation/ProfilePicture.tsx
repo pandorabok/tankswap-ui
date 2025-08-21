@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { AutoRenewIcon, Button, Card, CardBody, Heading, Skeleton, Text, useToast } from '@pancakeswap/uikit'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+import { useTranslation } from '@tankswap/localization'
+import { AutoRenewIcon, Button, Card, CardBody, Heading, Skeleton, Text, useToast } from '@tankswap/uikit'
+import { NextLinkFromReactRouter } from '@tankswap/widgets-internal'
 
 import { useCallWithGasPrice } from 'hooks/useCallWithGasPrice'
 import useCatchTxError from 'hooks/useCatchTxError'
@@ -59,7 +59,7 @@ const ProfilePicture: React.FC = () => {
         </Text>
         <Text as="p" mb="24px">
           {t('Only approved Pancake Collectibles can be used.')}
-          <Link to="/profile/pancake-collectibles" style={{ marginLeft: '4px' }}>
+          <Link to="/profile/tank-collectibles" style={{ marginLeft: '4px' }}>
             {t('See the list >')}
           </Link>
         </Text>
@@ -90,7 +90,7 @@ const ProfilePicture: React.FC = () => {
           </Text>
           <Text as="p" color="textSubtle" mb="24px">
             {t('Only approved Pancake Collectibles can be used.')}
-            <Link to="/profile/pancake-collectibles" style={{ marginLeft: '4px' }}>
+            <Link to="/profile/tank-collectibles" style={{ marginLeft: '4px' }}>
               {t('See the list >')}
             </Link>
           </Text>

@@ -1,10 +1,10 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { AutoRenewIcon, Box, Button, Card, CardBody, Flex, Heading, Image, Text, useToast } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { AutoRenewIcon, Box, Button, Card, CardBody, Flex, Heading, Image, Text, useToast } from '@tankswap/uikit'
 import useApproveConfirmTransaction from 'hooks/useApproveConfirmTransaction'
 import { useCallWithGasPrice } from 'hooks/useCallWithGasPrice'
 import { useBunnyFactory } from 'hooks/useContract'
 import { useEffect, useState } from 'react'
-import { pancakeBunniesAddress } from 'views/ProfileCreation/Nft/constants'
+import { tankBunniesAddress } from 'views/ProfileCreation/Nft/constants'
 import { getNftsFromCollectionApi } from 'views/ProfileCreation/Nft/helpers'
 import { ApiSingleTokenData } from 'views/ProfileCreation/Nft/type'
 
@@ -28,7 +28,7 @@ const Mint: React.FC<React.PropsWithChildren> = () => {
 
   useEffect(() => {
     const getStarterNfts = async () => {
-      const response = await getNftsFromCollectionApi(pancakeBunniesAddress)
+      const response = await getNftsFromCollectionApi(tankBunniesAddress)
       if (!response) return
       const { data: allPbTokens } = response
       const nfts = STARTER_NFT_BUNNY_IDS.map((bunnyId) => {

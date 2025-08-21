@@ -1,7 +1,7 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Button, Card, Flex, InfoFilledIcon, Modal, ModalV2, PreTitle, Text, useModalV2 } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Box, Button, Card, Flex, InfoFilledIcon, Modal, ModalV2, PreTitle, Text, useModalV2 } from '@tankswap/uikit'
 
-import { Currency, CurrencyAmount, Percent } from '@pancakeswap/sdk'
+import { Currency, CurrencyAmount, Percent } from '@tankswap/sdk'
 import { LightGreyCard } from 'components/Card'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import { ReactNode, useState } from 'react'

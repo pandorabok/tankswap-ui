@@ -1,6 +1,6 @@
-import { Trans } from '@pancakeswap/localization'
-import { Balance, Flex, Skeleton, Text } from '@pancakeswap/uikit'
-import { getBalanceNumber, getFullDisplayBalance } from '@pancakeswap/utils/formatBalance'
+import { Trans } from '@tankswap/localization'
+import { Balance, Flex, Skeleton, Text } from '@tankswap/uikit'
+import { getBalanceNumber, getFullDisplayBalance } from '@tankswap/utils/formatBalance'
 import BigNumber from 'bignumber.js'
 import { useCakePrice } from 'hooks/useCakePrice'
 

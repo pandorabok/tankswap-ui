@@ -1,7 +1,7 @@
 import { useMemo } from "react";
 import { ScaleLinear, ScaleTime, curveMonotoneX, line } from "d3";
-import { useTheme } from "@pancakeswap/hooks";
-import { useTranslation } from "@pancakeswap/localization";
+import { useTheme } from "@tankswap/hooks";
+import { useTranslation } from "@tankswap/localization";
 import { PriceChartEntry } from "./types";
 import { Path } from "./Path";
 

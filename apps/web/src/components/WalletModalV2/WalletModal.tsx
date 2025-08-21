@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import {
   ArrowBackIcon,
   ArrowForwardIcon,
@@ -13,11 +13,11 @@ import {
   ModalV2,
   Text,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
+} from '@tankswap/uikit'
 
 import { RecentTransactions } from 'components/App/Transactions/TransactionsModal'
 
-import { useTheme } from '@pancakeswap/hooks'
+import { useTheme } from '@tankswap/hooks'
 import { useMenuTab, WalletView } from 'components/Menu/UserMenu/providers/MenuTabProvider'
 import { StyledButtonMenuItem, Tabs, TabsComponent } from 'components/Menu/UserMenu/WalletModal'
 import { useMultichainAddressBalance } from 'hooks/useAddressBalance'
@@ -29,7 +29,7 @@ import { ClaimGiftConfirmView } from 'views/Gift/components/ClaimGiftConfirmView
 import { ClaimGiftView } from 'views/Gift/components/ClaimGiftView'
 import { GiftInfoDetailView } from 'views/Gift/components/GiftInfoDetailView'
 import { GiftsDashboard } from 'views/Gift/components/GiftsDashboard'
-import { ChainId, NonEVMChainId } from '@pancakeswap/chains'
+import { ChainId, NonEVMChainId } from '@tankswap/chains'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useAccountActiveChain } from 'hooks/useAccountActiveChain'
 import { CancelGiftContext, CancelGiftProvider } from 'views/Gift/providers/CancelGiftProvider'
@@ -37,7 +37,7 @@ import { useAtomValue, useSetAtom } from 'jotai'
 import { connectedWalletModalVisibleAtom } from 'state/wallet/atom'
 import { useConnect } from 'wagmi'
 import { useWallet } from '@solana/wallet-adapter-react'
-import { previouslyUsedEvmWalletsAtom } from '@pancakeswap/ui-wallets/src/state/atom'
+import { previouslyUsedEvmWalletsAtom } from '@tankswap/ui-wallets/src/state/atom'
 import { walletsConfig } from 'config/wallet'
 import { useClaimGiftContext } from 'views/Gift/providers/ClaimGiftProvider'
 import { CopyAddress } from './WalletCopyButton'

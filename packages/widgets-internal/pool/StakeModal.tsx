@@ -1,12 +1,12 @@
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@tankswap/localization";
 
 import BigNumber from "bignumber.js";
 import { useCallback, useEffect, useState } from "react";
 import { styled, useTheme } from "styled-components";
-import { getInterestBreakdown } from "@pancakeswap/utils/compoundApyHelpers";
-import { formatNumber, getDecimalAmount, getFullDisplayBalance } from "@pancakeswap/utils/formatBalance";
-import removeTrailingZeros from "@pancakeswap/utils/removeTrailingZeros";
-import getThemeValue from "@pancakeswap/uikit/util/getThemeValue";
+import { getInterestBreakdown } from "@tankswap/utils/compoundApyHelpers";
+import { formatNumber, getDecimalAmount, getFullDisplayBalance } from "@tankswap/utils/formatBalance";
+import removeTrailingZeros from "@tankswap/utils/removeTrailingZeros";
+import getThemeValue from "@tankswap/uikit/util/getThemeValue";
 import {
   Box,
   AutoRenewIcon,
@@ -23,7 +23,7 @@ import {
   RoiCalculatorModal,
   TextProps,
   Modal,
-} from "@pancakeswap/uikit";
+} from "@tankswap/uikit";
 
 import PercentageButton from "./PercentageButton";
 

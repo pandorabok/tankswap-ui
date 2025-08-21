@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import { useMemo } from 'react'
 
 export enum CrossChainAPIErrorCode {

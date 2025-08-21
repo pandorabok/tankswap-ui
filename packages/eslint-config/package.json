@@ -1,5 +1,5 @@
 {
-  "name": "@pancakeswap/eslint-config-pancake",
+  "name": "@tankswap/eslint-config-tank",
   "version": "1.2.0",
   "description": "Eslint config for PancakeSwap",
   "main": "lib/index.js",
@@ -8,7 +8,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/pancakeswap/pancake-frontend.git",
+    "url": "https://github.com/tankswap/tank-frontend.git",
     "directory": "packages/eslint-config"
   },
   "license": "MIT",

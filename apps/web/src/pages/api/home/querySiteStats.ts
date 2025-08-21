@@ -1,4 +1,4 @@
-import { cacheByLRU } from '@pancakeswap/utils/cacheByLRU'
+import { cacheByLRU } from '@tankswap/utils/cacheByLRU'
 import { getTotalTvl } from 'utils/getTotalTVL'
 import { getHomeCacheSettings } from './queries/settings'
 import { SiteStats } from './types'

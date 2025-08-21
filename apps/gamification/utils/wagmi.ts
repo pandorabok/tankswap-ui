@@ -1,7 +1,7 @@
 import { getWagmiConnectorV2 } from '@binance/w3w-wagmi-connector-v2'
 import { cyberWalletConnector as createCyberWalletConnector, isCyberWallet } from '@cyberlab/cyber-app-sdk'
-import { ChainId } from '@pancakeswap/chains'
-import { blocto } from '@pancakeswap/wagmi/connectors/blocto'
+import { ChainId } from '@tankswap/chains'
+import { blocto } from '@tankswap/wagmi/connectors/blocto'
 import { CHAINS } from 'config/chains'
 import { PUBLIC_NODES } from 'config/nodes'
 import memoize from 'lodash/memoize'
@@ -19,7 +19,7 @@ export const injectedConnector = injected({
 
 export const coinbaseConnector = coinbaseWallet({
   appName: 'PancakeSwap',
-  appLogoUrl: 'https://pancakeswap.com/logo.png',
+  appLogoUrl: 'https://tankswap.com/logo.png',
 })
 
 export const walletConnectConnector = walletConnect({

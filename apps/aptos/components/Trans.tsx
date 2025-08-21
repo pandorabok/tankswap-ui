@@ -1,3 +1,3 @@
-import { Trans } from '@pancakeswap/localization'
+import { Trans } from '@tankswap/localization'
 
 export default Trans

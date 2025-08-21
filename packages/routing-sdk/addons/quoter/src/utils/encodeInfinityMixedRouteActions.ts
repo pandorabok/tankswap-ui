@@ -1,8 +1,8 @@
-import { BaseRoute } from '@pancakeswap/routing-sdk'
-import { isInfinityBinPool, isInfinityCLPool } from '@pancakeswap/routing-sdk-addon-infinity'
-import { isStablePool } from '@pancakeswap/routing-sdk-addon-stable-swap'
-import { isV2Pool } from '@pancakeswap/routing-sdk-addon-v2'
-import { isV3Pool } from '@pancakeswap/routing-sdk-addon-v3'
+import { BaseRoute } from '@tankswap/routing-sdk'
+import { isInfinityBinPool, isInfinityCLPool } from '@tankswap/routing-sdk-addon-infinity'
+import { isStablePool } from '@tankswap/routing-sdk-addon-stable-swap'
+import { isV2Pool } from '@tankswap/routing-sdk-addon-v2'
+import { isV3Pool } from '@tankswap/routing-sdk-addon-v3'
 import { Hex, bytesToHex } from 'viem'
 
 import { InfinityMixedQuoterActions, SupportedPool } from '../types'

@@ -67,7 +67,7 @@ describe('Coin', () => {
       ).toBe(false)
 
       expect(
-        new Coin(ChainId.TESTNET, '0x16::pancake::CAKE', 8, '').sortsBefore(
+        new Coin(ChainId.TESTNET, '0x16::tank::CAKE', 8, '').sortsBefore(
           new Coin(ChainId.TESTNET, '0x16::devnet_coins::DevnetBTC', 8, '')
         )
       ).toBe(false)

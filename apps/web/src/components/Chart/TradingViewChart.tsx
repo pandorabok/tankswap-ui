@@ -1,12 +1,12 @@
-import { useDebounce } from '@pancakeswap/hooks'
-import { Currency } from '@pancakeswap/sdk'
-import { tokens } from '@pancakeswap/uikit'
+import { useDebounce } from '@tankswap/hooks'
+import { Currency } from '@tankswap/sdk'
+import { tokens } from '@tankswap/uikit'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import useTheme from 'hooks/useTheme'
 import React, { useEffect, useRef } from 'react'
 import { styled } from 'styled-components'
-import type { TradingViewWidget, TradingViewWidgetOptions } from './lib/pancakeswap-charting-library.d.ts'
-import { createTradingViewWidget, loadTradingViewLibrary } from './lib/pancakeswap-charting-library.es.js'
+import type { TradingViewWidget, TradingViewWidgetOptions } from './lib/tankswap-charting-library.d.ts'
+import { createTradingViewWidget, loadTradingViewLibrary } from './lib/tankswap-charting-library.es.js'
 import { AggregatePricingModal } from './AggregatePricingModal'
 
 interface TradingViewChartProps {

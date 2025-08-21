@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency, CurrencyAmount } from '@pancakeswap/sdk'
-import { Box, Flex, Message, MessageText, ModalV2, PreTitle, Text, useModalV2 } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Currency, CurrencyAmount } from '@tankswap/sdk'
+import { Box, Flex, Message, MessageText, ModalV2, PreTitle, Text, useModalV2 } from '@tankswap/uikit'
 import { LightGreyCard } from 'components/Card'
 import { ReactNode } from 'react'
 

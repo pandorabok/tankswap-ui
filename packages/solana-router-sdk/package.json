@@ -1,5 +1,5 @@
 {
-  "name": "@pancakeswap/solana-router-sdk",
+  "name": "@tankswap/solana-router-sdk",
   "version": "1.4.7",
   "description": "A SDK for getting best routes from Solana",
   "main": "dist/index.js",
@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pancakeswap/pancake-frontend.git",
+    "url": "https://github.com/tankswap/tank-frontend.git",
     "directory": "packages/solana-router-sdk"
   },
   "keywords": [
-    "pancakeswap",
+    "tankswap",
     "solana",
     "router"
   ],
@@ -39,8 +39,8 @@
     "lint": "eslint '{src,test}/**/*.{js,jsx,ts,json}'"
   },
   "dependencies": {
-    "@pancakeswap/sdk": "workspace:*",
-    "@pancakeswap/utils": "workspace:*",
+    "@tankswap/sdk": "workspace:*",
+    "@tankswap/utils": "workspace:*",
     "@solana/web3.js": "catalog:",
     "decimal.js": "^10.4.2",
     "superstruct": "^2.0.2"

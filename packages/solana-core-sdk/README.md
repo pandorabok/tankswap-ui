@@ -1,4 +1,4 @@
-# @pancakeswap/solana-core-sdk
+# @tankswap/solana-core-sdk
 
 > Core Solana utilities and helpers for PancakeSwap's cross-chain integration.
 
@@ -12,7 +12,7 @@ This package provides the foundational SDK components used to interact with the 
 - Utilities for working with SPL tokens and token accounts
 - Predefined program IDs and layout helpers for Raydium, Jupiter, and other Solana protocols
 - Constants for token mints and metadata
-- Used internally by [PancakeSwap Frontend](https://github.com/pancakeswap/pancake-frontend)
+- Used internally by [PancakeSwap Frontend](https://github.com/tankswap/tank-frontend)
 
 ---
 
@@ -20,10 +20,10 @@ This package provides the foundational SDK components used to interact with the 
 
 ```bash
 # via npm
-npm install @pancakeswap/solana-core-sdk
+npm install @tankswap/solana-core-sdk
 
 # or yarn
-yarn add @pancakeswap/solana-core-sdk
+yarn add @tankswap/solana-core-sdk
 ```
 
 ## License

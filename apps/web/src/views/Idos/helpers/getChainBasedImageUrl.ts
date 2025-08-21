@@ -1,4 +1,4 @@
-import { ChainId, getChainName } from '@pancakeswap/chains'
+import { ChainId, getChainName } from '@tankswap/chains'
 
 import { ASSET_CDN } from 'config/constants/endpoints'
 

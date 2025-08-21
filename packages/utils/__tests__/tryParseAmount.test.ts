@@ -1,4 +1,4 @@
-import { SPLToken, Token } from '@pancakeswap/swap-sdk-core'
+import { SPLToken, Token } from '@tankswap/swap-sdk-core'
 import { describe, expect, it } from 'vitest'
 import tryParseAmount from '../tryParseAmount'
 
@@ -9,7 +9,7 @@ describe('tryParseAmount', () => {
     18,
     'CAKE',
     'PancakeSwap Token',
-    'https://pancakeswap.finance/',
+    'https://tankswap.finance/',
   )
 
   const mockSolanaToken = new SPLToken({

@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Flex, Tag, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Box, Flex, Tag, Text } from '@tankswap/uikit'
 // import { Quest } from 'views/Quests/components/Quest'
 
 export const QuestList = () => {

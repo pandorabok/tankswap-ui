@@ -1,7 +1,7 @@
-import { ChainId } from '@pancakeswap/chains'
-import { ContextApi } from '@pancakeswap/localization'
-import { SUPPORTED_CHAIN_IDS as POOL_SUPPORTED_CHAINS } from '@pancakeswap/pools'
-import { SUPPORTED_CHAIN_IDS as PREDICTION_SUPPORTED_CHAINS } from '@pancakeswap/prediction'
+import { ChainId } from '@tankswap/chains'
+import { ContextApi } from '@tankswap/localization'
+import { SUPPORTED_CHAIN_IDS as POOL_SUPPORTED_CHAINS } from '@tankswap/pools'
+import { SUPPORTED_CHAIN_IDS as PREDICTION_SUPPORTED_CHAINS } from '@tankswap/prediction'
 import {
   BridgeIcon,
   DropdownMenuItems,
@@ -15,7 +15,7 @@ import {
   SwapIcon,
   TradeFilledIcon,
   TradeIcon,
-} from '@pancakeswap/uikit'
+} from '@tankswap/uikit'
 import { CHAIN_QUERY_NAME } from 'config/chains'
 import { SUPPORT_FARMS, SUPPORT_ONLY_BSC } from 'config/constants/supportChains'
 import { getPerpetualUrl } from 'utils/getPerpetualUrl'
@@ -162,7 +162,7 @@ const config: (
       items: [
         {
           label: t('Springboard'),
-          href: 'https://springboard.pancakeswap.finance',
+          href: 'https://springboard.tankswap.finance',
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
         {
@@ -218,12 +218,12 @@ const config: (
         },
         {
           label: t('Blog'),
-          href: 'https://blog.pancakeswap.finance',
+          href: 'https://blog.tankswap.finance',
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
         {
           label: t('Docs'),
-          href: 'https://docs.pancakeswap.finance',
+          href: 'https://docs.tankswap.finance',
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
       ].map((item) => addMenuItemSupported(item, chainId)),

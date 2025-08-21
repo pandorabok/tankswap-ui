@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { EmptyRewardIcon, Flex, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { EmptyRewardIcon, Flex, Text } from '@tankswap/uikit'
 import { styled } from 'styled-components'
 
 const EmptyRewardContainer = styled(Flex)`

@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Button, useModal } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Button, useModal } from '@tankswap/uikit'
 import { useCallback } from 'react'
 import { logGTMClickRemoveLiquidityEvent } from 'utils/customGTMEventTracking'
 import useRemoveLiquidityHandler from '../hooks/useRemoveLiquidityHandler'

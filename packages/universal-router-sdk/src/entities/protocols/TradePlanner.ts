@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, TradeType } from '@pancakeswap/sdk'
+import { Currency, CurrencyAmount, TradeType } from '@tankswap/sdk'
 import {
   ADDRESS_THIS,
   getPoolAddress,
@@ -9,9 +9,9 @@ import {
   SmartRouter,
   SmartRouterTrade,
   StablePool,
-} from '@pancakeswap/smart-router'
+} from '@tankswap/smart-router'
 
-import { ACTIONS, ActionsPlanner, encodePoolKey } from '@pancakeswap/infinity-sdk'
+import { ACTIONS, ActionsPlanner, encodePoolKey } from '@tankswap/infinity-sdk'
 import first from 'lodash/first'
 import last from 'lodash/last'
 import { Address, zeroAddress } from 'viem'
@@ -33,7 +33,7 @@ import { RoutePlanner } from '../../utils/RoutePlanner'
 import { PancakeSwapOptions, SwapRouteMeta, SwapSection, SwapTradeContext } from '../types'
 import { parseSwapTradeContext } from './parseSwapTradeContext'
 
-// Wrapper for pancakeswap router-sdk trade entity to encode swaps for Universal Router
+// Wrapper for tankswap router-sdk trade entity to encode swaps for Universal Router
 export class TradePlanner extends RoutePlanner {
   private context: SwapTradeContext
 

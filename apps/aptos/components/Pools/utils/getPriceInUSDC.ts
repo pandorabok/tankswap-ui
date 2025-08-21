@@ -1,7 +1,7 @@
 import _toNumber from 'lodash/toNumber'
 
-import { Trade } from '@pancakeswap/aptos-swap-sdk'
-import tryParseAmount from '@pancakeswap/utils/tryParseAmount'
+import { Trade } from '@tankswap/aptos-swap-sdk'
+import tryParseAmount from '@tankswap/utils/tryParseAmount'
 
 export function getPriceInUSDC({ availablePairs, tokenIn, usdcCoin }) {
   const tokenInAmount = tryParseAmount('1', tokenIn)

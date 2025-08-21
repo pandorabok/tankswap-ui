@@ -3,7 +3,7 @@ export const tradingCompetitionEasterABI = [
     inputs: [
       {
         internalType: 'address',
-        name: '_pancakeProfileAddress',
+        name: '_tankProfileAddress',
         type: 'address',
       },
       {
@@ -260,7 +260,7 @@ export const tradingCompetitionEasterABI = [
   },
   {
     inputs: [],
-    name: 'pancakeProfile',
+    name: 'tankProfile',
     outputs: [
       {
         internalType: 'contract IPancakeProfile',

@@ -1,5 +1,5 @@
-import { Protocol } from '@pancakeswap/farms'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
+import { Protocol } from '@tankswap/farms'
+import { BIG_ZERO } from '@tankswap/utils/bigNumber'
 import BN from 'bignumber.js'
 import { SLOW_INTERVAL } from 'config/constants'
 import useAllTicksQuery from 'hooks/useAllTicksQuery'

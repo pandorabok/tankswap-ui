@@ -1,4 +1,4 @@
-export const pancakeSquadABI = [
+export const tankSquadABI = [
   {
     inputs: [
       {

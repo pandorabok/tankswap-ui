@@ -1,5 +1,5 @@
-import { getCurrencyAddress } from '@pancakeswap/swap-sdk-core'
-import { useModalV2 } from '@pancakeswap/uikit'
+import { getCurrencyAddress } from '@tankswap/swap-sdk-core'
+import { useModalV2 } from '@tankswap/uikit'
 import { useCurrencyByChainId } from 'hooks/Tokens'
 import { InfinityPoolInfo, PoolInfo } from 'state/farmsV4/state/type'
 import { isInfinityProtocol } from 'utils/protocols'

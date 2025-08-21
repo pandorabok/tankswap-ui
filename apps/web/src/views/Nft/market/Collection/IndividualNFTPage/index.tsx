@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router'
 import PageLoader from 'components/Loader/PageLoader'
 import { safeGetAddress } from 'utils'
-import { pancakeBunniesAddress } from '../../constants'
+import { tankBunniesAddress } from '../../constants'
 import IndividualPancakeBunnyPage from './PancakeBunnyPage'
 import IndividualNFTPage from './OneOfAKindNftPage'
 
@@ -14,7 +14,7 @@ const IndividualNFTPageRouter = () => {
     return <PageLoader />
   }
 
-  const isPBCollection = safeGetAddress(String(collectionAddress)) === safeGetAddress(pancakeBunniesAddress)
+  const isPBCollection = safeGetAddress(String(collectionAddress)) === safeGetAddress(tankBunniesAddress)
   if (isPBCollection) {
     return <IndividualPancakeBunnyPage bunnyId={String(tokenId)} />
   }

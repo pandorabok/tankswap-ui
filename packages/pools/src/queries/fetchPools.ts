@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
+import { ChainId } from '@tankswap/chains'
+import { BIG_ZERO } from '@tankswap/utils/bigNumber'
 import BigNumber from 'bignumber.js'
 import chunk from 'lodash/chunk'
 import fromPairs from 'lodash/fromPairs'
@@ -314,7 +314,7 @@ export const fetchPoolsProfileRequirement = async (
   )
   const poolProfileRequireCalls = livePoolsWithV3
     .map(({ contractAddress }) => {
-      return (['pancakeProfileIsRequested', 'pancakeProfileThresholdPoints'] as const).map(
+      return (['tankProfileIsRequested', 'tankProfileThresholdPoints'] as const).map(
         (method) =>
           ({
             abi: sousChefV3ABI,

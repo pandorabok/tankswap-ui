@@ -1,5 +1,5 @@
 /* eslint-disable no-nested-ternary */
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import {
   Box,
   Breadcrumbs,
@@ -16,10 +16,10 @@ import {
   Text,
   useMatchBreakpoints,
   useTooltip,
-} from '@pancakeswap/uikit'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+} from '@tankswap/uikit'
+import { NextLinkFromReactRouter } from '@tankswap/widgets-internal'
 
-import { getLegacyFarmConfig } from '@pancakeswap/farms'
+import { getLegacyFarmConfig } from '@tankswap/farms'
 import { useQuery } from '@tanstack/react-query'
 import BigNumber from 'bignumber.js'
 import Page from 'components/Layout/Page'

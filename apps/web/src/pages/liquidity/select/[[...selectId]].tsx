@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Breadcrumbs, Container } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Breadcrumbs, Container } from '@tankswap/uikit'
 import PageLoader from 'components/Loader/PageLoader'
 import { SelectIdRoute } from 'dynamicRoute'
 import { useDefaultSelectIdRoute, useSelectIdRoute } from 'hooks/dynamicRoute/useSelectIdRoute'

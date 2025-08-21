@@ -1,6 +1,6 @@
-import { Token } from '@pancakeswap/sdk'
-import { TokenLogo } from '@pancakeswap/uikit'
-import { chainName as CHAIN_PATH } from '@pancakeswap/widgets-internal'
+import { Token } from '@tankswap/sdk'
+import { TokenLogo } from '@tankswap/uikit'
+import { chainName as CHAIN_PATH } from '@tankswap/widgets-internal'
 import React, { useMemo } from 'react'
 
 import { multiChainId, MultiChainNameExtend } from 'state/info/constant'
@@ -34,12 +34,12 @@ export const CurrencyLogoV2: React.FC<
     let srcFromPCS = ''
 
     if (address === zeroAddress) {
-      srcFromPCS = `https://assets.pancakeswap.finance/web/native/${multiChainId[chainName]}.png`
+      srcFromPCS = `https://assets.tankswap.finance/web/native/${multiChainId[chainName]}.png`
     } else {
       const imagePath = chainNameToPath(chainName)
       const checkedsummedAddress = safeGetAddress(address)
       srcFromPCS = checkedsummedAddress
-        ? `https://tokens.pancakeswap.finance/images/${imagePath}${checkedsummedAddress}.png`
+        ? `https://tokens.tankswap.finance/images/${imagePath}${checkedsummedAddress}.png`
         : ''
     }
     return src ? [srcFromPCS, src] : [srcFromPCS]

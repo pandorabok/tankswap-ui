@@ -1,6 +1,6 @@
-import { ChainId } from '@pancakeswap/chains'
-import { useTranslation } from '@pancakeswap/localization'
-import { useToast } from '@pancakeswap/uikit'
+import { ChainId } from '@tankswap/chains'
+import { useTranslation } from '@tankswap/localization'
+import { useToast } from '@tankswap/uikit'
 import { useQuery } from '@tanstack/react-query'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import { zkSyncAirDropABI } from 'config/abi/zksyncAirdrop'
@@ -23,7 +23,7 @@ interface ZksyncAirDropWhiteListData {
 }
 
 export const fetchZksyncAirDropWhitelist = async (account: Address): Promise<ZksyncAirDropWhiteListData> => {
-  const response = await fetch(`https://proofs.pancakeswap.com/zksync-airdrop/v9/${account}`)
+  const response = await fetch(`https://proofs.tankswap.com/zksync-airdrop/v9/${account}`)
   if (!response.ok) {
     throw new Error('User is not in whitelist')
   }

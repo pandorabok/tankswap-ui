@@ -1,7 +1,7 @@
-import { ChainId } from '@pancakeswap/chains'
-import { DeserializedFarm, FarmWithStakedValue, filterFarmsByQuery } from '@pancakeswap/farms'
-import { useIntersectionObserver } from '@pancakeswap/hooks'
-import { useTranslation } from '@pancakeswap/localization'
+import { ChainId } from '@tankswap/chains'
+import { DeserializedFarm, FarmWithStakedValue, filterFarmsByQuery } from '@tankswap/farms'
+import { useIntersectionObserver } from '@tankswap/hooks'
+import { useTranslation } from '@tankswap/localization'
 import {
   Box,
   Flex,
@@ -17,9 +17,9 @@ import {
   Text,
   Toggle,
   ToggleView,
-} from '@pancakeswap/uikit'
+} from '@tankswap/uikit'
 
-import { FarmWidget } from '@pancakeswap/widgets-internal'
+import { FarmWidget } from '@tankswap/widgets-internal'
 import BigNumber from 'bignumber.js'
 import Page from 'components/Layout/Page'
 import { useActiveChainId } from 'hooks/useActiveChainId'
@@ -428,7 +428,7 @@ const Farms: React.FC<React.PropsWithChildren> = ({ children }) => {
                 external
                 color="failure"
                 fontSize={['16px', null, '20px']}
-                href="https://v1-farms.pancakeswap.finance/farms/history"
+                href="https://v1-farms.tankswap.finance/farms/history"
               >
                 {t('check out v1 farms')}.
               </FinishedTextLink>

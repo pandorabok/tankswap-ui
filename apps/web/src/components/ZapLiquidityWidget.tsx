@@ -1,6 +1,6 @@
-import '@kyberswap/pancake-liquidity-widgets/dist/style.css'
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency, UnifiedCurrency } from '@pancakeswap/sdk'
+import '@kyberswap/tank-liquidity-widgets/dist/style.css'
+import { useTranslation } from '@tankswap/localization'
+import { Currency, UnifiedCurrency } from '@tankswap/sdk'
 import {
   Flex,
   InfoFilledIcon,
@@ -11,8 +11,8 @@ import {
   Text,
   useModal,
   useToast,
-} from '@pancakeswap/uikit'
-import { Pool } from '@pancakeswap/v3-sdk'
+} from '@tankswap/uikit'
+import { Pool } from '@tankswap/v3-sdk'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import dynamic from 'next/dynamic'
 import { useCallback, useMemo, useState } from 'react'
@@ -48,7 +48,7 @@ interface ZapLiquidityProps {
 }
 
 const LiquidityWidget = dynamic(
-  () => import('@kyberswap/pancake-liquidity-widgets').then((mod) => mod.LiquidityWidget),
+  () => import('@kyberswap/tank-liquidity-widgets').then((mod) => mod.LiquidityWidget),
   { ssr: false },
 )
 
@@ -253,7 +253,7 @@ export const ZapLiquidityWidget: React.FC<ZapLiquidityProps> = ({
               onAmountChange={handleAmountChange}
               onDismiss={handleOnDismiss}
               onTxSubmit={handleTransaction}
-              source="pancakeswap"
+              source="tankswap"
             />
           ) : null}
         </ModalContainer>

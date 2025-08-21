@@ -1,6 +1,6 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@tankswap/chains'
 import { useQuery } from '@tanstack/react-query'
-import { pancakeProfileProxyABI } from 'config/abi/pancakeProfileProxy'
+import { tankProfileProxyABI } from 'config/abi/tankProfileProxy'
 import { FAST_INTERVAL } from 'config/constants'
 import useAccountActiveChain from 'hooks/useAccountActiveChain'
 import { useActiveIfoConfig } from 'hooks/useIfoConfig'
@@ -27,7 +27,7 @@ export const getProfileProxy = async (address: Address, targetChainId: ChainId):
       contracts: [
         {
           address: getPancakeProfileProxyAddress(targetChainId),
-          abi: pancakeProfileProxyABI,
+          abi: tankProfileProxyABI,
           functionName: 'userProfiles',
           args: [address],
         },
@@ -88,7 +88,7 @@ export const getProfileProxyUserStatus = async (account?: Address, targetChainId
 
     // Returns a boolean indicating if profile is active or not
     return client.readContract({
-      abi: pancakeProfileProxyABI,
+      abi: tankProfileProxyABI,
       address: getPancakeProfileProxyAddress(targetChainId),
       functionName: 'getUserStatus',
       args: [account],

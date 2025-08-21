@@ -1,4 +1,4 @@
-# @pancakeswap/tokens
+# @tankswap/tokens
 
 ## 0.7.8
 
@@ -11,69 +11,69 @@
 ### Patch Changes
 
 - Updated dependencies [cd589e1]
-  - @pancakeswap/chains@0.6.0
-  - @pancakeswap/sdk@5.8.16
-  - @pancakeswap/token-lists@0.0.16
+  - @tankswap/chains@0.6.0
+  - @tankswap/sdk@5.8.16
+  - @tankswap/token-lists@0.0.16
 
 ## 0.7.6
 
 ### Patch Changes
 
 - Updated dependencies [979f5e0]
-  - @pancakeswap/chains@0.5.3
-  - @pancakeswap/sdk@5.8.15
-  - @pancakeswap/token-lists@0.0.15
+  - @tankswap/chains@0.5.3
+  - @tankswap/sdk@5.8.15
+  - @tankswap/token-lists@0.0.15
 
 ## 0.7.5
 
 ### Patch Changes
 
 - 2f165c8: Add susdx-susdx routing config
-  - @pancakeswap/token-lists@0.0.15
+  - @tankswap/token-lists@0.0.15
 
 ## 0.7.4
 
 ### Patch Changes
 
 - Updated dependencies [3de0443]
-  - @pancakeswap/chains@0.5.2
-  - @pancakeswap/sdk@5.8.14
-  - @pancakeswap/token-lists@0.0.15
+  - @tankswap/chains@0.5.2
+  - @tankswap/sdk@5.8.14
+  - @tankswap/token-lists@0.0.15
 
 ## 0.7.3
 
 ### Patch Changes
 
 - cb44715: [Major Updates]
-  **@pancakeswap/routing-sdk-addon-infinity**
-  **@pancakeswap/routing-sdk-addon-quoter**
-  **@pancakeswap/infinity-sdk**
+  **@tankswap/routing-sdk-addon-infinity**
+  **@tankswap/routing-sdk-addon-quoter**
+  **@tankswap/infinity-sdk**
 
   3 packages added for support infinity(CL & Bin) pools and dynamic hooks path finding and liquidity management.
 
   [Minor Updates]
-  **@pancakeswap/universal-router-sdk**: This update implements Infinity CL/BIN route planning, merges and restructures code for stable, V2, V3, and Infinity pools, refactors commands into a RoutePlanner, and removes legacy ABIs. It adds new decode logic for universal calldata, reorganizes input token permits, and updates addresses in constants, improving flexibility and reducing complexity.
+  **@tankswap/universal-router-sdk**: This update implements Infinity CL/BIN route planning, merges and restructures code for stable, V2, V3, and Infinity pools, refactors commands into a RoutePlanner, and removes legacy ABIs. It adds new decode logic for universal calldata, reorganizes input token permits, and updates addresses in constants, improving flexibility and reducing complexity.
 
-  **@pancakeswap/widgets-internal** : Add Infinity modules, "PriceRangeChartWithPeriodAndLiquidity," new "ProtocolMenu," "PoolTypeFilter," and "Tips," and remove "PoolTagFilter," "PoolTypeMenu." We update "FeatureStack" (folding/info icons), "FeeTierTooltip," "NetworkFilter," "TokenFilter," "TokenOverview," and ROI logic. We also revise Infinity liquidity features with new chart components and hooks.
+  **@tankswap/widgets-internal** : Add Infinity modules, "PriceRangeChartWithPeriodAndLiquidity," new "ProtocolMenu," "PoolTypeFilter," and "Tips," and remove "PoolTagFilter," "PoolTypeMenu." We update "FeatureStack" (folding/info icons), "FeeTierTooltip," "NetworkFilter," "TokenFilter," "TokenOverview," and ROI logic. We also revise Infinity liquidity features with new chart components and hooks.
 
-  **@pancakeswap/swap-sdk-core**: Reduce rounding errors and improve quote accuracy, with refined type definitions ensuring a smoother developer experience.
+  **@tankswap/swap-sdk-core**: Reduce rounding errors and improve quote accuracy, with refined type definitions ensuring a smoother developer experience.
 
-  **@pancakeswap/smart-router**: Refactored some references to Infinity and introduced InfinityRouter with Infinity CL and BIN pools. Removed V4 code, updated on-chain quote providers, route encoders, logging, and aggregator logic. Enhanced route handling performance and ensured compatibility with Infinity SDK for improved quoting.
+  **@tankswap/smart-router**: Refactored some references to Infinity and introduced InfinityRouter with Infinity CL and BIN pools. Removed V4 code, updated on-chain quote providers, route encoders, logging, and aggregator logic. Enhanced route handling performance and ensured compatibility with Infinity SDK for improved quoting.
 
-  **@pancakeswap/routing-sdk**: Add Infinity CL and Bin pool support to the routing SDK. Introduce new constants, math utilities, and route encoding for Infinity mixed routes. Integrate Infinity quoter logic, including bin and CL quote calls, gas cost estimation, and logging improvements for better debugging.
+  **@tankswap/routing-sdk**: Add Infinity CL and Bin pool support to the routing SDK. Introduce new constants, math utilities, and route encoding for Infinity mixed routes. Integrate Infinity quoter logic, including bin and CL quote calls, gas cost estimation, and logging improvements for better debugging.
 
-  **@pancakeswap/farms**: Added InfinityBIN and InfinityCLAMM protocols, introduced BSC testnet support, updated fetch logic to handle zeroAddress with Native tokens, and included new V4 farm format in utilities. Also updated test exports, chain arrays, and support lists to incorporate these changes and ensure robust universal farm configuration.
+  **@tankswap/farms**: Added InfinityBIN and InfinityCLAMM protocols, introduced BSC testnet support, updated fetch logic to handle zeroAddress with Native tokens, and included new V4 farm format in utilities. Also updated test exports, chain arrays, and support lists to incorporate these changes and ensure robust universal farm configuration.
 
-  **@pancakeswap/uikit**
-  '@pancakeswap/utils': Added forwardRef support to Breadcrumbs, new Button variant "textPrimary60," a noButtonMargin prop in ButtonMenu, children rendering in CopyButton, itemKey in DropdownMenu, new icons (CurveGraph, CurvedChart, HookFeature, SpotGraph), updated color tokens and styles, refined useModal logic.
+  **@tankswap/uikit**
+  '@tankswap/utils': Added forwardRef support to Breadcrumbs, new Button variant "textPrimary60," a noButtonMargin prop in ButtonMenu, children rendering in CopyButton, itemKey in DropdownMenu, new icons (CurveGraph, CurvedChart, HookFeature, SpotGraph), updated color tokens and styles, refined useModal logic.
 
   [Patch Updates]
 
   Added support for infinity by introducing internal types and updating unit tests to improve code maintainability and logging accuracy.
 
 - Updated dependencies [cb44715]
-  - @pancakeswap/sdk@5.8.13
-  - @pancakeswap/token-lists@0.0.15
+  - @tankswap/sdk@5.8.13
+  - @tankswap/token-lists@0.0.15
 
 ## 0.7.2
 
@@ -81,9 +81,9 @@
 
 - Updated dependencies [5f264c5]
 - Updated dependencies [0436fec]
-  - @pancakeswap/chains@0.5.1
-  - @pancakeswap/sdk@5.8.12
-  - @pancakeswap/token-lists@0.0.14
+  - @tankswap/chains@0.5.1
+  - @tankswap/sdk@5.8.12
+  - @tankswap/token-lists@0.0.14
 
 ## 0.7.1
 
@@ -101,23 +101,23 @@
 
 - 77db844: Update token symbol
 - Updated dependencies [6a6acdb]
-  - @pancakeswap/chains@0.5.0
-  - @pancakeswap/sdk@5.8.11
-  - @pancakeswap/token-lists@0.0.14
+  - @tankswap/chains@0.5.0
+  - @tankswap/sdk@5.8.11
+  - @tankswap/token-lists@0.0.14
 
 ## 0.6.29
 
 ### Patch Changes
 
 - Updated dependencies [36f8955]
-  - @pancakeswap/sdk@5.8.10
+  - @tankswap/sdk@5.8.10
 
 ## 0.6.28
 
 ### Patch Changes
 
-- @pancakeswap/sdk@5.8.9
-- @pancakeswap/token-lists@0.0.14
+- @tankswap/sdk@5.8.9
+- @tankswap/token-lists@0.0.14
 
 ## 0.6.27
 
@@ -131,7 +131,7 @@
 
 - 72fb1db: Listed new tokens & farms & gauges config
 - Updated dependencies [f3e8a77]
-  - @pancakeswap/token-lists@0.0.13
+  - @tankswap/token-lists@0.0.13
 
 ## 0.6.25
 
@@ -150,8 +150,8 @@
 
 ### Patch Changes
 
-- @pancakeswap/sdk@5.8.8
-- @pancakeswap/token-lists@0.0.12
+- @tankswap/sdk@5.8.8
+- @tankswap/token-lists@0.0.12
 
 ## 0.6.22
 
@@ -165,9 +165,9 @@
 ### Patch Changes
 
 - Updated dependencies [9a16780]
-  - @pancakeswap/chains@0.4.6
-  - @pancakeswap/sdk@5.8.7
-  - @pancakeswap/token-lists@0.0.11
+  - @tankswap/chains@0.4.6
+  - @tankswap/sdk@5.8.7
+  - @tankswap/token-lists@0.0.11
 
 ## 0.6.20
 
@@ -176,26 +176,26 @@
 - 5fa28e0: Add Holdstation(HOLD) token on zkSync
 - 95cfa0c: fix zkSync USDT+ decimals
 - Updated dependencies [b9c91d1]
-  - @pancakeswap/chains@0.4.5
-  - @pancakeswap/sdk@5.8.6
-  - @pancakeswap/token-lists@0.0.11
+  - @tankswap/chains@0.4.5
+  - @tankswap/sdk@5.8.6
+  - @tankswap/token-lists@0.0.11
 
 ## 0.6.19
 
 ### Patch Changes
 
 - Updated dependencies [edc3f30]
-  - @pancakeswap/sdk@5.8.5
-  - @pancakeswap/token-lists@0.0.11
+  - @tankswap/sdk@5.8.5
+  - @tankswap/token-lists@0.0.11
 
 ## 0.6.18
 
 ### Patch Changes
 
 - Updated dependencies [edf4640]
-  - @pancakeswap/chains@0.4.4
-  - @pancakeswap/sdk@5.8.4
-  - @pancakeswap/token-lists@0.0.11
+  - @tankswap/chains@0.4.4
+  - @tankswap/sdk@5.8.4
+  - @tankswap/token-lists@0.0.11
 
 ## 0.6.17
 
@@ -205,7 +205,7 @@
 - 755bb18: New FURY Token. 2 BSC Farms. 3 zkSync Farms. New Gauges.
 - 502d961: Add MNT and mETH tokens with their farms and gauges on Ethereum
 - Updated dependencies [e99c216]
-  - @pancakeswap/sdk@5.8.3
+  - @tankswap/sdk@5.8.3
 
 ## 0.6.16
 
@@ -220,9 +220,9 @@
 
 - Updated dependencies [0f4281c]
 - Updated dependencies [63a63d8]
-  - @pancakeswap/chains@0.4.3
-  - @pancakeswap/sdk@5.8.2
-  - @pancakeswap/token-lists@0.0.11
+  - @tankswap/chains@0.4.3
+  - @tankswap/sdk@5.8.2
+  - @tankswap/token-lists@0.0.11
 
 ## 0.6.14
 
@@ -242,9 +242,9 @@
 
 - Updated dependencies [72c834c]
 - Updated dependencies [d4283e5]
-  - @pancakeswap/sdk@5.8.1
-  - @pancakeswap/chains@0.4.2
-  - @pancakeswap/token-lists@0.0.11
+  - @tankswap/sdk@5.8.1
+  - @tankswap/chains@0.4.2
+  - @tankswap/token-lists@0.0.11
 
 ## 0.6.11
 
@@ -275,15 +275,15 @@
 ### Patch Changes
 
 - Updated dependencies [610a24a]
-  - @pancakeswap/sdk@5.8.0
-  - @pancakeswap/token-lists@0.0.11
+  - @tankswap/sdk@5.8.0
+  - @tankswap/token-lists@0.0.11
 
 ## 0.6.6
 
 ### Patch Changes
 
-- @pancakeswap/sdk@5.7.7
-- @pancakeswap/token-lists@0.0.10
+- @tankswap/sdk@5.7.7
+- @tankswap/token-lists@0.0.10
 
 ## 0.6.5
 
@@ -309,9 +309,9 @@
 
 - 91969f80f: Add sepolia, base sepolia, arbitrum sepolia support
 - Updated dependencies [91969f80f]
-  - @pancakeswap/sdk@5.7.6
-  - @pancakeswap/chains@0.4.1
-  - @pancakeswap/token-lists@0.0.9
+  - @tankswap/sdk@5.7.6
+  - @tankswap/chains@0.4.1
+  - @tankswap/token-lists@0.0.9
 
 ## 0.6.1
 
@@ -330,24 +330,24 @@
 ### Patch Changes
 
 - Updated dependencies [8fcd67c85]
-  - @pancakeswap/chains@0.4.0
-  - @pancakeswap/sdk@5.7.5
-  - @pancakeswap/token-lists@0.0.9
+  - @tankswap/chains@0.4.0
+  - @tankswap/sdk@5.7.5
+  - @tankswap/token-lists@0.0.9
 
 ## 0.5.7
 
 ### Patch Changes
 
 - Updated dependencies [49730e609]
-  - @pancakeswap/chains@0.3.1
-  - @pancakeswap/sdk@5.7.4
+  - @tankswap/chains@0.3.1
+  - @tankswap/sdk@5.7.4
 
 ## 0.5.6
 
 ### Patch Changes
 
 - Updated dependencies [2ec03f1b2]
-  - @pancakeswap/sdk@5.7.3
+  - @tankswap/sdk@5.7.3
 
 ## 0.5.5
 
@@ -360,30 +360,30 @@
 ### Patch Changes
 
 - Updated dependencies [c236a3ee4]
-  - @pancakeswap/chains@0.3.0
-  - @pancakeswap/sdk@5.7.2
+  - @tankswap/chains@0.3.0
+  - @tankswap/sdk@5.7.2
 
 ## 0.5.3
 
 ### Patch Changes
 
 - Updated dependencies [d994c3335]
-  - @pancakeswap/token-lists@0.0.9
+  - @tankswap/token-lists@0.0.9
 
 ## 0.5.2
 
 ### Patch Changes
 
 - Updated dependencies [ed3146c93]
-  - @pancakeswap/chains@0.2.0
-  - @pancakeswap/sdk@5.7.1
+  - @tankswap/chains@0.2.0
+  - @tankswap/sdk@5.7.1
 
 ## 0.5.1
 
 ### Patch Changes
 
 - Updated dependencies [8e3ac5427]
-  - @pancakeswap/sdk@5.7.0
+  - @tankswap/sdk@5.7.0
 
 ## 0.5.0
 
@@ -394,8 +394,8 @@
 ### Patch Changes
 
 - Updated dependencies [435a90ac2]
-  - @pancakeswap/sdk@5.6.0
-  - @pancakeswap/chains@0.1.0
+  - @tankswap/sdk@5.6.0
+  - @tankswap/chains@0.1.0
 
 ## 0.4.4
 
@@ -403,30 +403,30 @@
 
 - 1831356d9: refactor: Move ChainsId usage from Sdk to Chains package
 - Updated dependencies [1831356d9]
-  - @pancakeswap/sdk@5.5.0
+  - @tankswap/sdk@5.5.0
 
 ## 0.4.3
 
 ### Patch Changes
 
 - Updated dependencies [2d7e1b3e2]
-  - @pancakeswap/sdk@5.4.2
-  - @pancakeswap/token-lists@0.0.8
+  - @tankswap/sdk@5.4.2
+  - @tankswap/token-lists@0.0.8
 
 ## 0.4.2
 
 ### Patch Changes
 
-- 51b77c787: Fix utils deps: `@pancakeswap/utils` now should not dependent on sdk and awgmi
-  - @pancakeswap/token-lists@0.0.8
+- 51b77c787: Fix utils deps: `@tankswap/utils` now should not dependent on sdk and awgmi
+  - @tankswap/token-lists@0.0.8
 
 ## 0.4.1
 
 ### Patch Changes
 
 - Updated dependencies [7a0c21e72]
-  - @pancakeswap/sdk@5.4.1
-  - @pancakeswap/token-lists@0.0.8
+  - @tankswap/sdk@5.4.1
+  - @tankswap/token-lists@0.0.8
 
 ## 0.4.0
 
@@ -437,15 +437,15 @@
 ### Patch Changes
 
 - Updated dependencies [868f4d11f]
-  - @pancakeswap/sdk@5.4.0
-  - @pancakeswap/token-lists@0.0.8
+  - @tankswap/sdk@5.4.0
+  - @tankswap/token-lists@0.0.8
 
 ## 0.3.1
 
 ### Patch Changes
 
 - d0f9b28a9: Remove invalid dependency
-  - @pancakeswap/token-lists@0.0.8
+  - @tankswap/token-lists@0.0.8
 
 ## 0.3.0
 
@@ -456,31 +456,31 @@
 ### Patch Changes
 
 - Updated dependencies [5e15c611e]
-  - @pancakeswap/sdk@5.3.0
-  - @pancakeswap/utils@4.0.0
-  - @pancakeswap/token-lists@0.0.8
+  - @tankswap/sdk@5.3.0
+  - @tankswap/utils@4.0.0
+  - @tankswap/token-lists@0.0.8
 
 ## 0.2.3
 
 ### Patch Changes
 
-- @pancakeswap/utils@3.0.3
-- @pancakeswap/token-lists@0.0.8
+- @tankswap/utils@3.0.3
+- @tankswap/token-lists@0.0.8
 
 ## 0.2.2
 
 ### Patch Changes
 
 - e0a681bc6: Usd native USDC in Arbitrum
-  - @pancakeswap/token-lists@0.0.8
+  - @tankswap/token-lists@0.0.8
 
 ## 0.2.1
 
 ### Patch Changes
 
 - Updated dependencies [3ba496cb1]
-  - @pancakeswap/sdk@5.2.1
-  - @pancakeswap/token-lists@0.0.8
+  - @tankswap/sdk@5.2.1
+  - @tankswap/token-lists@0.0.8
 
 ## 0.2.0
 
@@ -491,46 +491,46 @@
 ### Patch Changes
 
 - Updated dependencies [77fc3406a]
-  - @pancakeswap/sdk@5.2.0
-  - @pancakeswap/token-lists@0.0.8
+  - @tankswap/sdk@5.2.0
+  - @tankswap/token-lists@0.0.8
 
 ## 0.1.6
 
 ### Patch Changes
 
 - 500adb4f8: Add new tokens
-  - @pancakeswap/token-lists@0.0.8
+  - @tankswap/token-lists@0.0.8
 
 ## 0.1.5
 
 ### Patch Changes
 
 - Updated dependencies [f9fda4ebe]
-  - @pancakeswap/sdk@5.1.0
-  - @pancakeswap/token-lists@0.0.8
+  - @tankswap/sdk@5.1.0
+  - @tankswap/token-lists@0.0.8
 
 ## 0.1.4
 
 ### Patch Changes
 
 - Updated dependencies [e31475e6b]
-  - @pancakeswap/token-lists@0.0.8
+  - @tankswap/token-lists@0.0.8
 
 ## 0.1.3
 
 ### Patch Changes
 
 - Updated dependencies [938aa75f5]
-  - @pancakeswap/sdk@5.0.0
-  - @pancakeswap/token-lists@0.0.7
+  - @tankswap/sdk@5.0.0
+  - @tankswap/token-lists@0.0.7
 
 ## 0.1.2
 
 ### Patch Changes
 
 - Updated dependencies [b5dbd2921]
-  - @pancakeswap/sdk@4.0.0
-  - @pancakeswap/token-lists@0.0.7
+  - @tankswap/sdk@4.0.0
+  - @tankswap/token-lists@0.0.7
 
 ## 0.1.1
 
@@ -547,4 +547,4 @@
 ### Patch Changes
 
 - Updated dependencies [65fbb250a]
-  - @pancakeswap/sdk@3.2.0
+  - @tankswap/sdk@3.2.0

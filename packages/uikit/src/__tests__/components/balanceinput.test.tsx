@@ -385,14 +385,14 @@ it("renders correctly with unit prop and switchEditingUnits", () => {
       box-shadow: var(--shadows-focus);
     }
 
-    .c11:active:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled) {
+    .c11:active:not(:disabled):not(.tank-button--disabled):not(.tank-button--disabled) {
       opacity: 0.85;
       transform: translateY(1px);
       box-shadow: none;
     }
 
     .c11:disabled,
-    .c11.pancake-button--disabled {
+    .c11.tank-button--disabled {
       background-color: var(--colors-backgroundDisabled);
       border-color: var(--colors-backgroundDisabled);
       box-shadow: none;
@@ -449,7 +449,7 @@ it("renders correctly with unit prop and switchEditingUnits", () => {
     }
 
     @media (hover: hover) {
-      .c11:hover:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled):not(:active) {
+      .c11:hover:not(:disabled):not(.tank-button--disabled):not(.tank-button--disabled):not(:active) {
         opacity: 0.65;
       }
     }

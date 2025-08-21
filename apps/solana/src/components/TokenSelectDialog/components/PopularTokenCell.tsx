@@ -1,6 +1,6 @@
 import styled from '@emotion/styled'
-import { FlexGap, Text } from '@pancakeswap/uikit'
-import { TokenInfo } from '@pancakeswap/solana-core-sdk'
+import { FlexGap, Text } from '@tankswap/uikit'
+import { TokenInfo } from '@tankswap/solana-core-sdk'
 import { colors } from '@/theme/cssVariables'
 import TokenAvatar from '../../TokenAvatar'
 

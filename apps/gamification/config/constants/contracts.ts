@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@tankswap/chains'
 
 export default {
   multiCall: {
@@ -18,7 +18,7 @@ export default {
     [ChainId.SCROLL_SEPOLIA]: '0xcA11bde05977b3631167028862bE2a173976CA11',
     [ChainId.MONAD_TESTNET]: '0xcA11bde05977b3631167028862bE2a173976CA11',
   },
-  pancakeProfile: {
+  tankProfile: {
     [ChainId.BSC]: '0xDf4dBf6536201370F95e06A0F8a7a70fE40E388a',
     [ChainId.BSC_TESTNET]: '0x4B683C7E13B6d5D7fd1FeA9530F451954c1A7c8A',
   },
@@ -26,7 +26,7 @@ export default {
     [ChainId.BSC]: '0xeC0C84c6c503B77966C27953d218276Fd977Db4b',
     [ChainId.BSC_TESTNET]: '0x707CBF373175fdB601D34eeBF2Cf665d08f01148',
   },
-  pancakeBunnies: {
+  tankBunnies: {
     [ChainId.BSC]: '0xDf7952B35f24aCF7fC0487D01c8d5690a60DBa07',
     [ChainId.BSC_TESTNET]: '0x60935F36e4631F73f0f407e68642144e07aC7f5E',
   },

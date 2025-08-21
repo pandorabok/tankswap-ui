@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { ERC20Token, WBNB } from '@pancakeswap/sdk'
+import { ChainId } from '@tankswap/chains'
+import { ERC20Token, WBNB } from '@tankswap/sdk'
 
 import { BUSD_BSC, CAKE_MAINNET, USD1_BSC, USDT_BSC } from './common'
 
@@ -224,7 +224,7 @@ export const bscTokens = {
     18,
     'SYRUP',
     'SyrupBar Token',
-    'https://pancakeswap.finance/',
+    'https://tankswap.finance/',
   ),
   pha: new ERC20Token(
     ChainId.BSC,
@@ -408,7 +408,7 @@ export const bscTokens = {
     18,
     'BUNNY',
     'Pancakebunny Token',
-    'https://pancakebunny.finance/',
+    'https://tankbunny.finance/',
   ),
   alice: new ERC20Token(
     ChainId.BSC,
@@ -2618,7 +2618,7 @@ export const bscTokens = {
     18,
     'CGPT',
     'ChainGPT',
-    'https://www.chaingpt.org/?utm_source=pancakeswap&utm_medium=partnership&utm_campaign=august_syrup_pool',
+    'https://www.chaingpt.org/?utm_source=tankswap&utm_medium=partnership&utm_campaign=august_syrup_pool',
   ),
   play: new ERC20Token(
     ChainId.BSC,
@@ -2883,7 +2883,7 @@ export const bscTokens = {
     18,
     'CKP',
     'Cakepie',
-    'https://www.pancake.magpiexyz.io/',
+    'https://www.tank.magpiexyz.io/',
   ),
   pnp: new ERC20Token(
     ChainId.BSC,
@@ -2899,7 +2899,7 @@ export const bscTokens = {
     18,
     'mCAKE',
     'mCake Token',
-    'https://www.pancake.magpiexyz.io/stake',
+    'https://www.tank.magpiexyz.io/stake',
   ),
   insp: new ERC20Token(
     ChainId.BSC,
@@ -2963,7 +2963,7 @@ export const bscTokens = {
     18,
     'DLP',
     'WBNB-RDNT Pancake LP',
-    'https://pancakeswap.finance',
+    'https://tankswap.finance',
   ),
   mdlp: new ERC20Token(
     ChainId.BSC,

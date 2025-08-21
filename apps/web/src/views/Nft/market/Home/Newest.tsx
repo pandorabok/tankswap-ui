@@ -1,13 +1,13 @@
-import { Button, ChevronRightIcon, Flex, Grid, Heading } from '@pancakeswap/uikit'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+import { Button, ChevronRightIcon, Flex, Grid, Heading } from '@tankswap/uikit'
+import { NextLinkFromReactRouter } from '@tankswap/widgets-internal'
 import { useEffect, useState } from 'react'
 
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import { getLatestListedNfts, getNftsFromDifferentCollectionsApi } from 'state/nftMarket/helpers'
 import { NftToken } from 'state/nftMarket/types'
 import { safeGetAddress } from 'utils'
 import { Address } from 'viem'
-import { nftsBaseUrl, pancakeBunniesAddress } from 'views/Nft/market/constants'
+import { nftsBaseUrl, tankBunniesAddress } from 'views/Nft/market/constants'
 import { CollectibleLinkCard } from '../components/CollectibleCard'
 import GridPlaceholder from '../components/GridPlaceholder'
 
@@ -67,7 +67,7 @@ const Newest: React.FC<React.PropsWithChildren> = () => {
           gridTemplateColumns={['1fr', 'repeat(2, 1fr)', 'repeat(2, 1fr)', 'repeat(4, 1fr)']}
         >
           {nfts.map((nft) => {
-            const isPBCollection = safeGetAddress(nft.collectionAddress) === safeGetAddress(pancakeBunniesAddress)
+            const isPBCollection = safeGetAddress(nft.collectionAddress) === safeGetAddress(tankBunniesAddress)
             const currentAskPrice =
               !isPBCollection && nft.marketData?.isTradable ? parseFloat(nft.marketData?.currentAskPrice) : undefined
             return (

@@ -1,6 +1,6 @@
-import { ChainId, NonEVMChainId, UnifiedChainId, getChainName } from '@pancakeswap/chains'
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency, Token, Native } from '@pancakeswap/sdk'
+import { ChainId, NonEVMChainId, UnifiedChainId, getChainName } from '@tankswap/chains'
+import { useTranslation } from '@tankswap/localization'
+import { Currency, Token, Native } from '@tankswap/sdk'
 import {
   AutoColumn,
   Box,
@@ -12,9 +12,9 @@ import {
   Link,
   Spinner,
   Text,
-} from '@pancakeswap/uikit'
-import tryParseAmount from '@pancakeswap/utils/tryParseAmount'
-import { ConfirmationPendingContent } from '@pancakeswap/widgets-internal'
+} from '@tankswap/uikit'
+import tryParseAmount from '@tankswap/utils/tryParseAmount'
+import { ConfirmationPendingContent } from '@tankswap/widgets-internal'
 import { ChainLogo } from 'components/Logo/ChainLogo'
 import CurrencyLogo from 'components/Logo/CurrencyLogo'
 import { ASSET_CDN } from 'config/constants/endpoints'

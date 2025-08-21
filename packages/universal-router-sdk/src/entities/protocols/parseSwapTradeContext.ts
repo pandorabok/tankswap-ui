@@ -1,5 +1,5 @@
-import { Currency, TradeType } from '@pancakeswap/sdk'
-import { MSG_SENDER, Pool, PoolType, Route, RouteType, SmartRouter, SmartRouterTrade } from '@pancakeswap/smart-router'
+import { Currency, TradeType } from '@tankswap/sdk'
+import { MSG_SENDER, Pool, PoolType, Route, RouteType, SmartRouter, SmartRouterTrade } from '@tankswap/smart-router'
 import invariant from 'tiny-invariant'
 import { getInputCurrency } from '../../utils/poolHelpers.tmp'
 import { PancakeSwapOptions, SwapSection, SwapTradeContext } from '../types'

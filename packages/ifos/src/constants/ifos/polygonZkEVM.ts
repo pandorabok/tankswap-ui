@@ -1,4 +1,4 @@
-// import { polygonZkEvmTokens } from '@pancakeswap/tokens'
+// import { polygonZkEvmTokens } from '@tankswap/tokens'
 
 import { BaseIfoConfig } from '../../types'
 
@@ -19,10 +19,10 @@ export const ifos: BaseIfoConfig[] = [
   //   currency: polygonZkEvmTokens.cake,
   //   token: polygonZkEvmTokens.matic,
   //   campaignId: '512200000',
-  //   articleUrl: 'https://pancakeswap.finance/voting/',
+  //   articleUrl: 'https://tankswap.finance/voting/',
   //   tokenOfferingPrice: 0.5782,
   //   version: 7,
-  //   twitterUrl: 'https://twitter.com/pancakeswap',
+  //   twitterUrl: 'https://twitter.com/tankswap',
   //   description: 'Spend CAKE, buy USDT, but on vesting',
   //   vestingTitle: 'Use CAKE to buy USDT',
   // },

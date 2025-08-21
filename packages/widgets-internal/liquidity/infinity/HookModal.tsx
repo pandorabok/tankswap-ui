@@ -1,7 +1,7 @@
-import { HookData } from "@pancakeswap/infinity-sdk";
-import { useTranslation } from "@pancakeswap/localization";
-import { AutoColumn, Flex, FlexGap, LinkExternal, Modal, Text } from "@pancakeswap/uikit";
-import Miscellaneous from "@pancakeswap/uikit/components/Svg/Icons/Miscellaneous";
+import { HookData } from "@tankswap/infinity-sdk";
+import { useTranslation } from "@tankswap/localization";
+import { AutoColumn, Flex, FlexGap, LinkExternal, Modal, Text } from "@tankswap/uikit";
+import Miscellaneous from "@tankswap/uikit/components/Svg/Icons/Miscellaneous";
 import { useMemo } from "react";
 
 const ModalTitle: React.FC<React.PropsWithChildren> = ({ children }) => {

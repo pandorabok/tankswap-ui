@@ -1,9 +1,9 @@
-import { ChainId } from '@pancakeswap/chains'
-import { useTranslation } from '@pancakeswap/localization'
-import { AutoRenewIcon, Button, Card, CardBody, Heading, Skeleton, Text, useToast } from '@pancakeswap/uikit'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+import { ChainId } from '@tankswap/chains'
+import { useTranslation } from '@tankswap/localization'
+import { AutoRenewIcon, Button, Card, CardBody, Heading, Skeleton, Text, useToast } from '@tankswap/uikit'
+import { NextLinkFromReactRouter } from '@tankswap/widgets-internal'
 
-import { pancakeProfileABI } from 'config/abi/pancakeProfile'
+import { tankProfileABI } from 'config/abi/tankProfile'
 import { useCallWithGasPrice } from 'hooks/useCallWithGasPrice'
 import useCatchTxError from 'hooks/useCatchTxError'
 import { useProfile } from 'hooks/useProfile'
@@ -58,7 +58,7 @@ const ProfilePicture: React.FC = () => {
           const collectionRoles = await publicClient({ chainId: ChainId.BSC }).multicall({
             contracts: nftsByCollection.map((collectionAddress) => {
               return {
-                abi: pancakeProfileABI,
+                abi: tankProfileABI,
                 address: getPancakeProfileAddress(),
                 functionName: 'hasRole',
                 args: [nftRole, collectionAddress],
@@ -116,7 +116,7 @@ const ProfilePicture: React.FC = () => {
         </Text>
         <Text as="p" mb="24px">
           {t('Only approved Pancake Collectibles can be used.')}
-          <Link to="https://pancakeswap.finance/profile/pancake-collectibles" style={{ marginLeft: '4px' }}>
+          <Link to="https://tankswap.finance/profile/tank-collectibles" style={{ marginLeft: '4px' }}>
             {t('See the list >')}
           </Link>
         </Text>

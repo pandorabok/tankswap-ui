@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { BetPosition } from '@pancakeswap/prediction'
-import { Flex, FlexProps, InfoIcon, SwapVertIcon, Text, TooltipText, useTooltip } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { BetPosition } from '@tankswap/prediction'
+import { Flex, FlexProps, InfoIcon, SwapVertIcon, Text, TooltipText, useTooltip } from '@tankswap/uikit'
 import { ReactNode } from 'react'
 import { styled } from 'styled-components'
 

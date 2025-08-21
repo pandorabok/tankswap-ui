@@ -1,10 +1,10 @@
-import { Token } from '@pancakeswap/sdk'
-import { Flex, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
-import { Pool } from '@pancakeswap/widgets-internal'
+import { Token } from '@tankswap/sdk'
+import { Flex, Text, useMatchBreakpoints } from '@tankswap/uikit'
+import { Pool } from '@tankswap/widgets-internal'
 import React from 'react'
 import { styled } from 'styled-components'
 
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 
 const StyledCell = styled(Pool.BaseCell)`
   display: none;

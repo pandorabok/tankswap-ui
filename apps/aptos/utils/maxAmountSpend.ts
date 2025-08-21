@@ -1,6 +1,6 @@
-import { Currency, CurrencyAmount } from '@pancakeswap/aptos-swap-sdk'
+import { Currency, CurrencyAmount } from '@tankswap/aptos-swap-sdk'
 import { BIG_INT_ZERO, MIN_APT } from 'config/constants/exchange'
-import { APTOS_COIN } from '@pancakeswap/awgmi'
+import { APTOS_COIN } from '@tankswap/awgmi'
 
 /**
  * Given some token amount, return the max that can be spent of it

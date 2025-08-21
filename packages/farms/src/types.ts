@@ -1,6 +1,6 @@
-import { SerializedToken, Token } from '@pancakeswap/swap-sdk-core'
-import { SerializedWrappedToken } from '@pancakeswap/token-lists'
-import { FeeAmount } from '@pancakeswap/v3-sdk'
+import { SerializedToken, Token } from '@tankswap/swap-sdk-core'
+import { SerializedWrappedToken } from '@tankswap/token-lists'
+import { FeeAmount } from '@tankswap/v3-sdk'
 import BigNumber from 'bignumber.js'
 import { Address, Prettify } from 'viem'
 

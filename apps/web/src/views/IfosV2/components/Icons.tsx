@@ -1,4 +1,4 @@
-import { TokenLogo } from '@pancakeswap/uikit'
+import { TokenLogo } from '@tankswap/uikit'
 import styled from 'styled-components'
 
 export const StyledLogo = styled(TokenLogo)<{ size: string }>`

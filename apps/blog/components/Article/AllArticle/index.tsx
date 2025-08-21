@@ -1,5 +1,5 @@
-import { Categories } from '@pancakeswap/blog'
-import { useTranslation } from '@pancakeswap/localization'
+import { Categories } from '@tankswap/blog'
+import { useTranslation } from '@tankswap/localization'
 import {
   Box,
   Flex,
@@ -9,7 +9,7 @@ import {
   SearchInput,
   Text,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
+} from '@tankswap/uikit'
 import { useQuery } from '@tanstack/react-query'
 import ArticleSortSelect from 'components/Article/ArticleSortSelect'
 import CardArticle from 'components/Article/CardArticle'

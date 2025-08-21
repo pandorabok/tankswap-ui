@@ -1,6 +1,6 @@
-import { getCurrencyPriceFromId } from '@pancakeswap/infinity-sdk'
-import { FeeAmount, nearestUsableTick, TICK_SPACINGS, TickMath, tickToPrice } from '@pancakeswap/v3-sdk'
-import { Bound } from '@pancakeswap/widgets-internal'
+import { getCurrencyPriceFromId } from '@tankswap/infinity-sdk'
+import { FeeAmount, nearestUsableTick, TICK_SPACINGS, TickMath, tickToPrice } from '@tankswap/v3-sdk'
+import { Bound } from '@tankswap/widgets-internal'
 import { formatPercentage } from './formatting'
 
 /**

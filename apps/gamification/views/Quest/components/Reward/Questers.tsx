@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Flex, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Box, Flex, Text } from '@tankswap/uikit'
 import { useCallback } from 'react'
 import styled from 'styled-components'
 import { useGetAllUserIdsByQuestId } from 'views/Quest/hooks/useGetAllUserIdsByQuestId'
@@ -22,7 +22,7 @@ const BunnyNftIcon = styled(Box)<{ $width: number; $height: number }>`
   border-radius: 50%;
   background-size: contain;
   border: solid 2.4px white;
-  background-image: url('https://static-nft.pancakeswap.com/mainnet/0xDf7952B35f24aCF7fC0487D01c8d5690a60DBa07/the-bunny-1000.png');
+  background-image: url('https://static-nft.tankswap.com/mainnet/0xDf7952B35f24aCF7fC0487D01c8d5690a60DBa07/the-bunny-1000.png');
 `
 
 export const Questers = ({

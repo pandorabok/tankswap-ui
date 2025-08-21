@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Pair, Token, UnifiedCurrency, UnifiedCurrencyAmount } from '@pancakeswap/sdk'
+import { useTranslation } from '@tankswap/localization'
+import { Pair, Token, UnifiedCurrency, UnifiedCurrencyAmount } from '@tankswap/sdk'
 import {
   Box,
   Button,
@@ -12,11 +12,11 @@ import {
   Text,
   useMatchBreakpoints,
   useModal,
-} from '@pancakeswap/uikit'
-import { formatNumber } from '@pancakeswap/utils/formatBalance'
-import { formatAmount } from '@pancakeswap/utils/formatFractions'
-import isUndefinedOrNull from '@pancakeswap/utils/isUndefinedOrNull'
-import { CurrencyLogo, DoubleCurrencyLogo, SwapUIV2 } from '@pancakeswap/widgets-internal'
+} from '@tankswap/uikit'
+import { formatNumber } from '@tankswap/utils/formatBalance'
+import { formatAmount } from '@tankswap/utils/formatFractions'
+import isUndefinedOrNull from '@tankswap/utils/isUndefinedOrNull'
+import { CurrencyLogo, DoubleCurrencyLogo, SwapUIV2 } from '@tankswap/widgets-internal'
 import { RiskInputPanelDisplay } from 'components/AccessRisk/SwapRevampRiskDisplay'
 import { FiatLogo } from 'components/Logo/CurrencyLogo'
 import { CommonBasesType } from 'components/SearchModal/types'

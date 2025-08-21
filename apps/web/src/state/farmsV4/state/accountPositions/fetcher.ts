@@ -5,11 +5,11 @@ import {
   fetchAllUniversalFarmsMap,
   getFarmConfigKey,
   UniversalFarmConfig,
-} from '@pancakeswap/farms'
-import { CurrencyAmount, ERC20Token, Pair, Token, pancakePairV2ABI } from '@pancakeswap/sdk'
-import { LegacyStableSwapPair } from '@pancakeswap/smart-router/legacy-router'
-import { deserializeToken } from '@pancakeswap/token-lists'
-import { getBalanceNumber } from '@pancakeswap/utils/formatBalance'
+} from '@tankswap/farms'
+import { CurrencyAmount, ERC20Token, Pair, Token, tankPairV2ABI } from '@tankswap/sdk'
+import { LegacyStableSwapPair } from '@tankswap/smart-router/legacy-router'
+import { deserializeToken } from '@tankswap/token-lists'
+import { getBalanceNumber } from '@tankswap/utils/formatBalance'
 import BigNumber from 'bignumber.js'
 import { infoStableSwapABI } from 'config/abi/infoStableSwap'
 import { v2BCakeWrapperABI } from 'config/abi/v2BCakeWrapper'
@@ -184,14 +184,14 @@ export const getAccountV2LpDetails = async (
   )
   const reserveCalls = validLpTokens.map((token) => {
     return {
-      abi: pancakePairV2ABI,
+      abi: tankPairV2ABI,
       address: token.address,
       functionName: 'getReserves',
     } as const
   })
   const totalSupplyCalls = validLpTokens.map((token) => {
     return {
-      abi: pancakePairV2ABI,
+      abi: tankPairV2ABI,
       address: token.address,
       functionName: 'totalSupply',
     } as const

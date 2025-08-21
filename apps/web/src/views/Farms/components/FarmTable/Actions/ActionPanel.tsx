@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import {
   Box,
   Flex,
@@ -11,8 +11,8 @@ import {
   VerifiedIcon,
   useMatchBreakpoints,
   useModalV2,
-} from '@pancakeswap/uikit'
-import { FarmWidget } from '@pancakeswap/widgets-internal'
+} from '@tankswap/uikit'
+import { FarmWidget } from '@tankswap/widgets-internal'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import { CHAIN_QUERY_NAME } from 'config/chains'
 import { useActiveChainId } from 'hooks/useActiveChainId'
@@ -221,7 +221,7 @@ export const ActionPanelV3: FC<ActionPanelV3Props> = ({
   const farm = details
   const merklUserLink = useMerklUserLink()
   const isActive = farm.multiplier !== '0X'
-  const lpLabel = useMemo(() => farm.lpSymbol && farm.lpSymbol.replace(/pancake/gi, ''), [farm.lpSymbol])
+  const lpLabel = useMemo(() => farm.lpSymbol && farm.lpSymbol.replace(/tank/gi, ''), [farm.lpSymbol])
   const bsc = useMemo(
     () => getBlockExploreLink(farm.lpAddress, 'address', farm.token.chainId),
     [farm.lpAddress, farm.token.chainId],
@@ -357,7 +357,7 @@ export const ActionPanelV2: React.FunctionComponent<React.PropsWithChildren<Acti
     currentLanguage: { locale },
   } = useTranslation()
   const isActive = farm.multiplier !== '0X'
-  const lpLabel = useMemo(() => farm.lpSymbol && farm.lpSymbol.replace(/pancake/gi, ''), [farm.lpSymbol])
+  const lpLabel = useMemo(() => farm.lpSymbol && farm.lpSymbol.replace(/tank/gi, ''), [farm.lpSymbol])
   const bsc = useMemo(
     () => getBlockExploreLink(farm.lpAddress, 'address', farm.token.chainId),
     [farm.lpAddress, farm.token.chainId],

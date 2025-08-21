@@ -1,7 +1,7 @@
-import { Ifo, PoolIds, cakeBnbLpToken } from '@pancakeswap/ifos'
-import { useTranslation } from '@pancakeswap/localization'
-import { ChainId, Token } from '@pancakeswap/sdk'
-import { bscTokens } from '@pancakeswap/tokens'
+import { Ifo, PoolIds, cakeBnbLpToken } from '@tankswap/ifos'
+import { useTranslation } from '@tankswap/localization'
+import { ChainId, Token } from '@tankswap/sdk'
+import { bscTokens } from '@tankswap/tokens'
 import {
   AutoRenewIcon,
   BalanceWithLoading,
@@ -20,10 +20,10 @@ import {
   MessageText,
   Text,
   useTooltip,
-} from '@pancakeswap/uikit'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
-import { getBalanceAmount, getBalanceNumber } from '@pancakeswap/utils/formatBalance'
-import { NumberDisplay, type NumberDisplayProps } from '@pancakeswap/widgets-internal'
+} from '@tankswap/uikit'
+import { BIG_ZERO } from '@tankswap/utils/bigNumber'
+import { getBalanceAmount, getBalanceNumber } from '@tankswap/utils/formatBalance'
+import { NumberDisplay, type NumberDisplayProps } from '@tankswap/widgets-internal'
 import { TokenImage, TokenPairImage } from 'components/TokenImage'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { ReactNode, useMemo } from 'react'

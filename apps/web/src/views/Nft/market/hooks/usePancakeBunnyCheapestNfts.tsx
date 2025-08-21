@@ -1,4 +1,4 @@
-import { formatBigInt } from '@pancakeswap/utils/formatBalance'
+import { formatBigInt } from '@tankswap/utils/formatBalance'
 import { useQuery } from '@tanstack/react-query'
 import { FAST_INTERVAL } from 'config/constants'
 import {
@@ -9,7 +9,7 @@ import {
 } from 'state/nftMarket/helpers'
 import { ApiResponseCollectionTokens, NftToken } from 'state/nftMarket/types'
 import { useAccount } from 'wagmi'
-import { pancakeBunniesAddress } from '../constants'
+import { tankBunniesAddress } from '../constants'
 import { getLowestUpdatedToken } from './useGetLowestPrice'
 
 type WhereClause = Record<string, string | number | boolean | string[]>
@@ -23,7 +23,7 @@ const fetchCheapestBunny = async (
   if (!nftsMarket.length) return null
 
   const nftsMarketTokenIds = nftsMarket.map((marketData) => marketData.tokenId)
-  const lowestPriceUpdatedBunny = await getLowestUpdatedToken(pancakeBunniesAddress, nftsMarketTokenIds)
+  const lowestPriceUpdatedBunny = await getLowestUpdatedToken(tankBunniesAddress, nftsMarketTokenIds)
 
   const cheapestBunnyOfAccount = nftsMarket
     .filter((marketData) => marketData.tokenId === lowestPriceUpdatedBunny?.tokenId)
@@ -46,7 +46,7 @@ export const usePancakeBunnyCheapestNft = (bunnyId: string, nftMetadata: ApiResp
     queryKey: ['cheapestBunny', bunnyId, account],
     queryFn: async () => {
       const allCheapestBunnyClause = {
-        collection: pancakeBunniesAddress.toLowerCase(),
+        collection: tankBunniesAddress.toLowerCase(),
         otherId: bunnyId,
         isTradable: true,
       }
@@ -55,7 +55,7 @@ export const usePancakeBunnyCheapestNft = (bunnyId: string, nftMetadata: ApiResp
       }
 
       const cheapestBunnyOtherSellersClause = {
-        collection: pancakeBunniesAddress.toLowerCase(),
+        collection: tankBunniesAddress.toLowerCase(),
         currentSeller_not: account.toLowerCase(),
         otherId: bunnyId,
         isTradable: true,

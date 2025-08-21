@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { ERC20Token } from '@pancakeswap/sdk'
+import { ChainId } from '@tankswap/chains'
+import { ERC20Token } from '@tankswap/sdk'
 import {
   arbitrumTokens,
   baseTokens,
@@ -11,7 +11,7 @@ import {
   polygonZkEvmTokens,
   zkSyncTestnetTokens,
   zksyncTokens,
-} from '@pancakeswap/tokens'
+} from '@tankswap/tokens'
 import type { FarmV3SupportedChainId } from '../../src'
 import type { CommonPrice } from '../../src/fetchFarmsV3'
 

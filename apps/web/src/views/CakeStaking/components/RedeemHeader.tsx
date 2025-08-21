@@ -1,10 +1,10 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { ArrowForwardIcon, Link, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { ArrowForwardIcon, Link, useMatchBreakpoints } from '@tankswap/uikit'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import React from 'react'
 import styled from 'styled-components'
 
-const link = 'https://docs.pancakeswap.finance/protocol/cake-tokenomics'
+const link = 'https://docs.tankswap.finance/protocol/cake-tokenomics'
 export const RedeemHeader: React.FC = () => {
   const { t } = useTranslation()
   const { isMobile } = useMatchBreakpoints()

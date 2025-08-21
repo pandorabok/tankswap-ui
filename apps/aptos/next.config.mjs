@@ -1,6 +1,6 @@
 import bundleAnalyzer from '@next/bundle-analyzer'
 
-import { withWebSecurityHeaders } from '@pancakeswap/next-config/withWebSecurityHeaders'
+import { withWebSecurityHeaders } from '@tankswap/next-config/withWebSecurityHeaders'
 import { createVanillaExtractPlugin } from '@vanilla-extract/next-plugin'
 import { RetryChunkLoadPlugin } from 'webpack-retry-chunk-load-plugin'
 
@@ -16,17 +16,17 @@ const nextConfig = {
     styledComponents: true,
   },
   transpilePackages: [
-    '@pancakeswap/localization',
-    '@pancakeswap/hooks',
-    '@pancakeswap/utils',
-    '@pancakeswap/tokens',
-    '@pancakeswap/farms',
-    '@pancakeswap/widgets-internal',
+    '@tankswap/localization',
+    '@tankswap/hooks',
+    '@tankswap/utils',
+    '@tankswap/tokens',
+    '@tankswap/farms',
+    '@tankswap/widgets-internal',
     // https://github.com/TanStack/query/issues/6560#issuecomment-1975771676
     '@tanstack/query-core',
   ],
   experimental: {
-    optimizePackageImports: ['@pancakeswap/widgets-internal', '@pancakeswap/uikit'],
+    optimizePackageImports: ['@tankswap/widgets-internal', '@tankswap/uikit'],
   },
   async redirects() {
     return [

@@ -4,10 +4,10 @@ import { ApiCollectionDistribution, ApiResponseCollectionTokens, ApiSingleTokenD
 import { getPancakeBunniesAddress } from 'utils/addressHelpers'
 import mapValues from 'lodash/mapValues'
 import { publicClient } from 'utils/wagmi'
-import { ChainId } from '@pancakeswap/chains'
-import { pancakeBunniesABI } from 'config/abi/pancakeBunnies'
+import { ChainId } from '@tankswap/chains'
+import { tankBunniesABI } from 'config/abi/tankBunnies'
 import { useQuery } from '@tanstack/react-query'
-import { pancakeBunniesAddress } from '../constants'
+import { tankBunniesAddress } from '../constants'
 
 const useGetCollectionDistribution = (collectionAddress: string | undefined) => {
   const { data, status } = useQuery({
@@ -38,7 +38,7 @@ export const useGetCollectionDistributionPB = () => {
       setState((prevState) => ({ ...prevState, isFetching: true }))
       let apiResponse: ApiResponseCollectionTokens | null | undefined = null
       try {
-        apiResponse = await getNftsFromCollectionApi(pancakeBunniesAddress)
+        apiResponse = await getNftsFromCollectionApi(tankBunniesAddress)
         if (!apiResponse) {
           setState((prevState) => ({ ...prevState, isFetching: false }))
           return
@@ -56,7 +56,7 @@ export const useGetCollectionDistributionPB = () => {
               ({
                 address: getPancakeBunniesAddress(),
                 functionName: 'bunnyCount',
-                abi: pancakeBunniesABI,
+                abi: tankBunniesABI,
                 args: [Number(tokenId)],
               } as const),
           ),

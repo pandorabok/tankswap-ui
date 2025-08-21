@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Container, Flex, FlexGap, Heading, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Box, Container, Flex, FlexGap, Heading, Text } from '@tankswap/uikit'
 import { styled } from 'styled-components'
 import { useCurrentIDOConfig } from '../hooks/ido/useCurrentIDOConfig'
 

@@ -1,6 +1,6 @@
-import { ChainId } from '@pancakeswap/chains'
-import { getFarmsPrices } from '@pancakeswap/farms/farmPrices'
-import { fetchPublicIfoData, fetchUserIfoCredit } from '@pancakeswap/ifos'
+import { ChainId } from '@tankswap/chains'
+import { getFarmsPrices } from '@tankswap/farms/farmPrices'
+import { fetchPublicIfoData, fetchUserIfoCredit } from '@tankswap/ifos'
 import {
   fetchFlexibleSideVaultUser,
   fetchPoolsAllowance,
@@ -21,11 +21,11 @@ import {
   getPoolAprByTokenPerSecond,
   getPoolsConfig,
   isLegacyPool,
-} from '@pancakeswap/pools'
-import { getCurrencyUsdPrice } from '@pancakeswap/price-api-sdk'
-import { bscTokens } from '@pancakeswap/tokens'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
-import { getBalanceNumber } from '@pancakeswap/utils/formatBalance'
+} from '@tankswap/pools'
+import { getCurrencyUsdPrice } from '@tankswap/price-api-sdk'
+import { bscTokens } from '@tankswap/tokens'
+import { BIG_ZERO } from '@tankswap/utils/bigNumber'
+import { getBalanceNumber } from '@tankswap/utils/formatBalance'
 import { PayloadAction, createAsyncThunk, createSlice, isAnyOf } from '@reduxjs/toolkit'
 import BigNumber from 'bignumber.js'
 import keyBy from 'lodash/keyBy'

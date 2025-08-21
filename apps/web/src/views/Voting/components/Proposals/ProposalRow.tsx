@@ -1,5 +1,5 @@
-import { ArrowForwardIcon, Box, IconButton, Flex, Text } from '@pancakeswap/uikit'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+import { ArrowForwardIcon, Box, IconButton, Flex, Text } from '@tankswap/uikit'
+import { NextLinkFromReactRouter } from '@tankswap/widgets-internal'
 
 import { styled } from 'styled-components'
 import { Proposal } from 'state/types'

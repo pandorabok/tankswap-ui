@@ -1,6 +1,6 @@
-import { getCurrencyPriceFromId, MAX_BIN_STEP, MIN_BIN_STEP } from '@pancakeswap/infinity-sdk'
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency, isCurrencySorted, Price } from '@pancakeswap/swap-sdk-core'
+import { getCurrencyPriceFromId, MAX_BIN_STEP, MIN_BIN_STEP } from '@tankswap/infinity-sdk'
+import { useTranslation } from '@tankswap/localization'
+import { Currency, isCurrencySorted, Price } from '@tankswap/swap-sdk-core'
 import {
   AutoColumn,
   Box,
@@ -14,7 +14,7 @@ import {
   SwapHorizIcon,
   Text,
   useModalV2,
-} from '@pancakeswap/uikit'
+} from '@tankswap/uikit'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import ApproveLiquidityTokens from 'components/Liquidity/ApproveLiquidityTokens'
 import { useSelectIdRouteParams } from 'hooks/dynamicRoute/useSelectIdRoute'

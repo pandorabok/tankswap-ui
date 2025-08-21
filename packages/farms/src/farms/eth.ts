@@ -1,4 +1,4 @@
-import { ethereumTokens } from '@pancakeswap/tokens'
+import { ethereumTokens } from '@tankswap/tokens'
 import { getAddress } from 'viem'
 import { SerializedFarmConfig } from '../types'
 

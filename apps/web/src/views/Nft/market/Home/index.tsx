@@ -1,8 +1,8 @@
-import { Box, Button, Flex, Heading, LinkExternal, PageHeader, PageSection } from '@pancakeswap/uikit'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+import { Box, Button, Flex, Heading, LinkExternal, PageHeader, PageSection } from '@tankswap/uikit'
+import { NextLinkFromReactRouter } from '@tankswap/widgets-internal'
 import { styled } from 'styled-components'
 
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import SectionsWithFoldableText from 'components/FoldableSection/SectionsWithFoldableText'
 import PageLoader from 'components/Loader/PageLoader'
 import useTheme from 'hooks/useTheme'
@@ -114,7 +114,7 @@ const Home = () => {
       <Gradient p="64px 0">
         <SectionsWithFoldableText header={t('FAQs')} config={config(t)} m="auto" />
         <LinkExternal
-          href="https://docs.pancakeswap.finance/ecosystem-and-partnerships/business-partnerships/nft-market-applications"
+          href="https://docs.tankswap.finance/ecosystem-and-partnerships/business-partnerships/nft-market-applications"
           mx="auto"
           mt="16px"
         >

@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import {
   ArrowDropDownIcon,
   Box,
@@ -8,9 +8,9 @@ import {
   Flex,
   Text,
   useModal,
-} from '@pancakeswap/uikit'
-import { formatNumber } from '@pancakeswap/utils/formatBalance'
-import { formatAmount } from '@pancakeswap/utils/formatFractions'
+} from '@tankswap/uikit'
+import { formatNumber } from '@tankswap/utils/formatBalance'
+import { formatAmount } from '@tankswap/utils/formatFractions'
 import CurrencySearchModalV2, { CurrencySearchModalV2Props } from 'components/SearchModal/CurrencySearchModalV2'
 import { useStablecoinPrice } from 'hooks/useStablecoinPrice'
 import { useCurrencyBalanceWithChain } from 'state/wallet/hooks'

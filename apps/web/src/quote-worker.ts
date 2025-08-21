@@ -1,8 +1,8 @@
 import 'utils/workerPolyfill'
 
-import { findBestTrade } from '@pancakeswap/routing-sdk'
-import { InfinityRouter, SmartRouter } from '@pancakeswap/smart-router'
-import { RemoteLogger } from '@pancakeswap/utils/RemoteLogger'
+import { findBestTrade } from '@tankswap/routing-sdk'
+import { InfinityRouter, SmartRouter } from '@tankswap/smart-router'
+import { RemoteLogger } from '@tankswap/utils/RemoteLogger'
 import { Call } from 'state/multicall/actions'
 import { fetchChunk } from 'state/multicall/fetchChunk'
 import { toRoutingSDKPool, toSerializableInfinityTrade } from 'utils/convertTrade'

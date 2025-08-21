@@ -1,5 +1,5 @@
-import { Text } from '@pancakeswap/uikit'
-import { ContextApi } from '@pancakeswap/localization'
+import { Text } from '@tankswap/uikit'
+import { ContextApi } from '@tankswap/localization'
 import Link from 'next/link'
 
 type EventDescriptionType = {
@@ -35,17 +35,17 @@ const eventDescriptionConfigBuilder = ({ t }: EventDescriptionType) => ({
     },
   ],
   primaryButton: {
-    to: 'https://docs.pancakeswap.finance/',
+    to: 'https://docs.tankswap.finance/',
     text: t('View Documentation'),
     external: true,
     isDisplayed: false,
   },
-  image: { src: '/images/pancakeSquad/moonBunny/body.png', alt: 'moon bunny' },
+  image: { src: '/images/tankSquad/moonBunny/body.png', alt: 'moon bunny' },
   accessoriesImages: [
-    { src: '/images/pancakeSquad/moonBunny/band.png', alt: 'headband' },
-    { src: '/images/pancakeSquad/moonBunny/cloth.png', alt: 'cloth' },
-    { src: '/images/pancakeSquad/moonBunny/glasses.png', alt: 'glasses' },
-    { src: '/images/pancakeSquad/moonBunny/pancake.png', alt: 'pancake' },
+    { src: '/images/tankSquad/moonBunny/band.png', alt: 'headband' },
+    { src: '/images/tankSquad/moonBunny/cloth.png', alt: 'cloth' },
+    { src: '/images/tankSquad/moonBunny/glasses.png', alt: 'glasses' },
+    { src: '/images/tankSquad/moonBunny/tank.png', alt: 'tank' },
   ],
 })
 

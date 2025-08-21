@@ -1,6 +1,6 @@
 import { styled } from "styled-components";
-import { useHttpLocations } from "@pancakeswap/hooks";
-import { TokenLogo } from "@pancakeswap/uikit";
+import { useHttpLocations } from "@tankswap/hooks";
+import { TokenLogo } from "@tankswap/uikit";
 
 const StyledListLogo = styled(TokenLogo)<{ size: string }>`
   width: ${({ size }) => size};

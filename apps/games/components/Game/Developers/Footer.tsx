@@ -1,8 +1,8 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Button, Flex, Link, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Box, Button, Flex, Link, Text, useMatchBreakpoints } from '@tankswap/uikit'
 import SunburstSvg from 'components/Game/Developers/SunburstSvg'
-import ctaPancakeBig from 'components/Game/Developers/images/cta-pancake-big.png'
-import ctaPancake from 'components/Game/Developers/images/cta-pancake.png'
+import ctaPancakeBig from 'components/Game/Developers/images/cta-tank-big.png'
+import ctaPancake from 'components/Game/Developers/images/cta-tank.png'
 import ctaRock2 from 'components/Game/Developers/images/cta-rock-2.png'
 import ctaRock from 'components/Game/Developers/images/cta-rock.png'
 import Image from 'next/image'
@@ -37,7 +37,7 @@ const ImageWrapper = styled.div`
   > * {
     will-change: transform;
   }
-  .pancake {
+  .tank {
     position: absolute;
     width: 120px;
     top: 20px;
@@ -60,7 +60,7 @@ const ImageWrapper = styled.div`
       left: calc(50% - 60px + 240px);
     }
   }
-  .big-pancake {
+  .big-tank {
     width: 160px;
     position: absolute;
     bottom: 10px;
@@ -130,9 +130,9 @@ export const Footer = () => {
           <StyledSunburst />
         </Flex>
         <ImageWrapper>
-          <Image className="pancake" src={ctaPancake} alt="pancake" />
+          <Image className="tank" src={ctaPancake} alt="tank" />
           <Image className="rock" src={ctaRock} alt="rock" />
-          <Image className="big-pancake" src={ctaPancakeBig} alt="big-pancake" />
+          <Image className="big-tank" src={ctaPancakeBig} alt="big-tank" />
           <Image className="rock2" src={ctaRock2} alt="rock2" />
         </ImageWrapper>
       </BgWrapper>

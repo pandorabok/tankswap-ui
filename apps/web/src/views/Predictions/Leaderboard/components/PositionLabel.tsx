@@ -1,7 +1,7 @@
 import { styled } from 'styled-components'
-import { ArrowDownIcon, ArrowUpIcon } from '@pancakeswap/uikit'
-import { BetPosition } from '@pancakeswap/prediction'
-import { useTranslation } from '@pancakeswap/localization'
+import { ArrowDownIcon, ArrowUpIcon } from '@tankswap/uikit'
+import { BetPosition } from '@tankswap/prediction'
+import { useTranslation } from '@tankswap/localization'
 
 interface PositionLabelProps {
   position: BetPosition

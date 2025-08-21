@@ -1,7 +1,7 @@
-import { getChainName } from '@pancakeswap/chains'
-import { Protocol } from '@pancakeswap/farms'
-import { useTranslation } from '@pancakeswap/localization'
-import { Message, MessageText, Text } from '@pancakeswap/uikit'
+import { getChainName } from '@tankswap/chains'
+import { Protocol } from '@tankswap/farms'
+import { useTranslation } from '@tankswap/localization'
+import { Message, MessageText, Text } from '@tankswap/uikit'
 import { PoolInfo } from 'state/farmsV4/state/type'
 import { TextLink } from 'views/Ifos/components/IfoCardStyles'
 import { useRouterQuery } from '../hooks/useRouterQuery'
@@ -16,7 +16,7 @@ export const PoolTvlWarning = ({ poolInfo }: { poolInfo: PoolInfo }) => {
 
   const version = `${protocol === Protocol.V3 ? '/v3/' : ''}`
   const stableSwap = `${protocol === Protocol.STABLE ? '?type=stableSwap' : ''}`
-  const link = `https://pancakeswap.finance/info/${version}${chain}/pairs/${id}${stableSwap}`
+  const link = `https://tankswap.finance/info/${version}${chain}/pairs/${id}${stableSwap}`
   if (protocol === Protocol.InfinityBIN || protocol === Protocol.InfinityCLAMM) {
     return null
   }

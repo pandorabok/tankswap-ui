@@ -1,6 +1,6 @@
 import invariant from 'tiny-invariant'
 
-import { Currency, Price, Token } from '@pancakeswap/swap-sdk-core'
+import { Currency, Price, Token } from '@tankswap/swap-sdk-core'
 import { Pool } from './pool'
 
 /**

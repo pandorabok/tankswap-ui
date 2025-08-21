@@ -1,6 +1,6 @@
-import { Protocol } from "@pancakeswap/farms";
-import { HookData, POOL_TYPE } from "@pancakeswap/infinity-sdk";
-import { useTranslation } from "@pancakeswap/localization";
+import { Protocol } from "@tankswap/farms";
+import { HookData, POOL_TYPE } from "@tankswap/infinity-sdk";
+import { useTranslation } from "@tankswap/localization";
 import {
   AtomBoxProps,
   AutoColumn,
@@ -13,7 +13,7 @@ import {
   Text,
   TextProps,
   useModal,
-} from "@pancakeswap/uikit";
+} from "@tankswap/uikit";
 import React, { ReactNode, useMemo, useState } from "react";
 import styled from "styled-components";
 import { FeatureStack, FeatureStackProps } from "../../components/FeatureStack";

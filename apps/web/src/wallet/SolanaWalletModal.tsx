@@ -1,5 +1,5 @@
 /* eslint-disable  no-unused-expressions */
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import {
   Box,
   Button,
@@ -16,13 +16,13 @@ import {
   Toggle,
   useMatchBreakpoints,
   WalletFilledIcon,
-} from '@pancakeswap/uikit'
+} from '@tankswap/uikit'
 import { WalletReadyState } from '@solana/wallet-adapter-base'
 import { useWallet, Wallet } from '@solana/wallet-adapter-react'
 import { useAtom } from 'jotai'
-import { NonEVMChainId } from '@pancakeswap/chains'
+import { NonEVMChainId } from '@tankswap/chains'
 import useAccountActiveChain from 'hooks/useAccountActiveChain'
-import { SwapUIV2 } from '@pancakeswap/widgets-internal'
+import { SwapUIV2 } from '@tankswap/widgets-internal'
 import React, { useCallback, useEffect, useState } from 'react'
 import styled from 'styled-components'
 import { solanaWalletModalAtom } from './atoms/solanaWalletAtoms'
@@ -184,7 +184,7 @@ export const SolanaWalletModal: React.FC = () => {
                 {t(
                   'By connecting your wallet, you acknowledge that you have read, understand and accept the terms in the',
                 )}{' '}
-                <Link external display="inline" fontSize="14px" href="https://pancakeswap.finance/terms-of-service">
+                <Link external display="inline" fontSize="14px" href="https://tankswap.finance/terms-of-service">
                   {t('disclaimer')}
                 </Link>
               </DisclaimerBox>

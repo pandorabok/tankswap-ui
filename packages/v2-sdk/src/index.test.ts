@@ -14,7 +14,7 @@ test('exports', () => {
       "inputOutputComparator",
       "tradeComparator",
       "Trade",
-      "pancakePairV2ABI",
+      "tankPairV2ABI",
       "Router",
       "Fetcher",
       "isTradeBetter",

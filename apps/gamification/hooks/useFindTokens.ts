@@ -1,5 +1,5 @@
-import { ChainId, Currency } from '@pancakeswap/sdk'
-import { CAKE } from '@pancakeswap/tokens'
+import { ChainId, Currency } from '@tankswap/sdk'
+import { CAKE } from '@tankswap/tokens'
 import { ADDRESS_ZERO } from 'config/constants'
 import { useTokensByChainWithNativeToken } from 'hooks/useTokensByChainWithNativeToken'
 import { useMemo } from 'react'

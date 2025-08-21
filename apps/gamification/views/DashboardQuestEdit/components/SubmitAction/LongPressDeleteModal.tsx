@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Button, DeleteOutlineIcon, Flex, InjectedModalProps, Modal, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Box, Button, DeleteOutlineIcon, Flex, InjectedModalProps, Modal, Text } from '@tankswap/uikit'
 import { useEffect, useRef, useState } from 'react'
 import { HOLD_DURATION } from 'views/DashboardQuestEdit/config/index'
 import { LongPressSvg } from './LongPressSvg'

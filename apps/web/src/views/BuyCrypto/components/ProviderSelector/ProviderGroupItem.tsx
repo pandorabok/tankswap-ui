@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { AutoColumn, Box, BoxProps, Button, Flex, SkeletonText } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { AutoColumn, Box, BoxProps, Button, Flex, SkeletonText } from '@tankswap/uikit'
 import { ReactNode } from 'react'
 import { styled } from 'styled-components'
 import formatLocaleNumber from 'utils/formatLocaleNumber'

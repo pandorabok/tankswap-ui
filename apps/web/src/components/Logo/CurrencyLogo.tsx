@@ -1,13 +1,13 @@
-import { ChainId } from '@pancakeswap/chains'
-import { Token, UnifiedCurrency } from '@pancakeswap/sdk'
-import { ChainLogo } from '@pancakeswap/widgets-internal'
-import { WrappedTokenInfo } from '@pancakeswap/token-lists'
-import { BinanceIcon, TokenLogo } from '@pancakeswap/uikit'
+import { ChainId } from '@tankswap/chains'
+import { Token, UnifiedCurrency } from '@tankswap/sdk'
+import { ChainLogo } from '@tankswap/widgets-internal'
+import { WrappedTokenInfo } from '@tankswap/token-lists'
+import { BinanceIcon, TokenLogo } from '@tankswap/uikit'
 import { getImageUrlsFromToken } from 'components/TokenImage'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import { useMemo } from 'react'
 import { styled } from 'styled-components'
-import uriToHttp from '@pancakeswap/utils/uriToHttp'
+import uriToHttp from '@tankswap/utils/uriToHttp'
 import getTokenLogoURL from '../../utils/getTokenLogoURL'
 
 const StyledLogo = styled(TokenLogo)<{ size: string }>`
@@ -110,6 +110,6 @@ const basicTokensList = ['USDT', 'USDC', 'DAI', 'WBNB', 'WETH', 'WBTC', 'BNB', '
 export const getBasicTokensImage = (token: UnifiedCurrency | undefined) => {
   if (!token) return ''
   return basicTokensList.includes(token?.symbol)
-    ? `https://tokens.pancakeswap.finance/images/symbol/${token?.symbol?.toLowerCase() ?? ''}.png`
+    ? `https://tokens.tankswap.finance/images/symbol/${token?.symbol?.toLowerCase() ?? ''}.png`
     : ''
 }

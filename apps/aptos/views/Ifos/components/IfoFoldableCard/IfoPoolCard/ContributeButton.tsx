@@ -1,7 +1,7 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Button, IfoGetTokenModal, useModal, useToast } from '@pancakeswap/uikit'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
-import { getBalanceNumber } from '@pancakeswap/utils/formatBalance'
+import { useTranslation } from '@tankswap/localization'
+import { Button, IfoGetTokenModal, useModal, useToast } from '@tankswap/uikit'
+import { BIG_ZERO } from '@tankswap/utils/bigNumber'
+import { getBalanceNumber } from '@tankswap/utils/formatBalance'
 import BigNumber from 'bignumber.js'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import { Ifo, PoolIds } from 'config/constants/types'
@@ -67,7 +67,7 @@ const ContributeButton: React.FC<React.PropsWithChildren<Props>> = ({ poolId, if
     <IfoGetTokenModal
       symbol={ifo.currency.symbol}
       address={ifo.currency.address}
-      imageSrc={`https://tokens.pancakeswap.finance/images/aptos/${ifo.currency.address}.png`}
+      imageSrc={`https://tokens.tankswap.finance/images/aptos/${ifo.currency.address}.png`}
     />,
     false,
   )

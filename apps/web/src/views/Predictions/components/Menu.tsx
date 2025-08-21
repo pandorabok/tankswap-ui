@@ -1,6 +1,6 @@
-import { chainNames } from '@pancakeswap/chains'
-import { PredictionStatus } from '@pancakeswap/prediction'
-import { Button, Flex, HelpIcon, PrizeIcon } from '@pancakeswap/uikit'
+import { chainNames } from '@tankswap/chains'
+import { PredictionStatus } from '@tankswap/prediction'
+import { Button, Flex, HelpIcon, PrizeIcon } from '@tankswap/uikit'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
@@ -92,7 +92,7 @@ const Menu = () => {
                 <Button
                   variant="subtle"
                   as="a"
-                  href="https://docs.pancakeswap.finance/products/prediction"
+                  href="https://docs.tankswap.finance/products/prediction"
                   target="_blank"
                   rel="noreferrer noopener"
                   width="48px"

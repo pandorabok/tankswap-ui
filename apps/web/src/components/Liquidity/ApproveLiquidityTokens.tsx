@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency } from '@pancakeswap/swap-sdk-core'
-import { Box, Button, Dots, FlexGap, Link, Message, MessageText } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Currency } from '@tankswap/swap-sdk-core'
+import { Box, Button, Dots, FlexGap, Link, Message, MessageText } from '@tankswap/uikit'
 import { CurrencyField as Field } from 'utils/types'
 import { styled } from 'styled-components'
 import { Address } from 'viem'
@@ -67,7 +67,7 @@ export default function ApproveLiquidityTokens({
               <InlineLink
                 external
                 fontSize={14}
-                href="https://docs.pancakeswap.finance/products/pancakeswap-exchange/faq#why-do-i-need-to-reset-approval-on-usdt-before-enabling-approving"
+                href="https://docs.tankswap.finance/products/tankswap-exchange/faq#why-do-i-need-to-reset-approval-on-usdt-before-enabling-approving"
               >
                 {t('Learn More')}
                 {' >>'}

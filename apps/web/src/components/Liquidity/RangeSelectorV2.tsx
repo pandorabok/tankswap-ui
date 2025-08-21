@@ -1,7 +1,7 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency, Price } from '@pancakeswap/swap-sdk-core'
-import { Grid, GridProps, Text } from '@pancakeswap/uikit'
-import { formatPrice } from '@pancakeswap/utils/formatFractions'
+import { useTranslation } from '@tankswap/localization'
+import { Currency, Price } from '@tankswap/swap-sdk-core'
+import { Grid, GridProps, Text } from '@tankswap/uikit'
+import { formatPrice } from '@tankswap/utils/formatFractions'
 import React, { useMemo } from 'react'
 import { StepCounterV2 } from './StepCounterV2'
 

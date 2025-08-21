@@ -1,7 +1,7 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { ChainId } from '@pancakeswap/chains'
-import { useToast } from '@pancakeswap/uikit'
-import { pancakeProfileABI } from 'config/abi/pancakeProfile'
+import { useTranslation } from '@tankswap/localization'
+import { ChainId } from '@tankswap/chains'
+import { useToast } from '@tankswap/uikit'
+import { tankProfileABI } from 'config/abi/tankProfile'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useEffect, useState } from 'react'
 import { getPancakeProfileAddress } from 'utils/addressHelpers'
@@ -21,7 +21,7 @@ const useGetProfileCosts = () => {
   useEffect(() => {
     const fetchCosts = async () => {
       try {
-        const pancakeProfileAddress = getPancakeProfileAddress()
+        const tankProfileAddress = getPancakeProfileAddress()
 
         const [numberCakeToReactivate, numberCakeToRegister, numberCakeToUpdate] = await publicClient({
           chainId: ChainId.BSC,
@@ -29,18 +29,18 @@ const useGetProfileCosts = () => {
           allowFailure: false,
           contracts: [
             {
-              address: pancakeProfileAddress,
-              abi: pancakeProfileABI,
+              address: tankProfileAddress,
+              abi: tankProfileABI,
               functionName: 'numberCakeToReactivate',
             },
             {
-              address: pancakeProfileAddress,
-              abi: pancakeProfileABI,
+              address: tankProfileAddress,
+              abi: tankProfileABI,
               functionName: 'numberCakeToRegister',
             },
             {
-              address: pancakeProfileAddress,
-              abi: pancakeProfileABI,
+              address: tankProfileAddress,
+              abi: tankProfileABI,
               functionName: 'numberCakeToUpdate',
             },
           ],

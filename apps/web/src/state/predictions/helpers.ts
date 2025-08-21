@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@tankswap/chains'
 import {
   BetPosition,
   PredictionStatus,
@@ -6,7 +6,7 @@ import {
   ROUNDS_PER_PAGE,
   aiPredictionsABI,
   predictionsV2ABI,
-} from '@pancakeswap/prediction'
+} from '@tankswap/prediction'
 import { gql, request } from 'graphql-request'
 import {
   Bet,

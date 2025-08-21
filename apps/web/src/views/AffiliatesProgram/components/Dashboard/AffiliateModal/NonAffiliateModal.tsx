@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Button, Checkbox, Flex, Link, Modal, ModalV2, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Button, Checkbox, Flex, Link, Modal, ModalV2, Text } from '@tankswap/uikit'
 import { useAtom } from 'jotai'
 import { useCallback, useEffect, useState } from 'react'
 import atomWithStorageWithErrorCatch from 'utils/atomWithStorageWithErrorCatch'
@@ -50,7 +50,7 @@ const NonAffiliateModal = () => {
                 <Text display="inline-block" as="span" ml="4px">
                   <Link
                     external
-                    href="https://docs.pancakeswap.finance/ecosystem-and-partnerships/affiliate-program/terms-and-conditions"
+                    href="https://docs.tankswap.finance/ecosystem-and-partnerships/affiliate-program/terms-and-conditions"
                   >
                     {t('terms and conditions')}
                   </Link>

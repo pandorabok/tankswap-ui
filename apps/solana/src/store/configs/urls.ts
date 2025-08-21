@@ -1,4 +1,4 @@
-import { API_URLS } from '@pancakeswap/solana-core-sdk'
+import { API_URLS } from '@tankswap/solana-core-sdk'
 
 export const urlConfigs = {
   ...API_URLS,
@@ -13,5 +13,5 @@ export const urlConfigs = {
   POOL_KEY_BY_ID: '/cached/v1/pools/info/ids',
   BIRDEYE_TOKEN_PRICE: '/cached/v1/tokens/birdeye/defi/multi_price',
   TOKEN_LIST: 'https://api-v3.raydium.io/mint/list',
-  PCS_TOKEN_LIST: 'https://tokens.pancakeswap.finance/pancakeswap-solana-default.json'
+  PCS_TOKEN_LIST: 'https://tokens.tankswap.finance/tankswap-solana-default.json'
 }

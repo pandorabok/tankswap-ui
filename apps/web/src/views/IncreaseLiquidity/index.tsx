@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { Protocol } from '@pancakeswap/farms'
-import { Permit2Signature } from '@pancakeswap/infinity-sdk'
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency, Price } from '@pancakeswap/swap-sdk-core'
+import { Protocol } from '@tankswap/farms'
+import { Permit2Signature } from '@tankswap/infinity-sdk'
+import { useTranslation } from '@tankswap/localization'
+import { Currency, Price } from '@tankswap/swap-sdk-core'
 import {
   AutoRow,
   Box,
@@ -17,9 +17,9 @@ import {
   RowBetween,
   Spinner,
   Text,
-} from '@pancakeswap/uikit'
-import { formatNumber } from '@pancakeswap/utils/formatNumber'
-import { CurrencyLogo, Liquidity } from '@pancakeswap/widgets-internal'
+} from '@tankswap/uikit'
+import { formatNumber } from '@tankswap/utils/formatNumber'
+import { CurrencyLogo, Liquidity } from '@tankswap/widgets-internal'
 import { LightGreyCard } from 'components/Card'
 import CurrencyInputPanel from 'components/CurrencyInputPanel'
 import Divider from 'components/Divider'
@@ -46,7 +46,7 @@ import { maxUint128, zeroAddress } from 'viem'
 import { V3SubmitButton } from 'views/AddLiquidityV3/components/V3SubmitButton'
 import { LiquidityTitle } from 'views/PositionDetails/components'
 
-import { INITIAL_ALLOWED_SLIPPAGE, useUserSlippage } from '@pancakeswap/utils/user'
+import { INITIAL_ALLOWED_SLIPPAGE, useUserSlippage } from '@tankswap/utils/user'
 import { useHookByPoolId } from 'hooks/infinity/useHooksList'
 import { calculateSlippageAmount } from 'utils/exchange'
 import { NavBreadcrumbs } from 'views/RemoveLiquidityInfinity/components/NavBreadcrumbs'

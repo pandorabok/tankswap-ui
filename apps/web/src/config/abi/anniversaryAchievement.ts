@@ -1,7 +1,7 @@
 export const anniversaryAchievementABI = [
   {
     inputs: [
-      { internalType: 'address', name: '_pancakeProfile', type: 'address' },
+      { internalType: 'address', name: '_tankProfile', type: 'address' },
       { internalType: 'uint256', name: '_numberPoints', type: 'uint256' },
       { internalType: 'uint256', name: '_thresholdPoints', type: 'uint256' },
       { internalType: 'uint256', name: '_campaignId', type: 'uint256' },
@@ -109,7 +109,7 @@ export const anniversaryAchievementABI = [
   },
   {
     inputs: [],
-    name: 'pancakeProfile',
+    name: 'tankProfile',
     outputs: [{ internalType: 'contract PancakeProfile', name: '', type: 'address' }],
     stateMutability: 'view',
     type: 'function',

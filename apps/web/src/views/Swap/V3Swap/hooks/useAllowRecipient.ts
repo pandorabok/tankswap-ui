@@ -1,6 +1,6 @@
-import { useExpertMode } from '@pancakeswap/utils/user'
+import { useExpertMode } from '@tankswap/utils/user'
 import useAccountActiveChain from 'hooks/useAccountActiveChain'
-import { isEvm } from '@pancakeswap/chains'
+import { isEvm } from '@tankswap/chains'
 
 import { useIsWrapping } from './useIsWrapping'
 

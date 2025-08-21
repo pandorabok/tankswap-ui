@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { useIsExpertMode, useUserSlippage } from '@pancakeswap/utils/user'
+import { useTranslation } from '@tankswap/localization'
+import { useIsExpertMode, useUserSlippage } from '@tankswap/utils/user'
 import useAccountActiveChain from 'hooks/useAccountActiveChain'
 import { useRouter } from 'next/router'
 import { useTransactionDeadline } from 'hooks/useTransactionDeadline'
@@ -9,7 +9,7 @@ import { usePairAdder } from 'state/user/hooks'
 import { useAddLiquidityV2FormState } from 'state/mint/reducer'
 import { useDerivedMintInfo, useMintActionHandlers } from 'state/mint/hooks'
 import { ReactNode, useCallback, useMemo, useState } from 'react'
-import { Currency, CurrencyAmount, isCurrencySorted, Pair, Price, Token } from '@pancakeswap/sdk'
+import { Currency, CurrencyAmount, isCurrencySorted, Pair, Price, Token } from '@tankswap/sdk'
 import { maxAmountSpend } from 'utils/maxAmountSpend'
 import { CurrencyField as Field } from 'utils/types'
 import { BIG_INT_ZERO, V2_ROUTER_ADDRESS } from 'config/constants/exchange'
@@ -37,14 +37,14 @@ import {
   ScanLink,
   useModalV2,
   useToast,
-} from '@pancakeswap/uikit'
+} from '@tankswap/uikit'
 import { CommitButton } from 'components/CommitButton'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import ApproveLiquidityTokens from 'views/AddLiquidityV3/components/ApproveLiquidityTokens'
 import { ChainLinkSupportChains } from 'state/info/constant'
 import { PairState } from 'hooks/usePairs'
 import tryParseCurrencyAmount from 'utils/tryParseCurrencyAmount'
-import tryParseAmount from '@pancakeswap/utils/tryParseAmount'
+import tryParseAmount from '@tankswap/utils/tryParseAmount'
 import { useStartingPriceQueryState } from 'state/infinity/create'
 import { PreviewModal } from 'views/CreateLiquidityPool/components/PreviewModal'
 import { useCurrencies } from '../useCurrencies'
@@ -425,7 +425,7 @@ export const useV2CreateForm = () => {
                 )}
               </MessageText>
               <LinkExternal
-                href="https://docs.pancakeswap.finance/products/pancakeswap-exchange/faq#why-cant-i-add-liquidity-to-a-pair-i-just-created"
+                href="https://docs.tankswap.finance/products/tankswap-exchange/faq#why-cant-i-add-liquidity-to-a-pair-i-just-created"
                 mt="0.25rem"
               >
                 {t('Learn more how to fix')}

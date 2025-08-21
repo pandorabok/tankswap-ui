@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { Currency, CurrencyAmount } from '@pancakeswap/sdk'
+import { ChainId } from '@tankswap/chains'
+import { Currency, CurrencyAmount } from '@tankswap/sdk'
 
 import { infoStableSwapABI } from '../../evm/abis/InfoStableSwap'
 import { STABLE_SWAP_INFO_ADDRESS } from '../../evm/constants'

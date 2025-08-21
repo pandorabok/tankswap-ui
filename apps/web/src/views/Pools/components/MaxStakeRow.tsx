@@ -1,10 +1,10 @@
-import { Flex, Text } from '@pancakeswap/uikit'
-import { Pool } from '@pancakeswap/widgets-internal'
+import { Flex, Text } from '@tankswap/uikit'
+import { Pool } from '@tankswap/widgets-internal'
 import React from 'react'
 
-import { useTranslation } from '@pancakeswap/localization'
-import { Token } from '@pancakeswap/sdk'
-import { getFullDisplayBalance } from '@pancakeswap/utils/formatBalance'
+import { useTranslation } from '@tankswap/localization'
+import { Token } from '@tankswap/sdk'
+import { getFullDisplayBalance } from '@tankswap/utils/formatBalance'
 import BigNumber from 'bignumber.js'
 
 interface MaxStakeRowProps {

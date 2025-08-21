@@ -1,4 +1,4 @@
-export const pancakeRouter02ABI = [
+export const tankRouter02ABI = [
   {
     inputs: [],
     name: 'WETH',

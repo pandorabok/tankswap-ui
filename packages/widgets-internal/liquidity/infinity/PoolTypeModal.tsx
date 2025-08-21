@@ -1,7 +1,7 @@
-import { POOL_TYPE } from "@pancakeswap/infinity-sdk";
-import { useTranslation } from "@pancakeswap/localization";
-import { AutoColumn, Flex, FlexGap, LinkExternal, Modal, Text } from "@pancakeswap/uikit";
-import Miscellaneous from "@pancakeswap/uikit/components/Svg/Icons/Miscellaneous";
+import { POOL_TYPE } from "@tankswap/infinity-sdk";
+import { useTranslation } from "@tankswap/localization";
+import { AutoColumn, Flex, FlexGap, LinkExternal, Modal, Text } from "@tankswap/uikit";
+import Miscellaneous from "@tankswap/uikit/components/Svg/Icons/Miscellaneous";
 
 type PoolTypeModalProps = {
   poolType: POOL_TYPE | undefined;
@@ -48,7 +48,7 @@ export const PoolTypeModal: React.FC<PoolTypeModalProps> = ({ poolType, onDismis
             </Text>
           </AutoColumn>
 
-          <LinkExternal href="https://docs.pancakeswap.finance/trade/pancakeswap-infinity/pool-types" marginTop="auto">
+          <LinkExternal href="https://docs.tankswap.finance/trade/tankswap-infinity/pool-types" marginTop="auto">
             <Text fontSize={16} color="primary" bold>
               {t("View details in Docs")}
             </Text>

@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
-import { Text, Flex, AccountIcon, TeamBattleIcon, Box, useTooltip, LinkExternal } from '@pancakeswap/uikit'
+import { Text, Flex, AccountIcon, TeamBattleIcon, Box, useTooltip, LinkExternal } from '@tankswap/uikit'
 import { useAccount } from 'wagmi'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 
 import OkNFTIcon from './Icons/OkNFT'
 import OkProfilePointsIcon from './Icons/OkProfilePoints'
@@ -22,7 +22,7 @@ const NotOkNFT = ({ admissionProfile }) => {
         <>
           <LinkExternal
             style={{ display: 'inline' }}
-            href={`https://pancakeswap.finance/nfts/collections/${admissionProfile}`}
+            href={`https://tankswap.finance/nfts/collections/${admissionProfile}`}
           >
             {t('Pancake Squad NFT')}
           </LinkExternal>
@@ -50,7 +50,7 @@ const NotOkProfilePoints = ({ pointThreshold }) => {
           <br />
           <LinkExternal
             style={{ display: 'inline' }}
-            href={`https://pancakeswap.finance/profile/${account}/achievements/`}
+            href={`https://tankswap.finance/profile/${account}/achievements/`}
           >
             {t('Pancake Profile')}
           </LinkExternal>

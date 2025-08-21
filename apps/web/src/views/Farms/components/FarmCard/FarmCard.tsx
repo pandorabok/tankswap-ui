@@ -1,7 +1,7 @@
-import { FarmWithStakedValue } from '@pancakeswap/farms'
-import { useTranslation } from '@pancakeswap/localization'
-import { Card, ExpandableSectionButton, Flex, Skeleton, Text, useModalV2 } from '@pancakeswap/uikit'
-import { FarmWidget } from '@pancakeswap/widgets-internal'
+import { FarmWithStakedValue } from '@tankswap/farms'
+import { useTranslation } from '@tankswap/localization'
+import { Card, ExpandableSectionButton, Flex, Skeleton, Text, useModalV2 } from '@tankswap/uikit'
+import { FarmWidget } from '@tankswap/widgets-internal'
 import BigNumber from 'bignumber.js'
 import { BASE_ADD_LIQUIDITY_URL } from 'config'
 import { CHAIN_QUERY_NAME } from 'config/chains'
@@ -81,7 +81,7 @@ const FarmCard: React.FC<React.PropsWithChildren<FarmCardProps>> = ({
       ? `$${liquidity.toNumber().toLocaleString(undefined, { maximumFractionDigits: 0 })}`
       : ''
 
-  const lpLabel = farm.lpSymbol && farm.lpSymbol.replace(/pancake/gi, '')
+  const lpLabel = farm.lpSymbol && farm.lpSymbol.replace(/tank/gi, '')
   const earnLabel = t('CAKE + Fees')
 
   const liquidityUrlPathParts = getLiquidityUrlPathParts({

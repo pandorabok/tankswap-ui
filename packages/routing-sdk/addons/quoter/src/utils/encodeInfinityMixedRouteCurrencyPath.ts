@@ -1,5 +1,5 @@
-import { BaseRoute } from '@pancakeswap/routing-sdk'
-import { Currency, getCurrencyAddress, getMatchedCurrency } from '@pancakeswap/swap-sdk-core'
+import { BaseRoute } from '@tankswap/routing-sdk'
+import { Currency, getCurrencyAddress, getMatchedCurrency } from '@tankswap/swap-sdk-core'
 import { Address } from 'viem'
 
 import { SupportedPool } from '../types'

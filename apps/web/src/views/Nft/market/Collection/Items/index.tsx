@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import { useRouter } from 'next/router'
-import { Box, Flex, Text, Select, OptionProps } from '@pancakeswap/uikit'
+import { Box, Flex, Text, Select, OptionProps } from '@tankswap/uikit'
 import { useGetCollection } from 'state/nftMarket/hooks'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tankswap/localization'
 import Container from 'components/Layout/Container'
 import { safeGetAddress } from 'utils'
-import { pancakeBunniesAddress } from '../../constants'
+import { tankBunniesAddress } from '../../constants'
 import PancakeBunniesCollectionNfts from './PancakeBunniesCollectionNfts'
 import CollectionWrapper from './CollectionWrapper'
 
@@ -14,7 +14,7 @@ const Items = () => {
   const [sortBy, setSortBy] = useState('updatedAt')
   const { t } = useTranslation()
   const collection = useGetCollection(collectionAddress)
-  const isPBCollection = safeGetAddress(collectionAddress) === safeGetAddress(pancakeBunniesAddress)
+  const isPBCollection = safeGetAddress(collectionAddress) === safeGetAddress(tankBunniesAddress)
 
   const sortByItems = [
     { label: t('Recently listed'), value: 'updatedAt' },

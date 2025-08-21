@@ -1,4 +1,4 @@
-import { FlexGap } from '@pancakeswap/uikit'
+import { FlexGap } from '@tankswap/uikit'
 import type { IFOStatus } from '../../hooks/ifo/useIFOStatus'
 import type { IFOUserStatus } from '../../ifov2.types'
 import { ClaimDisplay } from './ClaimDisplay'

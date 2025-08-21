@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency, CurrencyAmount, TradeType } from '@pancakeswap/sdk'
-import { SmartRouter } from '@pancakeswap/smart-router'
+import { useTranslation } from '@tankswap/localization'
+import { Currency, CurrencyAmount, TradeType } from '@tankswap/sdk'
+import { SmartRouter } from '@tankswap/smart-router'
 import {
   AutoColumn,
   Box,
@@ -12,9 +12,9 @@ import {
   Text,
   WarningIcon,
   useTooltip,
-} from '@pancakeswap/uikit'
-import { formatAmount } from '@pancakeswap/utils/formatFractions'
-import { CurrencyLogo as CurrencyLogoWidget } from '@pancakeswap/widgets-internal'
+} from '@tankswap/uikit'
+import { formatAmount } from '@tankswap/utils/formatFractions'
+import { CurrencyLogo as CurrencyLogoWidget } from '@tankswap/widgets-internal'
 import { AutoRow, RowBetween, RowFixed } from 'components/Layout/Row'
 import { useGasToken } from 'hooks/useGasToken'
 import { ReactElement, memo, useMemo, useState } from 'react'
@@ -32,7 +32,7 @@ import { SlippageButton } from 'views/Swap/components/SlippageButton'
 import { StyledBalanceMaxMini, SwapCallbackError } from 'views/Swap/components/styleds'
 import { EVMInterfaceOrder, InterfaceOrder, isBridgeOrder, isXOrder } from 'views/Swap/utils'
 
-import { OrderType } from '@pancakeswap/price-api-sdk'
+import { OrderType } from '@tankswap/price-api-sdk'
 import BigNumber from 'bignumber.js'
 import { DISPLAY_PRECISION } from 'config/constants/formatting'
 import dayjs from 'dayjs'

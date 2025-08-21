@@ -1,11 +1,11 @@
-import { Protocol } from '@pancakeswap/farms'
+import { Protocol } from '@tankswap/farms'
 import { getDefaultStore } from 'jotai'
 import {
   InfinityBinPositionDetail,
   InfinityCLPositionDetail,
   UnifiedPositionDetail,
 } from 'state/farmsV4/state/accountPositions/type'
-import { Native, ZERO_ADDRESS } from '@pancakeswap/sdk'
+import { Native, ZERO_ADDRESS } from '@tankswap/sdk'
 import { tokensMapAtom } from '../atom/tokensMapAtom'
 
 const store = getDefaultStore()

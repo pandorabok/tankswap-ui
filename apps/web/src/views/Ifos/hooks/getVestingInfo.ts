@@ -1,5 +1,5 @@
-import { PoolIds } from '@pancakeswap/ifos'
-import { getFullDisplayBalance } from '@pancakeswap/utils/formatBalance'
+import { PoolIds } from '@tankswap/ifos'
+import { getFullDisplayBalance } from '@tankswap/utils/formatBalance'
 import BigNumber from 'bignumber.js'
 import { VestingData } from './vesting/fetchUserWalletIfoData'
 

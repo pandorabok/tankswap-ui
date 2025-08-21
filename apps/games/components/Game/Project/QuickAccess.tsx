@@ -1,8 +1,8 @@
 import { styled } from 'styled-components'
 import { useState } from 'react'
-import { Flex, Box, Text, Link, TelegramIcon, DiscordIcon, ChevronUpIcon } from '@pancakeswap/uikit'
-import { Trans, useTranslation } from '@pancakeswap/localization'
-import { GameType } from '@pancakeswap/games'
+import { Flex, Box, Text, Link, TelegramIcon, DiscordIcon, ChevronUpIcon } from '@tankswap/uikit'
+import { Trans, useTranslation } from '@tankswap/localization'
+import { GameType } from '@tankswap/games'
 
 const StyledQuickAccess = styled(Box)<{ isOpen?: boolean }>`
   position: ${({ isOpen }) => (isOpen ? 'static' : 'absolute')};
@@ -24,15 +24,15 @@ export const StyledLink = styled(Link)`
 const LIST = [
   {
     title: <Trans>NFT marketplace</Trans>,
-    url: 'https://pancakeswap.finance/nfts',
+    url: 'https://tankswap.finance/nfts',
   },
   {
     title: <Trans>Buy Squad / Bunnies</Trans>,
-    url: 'https://pancakeswap.finance/nfts/collections/0x0a8901b0E25DEb55A87524f0cC164E9644020EBA',
+    url: 'https://tankswap.finance/nfts/collections/0x0a8901b0E25DEb55A87524f0cC164E9644020EBA',
   },
   {
     title: <Trans>Swap Token</Trans>,
-    url: 'https://pancakeswap.finance/swap',
+    url: 'https://tankswap.finance/swap',
   },
 ]
 

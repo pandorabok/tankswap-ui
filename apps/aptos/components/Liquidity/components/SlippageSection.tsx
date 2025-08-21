@@ -1,6 +1,6 @@
-import { RowBetween, Text, IconButton, PencilIcon, useModal } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
-import { useUserSlippage } from '@pancakeswap/utils/user'
+import { RowBetween, Text, IconButton, PencilIcon, useModal } from '@tankswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { useUserSlippage } from '@tankswap/utils/user'
 import { SettingsModal } from '../../Menu/Settings/SettingsModal'
 
 export default function SlippageSection() {

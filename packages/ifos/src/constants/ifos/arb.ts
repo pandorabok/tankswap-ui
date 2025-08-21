@@ -1,4 +1,4 @@
-import { arbitrumTokens } from '@pancakeswap/tokens'
+import { arbitrumTokens } from '@tankswap/tokens'
 import { BaseIfoConfig } from '../../types'
 
 export const ifos: BaseIfoConfig[] = [
@@ -15,7 +15,7 @@ export const ifos: BaseIfoConfig[] = [
       'Eigenpie is a Liquid Restaking Platform built on top of EigenLayer that allows users to restake their ETH or LSTs to validate new services while earning rewards and maintaining liquidity through LRTs',
     currency: arbitrumTokens.cake,
     token: arbitrumTokens.egp,
-    articleUrl: 'https://forum.pancakeswap.finance/t/eigenpie-ifo-discussion-thread/778/1',
+    articleUrl: 'https://forum.tankswap.finance/t/eigenpie-ifo-discussion-thread/778/1',
     campaignId: '',
     poolBasic: {
       raiseAmount: '$30,000',

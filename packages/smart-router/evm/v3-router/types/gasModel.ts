@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount } from '@pancakeswap/sdk'
+import { Currency, CurrencyAmount } from '@tankswap/sdk'
 
 import { GasCost } from './gasCost'
 import { RouteWithoutGasEstimate } from './route'

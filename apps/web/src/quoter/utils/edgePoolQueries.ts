@@ -1,5 +1,5 @@
-import { ChainId, getChainName } from '@pancakeswap/chains'
-import { findHook, findHookByAddress, type HookData, hooksList } from '@pancakeswap/infinity-sdk'
+import { ChainId, getChainName } from '@tankswap/chains'
+import { findHook, findHookByAddress, type HookData, hooksList } from '@tankswap/infinity-sdk'
 import {
   getPoolAddress,
   InfinityBinPool,
@@ -14,14 +14,14 @@ import {
   V3Pool,
   V3PoolWithTvl,
   WithTvl,
-} from '@pancakeswap/smart-router'
+} from '@tankswap/smart-router'
 
 import {
   RemotePoolBase,
   RemotePoolBIN,
   RemotePoolCL,
-} from '@pancakeswap/smart-router/dist/evm/infinity-router/queries/remotePool.type'
-import { createAsyncCallWithFallbacks } from '@pancakeswap/utils/withFallback'
+} from '@tankswap/smart-router/dist/evm/infinity-router/queries/remotePool.type'
+import { createAsyncCallWithFallbacks } from '@tankswap/utils/withFallback'
 import { viemServerClients } from 'utils/viem.server'
 import { v3Clients } from 'utils/graphql'
 import { mockCurrency } from 'utils/mockCurrency'
@@ -315,7 +315,7 @@ function fillTvl(tvlMap: Record<`0x${string}`, string>, pools: Pool[]) {
 export const poolTvlMap = async (protocols: Protocol[], chain: APIChain) => {
   try {
     const remotePools = await fetchAllPools({
-      baseUrl: 'https://explorer.pancakeswap.com/api/cached/pools/tvl-refs',
+      baseUrl: 'https://explorer.tankswap.com/api/cached/pools/tvl-refs',
       protocols,
       chains: [chain],
       orderBy: 'tvlUSD',

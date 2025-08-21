@@ -1,11 +1,11 @@
-import { Currency, CurrencyAmount, isCurrencySorted } from '@pancakeswap/swap-sdk-core'
+import { Currency, CurrencyAmount, isCurrencySorted } from '@tankswap/swap-sdk-core'
 import {
   encodeSqrtRatioX96,
   maxLiquidityForAmount0Imprecise,
   maxLiquidityForAmount1,
   SqrtPriceMath,
   TickMath,
-} from '@pancakeswap/v3-sdk'
+} from '@tankswap/v3-sdk'
 import { useCLPriceRange } from 'hooks/infinity/useCLPriceRange'
 import { atom, useAtom } from 'jotai'
 import { useCallback, useMemo, useState } from 'react'

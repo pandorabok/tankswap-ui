@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { AutoRenewIcon, Button, Flex, useToast } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { AutoRenewIcon, Button, Flex, useToast } from '@tankswap/uikit'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import { Achievement } from 'config/constants/types'
 import { useCallWithGasPrice } from 'hooks/useCallWithGasPrice'

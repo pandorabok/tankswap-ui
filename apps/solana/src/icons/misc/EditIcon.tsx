@@ -1,4 +1,4 @@
-import { PencilIcon } from '@pancakeswap/uikit'
+import { PencilIcon } from '@tankswap/uikit'
 import { colors } from '@/theme/cssVariables'
 
 import { SvgIcon } from '../type'

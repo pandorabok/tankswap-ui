@@ -1,6 +1,6 @@
-import { useTranslation } from "@pancakeswap/localization";
-import { FlexGap, Text, useTooltip } from "@pancakeswap/uikit";
-import { formatUnixTimestamp } from "@pancakeswap/utils/formatTimestamp";
+import { useTranslation } from "@tankswap/localization";
+import { FlexGap, Text, useTooltip } from "@tankswap/uikit";
+import { formatUnixTimestamp } from "@tankswap/utils/formatTimestamp";
 import { ReactNode, useMemo } from "react";
 import styled from "styled-components";
 import { SpaceProps } from "styled-system";

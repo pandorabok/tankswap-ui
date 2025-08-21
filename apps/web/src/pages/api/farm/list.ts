@@ -1,4 +1,4 @@
-import { FarmV4SupportedChainId } from '@pancakeswap/farms'
+import { FarmV4SupportedChainId } from '@tankswap/farms'
 import { getCorsHeaders, handleCors } from 'edge/cors'
 import { NextRequest, NextResponse } from 'next/server'
 import edgeFarmQueries from 'state/farmsV4/search/edgeFarmQueries'

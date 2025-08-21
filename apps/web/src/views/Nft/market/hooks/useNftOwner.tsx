@@ -13,7 +13,7 @@ const useNftOwner = (nft: NftToken, isOwnNft = false) => {
   const [isLoadingOwner, setIsLoadingOwner] = useState(true)
   const collectionContract = useErc721CollectionContract(nft.collectionAddress)
   const currentSeller = nft.marketData?.currentSeller
-  const pancakeProfileAddress = getPancakeProfileAddress()
+  const tankProfileAddress = getPancakeProfileAddress()
   const { collectionAddress, tokenId } = nft
   const { data: tokenOwner } = useQuery({
     queryKey: ['nft', 'ownerOf', collectionAddress, tokenId],
@@ -29,7 +29,7 @@ const useNftOwner = (nft: NftToken, isOwnNft = false) => {
       try {
         if (isOwnNft && account) {
           setOwner(account)
-        } else if (tokenOwner && safeGetAddress(tokenOwner) !== safeGetAddress(pancakeProfileAddress)) {
+        } else if (tokenOwner && safeGetAddress(tokenOwner) !== safeGetAddress(tankProfileAddress)) {
           setOwner(tokenOwner)
         } else {
           setOwner(null)
@@ -47,7 +47,7 @@ const useNftOwner = (nft: NftToken, isOwnNft = false) => {
     } else {
       getOwner()
     }
-  }, [account, isOwnNft, currentSeller, collectionContract, tokenId, tokenOwner, pancakeProfileAddress])
+  }, [account, isOwnNft, currentSeller, collectionContract, tokenId, tokenOwner, tankProfileAddress])
 
   return { owner, isLoadingOwner }
 }

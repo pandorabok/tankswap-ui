@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Flex, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Box, Flex, useMatchBreakpoints } from '@tankswap/uikit'
 import {
   BackgroundGraphic,
   BannerContainer,
@@ -11,7 +11,7 @@ import {
   LinkExternalAction,
   PancakeSwapBadge,
   type GraphicDetail,
-} from '@pancakeswap/widgets-internal'
+} from '@tankswap/widgets-internal'
 import { ASSETS_CDN } from 'config'
 
 const bgDesktop = `${ASSETS_CDN}/web/banners/aptos-yield-farming/bunny-desktop.png`
@@ -35,7 +35,7 @@ const Desc = () => {
   return <BannerDesc>{t('Stake LP Tokens to Earn Cake and APT')}</BannerDesc>
 }
 const learnMoreLink =
-  'https://blog.pancakeswap.finance/articles/step-by-step-guide-farming-liquidity-provisioning-and-bridging-on-aptos?utm_source=AptosFarm&utm_medium=Website&utm_campaign=Farm&utm_id=AptosFarmPage'
+  'https://blog.tankswap.finance/articles/step-by-step-guide-farming-liquidity-provisioning-and-bridging-on-aptos?utm_source=AptosFarm&utm_medium=Website&utm_campaign=Farm&utm_id=AptosFarmPage'
 
 export const AptosYieldFarmingBanner = () => {
   const { t } = useTranslation()

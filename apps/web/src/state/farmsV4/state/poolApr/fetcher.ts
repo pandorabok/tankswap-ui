@@ -1,6 +1,6 @@
-import { Protocol, supportedChainIdV4 } from '@pancakeswap/farms'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
-import { masterChefV3ABI, pancakeV3PoolABI } from '@pancakeswap/v3-sdk'
+import { Protocol, supportedChainIdV4 } from '@tankswap/farms'
+import { BIG_ZERO } from '@tankswap/utils/bigNumber'
+import { masterChefV3ABI, tankV3PoolABI } from '@tankswap/v3-sdk'
 import { create, windowedFiniteBatchScheduler } from '@yornaath/batshit'
 import BigNumber from 'bignumber.js'
 import { SECONDS_PER_YEAR } from 'config'
@@ -17,7 +17,7 @@ import { isInfinityProtocol } from 'utils/protocols'
 import { publicClient } from 'utils/wagmi'
 import { erc20Abi } from 'viem'
 
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@tankswap/chains'
 import { InfinityPoolInfo, PoolInfo, StablePoolInfo, V2PoolInfo, V3PoolInfo } from '../type'
 import { CakeApr, MerklApr } from './atom'
 
@@ -110,7 +110,7 @@ const calcV3PoolApr = ({
     Number(totalLiquidity) === 0
       ? BIG_ZERO
       : new BigNumber(totalBoostLiquidity.toString()).dividedBy(totalLiquidity.toString())
-  // @fixme @ChefJerry use batched https://farms-api.pancakeswap.com/v3/{chainId}/liquidity/{lp}
+  // @fixme @ChefJerry use batched https://farms-api.tankswap.com/v3/{chainId}/liquidity/{lp}
   // to calculate active pool TVL
   const poolTvlUsd = new BigNumber(pool.tvlUsd ?? 0)
 
@@ -147,18 +147,18 @@ export const getAllNetworkMerklApr = async (signal?: AbortSignal) => {
   const resp = await fetch(
     `https://api.merkl.xyz/v4/opportunities/?chainId=${supportedChainIdV4.join(
       ',',
-    )}&test=false&mainProtocolId=pancake-swap&action=POOL,HOLD&status=LIVE`,
+    )}&test=false&mainProtocolId=tank-swap&action=POOL,HOLD&status=LIVE`,
     { signal },
   )
   if (resp.ok) {
     const result = await resp.json()
-    const pancakeResult = result?.filter(
+    const tankResult = result?.filter(
       (opportunity) =>
         opportunity?.tokens?.[0]?.symbol?.toLowerCase().startsWith('cake-lp') ||
-        opportunity?.protocol?.id?.toLowerCase().startsWith('pancake-swap') ||
-        opportunity?.protocol?.id?.toLowerCase().startsWith('pancakeswap'),
+        opportunity?.protocol?.id?.toLowerCase().startsWith('tank-swap') ||
+        opportunity?.protocol?.id?.toLowerCase().startsWith('tankswap'),
     )
-    const aprs = await Promise.all(supportedChainIdV4.map((chainId) => getMerklApr(pancakeResult, chainId)))
+    const aprs = await Promise.all(supportedChainIdV4.map((chainId) => getMerklApr(tankResult, chainId)))
     return aprs.reduce((acc, apr) => Object.assign(acc, apr), {})
   }
   throw resp
@@ -201,7 +201,7 @@ const getV3PoolsCakeAprByChainId = async (pools: V3PoolInfo[], chainId: number, 
     return {
       address: pool.lpAddress,
       functionName: 'liquidity',
-      abi: pancakeV3PoolABI,
+      abi: tankV3PoolABI,
     } as const
   })
 

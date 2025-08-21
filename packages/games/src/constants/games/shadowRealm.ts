@@ -69,6 +69,6 @@ export const shadowRealm: GameType = {
   playlist: [],
   socialMedia: {
     telegram: 'https://t.me/PancakeSwap/',
-    discord: 'https://discord.gg/pancakeswap',
+    discord: 'https://discord.gg/tankswap',
   },
 }

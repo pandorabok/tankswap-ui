@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, CheckmarkCircleFillIcon, GlassGlobeIcon, useTooltip } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Box, CheckmarkCircleFillIcon, GlassGlobeIcon, useTooltip } from '@tankswap/uikit'
 import styled from 'styled-components'
 import { useConfig } from 'views/Predictions/context/ConfigProvider'
 import { formatTokenv2 } from 'views/Predictions/helpers'

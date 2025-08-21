@@ -1,11 +1,11 @@
-import { ChainId } from '@pancakeswap/chains'
-import { CurrencyAmount, Token } from '@pancakeswap/swap-sdk-core'
-import { erc20Abi } from '@pancakeswap/swap-sdk-evm'
+import { ChainId } from '@tankswap/chains'
+import { CurrencyAmount, Token } from '@tankswap/swap-sdk-core'
+import { erc20Abi } from '@tankswap/swap-sdk-evm'
 import invariant from 'tiny-invariant'
 import { Address, PublicClient, createPublicClient, getContract, http } from 'viem'
 import { bsc, bscTestnet, goerli, mainnet } from 'viem/chains'
 
-import { pancakePairV2ABI } from './abis/IPancakePair'
+import { tankPairV2ABI } from './abis/IPancakePair'
 import { Pair } from './entities/pair'
 
 let TOKEN_DECIMALS_CACHE: { [chainId: number]: { [address: string]: number } } = {
@@ -92,7 +92,7 @@ export abstract class Fetcher {
     invariant(tokenA.chainId === tokenB.chainId, 'CHAIN_ID')
     const address = Pair.getAddress(tokenA, tokenB)
     const pairContract: any = getContract({
-      abi: pancakePairV2ABI,
+      abi: tankPairV2ABI,
       address,
       client: publicClient,
     })

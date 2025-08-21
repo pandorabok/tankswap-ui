@@ -1,4 +1,4 @@
-import { useDebounce } from '@pancakeswap/hooks'
+import { useDebounce } from '@tankswap/hooks'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useCurrentBlock } from 'hooks/useCurrentBlockTimestamp'
 import { useWorker } from 'hooks/useWorker'

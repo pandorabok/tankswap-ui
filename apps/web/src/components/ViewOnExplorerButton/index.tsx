@@ -1,8 +1,8 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, BoxProps, BscScanIcon, LinkExternal, TooltipOptions, useTooltip } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Box, BoxProps, BscScanIcon, LinkExternal, TooltipOptions, useTooltip } from '@tankswap/uikit'
 import { useAtom } from 'jotai'
-import { solanaExplorerAtom } from '@pancakeswap/utils/user'
-import { NonEVMChainId } from '@pancakeswap/chains'
+import { solanaExplorerAtom } from '@tankswap/utils/user'
+import { NonEVMChainId } from '@tankswap/chains'
 import { getBlockExploreLink } from '../../utils'
 
 interface ViewOnExplorerButtonProps extends BoxProps {

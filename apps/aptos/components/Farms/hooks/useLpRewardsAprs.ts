@@ -2,7 +2,7 @@ import { useQuery } from '@tanstack/react-query'
 import { useActiveChainId } from 'hooks/useNetwork'
 
 const GITHUB_ENDPOINT =
-  'https://raw.githubusercontent.com/pancakeswap/pancake-frontend/develop/apps/aptos/config/constants/lpAprs'
+  'https://raw.githubusercontent.com/tankswap/tank-frontend/develop/apps/aptos/config/constants/lpAprs'
 
 const useLpRewardsAprs = () => {
   const chainId = useActiveChainId()

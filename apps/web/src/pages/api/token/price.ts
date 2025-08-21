@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { OnChainProvider } from '@pancakeswap/smart-router'
+import { ChainId } from '@tankswap/chains'
+import { OnChainProvider } from '@tankswap/smart-router'
 import { getCorsHeaders, handleCors } from 'edge/cors'
 import { queryTokenPrice } from 'edge/tokenPrice'
 import { NextRequest, NextResponse } from 'next/server'

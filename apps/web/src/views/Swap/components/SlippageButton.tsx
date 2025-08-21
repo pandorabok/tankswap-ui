@@ -1,6 +1,6 @@
-import { isSolana } from '@pancakeswap/chains'
-import { useTheme } from '@pancakeswap/hooks'
-import { useTranslation } from '@pancakeswap/localization'
+import { isSolana } from '@tankswap/chains'
+import { useTheme } from '@tankswap/hooks'
+import { useTranslation } from '@tankswap/localization'
 import {
   Button,
   Flex,
@@ -13,8 +13,8 @@ import {
   useTooltip,
   WarningIcon,
   QuestionHelper,
-} from '@pancakeswap/uikit'
-import { useSolanaUserSlippage, useUserSlippage } from '@pancakeswap/utils/user'
+} from '@tankswap/uikit'
+import { useSolanaUserSlippage, useUserSlippage } from '@tankswap/utils/user'
 import {
   SolanaSlippageSetting,
   EVMSlippageSetting,

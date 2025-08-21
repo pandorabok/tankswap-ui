@@ -1,5 +1,5 @@
-import { useTranslation } from "@pancakeswap/localization";
-import { Text } from "@pancakeswap/uikit";
+import { useTranslation } from "@tankswap/localization";
+import { Text } from "@tankswap/uikit";
 import { ActionContent, ActionTitles, StyledActionContainer } from "./styles";
 
 const AccountNotConnect = ({

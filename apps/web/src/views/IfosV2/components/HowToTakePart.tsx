@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Card, CardBody, Flex, Heading, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@tankswap/localization'
+import { Box, Card, CardBody, Flex, Heading, Text } from '@tankswap/uikit'
 import { styled } from 'styled-components'
 import useIfo from '../hooks/useIfo'
 

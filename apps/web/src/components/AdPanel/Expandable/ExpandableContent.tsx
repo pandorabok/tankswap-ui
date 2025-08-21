@@ -1,4 +1,4 @@
-import { Box, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Box, Text, useMatchBreakpoints } from '@tankswap/uikit'
 import { PropsWithChildren, ReactNode } from 'react'
 import { Divider } from './styles'
 

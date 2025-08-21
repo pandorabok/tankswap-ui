@@ -17,7 +17,7 @@ export interface PancakeTheme {
   card: CardTheme;
   nav: NavThemeType;
   modal: ModalTheme;
-  pancakeToggle: PancakeToggleTheme;
+  tankToggle: PancakeToggleTheme;
   radio: RadioTheme;
   toggle: ToggleTheme;
   tooltip: TooltipTheme;

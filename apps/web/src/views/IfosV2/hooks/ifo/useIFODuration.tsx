@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import getTimePeriods from '@pancakeswap/utils/getTimePeriods'
+import { useTranslation } from '@tankswap/localization'
+import getTimePeriods from '@tankswap/utils/getTimePeriods'
 
 export const useIFODuration = (duration: number) => {
   const { days, hours, minutes } = getTimePeriods(duration)

@@ -1,5 +1,5 @@
-import { Trans } from '@pancakeswap/localization'
-import { AutoColumn, LockIcon, Text } from '@pancakeswap/uikit'
+import { Trans } from '@tankswap/localization'
+import { AutoColumn, LockIcon, Text } from '@tankswap/uikit'
 import { DisableCard } from 'components/Card'
 
 export default function LockedDeposit({ children, locked, ...rest }) {

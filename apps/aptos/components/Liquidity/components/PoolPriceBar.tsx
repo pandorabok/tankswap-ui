@@ -1,6 +1,6 @@
-import { Currency, Percent, Price } from '@pancakeswap/aptos-swap-sdk'
-import { AutoColumn, AutoRow, Text } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Currency, Percent, Price } from '@tankswap/aptos-swap-sdk'
+import { AutoColumn, AutoRow, Text } from '@tankswap/uikit'
+import { useTranslation } from '@tankswap/localization'
 import { ONE_BIPS } from 'config/constants/exchange'
 import formatAmountDisplay from 'utils/formatAmountDisplay'
 

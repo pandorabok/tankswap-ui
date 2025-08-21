@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
-import { ChainId } from '@pancakeswap/chains'
-import { Trans } from '@pancakeswap/localization'
-import { Box } from '@pancakeswap/uikit'
+import { ChainId } from '@tankswap/chains'
+import { Trans } from '@tankswap/localization'
+import { Box } from '@tankswap/uikit'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import { ReactNode } from 'react'
 import type { Address } from 'viem'
